@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sevensuperior.punct" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="694" y="1538" type="line"/>
+      <point x="694" y="1608" type="line"/>
+      <point x="55" y="1608" type="line"/>
+      <point x="55" y="1393" type="line"/>
+      <point x="125" y="1393" type="line"/>
+      <point x="145" y="1505" type="line"/>
+      <point x="555" y="1505" type="line"/>
+      <point x="117" y="768" type="line"/>
+      <point x="256" y="768" type="line"/>
+      <point x="256" y="811" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <real>0.769</real>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
