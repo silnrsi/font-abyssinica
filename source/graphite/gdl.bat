@@ -1,0 +1,1 @@
+make_gdl -a ..\FontLab\AbyssinicaSIL-R-anchors.xml ..\FontLab\AbyssinicaSIL-R-designsource.ttf Glyph.gdh

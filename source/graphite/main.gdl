@@ -1,0 +1,533 @@
+/*
+    Main Graphite file includes glyph information and classes for font Abyssinica SIL
+    Author: Lorna Priest Evans
+   	This file is part of the Abyssinica SIL font family 
+	(http://scripts.sil.org/AbyssinicaSIL) and is 
+	Copyright (c) 2000-2013, SIL International (http://scripts.sil.org/)
+	with Reserved Font Names "Abyssinica" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License,
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software.
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including a FAQ.
+
+
+*/
+
+#include "stddef.gdh"
+AutoPseudo = 0;
+
+
+Bidi = false;
+
+ScriptTag = (“ethi”, “latn”);
+
+#include "glyph.gdh"
+
+table(glyph)
+
+cgumuzcv = (g1298_gumuz, g1299_gumuz, g129a_gumuz, g129b_gumuz, g129c_gumuz, g129d_gumuz, g129e_gumuz);
+
+cno_gumuzcv = (g1298, g1299, g129a, g129b, g129c, g129d, g129e);
+
+endtable;  // glyph
+
+
+/*******************************************************************
+
+	FEATURES
+
+*******************************************************************/
+
+#include "features.gdh"
+
+/*******************************************************************
+
+	RULES
+ US means Upper stationary and UM means Upper Mobile. these are defined
+ in the glyph.gdh file
+*******************************************************************/
+table(positioning)  {MUnits = 2048};
+
+pass(1)
+
+cTakesUDia cUDia {attach.to = @1; attach.at = US; attach.with = UM};
+
+endpass;
+
+pass(2)
+// kerning
+
+g1265 { kern.x = -113m } / g1202 _ ;
+g130a { kern.x = -113m } / g1202 _ ;
+g130d { kern.x = -85m } / g1202 _ ;
+g121a { kern.x = -135m } / g1202 _ ;
+g121b { kern.x = -100m } / g1202 _ ;
+g12d2 { kern.x = -135m } / g1202 _ ;
+g12d4 { kern.x = -113m } / g1202 _ ;
+g1275 { kern.x = -95m } / g1202 _ ;
+g1285 { kern.x = -135m } / g1202 _ ;
+g2d85 { kern.x = -85m } / g1206 _ ;
+g1348 { kern.x = -125m } / g1206 _ ;
+ge34f { kern.x = -185m } / g1206 _ ;
+g130b { kern.x = -125m } / g1206 _ ;
+g1207 { kern.x = -39m } / g1206 _ ;
+g1212 { kern.x = -125m } / g1206 _ ;
+g1243 { kern.x = -120m } / g1206 _ ;
+g1228 { kern.x = -125m } / g1206 _ ;
+g1225 { kern.x = -185m } / g1206 _ ;
+g2d8f { kern.x = -200m } / g1206 _ ;
+g12ed { kern.x = -85m } / g1206 _ ;
+g2d8b { kern.x = -85m } / g1206 _ ;
+ge34f { kern.x = -155m } / g1207 _ ;
+g130b { kern.x = -85m } / g1207 _ ;
+g1212 { kern.x = -155m } / g1207 _ ;
+g1213 { kern.x = -65m } / g1207 _ ;
+g1208 { kern.x = -49m } / g1207 _ ;
+g1243 { kern.x = -100m } / g1207 _ ;
+g1251 { kern.x = 55m } / g1207 _ ;
+g1228 { kern.x = -85m } / g1207 _ ;
+g1225 { kern.x = -185m } / g1207 _ ;
+g2d8f { kern.x = -155m } / g1207 _ ;
+g2d8b { kern.x = -85m } / g1207 _ ;
+g12b8 { kern.x = -113m } / g1208 _ ;
+g12bd { kern.x = -131m } / g1208 _ ;
+g12f0 { kern.x = -85m } / g1209 _ ;
+g130b { kern.x = -113m } / g1209 _ ;
+g1243 { kern.x = -163m } / g1209 _ ;
+g1225 { kern.x = -165m } / g1209 _ ;
+g1265 { kern.x = -184m } / g120a _ ;
+g127d { kern.x = -125m } / g120a _ ;
+g132d { kern.x = -125m } / g120a _ ;
+g134b { kern.x = -85m } / g120a _ ;
+g1308 { kern.x = -150m } / g120a _ ;
+g130a { kern.x = -113m } / g120a _ ;
+g130d { kern.x = -170m } / g120a _ ;
+g12b8 { kern.x = -213m } / g120a _ ;
+g12b9 { kern.x = -250m } / g120a _ ;
+g12ba { kern.x = -250m } / g120a _ ;
+g12bb { kern.x = -250m } / g120a _ ;
+g12bd { kern.x = -213m } / g120a _ ;
+g12be { kern.x = -219m } / g120a _ ;
+g121a { kern.x = -150m } / g120a _ ;
+g121b { kern.x = -85m } / g120a _ ;
+g121e { kern.x = -65m } / g120a _ ;
+g1293 { kern.x = -185m } / g120a _ ;
+g1295 { kern.x = -185m } / g120a _ ;
+g1296 { kern.x = -245m } / g120a _ ;
+g12d2 { kern.x = -250m } / g120a _ ;
+g12d4 { kern.x = -250m } / g120a _ ;
+g1240 { kern.x = -184m } / g120a _ ;
+g1245 { kern.x = -135m } / g120a _ ;
+g1251 { kern.x = -184m } / g120a _ ;
+g125a { kern.x = -125m } / g120a _ ;
+g1233 { kern.x = -163m } / g120a _ ;
+g123d { kern.x = -100m } / g120a _ ;
+g1275 { kern.x = -135m } / g120a _ ;
+g1285 { kern.x = -185m } / g120a _ ;
+g130d { kern.x = -65m } / g120c _ ;
+g12b8 { kern.x = -150m } / g120c _ ;
+g12b9 { kern.x = -85m } / g120c _ ;
+g12ba { kern.x = -200m } / g120c _ ;
+g12bb { kern.x = -219m } / g120c _ ;
+g12bd { kern.x = -150m } / g120c _ ;
+g12be { kern.x = -85m } / g120c _ ;
+g1295 { kern.x = -85m } / g120c _ ;
+g12d2 { kern.x = -125m } / g120c _ ;
+g12d4 { kern.x = -125m } / g120c _ ;
+g123d { kern.x = -150m } / g120c _ ;
+g1308 { kern.x = -85m } / g120d _ ;
+g130a { kern.x = -113m } / g120d _ ;
+g130d { kern.x = -85m } / g120d _ ;
+g12b8 { kern.x = -185m } / g120d _ ;
+g12b9 { kern.x = -185m } / g120d _ ;
+g12ba { kern.x = -185m } / g120d _ ;
+g12bb { kern.x = -185m } / g120d _ ;
+g12bd { kern.x = -185m } / g120d _ ;
+g12be { kern.x = -185m } / g120d _ ;
+g121a { kern.x = -113m } / g120d _ ;
+g121b { kern.x = -125m } / g120d _ ;
+g1295 { kern.x = -156m } / g120d _ ;
+g12d2 { kern.x = -125m } / g120d _ ;
+g12d4 { kern.x = -85m } / g120d _ ;
+g123d { kern.x = -85m } / g120d _ ;
+g1285 { kern.x = -119m } / g120d _ ;
+g12e9 { kern.x = -85m } / g120d _ ;
+g134b { kern.x = -150m } / g1212 _ ;
+g1308 { kern.x = -150m } / g1212 _ ;
+g130a { kern.x = -160m } / g1212 _ ;
+g130d { kern.x = -155m } / g1212 _ ;
+g1202 { kern.x = -125m } / g1212 _ ;
+g12b8 { kern.x = -185m } / g1212 _ ;
+g12b9 { kern.x = -185m } / g1212 _ ;
+g12ba { kern.x = -185m } / g1212 _ ;
+g12bb { kern.x = -250m } / g1212 _ ;
+g12bd { kern.x = -185m } / g1212 _ ;
+g12be { kern.x = -185m } / g1212 _ ;
+g121e { kern.x = -150m } / g1212 _ ;
+g1293 { kern.x = -155m } / g1212 _ ;
+g1295 { kern.x = -150m } / g1212 _ ;
+g1296 { kern.x = -165m } / g1212 _ ;
+g12d2 { kern.x = -150m } / g1212 _ ;
+g12d4 { kern.x = -150m } / g1212 _ ;
+g1233 { kern.x = -85m } / g1212 _ ;
+g123d { kern.x = -155m } / g1212 _ ;
+g1285 { kern.x = -125m } / g1212 _ ;
+g1295 { kern.x = -85m } / g1215 _ ;
+g12f5 { kern.x = -85m } / g1218 _ ;
+g130b { kern.x = -163m } / g1218 _ ;
+g1212 { kern.x = -125m } / g1218 _ ;
+g1243 { kern.x = -125m } / g1218 _ ;
+g1228 { kern.x = -82m } / g1218 _ ;
+g1225 { kern.x = -144m } / g1218 _ ;
+g1275 { kern.x = -113m } / g121a _ ;
+g12db { kern.x = -85m } / g121a _ ;
+g120d { kern.x = -25m } / g121b _ ;
+g1225 { kern.x = -155m } / g121b _ ;
+g1295 { kern.x = -85m } / g121c _ ;
+g2d85 { kern.x = -85m } / g121d _ ;
+g12f0 { kern.x = -85m } / g121d _ ;
+g12f5 { kern.x = -85m } / g121d _ ;
+g12f6 { kern.x = -100m } / g121d _ ;
+g1348 { kern.x = -180m } / g121d _ ;
+ge34f { kern.x = -156m } / g121d _ ;
+g130b { kern.x = -185m } / g121d _ ;
+g1212 { kern.x = -250m } / g121d _ ;
+g1213 { kern.x = -156m } / g121d _ ;
+g1208 { kern.x = -57m } / g121d _ ;
+g120d { kern.x = -85m } / g121d _ ;
+g1243 { kern.x = -125m } / g121d _ ;
+g1228 { kern.x = -184m } / g121d _ ;
+g122a { kern.x = -135m } / g121d _ ;
+g122b { kern.x = -185m } / g121d _ ;
+g1225 { kern.x = -213m } / g121d _ ;
+g1273 { kern.x = -143m } / g121d _ ;
+g1320 { kern.x = -113m } / g121d _ ;
+g2d8f { kern.x = -185m } / g121d _ ;
+g12eb { kern.x = -127m } / g121d _ ;
+g2d8b { kern.x = -65m } / g121d _ ;
+g1273 { kern.x = -100m } / g121e _ ;
+g12d4 { kern.x = -160m } / g1224 _ ;
+g1348 { kern.x = -146m } / g1225 _ ;
+g130b { kern.x = -150m } / g1225 _ ;
+g1218 { kern.x = -50m } / g1225 _ ;
+g1228 { kern.x = -168m } / g1225 _ ;
+g122b { kern.x = -133m } / g1225 _ ;
+g1322 { kern.x = -67m } / g1225 _ ;
+g1203 { kern.x = -25m } / g1228 _ ;
+g1218 { kern.x = -44m } / g1228 _ ;
+g130a { kern.x = -67m } / g1229 _ ;
+g12bd { kern.x = -167m } / g122b _ ;
+g1295 { kern.x = -113m } / g122b _ ;
+g12ed { kern.x = -85m } / g122b _ ;
+g134d { kern.x = -113m } / g1232 _ ;
+g12b9 { kern.x = -200m } / g1232 _ ;
+g1293 { kern.x = -135m } / g1232 _ ;
+g12d2 { kern.x = -213m } / g1232 _ ;
+g12d4 { kern.x = -233m } / g1232 _ ;
+g1245 { kern.x = -113m } / g1232 _ ;
+g1275 { kern.x = -113m } / g1232 _ ;
+g1325 { kern.x = -113m } / g1232 _ ;
+g1218 { kern.x = -113m } / g1238 _ ;
+g134d { kern.x = -113m } / g123a _ ;
+g1293 { kern.x = -113m } / g123a _ ;
+g12d2 { kern.x = -167m } / g123a _ ;
+g1245 { kern.x = -85m } / g123a _ ;
+g1275 { kern.x = -113m } / g123a _ ;
+g1325 { kern.x = -113m } / g123a _ ;
+g1228 { kern.x = -85m } / g1240 _ ;
+g12eb { kern.x = -125m } / g1243 _ ;
+g12b9 { kern.x = -107m } / g125a _ ;
+g1243 { kern.x = -150m } / g1261 _ ;
+g134d { kern.x = -113m } / g1262 _ ;
+g12d2 { kern.x = -227m } / g1262 _ ;
+g1270 { kern.x = -113m } / g1262 _ ;
+g1271 { kern.x = -113m } / g1262 _ ;
+g1272 { kern.x = -113m } / g1262 _ ;
+g1274 { kern.x = -113m } / g1262 _ ;
+g1275 { kern.x = -184m } / g1262 _ ;
+g1276 { kern.x = -113m } / g1262 _ ;
+g1325 { kern.x = -113m } / g1262 _ ;
+g12d4 { kern.x = -140m } / g1264 _ ;
+g1275 { kern.x = -85m } / g1264 _ ;
+g1293 { kern.x = -113m } / g126a _ ;
+g1245 { kern.x = -113m } / g126a _ ;
+g1275 { kern.x = -113m } / g126a _ ;
+g1325 { kern.x = -113m } / g126a _ ;
+g12f0 { kern.x = -73m } / g1273 _ ;
+g12a1 { kern.x = -40m } / g1273 _ ;
+g1225 { kern.x = -114m } / g1273 _ ;
+g12b9 { kern.x = -127m } / g1275 _ ;
+g2d8f { kern.x = -59m } / g1287_alt3 _ ;
+g120b { kern.x = -25m } / g128b _ ;
+g123b { kern.x = -85m } / g1292 _ ;
+g1275 { kern.x = -85m } / g1292 _ ;
+g12a2 { kern.x = -27m } / g1293 _ ;
+g12a1 { kern.x = -47m } / g1295 _ ;
+g122b { kern.x = -33m } / g1295 _ ;
+g12a2 { kern.x = -36m } / g1296 _ ;
+g120a { kern.x = -106m } / g1296 _ ;
+g1273 { kern.x = -113m } / g129b _ ;
+g12b8 { kern.x = -200m } / g12a1 _ ;
+g12bb { kern.x = -200m } / g12a1 _ ;
+g12bd { kern.x = -213m } / g12a1 _ ;
+g1295 { kern.x = -160m } / g12a1 _ ;
+g12b8 { kern.x = -193m } / g12a2 _ ;
+g12b9 { kern.x = -180m } / g12a2 _ ;
+g12bd { kern.x = -213m } / g12a2 _ ;
+g12be { kern.x = -220m } / g12a2 _ ;
+g1293 { kern.x = -187m } / g12a2 _ ;
+g1296 { kern.x = -187m } / g12a2 _ ;
+g12d2 { kern.x = -247m } / g12a2 _ ;
+g12d4 { kern.x = -247m } / g12a2 _ ;
+g12b8 { kern.x = -173m } / g12a3 _ ;
+g12b9 { kern.x = -153m } / g12a3 _ ;
+g12ba { kern.x = -147m } / g12a3 _ ;
+g12bb { kern.x = -200m } / g12a3 _ ;
+g12bd { kern.x = -187m } / g12a3 _ ;
+g12be { kern.x = -147m } / g12a3 _ ;
+g130d { kern.x = -124m } / g12a5 _ ;
+g12bd { kern.x = -173m } / g12a5 _ ;
+g1295 { kern.x = -85m } / g12a5 _ ;
+g123d { kern.x = -153m } / g12a5 _ ;
+g12b9 { kern.x = -150m } / g12a9 _ ;
+g127d { kern.x = -113m } / g12aa _ ;
+g132d { kern.x = -135m } / g12aa _ ;
+g1293 { kern.x = -135m } / g12aa _ ;
+g1295 { kern.x = -160m } / g12aa _ ;
+g1270 { kern.x = -113m } / g12aa _ ;
+g1271 { kern.x = -113m } / g12aa _ ;
+g1272 { kern.x = -113m } / g12aa _ ;
+g1274 { kern.x = -113m } / g12aa _ ;
+g1275 { kern.x = -113m } / g12aa _ ;
+g1276 { kern.x = -113m } / g12aa _ ;
+g1325 { kern.x = -113m } / g12aa _ ;
+g12ca { kern.x = -113m } / g12aa _ ;
+g12f0 { kern.x = -113m } / g12b9 _ ;
+g12a2 { kern.x = -33m } / g12b9 _ ;
+g12a3 { kern.x = -26m } / g12b9 _ ;
+g1275 { kern.x = -113m } / g12ba _ ;
+g12a2 { kern.x = -20m } / g12be _ ;
+g12bb { kern.x = -146m } / g12c9 _ ;
+g1295 { kern.x = -143m } / g12c9 _ ;
+g12eb { kern.x = -85m } / g12cb _ ;
+g1243 { kern.x = -94m } / g12cd _ ;
+g12eb { kern.x = -107m } / g12cd _ ;
+g123d { kern.x = -106m } / g12d2 _ ;
+g12b8 { kern.x = -150m } / g12da _ ;
+g1348 { kern.x = -120m } / g12e8 _ ;
+g12f6 { kern.x = -93m } / g12eb _ ;
+g1275 { kern.x = -85m } / g12f0 _ ;
+g1212 { kern.x = -163m } / g12f5 _ ;
+g1225 { kern.x = -85m } / g1309 _ ;
+g12d2 { kern.x = -207m } / g130a _ ;
+g1229 { kern.x = -113m } / g130a _ ;
+g1275 { kern.x = -113m } / g130a _ ;
+g121d { kern.x = 31m } / g130b _ ;
+g1225 { kern.x = -73m } / g130b _ ;
+g134b { kern.x = -205m } / g1322 _ ;
+g1295 { kern.x = -180m } / g1322 _ ;
+g12d2 { kern.x = -245m } / g1322 _ ;
+g1275 { kern.x = -113m } / g1322 _ ;
+g1252 { kern.x = -47m } / g1328 _ ;
+g1275 { kern.x = -113m } / g132a _ ;
+g1213 { kern.x = -143m } / g133d _ ;
+ge34f { kern.x = -117m } / g1347 _ ;
+g121e { kern.x = -93m } / g1348 _ ;
+g1328 { kern.x = -143m } / g1356 _ ;
+g1228 { kern.x = -193m } / g1356 _ ;
+g1247 { kern.x = -39m } / g2d84 _ ;
+g12b9 { kern.x = -200m } / gab02 _ ;
+g12d2 { kern.x = -213m } / gab02 _ ;
+g12d4 { kern.x = -233m } / gab02 _ ;
+g12d4 { kern.x = -160m } / gab04 _ ;
+g12b8 { kern.x = -150m } / gab12 _ ;
+g2d85 { kern.x = -49m } / ge257 _ ;
+g12b9 { kern.x = -150m } / ge2a9 _ ;
+g1295 { kern.x = -160m } / ge2aa _ ;
+g2d8b { kern.x = -59m } / ge2d7 _ ;
+
+
+endpass;
+
+endtable;  // positioning
+
+table(substitution)
+
+// Character variants
+// cv01
+if (punctuationcv == punct)
+	cno_punct  >  cpunct;
+endif;
+
+// cv04
+if (mwacv == cohen1)
+	cno_cohen1  >  ccohen1;
+endif;
+if (mwacv == cohen2)
+	cno_cohen2  >  ccohen2;
+endif;
+
+// cv05
+if (rwacv == cohen)
+	cno_cohen3  >  ccohen3;
+endif;
+
+// cv17
+if (xoacv == xoa)
+	cno_alt3  >  calt3;
+endif;
+
+// cv18
+if (xwacv == handwriting)
+	cno_handwriting  >  chandwriting;
+endif;
+
+// cv19
+if (nwacv == cohen0)
+	cno_cohen0  >  ccohen0;
+endif;
+
+// cv20
+if (nyacv == gumuz)
+	cno_gumuzcv  >  cgumuzcv;
+endif;
+
+// cv21
+if (nywacv == gumuz1)
+	cno_gumuz1  >  cgumuz1;
+endif;
+if (nywacv == cohen8)
+	cno_cohen8  >  ccohen8;
+endif;
+
+// cv26
+if (kxwaacv == cohen7)
+	cno_cohen7  >  ccohen7;
+endif;
+
+// cv31
+if (zhacv == cohen6)
+	cno_cohen6  >  ccohen6;
+endif;
+if (zhacv == chaine)
+	cno_chaine  >  cchaine;
+endif;
+
+// cv32
+if (ddacv == oromo)
+	cno_oromo  >  coromo;
+endif;
+
+// cv40
+if (gwaacv == seb0)
+	cno_seb0  >  cseb0;
+endif;
+if (gwaacv == alonestokes)
+	cno_alonestokes  >  calonestokes;
+endif;
+
+// cv41
+if (ggacv == alt1)
+	cno_alt1  >  calt1;
+endif;
+
+// cv42
+if (ggwaacv == type)
+	cno_type  >  ctype;
+endif;
+
+// cv45
+if (phecv == praetorius)
+	cno_praetorius  >  cpraetorius;
+endif;
+
+// cv46
+if (tswacv == alt4)
+	cno_alt4  >  calt4;
+endif;
+
+// cv48
+if (fwacv == cohen4)
+	cno_cohen4  >  ccohen4;
+endif;
+if (fwacv == cohen5)
+	cno_cohen5  >  ccohen5;
+endif;
+
+// cv49
+if (ryacv == ala1)
+	cno_ala1  >  cala1;
+endif;
+
+// cv50
+if (myacv == ala2)
+	cno_ala2  >  cala2;
+endif;
+
+// cv60
+if (mwicv == seb5)
+	cno_seb5  >  cseb5;
+endif;
+if (mwicv == sebLes1)
+	cno_sebLes1  >  csebLes1;
+endif;
+
+// cv61
+if (mwecv == seb4)
+	cno_seb4  >  cseb4;
+endif;
+if (mwecv == sebLes4)
+	cno_sebLes4  >  csebLes4;
+endif;
+
+// cv62
+if (bwecv == sebLes2)
+	cno_sebLes2  >  csebLes2;
+endif;
+
+// cv63
+if (fweecv == trad)
+	cno_trad  >  ctrad;
+endif;
+
+// cv64
+if (fwecv == sebLes3)
+	cno_sebLes3  >  csebLes3;
+endif;
+
+// cv65
+if (pwecv == sebLes5)
+	cno_sebLes5  >  csebLes5;
+endif;
+
+// cv70
+if (ggwacv == blin)
+	cno_blin  >  cblin;
+endif;
+
+// cv80
+if (threecv == seb3)
+	cno_seb3  >  cseb3;
+endif;
+
+// cv85
+if (sixcv == seb2)
+	cno_seb2  >  cseb2;
+endif;
+
+#endif
+
+	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+	
+	codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
+	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
+		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
+endtable;  // substitution
+
+
+

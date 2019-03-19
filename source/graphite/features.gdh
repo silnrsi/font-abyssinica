@@ -1,0 +1,547 @@
+/*******************************************************************
+
+	File: features.gdh
+	
+	Features for Abyssinica font
+	
+	Author: Lorna Priest Evans
+   	This file is part of the Abyssinica SIL font family 
+	(http://scripts.sil.org/AbyssinicaSIL) and is 
+	Copyright (c) 2000-2013, SIL International (http://scripts.sil.org/)
+	with Reserved Font Names "Abyssinica" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License,
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software.
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including a FAQ.
+
+*******************************************************************/
+
+#include "stddef.gdh"
+
+
+// Note that the order in which the features are listed below is how they will be presented
+// in the combo-box in WorldPad.
+
+
+table(feature)
+
+
+////
+// Character Variants
+////
+
+punctuationcv {
+	id = "cv01";
+	name.1033 = string("Punctuation");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Ethiopic-style");
+        }
+        punct {
+            value = 1;
+            name.1033 = string("Latin-style");
+        }
+    }
+    default = std;
+}
+
+mwacv {
+	id = "cv04";
+	name.1033 = string("mwa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen1 {
+            value = 1;
+            name.1033 = string("Alternate-1");
+        }
+        cohen2 {
+            value = 2;
+            name.1033 = string("Alternate-2");
+        }
+    }
+    default = std;
+}
+
+rwacv {
+	id = "cv05";
+	name.1033 = string("rwa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+xoacv {
+	id = "cv17";
+	name.1033 = string("xoa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        xoa {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+xwacv {
+	id = "cv18";
+	name.1033 = string("xwa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        handwriting {
+            value = 1;
+            name.1033 = string("Handwriting");
+        }
+    }
+    default = std;
+}
+
+nwacv {
+	id = "cv19";
+	name.1033 = string("nwa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen0 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+nyacv {
+	id = "cv20";
+	name.1033 = string("nya alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        gumuz {
+            value = 1;
+            name.1033 = string("Disconnected");
+        }
+    }
+    default = std;
+}
+
+nywacv {
+	id = "cv21";
+	name.1033 = string("nywa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        gumuz1 {
+            value = 1;
+            name.1033 = string("Disconnected");
+        }
+        cohen8 {
+            value = 2;
+            name.1033 = string("Cohen");
+        }
+    }
+    default = std;
+}
+
+kxwaacv {
+	id = "cv26";
+	name.1033 = string("kxwaa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen7 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+zhacv {
+	id = "cv31";
+	name.1033 = string("zha alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen6 {
+            value = 1;
+            name.1033 = string("Cohen");
+        }
+        chaine {
+            value = 2;
+            name.1033 = string("Chaine");
+        }
+    }
+    default = std;
+}
+
+ddacv {
+	id = "cv32";
+	name.1033 = string("dda alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        oromo {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+gwaacv {
+	id = "cv40";
+	name.1033 = string("gwaa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        seb0 {
+            value = 1;
+            name.1033 = string("Sebat Bet");
+        }
+        alonestokes {
+            value = 2;
+            name.1033 = string("Alone Stokes");
+        }
+    }
+    default = std;
+}
+
+ggacv {
+	id = "cv41";
+	name.1033 = string("gga alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        alt1 {
+            value = 1;
+            name.1033 = string("Disconnected");
+        }
+    }
+    default = std;
+}
+
+ggwaacv {
+	id = "cv42";
+	name.1033 = string("ggwaa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        type {
+            value = 1;
+            name.1033 = string("Disconnected");
+        }
+    }
+    default = std;
+}
+
+phecv {
+	id = "cv45";
+	name.1033 = string("phe alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        praetorius {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+tswacv {
+	id = "cv46";
+	name.1033 = string("tswa alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        alt4 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+fwacv {
+	id = "cv48";
+	name.1033 = string("fwa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        cohen4 {
+            value = 1;
+            name.1033 = string("Cohen-1");
+        }
+        cohen5 {
+            value = 2;
+            name.1033 = string("Cohen-2");
+        }
+    }
+    default = std;
+}
+
+ryacv {
+	id = "cv49";
+	name.1033 = string("rya alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        ala1 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+myacv {
+	id = "cv50";
+	name.1033 = string("mya alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        ala2 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+mwicv {
+	id = "cv60";
+	name.1033 = string("mwi alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        seb5 {
+            value = 1;
+            name.1033 = string("Sebat Bet");
+        }
+        sebLes1 {
+            value = 2;
+            name.1033 = string("Leslau");
+        }
+    }
+    default = std;
+}
+
+mwecv {
+	id = "cv61";
+	name.1033 = string("mwe alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        seb4 {
+            value = 1;
+            name.1033 = string("Sebat Bet");
+        }
+        sebLes4 {
+            value = 2;
+            name.1033 = string("Leslau");
+        }
+    }
+    default = std;
+}
+
+bwecv {
+	id = "cv62";
+	name.1033 = string("bwe alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        sebLes2 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+fweecv {
+	id = "cv63";
+	name.1033 = string("fwee alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        trad {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+fwecv {
+	id = "cv64";
+	name.1033 = string("fwe alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        sebLes3 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+pwecv {
+	id = "cv65";
+	name.1033 = string("pwe alternate");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        sebLes5 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+ggwacv {
+	id = "cv70";
+	name.1033 = string("ggwa alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        blin {
+            value = 1;
+            name.1033 = string("Disconnected");
+        }
+    }
+    default = std;
+}
+
+threecv {
+	id = "cv80";
+	name.1033 = string("3rd form alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        seb3 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+sixcv {
+	id = "cv85";
+	name.1033 = string("6th form alternates");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        seb2 {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
+
+endtable;	// feature
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//	Languages
+//
+
+// table(language)
+
+
+// oromo {
+//     languages = ( "oro", "gaz" ); // Oromo
+//     ddacv = true;
+// };
+
+// sebatbet {
+//     languages = ( "sgw" ); // Sebat Bet
+//     gwaacv = true;
+// };
+
+// gumuz {
+//     languages = ( "guk", "gmz" ); // Gumuz
+//     nyacv = true;
+//     nywacv = true;
+// };
+
+// blin {
+//     languages = ( "byn", "bil" ); // Bilen
+//     ggwacv = true;
+//     ggwaacv = true
+//     ggacv = true;
+// };
+
+// endtable; // language

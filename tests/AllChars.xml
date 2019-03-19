@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='TestStyleSheet.xsl'?>
+<strings label='AllChars'>
+
+  <string label='Check'><text>RenderingUnknown</text></string>
+  <string label='U+0020'><text> &#x002e;&#x20;&#x002e;</text></string>
+  <string label='U+0021'><text> &#x0021;  &#x22;  &#x23;  &#x24;  &#x25;  &#x26;  &#x27; </text></string>
+  <string label='U+0028'><text> &#x28; &#x29; </text></string>
+  <string label='U+002A'><text> &#x2a;  &#x2b;  &#x2c;  &#x2d;  &#x2e;  &#x2f;  &#x30;  &#x31;  &#x32;  &#x33;  &#x34;  &#x35;  &#x36;  &#x37;  &#x38;  &#x39;  &#x3a;  &#x3b; </text></string>
+  <string label='U+003C'><text> &#x3c; &#x3d; &#x3e;</text></string>
+  <string label='U+003F'><text> &#x3f;  &#x40;  &#x41;  &#x42;  &#x43;  &#x44;  &#x45;  &#x46;  &#x47;  &#x48;  &#x49;  &#x4a;  &#x4b;  &#x4c;  &#x4d;  &#x4e;  &#x4f;  &#x50;  &#x51;  &#x52;  &#x53;  &#x54;  &#x55;  &#x56;  &#x57;  &#x58;  &#x59;  &#x5a; </text></string>
+  <string label='U+005B'><text> &#x5b; &#x5c; &#x5d; &#x5e; &#x5f; &#x60; </text></string>
+  <string label='U+0061'><text> &#x61;  &#x62;  &#x63;  &#x64;  &#x65;  &#x66;  &#x67;  &#x68;  &#x69;  &#x6a;  &#x6b;  &#x6c;  &#x6d;  &#x6e;  &#x6f;  &#x70;  &#x71;  &#x72;  &#x73;  &#x74;  &#x75;  &#x76;  &#x77;  &#x78;  &#x79;  &#x7a; </text></string>
+  <string label='U+007B'><text> &#x7b; &#x7c; &#x7d; &#x7e;</text></string>
+  <string label='U+00A0'><text> &#x002e;&#xa0;&#x002e;  &#xa1;  &#xa2;  &#xa3;  &#xa4;  &#xa5;  &#xa6;  &#xa7;  &#xa8;  &#xa9;  &#xaa; </text></string>
+  <string label='U+00AB'><text> &#xab;</text><comment>guillemotleft</comment></string>
+  <string label='U+00AC'><text> &#xac;  &#xad;  &#xae;  &#xaf;  &#xb0;  &#xb1;  &#xb2;  &#xb3;  &#xb4;  &#xb5;  &#xb6;  &#xb7;  &#xb8;  &#xb9;  &#xba; </text></string>
+  <string label='U+00BB'><text> &#xbb;</text><comment>guillemotright</comment></string>
+  <string label='U+00BC'><text> &#xbc;  &#xbd;  &#xbe;  &#xbf;  </text></string>
+  <string label='U+00C0'><text> &#xc0;  &#xc1;  &#xc2;  &#xc3;  &#xc4;  &#xc5;  &#xc6;  &#xc7;  &#xc8;  &#xc9;  &#xca;  &#xcb;  &#xcc;  &#xcd;  &#xce;  &#xcf;  &#xd0;  &#xd1;  &#xd2;  &#xd3;  &#xd4;  &#xd5;  &#xd6;  &#xd7;  &#xd8;  &#xd9;  &#xda;  &#xdb;  &#xdc;  &#xdd;  &#xde;  &#xdf;  &#xe0;  &#xe1;  &#xe2;  &#xe3;  &#xe4;  &#xe5;  &#xe6;  &#xe7;  &#xe8;  &#xe9;  &#xea;  &#xeb;  &#xec;  &#xed;  &#xee;  &#xef;  &#xf0;  &#xf1;  &#xf2;  &#xf3;  &#xf4;  &#xf5;  &#xf6;  &#xf7;  &#xf8;  &#xf9;  &#xfa;  &#xfb;  &#xfc;  &#xfd;  &#xfe;  &#xff; </text></string>
+  <string label='U+0131'><text> &#x131; </text></string>
+  <string label='U+0152'><text> &#x152;  &#x153; </text></string>
+  <string label='U+0160'><text> &#x160;  &#x161; </text></string>
+  <string label='U+0178'><text> &#x178; </text></string>
+  <string label='U+017D'><text> &#x17d;  &#x17e; </text></string>
+  <string label='U+0192'><text> &#x192; </text></string>
+  <string label='U+02C6'><text> &#x2c6;  &#x2c7; </text></string>
+  <string label='U+02D8'><text> &#x2d8; &#x2d9; </text></string>
+  <string label='U+02DA'><text> &#x2da; &#x2db; &#x2DC; &#x02DD;</text></string>
+  <string label='U+0300'><text> &#x25cc;&#x300; &#x25cc;&#x301; &#x25cc;&#x302; &#x25cc;&#x303; &#x25cc;&#x304; </text></string>
+  <string label='U+0307'><text> &#x25cc;&#x307; &#x25cc;&#x308;</text></string>
+  <string label='U+030B'><text> &#x25cc;&#x30B; &#x25cc;&#x30C;</text></string>
+  <string label='U+030F'><text> &#x25cc;&#x30F;</text></string>
+  <string label='U+03C0'><text> &#x3c0; </text></string>
+  <string label='U+1200'><text> &#x1200;  &#x1201;  &#x1202;  &#x1203;  &#x1204;  &#x1205;  &#x1206;  &#x1207;</text></string>
+  <string label='U+1208'><text> &#x1208;  &#x1209;  &#x120a;  &#x120b;  &#x120c;  &#x120d;  &#x120e;  &#x120f;</text></string>
+  <string label='U+1210'><text> &#x1210;  &#x1211;  &#x1212;  &#x1213;  &#x1214;  &#x1215;  &#x1216;  &#x1217;</text></string>
+  <string label='U+1218'><text> &#x1218;  &#x1219;  &#x121a;  &#x121b;  &#x121c;  &#x121d;  &#x121e;  &#x121f;</text></string>
+  <string label='U+1220'><text> &#x1220;  &#x1221;  &#x1222;  &#x1223;  &#x1224;  &#x1225;  &#x1226;  &#x1227;</text></string>
+  <string label='U+1228'><text> &#x1228;  &#x1229;  &#x122a;  &#x122b;  &#x122c;  &#x122d;  &#x122e;  &#x122f;</text></string>
+  <string label='U+1230'><text> &#x1230;  &#x1231;  &#x1232;  &#x1233;  &#x1234;  &#x1235;  &#x1236;  &#x1237;</text></string>
+  <string label='U+1238'><text> &#x1238;  &#x1239;  &#x123a;  &#x123b;  &#x123c;  &#x123d;  &#x123e;  &#x123f;</text></string>
+  <string label='U+1240'><text> &#x1240;  &#x1241;  &#x1242;  &#x1243;  &#x1244;  &#x1245;  &#x1246;  &#x1247;</text></string>
+  <string label='U+1248'><text> &#x1248;  &#x00A0;  &#x124a;  &#x124b;  &#x124c;  &#x124d;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1250'><text> &#x1250;  &#x1251;  &#x1252;  &#x1253;  &#x1254;  &#x1255;  &#x1256;  &#x00A0;</text></string>
+  <string label='U+1258'><text> &#x1258;  &#x00A0;  &#x125a;  &#x125b;  &#x125c;  &#x125d;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1260'><text> &#x1260;  &#x1261;  &#x1262;  &#x1263;  &#x1264;  &#x1265;  &#x1266;  &#x1267;</text></string>
+  <string label='U+1268'><text> &#x1268;  &#x1269;  &#x126a;  &#x126b;  &#x126c;  &#x126d;  &#x126e;  &#x126f;</text></string>
+  <string label='U+1270'><text> &#x1270;  &#x1271;  &#x1272;  &#x1273;  &#x1274;  &#x1275;  &#x1276;  &#x1277;</text></string>
+  <string label='U+1278'><text> &#x1278;  &#x1279;  &#x127a;  &#x127b;  &#x127c;  &#x127d;  &#x127e;  &#x127f;</text></string>
+  <string label='U+1280'><text> &#x1280;  &#x1281;  &#x1282;  &#x1283;  &#x1284;  &#x1285;  &#x1286;  &#x1287;</text></string>
+  <string label='U+1288'><text> &#x1288;  &#x00A0;  &#x128a;  &#x128b;  &#x128c;  &#x128d;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1290'><text> &#x1290;  &#x1291;  &#x1292;  &#x1293;  &#x1294;  &#x1295;  &#x1296;  &#x1297;</text></string>
+  <string label='U+1298'><text> &#x1298;  &#x1299;  &#x129a;  &#x129b;  &#x129c;  &#x129d;  &#x129e;  &#x129f;</text></string>
+  <string label='U+129F'><text> &#x129f;</text></string>
+  <string label='U+12A0'><text> &#x12A0;  &#x12A1;  &#x12A2;  &#x12A3;  &#x12A4;  &#x12A5;  &#x12A6;  &#x12A7;</text></string>
+  <string label='U+12A8'><text> &#x12A8;  &#x12A9;  &#x12Aa;  &#x12Ab;  &#x12Ac;  &#x12Ad;  &#x12Ae;  &#x12Af;</text></string>
+  <string label='U+12B0'><text> &#x12B0;  &#x00A0;  &#x12B2;  &#x12B3;  &#x12B4;  &#x12B5;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+12B8'><text> &#x12B8;  &#x12B9;  &#x12Ba;  &#x12Bb;  &#x12Bc;  &#x12Bd;  &#x12Be;  &#x00A0;</text></string>
+  <string label='U+12C0'><text> &#x12C0;  &#x00A0;  &#x12C2;  &#x12C3;  &#x12C4;  &#x12C5;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+12C8'><text> &#x12C8;  &#x12C9;  &#x12Ca;  &#x12Cb;  &#x12Cc;  &#x12Cd;  &#x12Ce;  &#x12Cf;</text></string>
+  <string label='U+12D0'><text> &#x12D0;  &#x12D1;  &#x12D2;  &#x12D3;  &#x12D4;  &#x12D5;  &#x12D6;  &#x00A0;</text></string>
+  <string label='U+12D8'><text> &#x12D8;  &#x12D9;  &#x12Da;  &#x12Db;  &#x12Dc;  &#x12Dd;  &#x12De;  &#x12Df;</text></string>
+  <string label='U+12E0'><text> &#x12E0;  &#x12E1;  &#x12E2;  &#x12E3;  &#x12E4;  &#x12E5;  &#x12E6;  &#x12E7;</text></string>
+  <string label='U+12E8'><text> &#x12E8;  &#x12E9;  &#x12Ea;  &#x12Eb;  &#x12Ec;  &#x12Ed;  &#x12Ee;  &#x12Ef;</text></string>
+  <string label='U+12F0'><text> &#x12F0;  &#x12F1;  &#x12F2;  &#x12F3;  &#x12F4;  &#x12F5;  &#x12F6;  &#x12F7;</text></string>
+  <string label='U+12F8'><text> &#x12F8;  &#x12F9;  &#x12Fa;  &#x12Fb;  &#x12Fc;  &#x12Fd;  &#x12Fe;</text></string>
+  <string label='U+12FF'><text> &#x12Ff;</text></string>
+  <string label='U+1300'><text> &#x1300;  &#x1301;  &#x1302;  &#x1303;  &#x1304;  &#x1305;  &#x1306;  &#x1307;</text></string>
+  <string label='U+1308'><text> &#x1308;  &#x1309;  &#x130a;  &#x130b;  &#x130c;  &#x130d;  &#x130e;  &#x130f;</text></string>
+  <string label='U+1310'><text> &#x1310;  &#x00A0;  &#x1312;  &#x1313;  &#x1314;  &#x1315;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1318'><text> &#x1318;  &#x1319;  &#x131a;  &#x131b;  &#x131c;  &#x131d;  &#x131e;</text></string>
+  <string label='U+131F'><text> &#x131f;</text></string>
+  <string label='U+1320'><text> &#x1320;  &#x1321;  &#x1322;  &#x1323;  &#x1324;  &#x1325;  &#x1326;  &#x1327;</text></string>
+  <string label='U+1328'><text> &#x1328;  &#x1329;  &#x132a;  &#x132b;  &#x132c;  &#x132d;  &#x132e;  &#x132f;</text></string>
+  <string label='U+1330'><text> &#x1330;  &#x1331;  &#x1332;  &#x1333;  &#x1334;  &#x1335;  &#x1336;  &#x1337;</text></string>
+  <string label='U+1338'><text> &#x1338;  &#x1339;  &#x133a;  &#x133b;  &#x133c;  &#x133d;  &#x133e;  &#x133f;</text></string>
+  <string label='U+1340'><text> &#x1340;  &#x1341;  &#x1342;  &#x1343;  &#x1344;  &#x1345;  &#x1346;  &#x1347;</text></string>
+  <string label='U+1348'><text> &#x1348;  &#x1349;  &#x134a;  &#x134b;  &#x134c;  &#x134d;  &#x134e;  &#x134f;</text></string>
+  <string label='U+1350'><text> &#x1350;  &#x1351;  &#x1352;  &#x1353;  &#x1354;  &#x1355;  &#x1356;  &#x1357;</text></string>
+  <string label='U+1358'><text> &#x1358;  &#x1359;  &#x135a;  &#x00A0;  &#x00A0;  &#x25cc;&#x135d;  &#x25cc;&#x135e;  &#x25cc;&#x135f;</text></string>
+  <string label='U+1360'><text> &#x1360;  &#x1361;  &#x1362;  &#x1363;  &#x1364;  &#x1365;  &#x1366;  &#x1367;  &#x1368;  &#x1369;  &#x136a;  &#x136b;  &#x136c; &#x136d; &#x136e; &#x136f;</text></string>
+  <string label='U+1370'><text> &#x1370;  &#x1371;  &#x1372;  &#x1373;  &#x1374;  &#x1375;  &#x1376;  &#x1377;  &#x1378;  &#x1379;  &#x137a;  &#x137b;  &#x137c; &#x00A0; &#x00A0; &#x00A0;</text></string>
+  <string label='U+1380'><text> &#x1380;  &#x1381;  &#x1382;  &#x1383;</text></string>
+  <string label='U+1384'><text> &#x1384;  &#x1385;  &#x1386;  &#x1387;</text></string>
+  <string label='U+1388'><text> &#x1388;  &#x1389;  &#x138a;  &#x138b;</text></string>
+  <string label='U+138C'><text> &#x138c;  &#x138d;  &#x138e;  &#x138f;</text></string>
+  <string label='U+1390'><text> &#x1390;  &#x1391;  &#x1392;  &#x1393;  &#x1394;  &#x1395;  &#x1396;  &#x1397;  &#x1398;  &#x1399;</text></string>
+  <string label='U+2D80'><text> &#x2D80;  &#x2D81;  &#x2D82;  &#x2D83;  &#x2D84;  &#x2D85;  &#x2D86;  &#x2D87;  &#x2D88;  &#x2D89;  &#x2D8a;  &#x2D8b;  &#x2D8c; &#x2D8d; &#x2D8e; &#x2D8f; &#x2D90;  &#x2D91; &#x2D92;</text></string>
+  <string label='U+2D93'><text> &#x2D93;  &#x2D94;  &#x2D95;  &#x2D96;</text></string>
+  <string label='U+2DA0'><text> &#x2DA0;  &#x2DA1;  &#x2DA2;  &#x2DA3;  &#x2DA4;  &#x2DA5;  &#x2DA6;  &#x00a0;</text></string>
+  <string label='U+2DA8'><text> &#x2DA8;  &#x2DA9;  &#x2DAa;  &#x2DAb;  &#x2DAc;  &#x2DAd;  &#x2DAe;  &#x00a0;</text></string>
+  <string label='U+2DB0'><text> &#x2DB0;  &#x2DB1;  &#x2DB2;  &#x2DB3;  &#x2DB4;  &#x2DB5;  &#x2DB6;  &#x00a0;</text></string>
+  <string label='U+2DB8'><text> &#x2DB8;  &#x2DB9;  &#x2DBa;  &#x2DBb;  &#x2DBc;  &#x2DBd;  &#x2DBe;  &#x00a0;</text></string>
+  <string label='U+2DC0'><text> &#x2DC0;  &#x2DC1;  &#x2DC2;  &#x2DC3;  &#x2DC4;  &#x2DC5;  &#x2DC6;  &#x00a0;</text></string>
+  <string label='U+2DC8'><text> &#x2DC8;  &#x2DC9;  &#x2DCa;  &#x2DCb;  &#x2DCc;  &#x2DCd;  &#x2DCe;  &#x00a0;</text></string>
+  <string label='U+2DD0'><text> &#x2DD0;  &#x2DD1;  &#x2DD2;  &#x2DD3;  &#x2DD4;  &#x2DD5;  &#x2DD6;  &#x00a0;</text></string>
+  <string label='U+2DD8'><text> &#x2DD8;  &#x2DD9;  &#x2DDa;  &#x2DDb;  &#x2DDc;  &#x2DDd;  &#x2DDe;  &#x00a0;</text></string>
+  <string label='U+AB00'><text> &#x00a0;  &#xAB01;  &#xAB02;  &#xAB03;  &#xAB04;  &#xAB05;  &#xAB06;  &#x00a0;</text></string>
+  <string label='U+AB08'><text> &#x00a0;  &#xAB09;  &#xAB0a;  &#xAB0b;  &#xAB0c;  &#xAB0d;  &#xAB0e;  &#x00a0;</text></string>
+  <string label='U+AB10'><text> &#x00a0;  &#xAB11;  &#xAB12;  &#xAB13;  &#xAB14;  &#xAB15;  &#xAB16;  &#x00a0;</text></string>
+  <string label='U+AB20'><text> &#xAB20;  &#xAB21;  &#xAB22;  &#xAB23;  &#xAB24;  &#xAB25;  &#xAB26;  &#x00a0;</text></string>
+  <string label='U+AB28'><text> &#xAB28;  &#xAB29;  &#xAB2a;  &#xAB2b;  &#xAB2c;  &#xAB2d;  &#xAB2e;  &#x00a0;</text></string>
+
+
+
+
+  <string label='U+2000'><text> &#x002e;&#x2000;&#x002e;  &#x002e;&#x2001;&#x002e;  &#x002e;&#x2002;&#x002e;  &#x002e;&#x2003;&#x002e;  &#x002e;&#x2004;&#x002e;  &#x002e;&#x2005;&#x002e;  &#x002e;&#x2006;&#x002e;  &#x002e;&#x2007;&#x002e;  &#x002e;&#x2008;&#x002e;  &#x002e;&#x2009;&#x002e;  &#x002e;&#x200a;&#x002e;  &#x200b;  &#x200c; </text></string>
+  <string label='U+200D'><text> &#x200d; </text><comment>zerojoin</comment></string>
+  <string label='U+200E'><text> &#x200e; </text></string>
+  <string label='U+200F'><text> &#x200f; </text></string>
+  <string label='U+2010'><text> &#x2010;  &#x2011;  &#x2012;  &#x2013;  &#x2014;  &#x2015; </text></string>
+  <string label='U+2018'><text> &#x2018;  &#x2019;  &#x201a; </text></string>
+  <string label='U+201C'><text> &#x201c;  &#x201d;  &#x201e; </text></string>
+  <string label='U+2020'><text> &#x2020;  &#x2021;  &#x2022; </text></string>
+  <string label='U+2026'><text> &#x2026;  &#x2027;  &#x2028;  &#x2029; </text></string>
+  <string label='U+202A'><text> &#x202A; &#x202B; &#x202C; &#x202D; &#x202E; &#x202F;</text></string>
+  <string label='U+2030'><text> &#x2030; </text></string>
+  <string label='U+2039'><text> &#x2039;</text><comment>guilsinglleft</comment></string>
+  <string label='U+203A'><text> &#x203a;</text><comment>guilsinglright</comment></string>
+  <string label='U+203B'><text> &#x203b;</text></string>
+  <string label='U+2044'><text> &#x2044; </text></string>
+  <string label='U+2060'><text> &#x2060; </text></string>
+  <string label='U+2070'><text> &#x2070; </text></string>
+  <string label='U+2074'><text> &#x2074;  &#x2075;  &#x2076;  &#x2077;  &#x2078;  &#x2079; </text></string>
+  <string label='U+20AC'><text> &#x20ac; </text></string>
+  <string label='U+2122'><text> &#x2122; </text></string>
+  <string label='U+2126'><text> &#x2126; </text></string>
+  <string label='U+2202'><text> &#x2202; </text></string>
+  <string label='U+2205'><text> &#x2205; </text></string>
+  <string label='U+2206'><text> &#x2206; </text></string>
+  <string label='U+220F'><text> &#x220f; </text></string>
+  <string label='U+2211'><text> &#x2211; </text></string>
+  <string label='U+2219'><text> &#x2219; &#x221a; </text></string>
+  <string label='U+221E'><text> &#x221e; </text></string>
+  <string label='U+222B'><text> &#x222B; </text></string>
+  <string label='U+2248'><text> &#x2248; </text></string>
+  <string label='U+2260'><text> &#x2260; </text></string>
+  <string label='U+2264'><text> &#x2264; &#x2265; </text></string>
+  <string label='U+25CC'><text> &#x25cc; </text></string>
+  <string label='U+2713'><text> &#x2713; </text></string>
+
+  <string label='Stylistic Sets'></string>
+  <string label='U+12F8'><text> &#x12F8;  &#x12F9;  &#x12Fa;  &#x12Fb;  &#x12Fc;  &#x12Fd;  &#x12Fe;</text></string>
+  <string label='U+12F8' feats="'ss01' 1"><text> &#x12F8;  &#x12F9;  &#x12Fa;  &#x12Fb;  &#x12Fc;  &#x12Fd;  &#x12Fe;</text><comment>Archaic Oromo dda forms</comment></string>
+
+  <string label='U+1298'><text> &#x1298;  &#x1299;  &#x129a;  &#x129b;  &#x129c;  &#x129d;  &#x129e;  &#x129f;</text></string>
+  <string label='U+1298' feats="'ss02' 1"><text> &#x1298;  &#x1299;  &#x129a;  &#x129b;  &#x129c;  &#x129d;  &#x129e;  &#x129f;</text><comment>Gumuz nya forms</comment></string>
+
+  <string label='U+1297 U+12C3 U+12E5 U+1313 U+133F U+134F'><text> &#x1297;  &#x12C3;  &#x12E5;  &#x1313;  &#x133F;  &#x134F;</text></string>
+  <string label='U+1297 U+12C3 U+12E5 U+1313 U+133F U+134F' feats="'ss03' 1"><text> &#x1297;  &#x12C3;  &#x12E5;  &#x1313;  &#x133F;  &#x134F;</text><comment>Old Style forms</comment></string>
+
+  <string label='U+1318'><text> &#x1318;  &#x1319;  &#x131a;  &#x131b;  &#x131c;  &#x131d;  &#x131e;</text></string>
+  <string label='U+1318' feats="'ss04' 1"><text> &#x1318;  &#x1319;  &#x131a;  &#x131b;  &#x131c;  &#x131d;  &#x131e;</text><comment>Disconnected gga forms</comment></string>
+
+  <string label='U+1313'><text> &#x00A0;  &#x00A0;  &#x00A0;  &#x1313;</text></string>
+  <string label='U+1313' feats="'ss05' 1"><text> &#x00A0;  &#x00A0;  &#x00A0;  &#x1313;</text><comment>Sebat Bet gwaa form</comment></string>
+
+  <string label='U+1381 U+1383 U+1387 U+138B U+138F'><text> &#x1381; &#x1383; &#x1387;  &#x138B;  &#x138F;</text></string>
+  <string label='U+1381 U+1383 U+1387 U+138B U+138F' feats="'ss06' 1"><text> &#x1381; &#x1383; &#x1387;  &#x138B;  &#x138F;</text><comment>Leslau's Sebat Bet alternates</comment></string>
+
+  <string label='U+1288'><text> &#x1288;  &#x00A0;  &#x128a;  &#x128b;  &#x128c;  &#x128d;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1288' feats="'ss07' 1"><text> &#x1288;  &#x00A0;  &#x128a;  &#x128b;  &#x128c;  &#x128d;  &#x00A0;  &#x00A0;</text><comment>Sebat Bet xwa forms</comment></string>
+
+  <string label='U+124A U+12B2 U+12C2 U+1312 U+1381 U+1385 U+138D'><text> &#x124a; &#x12b2; &#x12c2;  &#x1312;  &#x1381; &#x1385; &#x138D;</text></string>
+  <string label='U+124A U+12B2 U+12C2 U+1312 U+1381 U+1385 U+138D' feats="'ss08' 1"><text> &#x124a; &#x12b2; &#x12c2;  &#x1312;  &#x1381; &#x1385; &#x138D;</text><comment>Sebat Bet 3rd form alternates</comment></string>
+
+  <string label='U+124D U+12B5 U+12C5 U+1315'><text> &#x124d; &#x12b5; &#x12c5;  &#x1315;</text></string>
+  <string label='U+124D U+12B5 U+12C5 U+1315' feats="'ss09' 1"><text> &#x124d; &#x12b5; &#x12c5;  &#x1315;</text><comment>Sebat Bet 6th form alternates</comment></string>
+
+  <string label='U+1383'><text> &#x1383;</text></string>
+  <string label='U+1383' feats="'ss10' 1"><text> &#x1383;</text><comment>Sebat Bet mwe alternate</comment></string>
+
+  <string label='U+138A'><text> &#x138a;</text></string>
+  <string label='U+138A' feats="'ss11' 1"><text> &#x138a;</text><comment>Traditional fwee alternate</comment></string>
+
+  <string label='U+131F'><text> &#x131f;</text></string>
+  <string label='U+131F' feats="'ss12' 1"><text> &#x131f;</text><comment>Typewriter ggwaa alternate</comment></string>
+
+  <string label='U+1287'><text> &#x1287;</text></string>
+  <string label='U+1287' feats="'ss13' 1"><text>&#x1287;</text><comment>xoa alternate</comment></string>
+
+  <string label='U+0021'><text> &#x0021;  &#x0024;  &#x0025;  &#x002A;  &#x002B;  &#x002F;  &#x0030;  &#x0031;  &#x0032;  &#x0033;  &#x0034;  &#x0035;  &#x0036;  &#x0037;  &#x0038;  &#x0039;  &#x003D;  &#x003F; </text></string>
+  <string label='U+0021' feats="'ss14' 1"><text> &#x0021;  &#x0024;  &#x0025;  &#x002A;  &#x002B;  &#x002F;  &#x0030;  &#x0031;  &#x0032;  &#x0033;  &#x0034;  &#x0035;  &#x0036;  &#x0037;  &#x0038;  &#x0039;  &#x003D;  &#x003F; </text><comment>Punctuation</comment></string>
+
+  <string label='U+00A1'><text> &#x00A1;  &#x00A9;  &#x00AB;  &#x00B2;  &#x00B3;  &#x00B9;  &#x00BB;  &#x00D7;  &#x2018;  &#x2019;  &#x201C;  &#x201D;  &#x2039;  &#x203A;  &#x2070;  &#x2074;  &#x2075;  &#x2076;  &#x2077;  &#x2078;  &#x2079;  &#x20AC; </text></string>
+  <string label='U+00A1' feats="'ss14' 1"><text> &#x00A1;  &#x00A9;  &#x00AB;  &#x00B2;  &#x00B3;  &#x00B9;  &#x00BB;  &#x00D7;  &#x2018;  &#x2019;  &#x201C;  &#x201D;  &#x2039;  &#x203A;  &#x2070;  &#x2074;  &#x2075;  &#x2076;  &#x2077;  &#x2078;  &#x2079;  &#x20AC; </text><comment>Punctuation</comment></string>
+
+  <string label='Character Variants'></string>
+
+  <string label='U+0021'><text> &#x0021;  &#x0024;  &#x0025;  &#x002A;  &#x002B;  &#x002F;  &#x0030;  &#x0031;  &#x0032;  &#x0033;  &#x0034;  &#x0035;  &#x0036;  &#x0037;  &#x0038;  &#x0039;  &#x003D;  &#x003F; </text></string>
+  <string label='U+0021' feats="'cv01' 1"><text> &#x0021;  &#x0024;  &#x0025;  &#x002A;  &#x002B;  &#x002F;  &#x0030;  &#x0031;  &#x0032;  &#x0033;  &#x0034;  &#x0035;  &#x0036;  &#x0037;  &#x0038;  &#x0039;  &#x003D;  &#x003F; </text><comment>Punctuation</comment></string>
+
+  <string label='U+00A1'><text> &#x00A1;  &#x00A9;  &#x00AB;  &#x00B2;  &#x00B3;  &#x00B9;  &#x00BB;  &#x00D7;  &#x2018;  &#x2019;  &#x201C;  &#x201D;  &#x2039;  &#x203A;  &#x2070;  &#x2074;  &#x2075;  &#x2076;  &#x2077;  &#x2078;  &#x2079;  &#x20AC; </text></string>
+  <string label='U+00A1' feats="'cv01' 1"><text> &#x00A1;  &#x00A9;  &#x00AB;  &#x00B2;  &#x00B3;  &#x00B9;  &#x00BB;  &#x00D7;  &#x2018;  &#x2019;  &#x201C;  &#x201D;  &#x2039;  &#x203A;  &#x2070;  &#x2074;  &#x2075;  &#x2076;  &#x2077;  &#x2078;  &#x2079;  &#x20AC; </text><comment>Punctuation</comment></string>
+
+  <string label='U+121F'><text> &#x121f;</text></string>
+  <string label='U+121F' feats="'cv04' 1"><text> &#x121f;</text><comment>mwa alternates</comment></string>
+  <string label='U+121F' feats="'cv04' 2"><text> &#x121f;</text><comment>mwa alternates</comment></string>
+
+  <string label='U+122F'><text> &#x122f;</text></string>
+  <string label='U+122F' feats="'cv05' 1"><text> &#x122f;</text><comment>rwa alternate</comment></string>
+
+  <string label='U+1287'><text> &#x1287;</text></string>
+  <string label='U+1287' feats="'cv17' 1"><text>&#x1287;</text><comment>xoa alternate</comment></string>
+
+  <string label='U+1288'><text> &#x1288;  &#x00A0;  &#x128a;  &#x128b;  &#x128c;  &#x128d;  &#x00A0;  &#x00A0;</text></string>
+  <string label='U+1288' feats="'cv18' 1"><text> &#x1288;  &#x00A0;  &#x128a;  &#x128b;  &#x128c;  &#x128d;  &#x00A0;  &#x00A0;</text><comment>xwa alternates</comment></string>
+
+  <string label='U+1297'><text> &#x1297;</text></string>
+  <string label='U+1297' feats="'cv19' 1"><text> &#x1297;</text><comment>nwa alternate</comment></string>
+
+  <string label='U+1298'><text> &#x1298;  &#x1299;  &#x129a;  &#x129b;  &#x129c;  &#x129d;  &#x129e;</text></string>
+  <string label='U+1298' feats="'cv20' 1"><text> &#x1298;  &#x1299;  &#x129a;  &#x129b;  &#x129c;  &#x129d;  &#x129e;</text><comment>nya alternates</comment></string>
+
+  <string label='U+129F'><text> &#x129f;</text></string>
+  <string label='U+129F' feats="'cv21' 1"><text> &#x129f;</text><comment>nywa alternates (Gumuz)</comment></string>
+  <string label='U+129F' feats="'cv21' 2"><text> &#x129f;</text><comment>nywa alternates (Cohen)</comment></string>
+
+  <string label='U+12C3'><text> &#x12C3;</text></string>
+  <string label='U+12C3' feats="'cv26' 1"><text> &#x12C3;</text><comment>kxwaa alternate</comment></string>
+
+  <string label='U+12E0'><text> &#x12E0;  &#x12E1;  &#x12E2;  &#x12E3;  &#x12E4;  &#x12E5;  &#x12E6;</text></string>
+  <string label='U+12E0' feats="'cv31' 1"><text> &#x12E0;  &#x12E1;  &#x12E2;  &#x12E3;  &#x12E4;  &#x12E5;  &#x12E6;</text><comment>zha alternates (Cohen)</comment></string>
+  <string label='U+12E0' feats="'cv31' 2"><text> &#x12E0;  &#x12E1;  &#x12E2;  &#x12E3;  &#x12E4;  &#x12E5;  &#x12E6;</text><comment>zha alternates (Chaine)</comment></string>
+
+  <string label='U+12F8'><text> &#x12F8;  &#x12F9;  &#x12Fa;  &#x12Fb;  &#x12Fc;  &#x12Fd;  &#x12Fe;</text></string>
+  <string label='U+12F8' feats="'cv32' 1"><text> &#x12F8;  &#x12F9;  &#x12Fa;  &#x12Fb;  &#x12Fc;  &#x12Fd;  &#x12Fe;</text><comment>dda alternates</comment></string>
+
+  <string label='U+1313'><text> &#x1313;</text></string>
+  <string label='U+1313' feats="'cv40' 1"><text> &#x1313;</text><comment>gwaa alternates (Sebat Bet)</comment></string>
+  <string label='U+1313' feats="'cv40' 2"><text> &#x1313;</text><comment>gwaa alternates (Alone Stokes)</comment></string>
+
+  <string label='U+1318'><text> &#x1318;  &#x1319;  &#x131a;  &#x131b;  &#x131c;  &#x131d;  &#x131e;</text></string>
+  <string label='U+1318' feats="'cv41' 1"><text> &#x1318;  &#x1319;  &#x131a;  &#x131b;  &#x131c;  &#x131d;  &#x131e;</text><comment>gga alternates</comment></string>
+
+  <string label='U+131F'><text> &#x131f;</text></string>
+  <string label='U+131F' feats="'cv42' 1"><text> &#x131f;</text><comment>ggwaa alternate</comment></string>
+
+  <string label='U+1335'><text> &#x1335;</text></string>
+  <string label='U+1335' feats="'cv45' 1"><text>&#x1335;</text><comment>phe alternate</comment></string>
+
+  <string label='U+133F'><text> &#x133F;</text></string>
+  <string label='U+133F' feats="'cv46' 1"><text>&#x133F;</text><comment>tswa alternate</comment></string>
+
+  <string label='U+134F'><text> &#x134F;</text></string>
+  <string label='U+134F' feats="'cv48' 1"><text> &#x134F;</text><comment>fwa alternates</comment></string>
+  <string label='U+134F' feats="'cv48' 2"><text> &#x134F;</text><comment>fwa alternates</comment></string>
+
+  <string label='U+1358'><text> &#x1358;</text></string>
+  <string label='U+1358' feats="'cv49' 1"><text>&#x1358;</text><comment>rya alternate</comment></string>
+
+  <string label='U+1359'><text> &#x1359;</text></string>
+  <string label='U+1359' feats="'cv50' 1"><text>&#x1359;</text><comment>mya alternate</comment></string>
+
+  <string label='U+1381'><text> &#x1381;</text></string>
+  <string label='U+1381' feats="'cv60' 1"><text> &#x1381;</text><comment>mwi alternates (Sebat Bet)</comment></string>
+  <string label='U+1381' feats="'cv60' 2"><text> &#x1381;</text><comment>mwi alternates (Leslau)</comment></string>
+
+  <string label='U+1383'><text> &#x1383;</text></string>
+  <string label='U+1383' feats="'cv61' 1"><text> &#x1383;</text><comment>mwe alternates (Sebat Bet)</comment></string>
+  <string label='U+1383' feats="'cv61' 2"><text> &#x1383;</text><comment>mwe alternates (Leslau)</comment></string>
+
+  <string label='U+1387'><text> &#x1387;</text></string>
+  <string label='U+1387' feats="'cv62' 1"><text> &#x1387;</text><comment>bwe alternate</comment></string>
+
+  <string label='U+138A'><text> &#x138A;</text></string>
+  <string label='U+138A' feats="'cv63' 1"><text>&#x138A;</text><comment>fwee alternate</comment></string>
+
+  <string label='U+138B'><text> &#x138b;</text></string>
+  <string label='U+138B' feats="'cv64' 1"><text> &#x138b;</text><comment>fwe alternate</comment></string>
+
+  <string label='U+138F'><text> &#x138f;</text></string>
+  <string label='U+138F' feats="'cv65' 1"><text> &#x138f;</text><comment>pwe alternate</comment></string>
+
+  <string label='U+2D93'><text> &#x2D93;  &#x2D94;  &#x2D95;  &#x2D96;</text></string>
+  <string label='U+2D93' feats="'cv70' 1"><text> &#x2D93;  &#x2D94;  &#x2D95;  &#x2D96;</text><comment>ggwa alternates</comment></string>
+
+  <string label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D'><text> &#x124a; &#x12b2; &#x12c2;  &#x1312;  &#x1385; &#x138D;</text></string>
+  <string label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D' feats="'cv80' 1"><text> &#x124a; &#x12b2; &#x12c2;  &#x1312;  &#x1385; &#x138D;</text><comment>3rd form alternates</comment></string>
+
+  <string label='U+124D U+12B5 U+12C5 U+1315'><text> &#x124d; &#x12b5; &#x12c5;  &#x1315;</text></string>
+  <string label='U+124D U+12B5 U+12C5 U+1315' feats="'cv85' 1"><text> &#x124d; &#x12b5; &#x12c5;  &#x1315;</text><comment>6th form alternates</comment></string>
+
+
+
+
+
+
+
+</strings>

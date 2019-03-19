@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE all_features SYSTEM "feat_all.dtd">
+<all_features version="1.0">
+
+	<feature name="Punctuation" value="Ethiopic" tag="Pnct">
+		<!-- see also the interactions section -->
+		<value name="Ethiopic-style" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Latin-style" tag="Ltn">
+			<cmd name="encode" args="0021 exclam.punct"/>
+			<cmd name="encode" args="0024 dollar.punct"/>
+			<cmd name="encode" args="0025 percent.punct"/>
+			<cmd name="encode" args="002A asterisk.punct"/>
+			<cmd name="encode" args="002B plus.punct"/>
+			<cmd name="encode" args="002F slash.punct"/>
+			<cmd name="encode" args="0030 zero.punct"/>
+			<cmd name="encode" args="0031 one.punct"/>
+			<cmd name="encode" args="0032 two.punct"/>
+			<cmd name="encode" args="0033 three.punct"/>
+			<cmd name="encode" args="0034 four.punct"/>
+			<cmd name="encode" args="0035 five.punct"/>
+			<cmd name="encode" args="0036 six.punct"/>
+			<cmd name="encode" args="0037 seven.punct"/>
+			<cmd name="encode" args="0038 eight.punct"/>
+			<cmd name="encode" args="0039 nine.punct"/>
+			<cmd name="encode" args="003D equal.punct"/>
+			<cmd name="encode" args="003F question.punct"/>
+			<cmd name="encode" args="00A1 exclamdown.punct"/>
+			<cmd name="encode" args="00A9 copyright.punct"/>
+			<cmd name="encode" args="00AB guillemotleft.punct"/>
+			<cmd name="encode" args="00B2 twosuperior.punct"/>
+			<cmd name="encode" args="00B3 threesuperior.punct"/>
+			<cmd name="encode" args="00B9 onesuperior.punct"/>
+			<cmd name="encode" args="00BB guillemotright.punct"/>
+			<cmd name="encode" args="00D7 multiply.punct"/>
+			<cmd name="encode" args="2018 quoteleft.punct"/>
+			<cmd name="encode" args="2019 quoteright.punct"/>
+			<cmd name="encode" args="201C quotedblleft.punct"/>
+			<cmd name="encode" args="201D quotedblright.punct"/>
+			<cmd name="encode" args="2039 guilsinglleft.punct"/>
+			<cmd name="encode" args="203A guilsinglright.punct"/>
+			<cmd name="encode" args="2070 zerosuperior.punct"/>
+			<cmd name="encode" args="2074 foursuperior.punct"/>
+			<cmd name="encode" args="2075 fivesuperior.punct"/>
+			<cmd name="encode" args="2076 sixsuperior.punct"/>
+			<cmd name="encode" args="2077 sevensuperior.punct"/>
+			<cmd name="encode" args="2078 eightsuperior.punct"/>
+			<cmd name="encode" args="2079 ninesuperior.punct"/>
+			<cmd name="encode" args="20AC Euro.punct"/>
+		</value>
+	</feature>
+
+	<feature name="mwa" value="Standard" tag="mwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate-1" tag="Alt1">
+			<cmd name="encode" args="121F uni121F.cohen1"/>
+		</value>
+		<value name="Alternate-2" tag="Alt2">
+			<cmd name="encode" args="121F uni121F.cohen2"/>
+		</value>
+	</feature>
+
+	<feature name="rwa" value="Standard" tag="rwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="122F uni122F.cohen3"/>
+		</value>
+	</feature>
+
+	<feature name="xoa" value="Standard" tag="xoa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1287 uni1287.alt3"/>
+		</value>
+	</feature>
+
+	<feature name="xwa" value="Standard" tag="xwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Handwriting" tag="Alt">
+			<cmd name="encode" args="1288 uni1288.handwriting"/>
+			<cmd name="encode" args="128A uni128A.handwriting"/>
+			<cmd name="encode" args="128B uni128B.handwriting"/>
+			<cmd name="encode" args="128C uni128C.handwriting"/>
+			<cmd name="encode" args="128D uni128D.handwriting"/>
+		</value>
+	</feature>
+
+	<feature name="nwa" value="Standard" tag="nwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1297 uni1297.cohen0"/>
+		</value>
+	</feature>
+
+	<feature name="nya" value="Standard" tag="nya">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Disconnected" tag="Alt">
+			<cmd name="encode" args="1298 uni1298.gumuz"/>
+			<cmd name="encode" args="1299 uni1299.gumuz"/>
+			<cmd name="encode" args="129A uni129A.gumuz"/>
+			<cmd name="encode" args="129B uni129B.gumuz"/>
+			<cmd name="encode" args="129C uni129C.gumuz"/>
+			<cmd name="encode" args="129D uni129D.gumuz"/>
+			<cmd name="encode" args="129E uni129E.gumuz"/>
+		</value>
+	</feature>
+
+	<feature name="nywa" value="Standard" tag="nywa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Disconnected" tag="Alt">
+			<cmd name="encode" args="129F uni129F.gumuz1"/>
+		</value>
+		<value name="Cohen" tag="Coh1">
+			<cmd name="encode" args="129F uni129F.cohen8"/>
+		</value>
+	</feature>
+
+	<feature name="kxwaa" value="Standard" tag="kxwaa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="12C3 uni12C3.cohen7"/>
+		</value>
+	</feature>
+
+	<feature name="zha" value="Standard" tag="zha">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Cohen" tag="Coh1">
+			<cmd name="encode" args="12E0 uni12E0.cohen6"/>
+			<cmd name="encode" args="12E1 uni12E1.cohen6"/>
+			<cmd name="encode" args="12E3 uni12E3.cohen6"/>
+			<cmd name="encode" args="12E4 uni12E4.cohen6"/>
+			<cmd name="encode" args="12E5 uni12E5.cohen6"/>
+			<cmd name="encode" args="12E6 uni12E6.cohen6"/>
+		</value>
+		<value name="Chaine" tag="Cha">
+			<cmd name="encode" args="12E0 uni12E0.chaine"/>
+			<cmd name="encode" args="12E1 uni12E1.chaine"/>
+			<cmd name="encode" args="12E3 uni12E3.chaine"/>
+			<cmd name="encode" args="12E4 uni12E4.chaine"/>
+			<cmd name="encode" args="12E5 uni12E5.chaine"/>
+			<cmd name="encode" args="12E6 uni12E6.chaine"/>
+		</value>
+	</feature>
+
+	<feature name="dda" value="Standard" tag="dda">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="12F8 uni12F8.oromo"/>
+			<cmd name="encode" args="12F9 uni12F9.oromo"/>
+			<cmd name="encode" args="12FA uni12FA.oromo"/>
+			<cmd name="encode" args="12FB uni12FB.oromo"/>
+			<cmd name="encode" args="12FC uni12FC.oromo"/>
+			<cmd name="encode" args="12FD uni12FD.oromo"/>
+			<cmd name="encode" args="12FE uni12FE.oromo"/>
+		</value>
+	</feature>
+
+	<feature name="gwaa" value="Standard" tag="gwaa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Sebat Bet" tag="Sgw">
+			<cmd name="encode" args="1313 uni1313.seb0"/>
+		</value>
+		<value name="Alone Stokes" tag="AS">
+			<cmd name="encode" args="1313 uni1313.alonestokes"/>
+		</value>
+	</feature>
+
+	<feature name="gga" value="Standard" tag="gga">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Disconnected" tag="Alt">
+			<cmd name="encode" args="1318 uni1318.alt1"/>
+			<cmd name="encode" args="1319 uni1319.alt1"/>
+			<cmd name="encode" args="131A uni131A.alt1"/>
+			<cmd name="encode" args="131B uni131B.alt1"/>
+			<cmd name="encode" args="131C uni131C.alt1"/>
+			<cmd name="encode" args="131D uni131D.alt1"/>
+			<cmd name="encode" args="131E uni131E.alt1"/>
+		</value>
+	</feature>
+
+	<feature name="ggwaa" value="Standard" tag="ggwaa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Disconnected" tag="Alt">
+			<cmd name="encode" args="131F uni131F.type"/>
+		</value>
+	</feature>
+
+	<feature name="phe" value="Standard" tag="phe">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1335 uni1335.praetorius"/>
+		</value>
+	</feature>
+
+	<feature name="tswa" value="Standard" tag="tswa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="133F uni133F.alt4"/>
+		</value>
+	</feature>
+
+	<feature name="fwa" value="Standard" tag="fwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Cohen-1" tag="Coh1">
+			<cmd name="encode" args="134F uni134F.cohen4"/>
+		</value>
+		<value name="Cohen-2" tag="Coh2">
+			<cmd name="encode" args="134F uni134F.cohen5"/>
+		</value>
+	</feature>
+
+	<feature name="rya" value="Standard" tag="rya">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1358 uni1358.ala1"/>
+		</value>
+	</feature>
+
+	<feature name="mya" value="Standard" tag="mya">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1359 uni1359.ala2"/>
+		</value>
+	</feature>
+
+	<feature name="mwi" value="Standard" tag="mwi">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Sebat Bet" tag="Sgw">
+			<cmd name="encode" args="1381 uni1381.seb5"/>
+		</value>
+		<value name="Leslau" tag="Les">
+			<cmd name="encode" args="1381 uni1381.sebLes1"/>
+		</value>
+	</feature>
+
+	<feature name="mwe" value="Standard" tag="mwe">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Sebat Bet" tag="Sgw">
+			<cmd name="encode" args="1383 uni1383.seb4"/>
+		</value>
+		<value name="Leslau" tag="Les">
+			<cmd name="encode" args="1383 uni1383.sebLes4"/>
+		</value>
+	</feature>
+
+	<feature name="bwe" value="Standard" tag="bwe">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="1387 uni1387.sebLes2"/>
+		</value>
+	</feature>
+
+	<feature name="fwee" value="Standard" tag="fwee">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="138A uni138A.trad"/>
+		</value>
+	</feature>
+
+	<feature name="fwe" value="Standard" tag="fwe">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="138B uni138B.sebLes3"/>
+		</value>
+	</feature>
+
+	<feature name="pwe" value="Standard" tag="pwe">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="138F uni138F.sebLes5"/>
+		</value>
+	</feature>
+
+	<feature name="ggwa" value="Standard" tag="ggwa">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Disconnected" tag="Alt">
+			<cmd name="encode" args="2D93 uni2D93.blin"/>
+			<cmd name="encode" args="2D94 uni2D94.blin"/>
+			<cmd name="encode" args="2D95 uni2D95.blin"/>
+			<cmd name="encode" args="2D96 uni2D96.blin"/>
+		</value>
+	</feature>
+
+	<feature name="Third form" value="Standard" tag="Third">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="124A uni124A.seb3"/>
+			<cmd name="encode" args="12B2 uni12B2.seb3"/>
+			<cmd name="encode" args="12C2 uni12C2.seb3"/>
+			<cmd name="encode" args="1312 uni1312.seb3"/>
+			<cmd name="encode" args="1385 uni1385.seb3"/>
+			<cmd name="encode" args="138D uni138D.seb3"/>
+		</value>
+	</feature>
+
+	<feature name="Sixth form" value="Standard" tag="Six">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="encode" args="124D uni124D.seb2"/>
+			<cmd name="encode" args="12B5 uni12B5.seb2"/>
+			<cmd name="encode" args="12C5 uni12C5.seb2"/>
+			<cmd name="encode" args="1315 uni1315.seb2"/>
+		</value>
+	</feature>
+
+</all_features>

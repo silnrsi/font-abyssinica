@@ -1,0 +1,148 @@
+%&program=xetex
+%&encoding=UTF-8 Unicode
+
+\nopagenumbers
+\parindent=0pt
+
+\def\StylisticSet{\vskip 12pt\A \parindent=0pt}
+\def\IndSS{\par\A \parindent=12pt}
+
+
+\font\A="Abyssinica SIL" at 12pt
+\font\Oromo="Abyssinica SIL/GR:dda alternates=Alternate" at 12pt
+\font\Gumuz="Abyssinica SIL/GR:nya alternates=Disconnected" at 12pt
+\font\OldStyle="Abyssinica SIL/GR:Old Style forms=True" at 12pt
+\font\Disconnected="Abyssinica SIL/GR: Disconnected gga forms=True" at 12pt
+\font\SBDef="Abyssinica SIL/GR: Sebat Bet gwaa form=True" at 12pt
+\font\Leslau="Abyssinica SIL/GR:Leslau's Sebat Bet alternates=True" at 12pt
+\font\xwa="Abyssinica SIL/GR:Sebat Bet xwa forms=True" at 12pt
+\font\SBThree="Abyssinica SIL/GR:Sebat Bet 3rd form alternates=True" at 12pt
+\font\SBSix="Abyssinica SIL/GR:Sebat Bet 6th form alternates=True" at 12pt
+\font\xaaOne="Abyssinica SIL/GR:Sebat Bet xaa alternate 1=True" at 12pt
+\font\xaaTwo="Abyssinica SIL/GR:Sebat Bet xaa alternate 2=True" at 12pt
+\font\SBfwee="Abyssinica SIL/GR:Sebat Bet fwee alternate=True" at 12pt
+\font\fwee="Abyssinica SIL/GR:Traditional fwee alternate=True" at 12pt
+\font\ggwaa="Abyssinica SIL/GR:Typewriter ggwaa alternate=True" at 12pt
+\font\xoa="Abyssinica SIL/GR:xoa alternate=Alternate" at 12pt
+\font\Fullstop="Abyssinica SIL/GR:Full stop alternate=True" at 12pt
+\font\Punct="Abyssinica SIL/GR:Punctuation=Latin" at 12pt
+
+% \font\B=Abyssinica SIL: +ss01" at 12pt
+\font\C="Abyssinica SIL:script=ethi;language=dflt" at 12pt
+
+\A Graphite Font Features in Abyssinica SIL (for XeTeX
+
+\StylisticSet\Punct When Abyssinica SIL is used in applications that support Graphite, and that provide an appropriate user interface, various user-controllable font features are available that allow access to alternatively-designed glyphs that might be preferable for use in some contexts. In the Graphite version of OpenOffice 3.2  the font features can be turned on by choosing the font (ie Abyssinica SIL), followed by a colon, followed by the feature ID, and then followed by the feature setting. So, for example, if the Archaic Oromo dda forms are desired, the font selection would be “Abyssinica SIL:101=1”. If you wish to apply two (or more) features, you can separate them with an “\&”. Thus, “Abyssinica SIL:101=1\&102=1” would apply “Archaic Oromo dda forms” plus the “Gumuz nya forms” feature. This particular paragraph has “latin” punctuation turned on so that the punctuation and numbers have a less Ethiopic feel (Stylistic Set 17). The next paragraph does not have “latin” punctuation turned on. You should see a difference in the style of numbers and quotation marks.
+
+\StylisticSet For applications which support OpenType Stylistic Sets, such Word 2010 and InDesign CS 4+, the Stylistic Set number is. In InDesign, from the “Character” palette select “OpenType / Stylistic Sets” and then choose the Set(s) you want to apply to the text you have selected. In Word 2010, Stylistic Sets are also available. Choose “Font / Advanced tab.” Select “Opentype Features / Stylistic Sets” and then choose the set you want to apply to the text you have selected. You must either have “[no language]” selected or an Ethiopic language selected in order for the Stylistic sets to work (Stylistic sets 1-16 will not work if “English” is selected).
+
+
+\StylisticSet Archaic Oromo dda forms (Stylistic Set 1, Graphite id:ss01) (U+12F8..U+12FE)
+
+\IndSS Default:	ዸ ዹ ዺ ዻ ዼ ዽ ዾ
+
+\Oromo Feature on:	ዸ ዹ ዺ ዻ ዼ ዽ ዾ
+
+
+\StylisticSet Gumuz nya forms (Stylistic Set 2, Graphite id:102) (U+1298..U+129F)
+
+\IndSS Default:		ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ
+
+\IndSS\Gumuz Feature on:	ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ (this will be the default form if an application supports the Gumuz language)
+
+
+\StylisticSet Old Style forms (Stylistic Set 3, Graphite id:103) (U+1297 U+12C3 U+12E5 U+1313 U+1347 U+134F)
+
+\IndSS Default:		ኗ ዃ ዥ ጓ ፇ ፏ  
+
+\IndSS\OldStyle Feature on:	ኗ ዃ ዥ ጓ ፇ ፏ  
+
+
+\StylisticSet Disconnected gga forms (Stylistic Set 4, Graphite id:104) (U+1318..U+131F)
+
+\IndSS Default:		ጘ ጙ ጚ ጛ ጜ ጝ ጞ  
+
+\IndSS\Disconnected Feature on:	ጘ ጙ ጚ ጛ ጜ ጝ ጞ
+
+
+\StylisticSet Sebat Bet gwaa form (Stylistic Set 5, Graphite id:105) (U+1313)
+
+\IndSS Default:		ጓ  
+
+\IndSS\SBDef Feature on:	ጓ (this will be the default form if an application supports the Sebat Bet language)
+
+
+\StylisticSet Leslau’s Sebat Bet alternates (Stylistic Set 6, Graphite id:106) (U+1381 U+1383 U+1387 U+138B U+138F)
+
+\IndSS Default:		ᎁ ᎃ ᎇ ᎋ ᎏ
+
+\IndSS\Leslau Feature on:	ᎁ ᎃ ᎇ ᎋ ᎏ 
+
+\StylisticSet Sebat Bet xwa forms (Stylistic Set 7, Graphite id:107) (U+1288 U+128A U+128B U+128D U+128D)
+
+\IndSS Default:		ኈ ኊ ኋ ኍ ኍ
+
+\IndSS\xwa Feature on:	ኈ ኊ ኋ ኍ ኍ
+
+\StylisticSet Sebat Bet 3rd form alternates (Stylistic Set 8, Graphite id:108) (U+124A U+12B2 U+12C2 U+1312 U+1381 U+1385 U+138D)
+
+\IndSS Default:		ቊ ኲ ዂ ጒ ᎁ ᎅ ᎍ
+
+\IndSS\SBThree Feature on:	ቊ ኲ ዂ ጒ ᎁ ᎅ ᎍ
+
+\StylisticSet Sebat Bet 6th form alternates (Stylistic Set 9, Graphite id:109) (U+124D U+12B5 U+12C5 U+1315)
+
+\IndSS Default:		ቍ ኵ ዅ ጕ
+
+\IndSS\SBSix Feature on:	ቍ ኵ ዅ ጕ
+
+\StylisticSet Sebat Bet xaa alternate 1 (Stylistic Set 10, Graphite id:110) (U+1383)
+
+\IndSS Default:		ᎃ
+
+\IndSS\xaaOne Feature on:	ᎃ
+
+\StylisticSet Sebat Bet xaa alternate 2 (Stylistic Set 11, Graphite id:111) (U+1383)
+
+\IndSS Default:		ᎃ
+
+\IndSS\xaaTwo Feature on:	ᎃ
+
+\StylisticSet Sebat Bet fwee alternate (Stylistic Set 12, Graphite id:112) (U+138A)
+
+\IndSS Default:		ᎊ
+
+\IndSS\SBfwee Feature on:	ᎊ
+
+\StylisticSet Traditional fwee alternate (Stylistic Set 13, Graphite id:113) (U+138A)
+
+\IndSS Default:		ᎊ
+
+\IndSS\fwee Feature on:	ᎊ
+
+\StylisticSet  Typewriter ggwaa alternate (Stylistic Set 14, Graphite id:114) (U+131F)
+
+\IndSS Default:		ጟ
+
+\IndSS\ggwaa Feature on:	ጟ
+
+\StylisticSet xoa alternate (Stylistic Set 5, Graphite id:115) (U+1287)
+
+\IndSS Default:		ኇ
+
+\IndSS\xoa Feature on:	ኇ
+
+\StylisticSet Full stop alternate (Stylistic Set 16, Graphite id:116) (U+1362)
+
+\IndSS Default:		።
+
+\IndSS\Fullstop Feature on:	።
+
+
+\StylisticSet Latin punctuation (Stylistic Set 17, Graphite id:117) (U+00A1 U+0021 U+0024 U+20AC U+0025 U+002A U+002B U+00D7 U+002F U+003D U+003F U+0030 U+0031 U+0032 U+0033 U+0034 U+0035 U+0036 U+0037 U+0038 U+0039 U+2070 U+00B9 U+00B2 U+00B3 U+2074 U+2075 U+2076 U+2077 U+2078 U+2079 U+00A9 U+00AB U+00BB U+2039 U+203A U+201C U+201D U+2018 U+2019)
+
+\IndSS Default:		¡!\$€\%*+×/=?0123456789⁰¹²³⁴⁵⁶⁷⁸⁹©«»‹›“”‘’
+
+\Punct Feature on:	¡!\$€\%*+×/=?0123456789⁰¹²³⁴⁵⁶⁷⁸⁹©«»‹›“”‘’
+
+\bye
