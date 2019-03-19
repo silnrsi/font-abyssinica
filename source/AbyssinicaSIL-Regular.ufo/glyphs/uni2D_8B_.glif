@@ -60,9 +60,9 @@
       <point x="480" y="121"/>
       <point x="480" y="102" type="curve" smooth="yes"/>
       <point x="480" y="37"/>
-      <point x="495" y="-0"/>
-      <point x="556" y="-0" type="curve" smooth="yes"/>
-      <point x="583" y="-0"/>
+      <point x="495" y="0"/>
+      <point x="556" y="0" type="curve" smooth="yes"/>
+      <point x="583" y="0"/>
       <point x="609" y="4"/>
       <point x="626" y="6" type="curve" smooth="yes"/>
       <point x="796" y="25" type="line"/>

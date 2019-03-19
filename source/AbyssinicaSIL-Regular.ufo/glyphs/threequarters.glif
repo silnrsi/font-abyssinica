@@ -76,8 +76,8 @@
     <contour>
       <point x="1436" y="1430" type="line"/>
       <point x="1307" y="1430" type="line"/>
-      <point x="397" y="-0" type="line"/>
-      <point x="526" y="-0" type="line"/>
+      <point x="397" y="0" type="line"/>
+      <point x="526" y="0" type="line"/>
     </contour>
     <contour>
       <point x="1450" y="317" type="line"/>

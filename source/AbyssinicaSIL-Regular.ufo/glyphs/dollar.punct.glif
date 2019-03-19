@@ -36,10 +36,10 @@
       <point x="245" y="16"/>
       <point x="397" y="8"/>
       <point x="501" y="2" type="curve"/>
-      <point x="532" y="-0" type="line"/>
+      <point x="532" y="0" type="line"/>
       <point x="532" y="-211" type="line"/>
       <point x="627" y="-211" type="line"/>
-      <point x="627" y="-0" type="line"/>
+      <point x="627" y="0" type="line"/>
       <point x="762" y="8"/>
       <point x="1034" y="137"/>
     </contour>

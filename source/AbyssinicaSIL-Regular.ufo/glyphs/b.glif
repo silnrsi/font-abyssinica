@@ -16,9 +16,9 @@
       <point x="29" y="1430" type="line"/>
       <point x="29" y="1362" type="line"/>
       <point x="184" y="1362" type="line"/>
-      <point x="184" y="-0" type="line"/>
-      <point x="479" y="-0" type="line" smooth="yes"/>
-      <point x="891" y="-0"/>
+      <point x="184" y="0" type="line"/>
+      <point x="479" y="0" type="line" smooth="yes"/>
+      <point x="891" y="0"/>
       <point x="1067" y="233"/>
     </contour>
     <contour>

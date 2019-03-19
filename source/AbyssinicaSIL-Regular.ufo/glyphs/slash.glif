@@ -6,7 +6,7 @@
     <contour>
       <point x="831" y="1434" type="line"/>
       <point x="610" y="1434" type="line"/>
-      <point x="-0" y="-10" type="line"/>
+      <point x="0" y="-10" type="line"/>
       <point x="223" y="-12" type="line"/>
     </contour>
   </outline>

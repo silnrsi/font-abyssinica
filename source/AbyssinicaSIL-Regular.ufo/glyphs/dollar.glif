@@ -42,10 +42,10 @@
       <point x="387" y="18" type="curve"/>
       <point x="387" y="-104" type="line"/>
       <point x="498" y="-104" type="line"/>
-      <point x="498" y="-0" type="line"/>
-      <point x="526" y="-0" type="line" smooth="yes"/>
-      <point x="545" y="-0"/>
-      <point x="561" y="-0"/>
+      <point x="498" y="0" type="line"/>
+      <point x="526" y="0" type="line" smooth="yes"/>
+      <point x="545" y="0"/>
+      <point x="561" y="0"/>
       <point x="578" y="2" type="curve"/>
       <point x="578" y="-104" type="line"/>
       <point x="688" y="-104" type="line"/>
