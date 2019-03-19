@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni030B" format="2">
+  <advance width="2"/>
   <unicode hex="030B"/>
   <anchor x="-830" y="1450" name="_U"/>
   <outline>
@@ -32,10 +33,4 @@
       <point x="-725" y="1802"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>2</integer>
-    </dict>
-  </lib>
 </glyph>
