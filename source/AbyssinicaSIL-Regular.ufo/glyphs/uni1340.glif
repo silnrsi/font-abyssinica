@@ -30,11 +30,8 @@
       <point x="579" y="99"/>
       <point x="591" y="95"/>
       <point x="610" y="95" type="curve" smooth="yes"/>
-      <point x="623" y="95"/>
-      <point x="640" y="97"/>
-      <point x="659" y="101" type="curve"/>
-      <point x="905" y="158"/>
-      <point x="926" y="626"/>
+      <point x="911" y="95"/>
+      <point x="926" y="651"/>
     </contour>
     <contour>
       <point x="645" y="915" type="curve" smooth="yes"/>

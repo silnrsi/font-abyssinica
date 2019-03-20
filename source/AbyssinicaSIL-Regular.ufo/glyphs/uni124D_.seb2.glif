@@ -122,11 +122,8 @@
     </contour>
     <contour>
       <point x="999" y="793" type="curve" smooth="yes"/>
-      <point x="999" y="702"/>
-      <point x="936" y="600"/>
-      <point x="836" y="588" type="curve"/>
-      <point x="830" y="587"/>
-      <point x="824" y="586"/>
+      <point x="999" y="694"/>
+      <point x="924" y="586"/>
       <point x="818" y="586" type="curve" smooth="yes"/>
       <point x="812" y="586"/>
       <point x="805" y="587"/>
