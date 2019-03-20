@@ -10,7 +10,7 @@
       <point x="-667" y="1931" type="curve" smooth="yes"/>
       <point x="-725" y="1931"/>
       <point x="-745" y="1911"/>
-      <point x="-776" y="1876" type="curve"/>
+      <point x="-776" y="1876" type="curve" smooth="yes"/>
       <point x="-1048" y="1558" type="line"/>
       <point x="-932" y="1558" type="line"/>
       <point x="-620" y="1757" type="line"/>

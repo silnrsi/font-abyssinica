@@ -38,7 +38,7 @@
       <point x="80" y="969" type="line" smooth="yes"/>
       <point x="79" y="945"/>
       <point x="82" y="927"/>
-      <point x="94" y="915" type="curve" smooth="yes"/>
+      <point x="94" y="915" type="curve"/>
       <point x="103" y="907"/>
       <point x="116" y="902"/>
       <point x="136" y="902" type="curve" smooth="yes"/>
