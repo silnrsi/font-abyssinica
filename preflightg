@@ -3,4 +3,7 @@
 # Produce individual UFOs from Glyphs files
 psfglyphs2ufo source/AbyssinicaSIL.glyphs source -l source/logs/glyphs2ufo.log
 
+ # Fix problem with non-spacing marks due to glyphsLib bug
+psfremovegliflibkeys source/AbyssinicaSIL-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfix.log
+
 ./preflight
