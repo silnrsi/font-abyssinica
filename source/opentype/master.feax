@@ -1,0 +1,544 @@
+#
+# Hand-crafted FEA code
+#
+languagesystem DFLT dflt;
+languagesystem ethi dflt;
+
+
+#********************
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g 
+      U' lookup FontCheck_Unknow 
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'  
+      o' lookup FontCheck_Unknow 
+      w' lookup FontCheck_Unknow 
+      n' lookup FontCheck_n;
+} FontCheck;
+
+
+lookup PairKerning {
+
+	pos uni1202 uni1265 -113 ;
+	pos uni1202 uni130A -113 ;
+	pos uni1202 uni130D  -85 ;
+	pos uni1202 uni121A -135 ;
+	pos uni1202 uni131B -100 ;
+	pos uni1202 uni12D2 -135 ;
+	pos uni1202 uni12D4 -113 ;
+	pos uni1202 uni1275  -95 ;
+	pos uni1202 uni1285 -135 ;
+
+	pos uni1206 uni2D85  -85 ;
+	pos uni1206 uni1348 -125 ;
+	pos uni1206 uniE34F -185 ;
+	pos uni1206 uni130B -125 ;
+	pos uni1206 uni1207  -39 ;
+	pos uni1206 uni1212 -125 ;
+	pos uni1206 uni1243 -120 ;
+	pos uni1206 uni1228 -125 ;
+	pos uni1206 uni1225 -185 ;
+	pos uni1206 uni2D8F -200 ;
+	pos uni1206 uni12ED  -85 ;
+	pos uni1206 uni2D8B  -85 ;
+
+	pos uni1207 uniE34F -155 ;
+	pos uni1207 uni130B  -85 ;
+	pos uni1207 uni1212 -155 ;
+	pos uni1207 uni1213  -65 ;
+	pos uni1207 uni1208  -49 ;
+	pos uni1207 uni1243 -100 ;
+	pos uni1207 uni1251  -55 ;
+	pos uni1207 uni1228  -85 ;
+	pos uni1207 uni1225 -185 ;
+	pos uni1207 uni2D8F -155 ;
+	pos uni1207 uni2D8B  -85 ;
+
+	pos uni1208 uni12B8 -113 ;
+	pos uni1208 uni12BD -131 ;
+	
+	pos uni1209 uni12F0  -85 ;
+	pos uni1209 uni130B -113 ;
+	pos uni1209 uni1243 -163 ;
+	pos uni1209 uni1225 -165 ;
+	
+	pos uni120A uni1265 -184 ;
+	pos uni120A uni127D -125 ;
+	pos uni120A uni132D -125 ;
+	pos uni120A uni134B  -85 ;
+	pos uni120A uni1308 -150 ;
+	pos uni120A uni130A -113 ;
+	pos uni120A uni130D -170 ;
+	pos uni120A uni12B8 -213 ;
+	pos uni120A uni12B9 -250 ;
+	pos uni120A uni12BA -250 ;
+	pos uni120A uni12BB -250 ;
+	pos uni120A uni12BD -213 ;
+	pos uni120A uni12BE -219 ;
+	pos uni120A uni121A -150 ;
+	pos uni120A uni121B  -85 ;
+	pos uni120A uni121E  -65 ;
+	pos uni120A uni1293 -185 ;
+	pos uni120A uni1295 -185 ;
+	pos uni120A uni1296 -245 ;
+	pos uni120A uni12D2 -250 ;
+	pos uni120A uni12D4 -250 ;
+	pos uni120A uni1240 -184 ;
+	pos uni120A uni1245 -135 ;
+	pos uni120A uni1251 -184 ;
+	pos uni120A uni125A -125 ;
+	pos uni120A uni1233 -163 ; 
+	pos uni120A uni123D -100 ;
+	pos uni120A uni1275 -135 ;
+	pos uni120A uni1285 -185 ;
+	
+	pos uni120C uni130D  -65 ;
+	pos uni120C uni12B8 -150 ;
+	pos uni120C uni12B9  -85 ;
+	pos uni120C uni12BA -200 ;
+	pos uni120C uni12BB -219 ;
+	pos uni120C uni12BD -150 ;
+	pos uni120C uni12BE  -85 ;
+	pos uni120C uni1295  -85 ;
+	pos uni120C uni12D2 -125 ;
+	pos uni120C uni12D4 -125 ;
+	pos uni120C uni123D -150 ;
+	
+	pos uni120D uni1308  -85 ;
+	pos uni120D uni130A -113 ;
+	pos uni120D uni130D  -85 ;
+	pos uni120D uni12B8 -185 ;
+	pos uni120D uni12B9 -185 ;
+	pos uni120D uni12BA -185 ;
+	pos uni120D uni12BB -185 ;
+	pos uni120D uni12BD -185 ;
+	pos uni120D uni12BE -185 ;
+	pos uni120D uni121A -113 ;
+	pos uni120D uni121B -125 ;
+	pos uni120D uni1295 -156 ;
+	pos uni120D uni12D2 -125 ;
+	pos uni120D uni12D4  -85 ;
+	pos uni120D uni123D  -85 ;
+	pos uni120D uni1285 -119 ;
+	pos uni120D uni12E9  -85 ;
+
+	pos uni1212 uni134B -150 ;
+	pos uni1212 uni1308 -150 ;
+	pos uni1212 uni130A -160 ;
+	pos uni1212 uni130D -155 ;
+	pos uni1212 uni1202 -125 ;
+	pos uni1212 uni12B8 -185 ;
+	pos uni1212 uni12B9 -185 ;
+	pos uni1212 uni12BA -185 ;
+	pos uni1212 uni12BB -250 ;
+	pos uni1212 uni12BD -185 ;
+	pos uni1212 uni12BE -185 ;
+	pos uni1212 uni121E -150 ;
+	pos uni1212 uni1293 -155 ;
+	pos uni1212 uni1295 -150 ;
+	pos uni1212 uni1296 -165 ;
+	pos uni1212 uni12D2 -150 ;
+	pos uni1212 uni12D4 -150 ;
+	pos uni1212 uni1233  -85 ;
+	pos uni1212 uni123D -155 ;
+	pos uni1212 uni1285 -125 ;
+	
+	pos uni1218 uni1295  -85 ;
+	pos uni1218 uni12F5  -85 ;
+	pos uni1218 uni130B -163 ;
+	pos uni1218 uni1212 -125 ;
+	pos uni1218 uni1243 -125 ;
+	pos uni1218 uni1228  -82 ;
+	pos uni1218 uni1225 -144 ;
+
+	pos uni121A uni1275 -113 ;
+	pos uni121A uni12DB  -85 ;
+	
+	pos uni121B uni120D  -25 ;
+	pos uni121B uni1225 -155 ;
+	
+	pos uni121C uni1295  -85 ;
+	
+	pos uni121D uni2D85  -85 ;
+	pos uni121D uni12F0  -85 ;
+	pos uni121D uni12F5  -85 ;
+	pos uni121D uni12F6 -100 ;
+	pos uni121D uni1348 -180 ;
+	pos uni121D uniE34F -156 ;
+	pos uni121D uni130B -185 ;
+	pos uni121D uni1212 -250 ;
+	pos uni121D uni1213 -156 ;
+	pos uni121D uni1208  -57 ;
+	pos uni121D uni120D  -85 ;
+	pos uni121D uni1243 -125 ;
+	pos uni121D uni1228 -184 ;
+	pos uni121D uni122A -135 ;
+	pos uni121D uni122B -185 ;
+	pos uni121D uni1225 -213 ;
+	pos uni121D uni1273 -143 ;
+	pos uni121D uni1320 -113 ;
+	pos uni121D uni2D8F -185 ;
+	pos uni121D uni12EB -127 ;
+	pos uni121D uni2D8B  -65 ;
+
+	pos uni121E uni1273 -100 ;
+	
+	pos uni1224 uni12D4 -160 ;
+	
+	pos uni1225 uni1348 -146 ;
+	pos uni1225 uni130B -150 ;
+	pos uni1225 uni1218  -50 ;
+	pos uni1225 uni1228 -168 ;
+	pos uni1225 uni122B -133 ;
+	pos uni1225 uni1322  -67 ;
+
+	pos uni1228 uni1203  -25 ;
+	pos uni1228 uni1218  -44 ;
+
+	pos uni1229 uni130A  -67 ;
+
+	pos uni122B uni12BD -167 ;
+	pos uni122B uni1295 -113 ;
+	pos uni122B uni12ED  -85 ;
+
+	pos uni1232 uni134D  -11 ;
+	pos uni1232 uni12B9 -200 ;
+	pos uni1232 uni1293 -135 ;
+	pos uni1232 uni12D2  -21 ;
+	pos uni1232 uni12D4  -23 ;
+	pos uni1232 uni1245  -11 ;
+	pos uni1232 uni1275  -11 ;
+	pos uni1232 uni1325  -11 ;
+
+	pos uni1238 uni1218 -113 ;
+
+	pos uni123A uni134D -113 ;
+	pos uni123A uni1293 -113 ;
+	pos uni123A uni12D2 -167 ;
+	pos uni123A uni1245  -85 ;
+	pos uni123A uni1275 -113 ;
+	pos uni123A uni1325 -113 ;
+
+	pos uni1240 uni1228  -85 ;
+	
+	pos uni1243 uni12EB -125 ;
+	
+	pos uni125A uni12B9 -107 ;
+
+	pos uni1261 uni1243 -150 ;
+
+	pos uni1262 uni134D -113 ;
+	pos uni1262 uni12D2 -227 ;
+	pos uni1262 uni1270 -113 ;
+	pos uni1262 uni1271 -113 ;
+	pos uni1262 uni1272 -113 ;
+	pos uni1262 uni1274 -113 ;
+	pos uni1262 uni1275 -184 ;
+	pos uni1262 uni1276 -113 ;
+	pos uni1262 uni1325 -113 ;
+
+	pos uni1264 uni12D4 -140 ;
+	pos uni1264 uni1275  -85 ;
+	
+	pos uni126A uni1293 -113 ;
+	pos uni126A uni1245 -113 ;
+	pos uni126A uni1275 -113 ;
+	pos uni126A uni1325 -113 ;
+
+	pos uni1273 uni12F0  -73 ;
+	pos uni1273 uni12A1  -40 ;
+	pos uni1273 uni1225 -114 ;
+
+	pos uni1275 uni12B9 -127 ;
+
+	pos uni1287.alt3 uni2D8F -59 ;
+	
+	pos uni128B uni120B  -25 ;
+
+	pos uni1292 uni123B  -85 ;
+	pos uni1292 uni1275  -85 ;
+
+	pos uni1293 uni12A2  -27 ;
+
+	pos uni1295 uni12A1  -47 ;
+	pos uni1295 uni122B  -33 ;
+
+	pos uni1296 uni12A2  -36 ;
+	pos uni1296 uni120A -106 ;
+
+	pos uni129B uni1273 -113 ;
+
+	pos uni12A1 uni12B8 -200 ;
+	pos uni12A1 uni12BB -200 ;
+	pos uni12A1 uni12BD -213 ;
+	pos uni12A1 uni1295 -160 ;
+
+	pos uni12A2 uni12B8 -193 ;
+	pos uni12A2 uni12B9 -180 ;
+	pos uni12A2 uni12BD -213 ;
+	pos uni12A2 uni12BE -220 ;
+	pos uni12A2 uni1293 -187 ;
+	pos uni12A2 uni1296 -187 ;
+	pos uni12A2 uni12D2 -247 ;
+	pos uni12A2 uni12D4 -247 ;
+	
+	pos uni12A3 uni12B8 -173 ;
+	pos uni12A3 uni12B9 -153 ;
+	pos uni12A3 uni12BA -147 ;
+	pos uni12A3 uni12BB -200 ;
+	pos uni12A3 uni12BD -187 ;
+	pos uni12A3 uni12BE -147 ;
+
+	pos uni12A5 uni130D -124 ;
+	pos uni12A5 uni12BD -173 ;
+	pos uni12A5 uni1295  -85 ;
+	pos uni12A5 uni123D -153 ;
+
+	pos uni12A9 uni12B9 -150 ;
+
+	pos uni12AA uni127D -113 ;
+	pos uni12AA uni132D -135 ;
+	pos uni12AA uni1293 -135 ;
+	pos uni12AA uni1295 -160 ;
+	pos uni12AA uni1270 -113 ;
+	pos uni12AA uni1271 -113 ;
+	pos uni12AA uni1272 -113 ;
+	pos uni12AA uni1274 -113 ;
+	pos uni12AA uni1275 -113 ;
+	pos uni12AA uni1276 -113 ;
+	pos uni12AA uni1325 -113 ;
+	pos uni12AA uni12CA -113 ;
+
+	pos uni12B9 uni12F0 -113 ;
+	pos uni12B9 uni12A2  -33 ;
+	pos uni12B9 uni12A3  -26 ;
+	
+	pos uni12BA uni1275 -113 ;
+	
+	pos uni12BE uni12A2  -20 ;
+	
+	pos uni12C9 uni12BB -146 ;
+	pos uni12C9 uni1295 -143 ;
+	
+	pos uni12CB uni12EB  -85 ;
+	
+	pos uni12CD uni1243  -94 ;
+	pos uni12CD uni12EB -107 ;
+	
+	pos uni12D2 uni123D -106 ;
+	
+	pos uni12DA uni12B8 -150 ;
+	
+	pos uni12E8 uni1348 -120 ;
+	
+	pos uni12EB uni12F6  -93 ;
+	
+	pos uni12F0 uni1275  -85 ;
+	
+	pos uni12F5 uni1212 -163 ;
+
+	pos uni1309 uni1225  -85 ;
+	
+	pos uni130A uni12D2 -207 ;
+	pos uni130A uni1229 -113 ;
+	pos uni130A uni1275 -113 ;
+	
+	pos uni130B uni121D   31 ;
+	pos uni130B uni1225  -73 ;
+	
+	pos uni1322 uni134B -205 ;
+	pos uni1322 uni1295 -180 ;
+	pos uni1322 uni12D2 -245 ;
+	pos uni1322 uni1275 -113 ;
+
+	pos uni1328 uni1252  -47 ;
+	
+	pos uni132A uni1275 -113 ;
+	
+	pos uni133D uni1213 -143 ;
+	
+	pos uni1347 uniE34F -117 ;
+	
+	pos uni1348 uni121E  -93 ;
+	
+	pos uni1356 uni1328 -143 ;
+	pos uni1356 uni1228 -193 ;
+	
+	pos uni2D84 uni1247  -39 ;
+	
+	pos uniAB02 uni12B9 -200 ;
+	pos uniAB02 uni12D2 -213 ;
+	pos uniAB02 uni12D4 -233 ;
+	
+	pos uniAB04 uni12D4 -160 ;
+	
+	pos uniAB12 uni12B8 -150 ;
+	
+	pos uniE257 uni2D85  -49 ;
+	
+	pos uniE2A9 uni12B9 -150 ;
+	
+	pos uniE2AA uni1295 -160 ;
+	
+	pos uniE2D7 uni2D8B  -59 ;
+
+
+} PairKerning;
+
+
+#********************
+# GSUB features     *
+#********************
+
+feature ccmp {  # Glyph Composition/Decomposition
+    lookup FontCheck;
+} ccmp;
+
+feature cv01 {  # Punctuation
+		sub @cno_punct by @c_punct ;
+} cv01;
+
+feature cv04 {  # Mwa alternates
+    sub uni121F from [ uni121F.cohen1 uni121F.cohen2 ] ;
+} cv04;
+
+feature cv05 {  # Rwa alternate
+    sub @cno_cohen3 by @c_cohen3;
+} cv05;
+
+feature cv17 {  # Xoa alternates
+		sub @cno_alt3 by @c_alt3;
+} cv17;
+
+feature cv18 {  # Xwa alternates
+		sub @cno_handwriting by @c_handwriting;
+} cv18;
+
+feature cv19 {  # Nwa alternates
+		sub @cno_cohen0 by @c_cohen0;
+} cv19;
+
+feature cv20 {  # Nya alternates
+		sub @cno_gumuz by @c_gumuz;
+} cv20;
+
+feature cv21 {  # Nywa alternates
+		sub uni129F from [ uni129F.gumuz1 uni129F.cohen8 ] ;
+} cv21;
+
+feature cv26 {  # Kxwaa alternate
+		sub @cno_cohen7 by @c_cohen7 ;
+} cv26;
+
+@c_cv31 =        [ uni12E0        uni12E1        uni12E3        uni12E4        uni12E5        uni12E6.cohen6 ];
+@c_cv31_cohen6 = [ uni12E0.cohen6 uni12E1.cohen6 uni12E3.cohen6 uni12E4.cohen6 uni12E5.cohen6 uni12E6.cohen6 ];
+@c_cv31_chaine = [ uni12E0.chaine uni12E1.chaine uni12E3.chaine uni12E4.chaine uni12E5.chaine uni12E6.chaine ];
+
+feature cv31 {  # Zha alternates
+		sub @c_cv31 from [ @c_cv31_cohen6 @c_cv31_chaine ] ;
+} cv31;
+
+feature cv32 {  # Dda alternates
+		sub @cno_oromo by @c_oromo ;
+} cv32;
+
+feature cv40 {  # Gwaa alternates
+		sub uni1313 from [ uni1313.seb0 uni1313.alonestokes ] ;
+} cv40;
+
+feature cv41 {  # Gga alternates
+		sub @cno_alt1 by @c_alt1 ;
+} cv41;
+
+feature cv42 {  # Ggwaa alternate
+		sub @cno_type by @c_type ;
+} cv42;
+
+feature cv45 {  # Phe alternate
+		sub @cno_praetorius by @c_praetorius ;
+} cv45;
+
+feature cv46 {  # Tswa alternate
+		sub @cno_oldstyle by @c_oldstyle ;
+} cv46;
+
+feature cv48 {  # Fwa alternate
+		sub uni134F from [ uni134F.cohen4 uni134F.cohen5 ] ;
+} cv48;
+
+feature cv49 {  # Rya alternate
+		sub @cno_ala1 by @c_ala1 ;
+} cv49;
+
+feature cv50 {  # Mya alternate
+		sub @cno_ala2 by @c_ala2 ;
+} cv50;
+
+feature cv60 {  # Mwi alternates
+		sub uni1381 from [ uni1381.seb5 uni1381.sebLes1 ] ;
+} cv60;
+
+feature cv61 {  # Mwe alternates
+		sub uni1383 from [ uni1383.seb4 uni1383.sebLes4 ] ;
+} cv61;
+
+feature cv62 {  # Bwe alternate
+		sub @cno_sebLes2 by @c_sebLes2 ;
+} cv62;
+
+feature cv63 {  # Fwee alternate
+		sub @cno_trad by @c_trad ;
+} cv63;
+
+feature cv64 {  # Fwe alternate
+		sub @cno_sebLes3 by @c_sebLes3 ;
+} cv64;
+
+feature cv65 {  # Pwe alternate
+		sub @cno_sebLes5 by @c_sebLes5 ;
+} cv65;
+
+feature cv70 {  # Ggwa alternate
+		sub @cno_blin by @c_blin ;
+} cv70;
+
+feature cv80 {  # 3rd-form alternates
+		sub @cno_seb3 by @c_seb3 ;
+} cv80;
+
+feature cv85 {  # 6th-form alternates
+		sub @cno_seb2 by @c_seb2 ;
+} cv85;
+
+
+
+#********************
+# GPOS features     *
+#********************
+
+feature kern {
+		lookup PairKerning;
+
+	script ethi;
+} kern;
+
+#feature smcp { 
+#} smcp;
+
+

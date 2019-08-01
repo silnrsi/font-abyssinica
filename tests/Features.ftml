@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='featchart.xsl'?>
+<ftml version='1.0'>
+	<head>
+  	<fontscale>300</fontscale>
+  	<fontsrc>url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  	<fontsrc>local("Abyssinica SIL")</fontsrc>
+  	<styles>
+  		<style feats=" 'cv01' 1" name="fset_punct_1" />    <!-- punctuation: Latin -->
+  		<style feats=" 'cv04' 1" name="fset_mwa_1" />      <!-- mwa alternates: cohen1 -->
+  		<style feats=" 'cv04' 2" name="fset_mwa_2" />      <!-- mwa alternates: cohen2 -->
+  		<style feats=" 'cv05' 1" name="fset_rwa_1" />      <!-- rwa alternates: cohen3 -->
+  		<style feats=" 'cv17' 1" name="fset_xoa_1" />      <!-- xoa alternates: alt3 -->
+  		<style feats=" 'cv18' 1" name="fset_xwa_1" />      <!-- xwa alternates: handwriting -->
+  		<style feats=" 'cv19' 1" name="fset_nwa_1" />      <!-- nwa alternates: cohen0 -->
+  		<style feats=" 'cv20' 1" name="fset_nya_1" />      <!-- nya alternates: gumuz -->
+  		<style feats=" 'cv21' 1" name="fset_nywa_1" />     <!-- nywa alternates: gumuz1 -->
+  		<style feats=" 'cv21' 2" name="fset_nywa_2" />     <!-- nywa alternates: cohen8 -->
+  		<style feats=" 'cv26' 1" name="fset_kxwaa_1" />    <!-- kxwaa alternates: cohen7 -->
+  		<style feats=" 'cv31' 1" name="fset_zha_1" />      <!-- zha alternates: cohen6 -->
+  		<style feats=" 'cv31' 2" name="fset_zha_2" />      <!-- zha alternates: chaine -->
+  		<style feats=" 'cv32' 1" name="fset_dda_1" />      <!-- dda alternates: oromo -->
+  		<style feats=" 'cv40' 1" name="fset_gwaa_1" />     <!-- gwaa alternates: seb0 -->
+  		<style feats=" 'cv40' 2" name="fset_gwaa_2" />     <!-- gwaa alternates: alonestokes -->
+  		<style feats=" 'cv41' 1" name="fset_gga_1" />      <!-- gga alternates: alt1 -->
+  		<style feats=" 'cv42' 1" name="fset_ggwaa_1" />    <!-- ggwaa alternates: type -->
+  		<style feats=" 'cv45' 1" name="fset_phe_1" />      <!-- phe alternates: praetorius -->
+  		<style feats=" 'cv46' 1" name="fset_tswa_1" />     <!-- tswa alternates: oldstyle -->
+  		<style feats=" 'cv48' 1" name="fset_fwa_1" />      <!-- fwa alternates: cohen4 -->
+  		<style feats=" 'cv48' 2" name="fset_fwa_2" />      <!-- fwa alternates: cohen5 -->
+  		<style feats=" 'cv49' 1" name="fset_rya_1" />      <!-- rya alternates: ala1 -->
+  		<style feats=" 'cv50' 1" name="fset_mya_1" />      <!-- mya alternates: ala2 -->
+  		<style feats=" 'cv60' 1" name="fset_mwi_1" />      <!-- mwi alternates: seb5 -->
+  		<style feats=" 'cv60' 2" name="fset_mwi_2" />      <!-- mwi alternates: sebLes1 -->
+  		<style feats=" 'cv61' 1" name="fset_mwe_1" />      <!-- mwe alternates: seb4 -->
+  		<style feats=" 'cv61' 2" name="fset_mwe_2" />      <!-- mwe alternates: sebLes4 -->
+  		<style feats=" 'cv62' 1" name="fset_bwe_1" />      <!-- bwe alternates: sebLes2 -->
+  		<style feats=" 'cv63' 1" name="fset_fwee_1" />     <!-- fwee alternates: trad -->
+  		<style feats=" 'cv64' 1" name="fset_fwe_1" />      <!-- fwe alternates: sebLes3 -->
+  		<style feats=" 'cv65' 1" name="fset_pwe_1" />      <!-- pwe alternates: sebLes5 -->
+  		<style feats=" 'cv70' 1" name="fset_gwaa_1" />     <!-- pwe alternates: blin -->
+  		<style feats=" 'cv80' 1" name="fset_3rdform_1" />  <!-- 3rd form alternates: seb3 -->
+  		<style feats=" 'cv85' 1" name="fset_6thform_1" />  <!-- 6th form alternates: seb2 -->
+
+  	</styles>
+  	<title>Feature tests</title>
+  </head>
+
+  <testgroup label='Rendering check'>
+ 		<test label='Check'><string>RenderingUnknown</string></test>
+ 	</testgroup>
+ 		
+	<testgroup label="Features">
+
+		<testgroup label='Punctuation'>
+  		<test>                         <string>\u003F \u0021 \u00A1</string></test>
+  		<test stylename="fset_punct_1"><string>\u003F \u0021 \u00A1</string></test>
+  	</testgroup>
+  	<testgroup label='Puncutation - Digits'>
+  		<test>                         <string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
+  		<test stylename="fset_punct_1"><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
+  	</testgroup>
+  	<testgroup label='Puncutation - Superior Digits'>
+  		<test>                         <string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
+  		<test stylename="fset_punct_1"><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
+  	</testgroup>
+		<testgroup label='Punctuation - quotes'>
+  		<test>                         <string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
+  		<test stylename="fset_punct_1"><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
+  	</testgroup>
+		<testgroup label='Punctuation - symbols'>
+  		<test>                         <string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
+  		<test stylename="fset_punct_1"><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
+  	</testgroup>
+
+  	<testgroup label='mwa alternates'>
+  		<test>                       <string>\u121F</string></test>
+  		<test stylename="fset_mwa_1"><string>\u121F</string></test>
+  		<test stylename="fset_mwa_2"><string>\u121F</string></test>
+  	</testgroup>
+  	<testgroup label='rwa alternates'>
+  		<test>                       <string>\u122F</string></test>
+  		<test stylename="fset_rwa_1"><string>\u122F</string></test>
+  	</testgroup>
+  	<testgroup label='xoa alternates'>
+  		<test>                       <string>\u1287</string></test>
+  		<test stylename="fset_xoa_1"><string>\u1287</string></test>
+  	</testgroup>
+  	<testgroup label='xwa alternates'>
+  		<test>                       <string>\u1288 \u128A \u128B \u128C \u128D</string></test>
+  		<test stylename="fset_xwa_1"><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
+  	</testgroup>
+  	<testgroup label='nwa alternates'>
+  		<test>                       <string>\u1297</string></test>
+  		<test stylename="fset_nwa_1"><string>\u1297</string></test>
+  	</testgroup>
+  	<testgroup label='nya alternates'>
+  		<test>                       <string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test stylename="fset_nya_1"><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  	</testgroup>
+  	<testgroup label='nywa alternates'>
+  		<test>                        <string>\u129F</string></test>
+  		<test stylename="fset_nywa_1"><string>\u129F</string></test>
+  		<test stylename="fset_nywa_2"><string>\u129F</string></test>
+  	</testgroup>
+  	<testgroup label='kxwaa alternates'>
+  		<test>                         <string>\u12C3</string></test>
+  		<test stylename="fset_kxwaa_1"><string>\u12C3</string></test>
+  	</testgroup>
+  	<testgroup label='zha alternates'>
+  		<test>                       <string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test stylename="fset_zha_1"><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test stylename="fset_zha_2"><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  	</testgroup>
+  	<testgroup label='dda alternates'>
+  		<test>                       <string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
+  		<test stylename="fset_dda_1"><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
+  	</testgroup>
+  	<testgroup label='gwaa alternates'>
+  		<test>                        <string>\u1313</string></test>
+  		<test stylename="fset_gwaa_1"><string>\u1313</string></test>
+  		<test stylename="fset_gwaa_2"><string>\u1313</string></test>
+  	</testgroup>
+  	<testgroup label='gga alternates'>
+  		<test>                       <string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  		<test stylename="fset_gga_1"><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  	</testgroup>
+		<testgroup label='ggwaa alternates'>
+  		<test>                         <string>\u131F</string></test>
+  		<test stylename="fset_ggwaa_1"><string>\u131F</string></test>
+  	</testgroup>
+		<testgroup label='phe alternates'>
+  		<test>                       <string>\u1335</string></test>
+  		<test stylename="fset_phe_1"><string>\u1335</string></test>
+  	</testgroup>
+		<testgroup label='tswa alternates'>
+  		<test>                        <string>\u133F</string></test>
+  		<test stylename="fset_tswa_1"><string>\u133F</string></test>
+  	</testgroup>
+		<testgroup label='fwa alternates'>
+  		<test>                       <string>\u134F</string></test>
+  		<test stylename="fset_fwa_1"><string>\u134F</string></test>
+  		<test stylename="fset_fwa_2"><string>\u134F</string></test>
+  	</testgroup>
+  	<testgroup label='rya alternates'>
+  		<test>                       <string>\u1358</string></test>
+  		<test stylename="fset_rya_1"><string>\u1358</string></test>
+  	</testgroup>
+  	<testgroup label='mya alternates'>
+  		<test>                       <string>\u1359</string></test>
+  		<test stylename="fset_mya_1"><string>\u1359</string></test>
+  	</testgroup>
+  	<testgroup label='mwi alternates'>
+  		<test>                       <string>\u1381</string></test>
+  		<test stylename="fset_mwi_1"><string>\u1381</string></test>
+  		<test stylename="fset_mwi_2"><string>\u1381</string></test>
+  	</testgroup>
+  	<testgroup label='mwe alternates'>
+  		<test>                       <string>\u1383</string></test>
+  		<test stylename="fset_mwe_1"><string>\u1383</string></test>
+  		<test stylename="fset_mwe_2"><string>\u1383</string></test>
+  	</testgroup>
+  	<testgroup label='bwe alternates'>
+  		<test>                       <string>\u1387</string></test>
+  		<test stylename="fset_bwe_1"><string>\u1387</string></test>
+  	</testgroup>
+  	<testgroup label='fwee alternates'>
+  		<test>                        <string>\u138A</string></test>
+  		<test stylename="fset_fwee_1"><string>\u138A</string></test>
+  	</testgroup>
+  	<testgroup label='fwe alternates'>
+  		<test>                       <string>\u138B</string></test>
+  		<test stylename="fset_fwe_1"><string>\u138B</string></test>
+  	</testgroup>
+  	<testgroup label='pwe alternates'>
+  		<test>                       <string>\u138F</string></test>
+  		<test stylename="fset_pwe_1"><string>\u138F</string></test>
+  	</testgroup>
+  	<testgroup label='gwaa alternates'>
+  		<test>                        <string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  		<test stylename="fset_gwaa_1"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  	</testgroup>
+  	<testgroup label='3rd form alternates'>
+  		<test>                           <string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
+  		<test stylename="fset_3rdform_1"><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
+  	</testgroup>
+  	<testgroup label='6th form alternates'>
+  		<test>                           <string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  		<test stylename="fset_6thform_1"><string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  	</testgroup>
+
+
+  </testgroup>
+</ftml>
+
