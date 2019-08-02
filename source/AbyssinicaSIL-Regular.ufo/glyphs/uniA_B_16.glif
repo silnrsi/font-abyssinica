@@ -2,7 +2,6 @@
 <glyph name="uniAB16" format="2">
   <advance width="1156"/>
   <unicode hex="AB16"/>
-  <unicode hex="E2DE"/>
   <anchor x="605" y="1596" name="U"/>
   <outline>
     <contour>

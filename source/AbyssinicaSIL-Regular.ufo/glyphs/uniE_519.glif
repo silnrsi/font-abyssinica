@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniE519" format="2">
   <advance width="2"/>
-  <unicode hex="E519"/>
   <outline>
     <contour>
       <point x="105" y="1465" type="curve"/>
