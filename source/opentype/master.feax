@@ -3,10 +3,13 @@
 #
 languagesystem DFLT dflt;
 languagesystem ethi dflt;
+languagesystem ethi CHG;
+languagesystem ethi BIL;
+languagesystem ethi GMZ;
 
 
 
-#********************
+#**********************
 # Font rendering check
 #
 # The following three lookups change "RenderingUnknown" to "RenderingOpenType"
@@ -34,6 +37,37 @@ lookup FontCheck {
 } FontCheck;
 
 
+#**********************
+# Substitution lookups
+#
+
+# These are alternatives that are default for some languages, so we create named lookups.
+
+lookup Cv20_nya  {    # Nya alternates
+		sub @cno_gumuz by @c_gumuz ;
+} Cv20_nya;
+
+lookup Cv40_gwaa {    # Gwaa alternates
+		sub uni1313 by uni1313.seb0 ;
+} Cv40_gwaa;
+
+lookup Cv41_gga {     # Gga alternates
+		sub @cno_alt1 by @c_alt1 ;
+} Cv41_gga;
+
+lookup Cv42_ggwaa {   # Ggwaa alternate
+		sub @cno_type by @c_type ;
+} Cv42_ggwaa;
+
+lookup Cv70_ggwa {    # Ggwa alternate
+		sub @cno_blin by @c_blin ;
+} Cv70_ggwa;
+
+
+#**********************
+# Positioning lookups
+#
+
 lookup PairKerning {
 	pos O O -200 ;
 
@@ -49,7 +83,6 @@ lookup PairKerning {
 
 	pos uni1206 uni2D85  -85 ;
 	pos uni1206 uni1348 -125 ;
-	pos uni1206 uniE34F -185 ;
 	pos uni1206 uni130B -125 ;
 	pos uni1206 uni1207  -39 ;
 	pos uni1206 uni1212 -125 ;
@@ -60,7 +93,6 @@ lookup PairKerning {
 	pos uni1206 uni12ED  -85 ;
 	pos uni1206 uni2D8B  -85 ;
 
-	pos uni1207 uniE34F -155 ;
 	pos uni1207 uni130B  -85 ;
 	pos uni1207 uni1212 -155 ;
 	pos uni1207 uni1213  -65 ;
@@ -182,7 +214,6 @@ lookup PairKerning {
 	pos uni121D uni12F5  -85 ;
 	pos uni121D uni12F6 -100 ;
 	pos uni121D uni1348 -180 ;
-	pos uni121D uniE34F -156 ;
 	pos uni121D uni130B -185 ;
 	pos uni121D uni1212 -250 ;
 	pos uni121D uni1213 -156 ;
@@ -375,8 +406,6 @@ lookup PairKerning {
 	
 	pos uni133D uni1213 -143 ;
 	
-	pos uni1347 uniE34F -117 ;
-	
 	pos uni1348 uni121E  -93 ;
 	
 	pos uni1356 uni1328 -143 ;
@@ -391,15 +420,6 @@ lookup PairKerning {
 	pos uniAB04 uni12D4 -160 ;
 	
 	pos uniAB12 uni12B8 -150 ;
-	
-	pos uniE257 uni2D85  -49 ;
-	
-	pos uniE2A9 uni12B9 -150 ;
-	
-	pos uniE2AA uni1295 -160 ;
-	
-	pos uniE2D7 uni2D8B  -59 ;
-
 
 } PairKerning;
 
@@ -415,6 +435,21 @@ lookup AttachMarks {
 #********************
 # GSUB features     *
 #********************
+
+feature locl {  # Localized forms
+
+	script ethi;
+		language CHG;         #sgw
+			lookup Cv40_gwaa;
+		language BIL;         #byn
+		  lookup Cv41_gga;
+		  lookup Cv42_ggwaa;
+		  lookup Cv70_ggwa;
+		language GMZ;         #guk
+			lookup Cv20_nya;
+
+} locl;
+
 
 feature ccmp {  # Glyph Composition/Decomposition
     lookup FontCheck;
@@ -445,7 +480,7 @@ feature cv19 {  # Nwa alternates
 } cv19;
 
 feature cv20 {  # Nya alternates
-		sub @cno_gumuz by @c_gumuz;
+		lookup Cv20_nya;  # default for GMZ
 } cv20;
 
 feature cv21 {  # Nywa alternates
@@ -469,15 +504,15 @@ feature cv32 {  # Dda alternates
 } cv32;
 
 feature cv40 {  # Gwaa alternates
-		sub uni1313 from [ uni1313.seb0 uni1313.alonestokes ] ;
+		lookup Cv40_gwaa;   # default for CHG
 } cv40;
 
 feature cv41 {  # Gga alternates
-		sub @cno_alt1 by @c_alt1 ;
+		lookup Cv41_gga;   # default for BIL
 } cv41;
 
 feature cv42 {  # Ggwaa alternate
-		sub @cno_type by @c_type ;
+		lookup Cv42_ggwaa;
 } cv42;
 
 feature cv45 {  # Phe alternate
@@ -525,7 +560,7 @@ feature cv65 {  # Pwe alternate
 } cv65;
 
 feature cv70 {  # Ggwa alternate
-		sub @cno_blin by @c_blin ;
+		lookup Cv70_ggwa;
 } cv70;
 
 feature cv80 {  # 3rd-form alternates
@@ -544,15 +579,9 @@ feature cv85 {  # 6th-form alternates
 
 feature kern {
 	lookup PairKerning;
-
-	script ethi;
 } kern;
 
 feature mark {
 	lookup AttachMarks;
 } mark;
-
-#feature smcp { 
-#} smcp;
-
 

@@ -38,9 +38,14 @@
   		<style feats=" 'cv63' 1" name="fset_fwee_1" />     <!-- fwee alternates: trad -->
   		<style feats=" 'cv64' 1" name="fset_fwe_1" />      <!-- fwe alternates: sebLes3 -->
   		<style feats=" 'cv65' 1" name="fset_pwe_1" />      <!-- pwe alternates: sebLes5 -->
-  		<style feats=" 'cv70' 1" name="fset_gwaa_1" />     <!-- pwe alternates: blin -->
+  		<style feats=" 'cv70' 1" name="fset_ggwa_1" />     <!-- ggwa alternates: blin -->
   		<style feats=" 'cv80' 1" name="fset_3rdform_1" />  <!-- 3rd form alternates: seb3 -->
   		<style feats=" 'cv85' 1" name="fset_6thform_1" />  <!-- 6th form alternates: seb2 -->
+      <style lang="CHG" name="lang_Chg" />               <!-- sgw -->
+      <style lang="BIL" name="lang_Bil" />               <!-- byn -->
+      <style lang="GMZ" name="lang_Gmz" />               <!-- guk -->
+      
+      <style feats=" 'locl' 1" name="turn_on_locl" />
 
   	</styles>
   	<title>Feature tests</title>
@@ -50,6 +55,31 @@
  		<test label='Check'><string>RenderingUnknown</string></test>
  	</testgroup>
  		
+	<testgroup label="Languages">
+
+		<testgroup label='sgw = CHG'>
+  		<test>                     <string>\u1313</string></test>
+  		<test stylename="lang_Chg"><string>\u1313</string></test>
+  	</testgroup>
+		<testgroup label='byn = BIL - gga'>
+  		<test>                     <string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  		<test stylename="lang_Bil"><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  	</testgroup>
+		<testgroup label='byn = BIL - ggwaa'>
+  		<test>                     <string>\u131F</string></test>
+  		<test stylename="lang_Bil"><string>\u131F</string></test>
+  	</testgroup>
+		<testgroup label='byn = BIL - ggwa'>
+  		<test>                     <string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  		<test stylename="lang_Bil"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  	</testgroup>
+		<testgroup label='guk = GMZ'>
+  		<test>                     <string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test stylename="lang_Gmz"><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  	</testgroup>
+
+	</testgroup>
+
 	<testgroup label="Features">
 
 		<testgroup label='Punctuation'>
@@ -176,9 +206,9 @@
   		<test>                       <string>\u138F</string></test>
   		<test stylename="fset_pwe_1"><string>\u138F</string></test>
   	</testgroup>
-  	<testgroup label='gwaa alternates'>
+  	<testgroup label='ggwa alternates'>
   		<test>                        <string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
-  		<test stylename="fset_gwaa_1"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  		<test stylename="fset_ggwa_1"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   	</testgroup>
   	<testgroup label='3rd form alternates'>
   		<test>                           <string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>

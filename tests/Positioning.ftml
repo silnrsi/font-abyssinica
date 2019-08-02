@@ -16,16 +16,14 @@
  		<test label='Check'><string>RenderingUnknown</string></test>
   	</testgroup>
   	<testgroup label="Attachment">		
-  	<test label="Latin diacritics"><string>\uE34F\u0300 \u12BE\u0301 \u2d8e\u0302 \u12EB\u0303 \u12B8\u0304 \u12CB\u0307 \u2d8e\u0308 \u1281\u030B \u12B8\u030C \u12BB\u030F</string></test>
-  	<test label="Ethiopic diacritics"><string>\u1203\u135F \uE2A9\u135D \u12B9\u135E \u1245\uE50F \u12F6\uE51F</string></test>
-  	<test label="Ethiopic diacritics"><string>\u1245\u135F \u1245\u135D \u1245\u135E \u1245\uE50F \u1245\uE51F</string></test>
-  	<test label="Ethiopic diacritics"><string>\u1203\uE50F \uE2A9\uE50F \u12B9\uE50F \u1245\uE50F \u12F6\uE50F \u127D\uE50F \u1275\uE50F</string></test>
+  	<test label="Latin diacritics"><string>\u12F0\u0300 \u12A2\u0301 \u2d8e\u0302 \u12EB\u0303 \u12B8\u0304 \u12CB\u0307 \u2d8e\u0308 \u1281\u030B \u12B8\u030C \u12BB\u030F</string></test>
+  	<test label="Ethiopic diacritics"><string>\u1203\u135F \u1275\u135D \u12B9\u135E</string></test>
   	</testgroup>
   	
   	<testgroup label='Kerning'>
   	<test label='U+1202...'><string>\u1202\u1265 \u1202\u130A \u1202\u130D \u1202\u121A \u1202\u131B \u1202\u12D2 \u1202\u12D4 \u1202\u1275 \u1202\u1285</string></test>
-  	<test label='U+1206...'><string>\u1206\u2D85 \u1206\u1348 \u1206\uE34F \u1206\u130B \u1206\u1207 \u1206\u1212 \u1206\u1243 \u1206\u1228 \u1206\u1225 \u1206\u2D8F \u1206\u12ED \u1206\u128B</string></test>
-  	<test label='U+1207...'><string>\u1207\uE34F \u1207\u130B \u1207\u1212 \u1207\u1213 \u1207\u1208 \u1207\u1243 \u1207\u1251 \u1207\u1228 \u1207\u1225 \u1207\u2D8F \u1207\u128B</string></test>
+  	<test label='U+1206...'><string>\u1206\u2D85 \u1206\u1348 \u1206\u130B \u1206\u1207 \u1206\u1212 \u1206\u1243 \u1206\u1228 \u1206\u1225 \u1206\u2D8F \u1206\u12ED \u1206\u128B</string></test>
+  	<test label='U+1207...'><string>\u1207\u130B \u1207\u1212 \u1207\u1213 \u1207\u1208 \u1207\u1243 \u1207\u1251 \u1207\u1228 \u1207\u1225 \u1207\u2D8F \u1207\u128B</string></test>
   	<test label='U+1208...'><string>\u1208\u12B8 \u1208\u12BD</string></test>
   	<test label='U+1209...'><string>\u1209\u12F0 \u1209\u130B \u1209\u1243 \u1209\u1225</string></test>
   	<test label='U+120A...'><string>\u120A\u1265 \u120A\u127D \u120A\u132D \u120A\u134B \u120A\u1308 \u120A\u130A \u120A\u130D \u120A\u12B8 \u120A\u12B9 \u120A\U12BA \u120A\u12BB \u120A\u12BD \u120A\u12BE \u120A\u121A \u120A\u121B \u120A\u121E \u120A\u1293 \u120A\u1295 \u120A\u1296 \u120A\u12D2 \u120A\u12D4 \u120A\u1240 \u120A\u1245 \u120A\u1251 \u120A\u125A \u120A\u1233 \u120A\u123D \u120A\u1275 \u120A\u1285</string></test>
@@ -36,7 +34,7 @@
 	  <test label='U+121A...'><string>\u121A\u1275 \u121A\u12DB</string></test>
 	  <test label='U+121B...'><string>\u121B\u120D \u121B\u1225</string></test>
 	  <test label='U+121C...'><string>\u121C\u1295</string></test>
-  	<test label='U+121D...'><string>\u121D\u2D85 \u121D\u12F0 \u121D\u12F5 \u121D\u12F6 \u121D\u1348 \u121D\uE34F \u121D\u130B \u121D\u1212 \u121D\u1213 \u121D\u1208 \u121D\u120D \u121D\U1243 \u121D\u1228 \u121D\u122A \u121D\u122B \u121D\u1225 \u121D\u1273 \u121D\u1320 \u121D\u2D8F \u121D\u12EB \u121D\u2D8B</string></test>
+  	<test label='U+121D...'><string>\u121D\u2D85 \u121D\u12F0 \u121D\u12F5 \u121D\u12F6 \u121D\u1348 \u121D\u130B \u121D\u1212 \u121D\u1213 \u121D\u1208 \u121D\u120D \u121D\U1243 \u121D\u1228 \u121D\u122A \u121D\u122B \u121D\u1225 \u121D\u1273 \u121D\u1320 \u121D\u2D8F \u121D\u12EB \u121D\u2D8B</string></test>
 	  <test label='U+121E...'><string>\u121E\u1273</string></test>
 	  <test label='U+1224...'><string>\u1224\u12D4</string></test>
   	<test label='U+1225...'><string>\u1225\u1348 \u1225\u130B \u1225\u1218 \u1225\u1228 \u1225\u122B \u1225\u1322</string></test>
@@ -87,17 +85,12 @@
 	  <test label='U+1328...'><string>\u1328\u1252</string></test>
 	  <test label='U+132A...'><string>\u132A\u1275</string></test>
 	  <test label='U+133D...'><string>\u133D\u1213</string></test>
-	  <test label='U+1347...'><string>\u1347\uE34F</string></test>
 	  <test label='U+1348...'><string>\u1348\u121E</string></test>
 	  <test label='U+1356...'><string>\u1356\u1228 \u1356\u1228</string></test>
   	<test label='U+2D84...'><string>\u2D84\u1247</string></test>
   	<test label='U+AB02...'><string>\uAB02\u12B9 \uAB02\u12D2 \uAB02\u12D4</string></test>
   	<test label='U+AB04...'><string>\uAB04\u12D4</string></test>
   	<test label='U+AB12...'><string>\uAB12\u12B8</string></test>
-  	<test label='U+E257...'><string>\uE257\u2D85</string></test>
-  	<test label='U+E2A9...'><string>\uE2A9\u12B9</string></test>
-  	<test label='U+E2AA...'><string>\uE2AA\u1295</string></test>
-  	<test label='U+E2D7...'><string>\uE2D7\u2D8B</string></test>
 
   </testgroup>
 </ftml>
