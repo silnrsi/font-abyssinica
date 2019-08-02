@@ -22,9 +22,8 @@ AutoPseudo = 0;
 
 Bidi = false;
 
-ScriptTag = (“ethi”, “latn”);
+ScriptTag = ("ethi", "latn");
 
-#include "glyph.gdh"
 
 table(glyph)
 
@@ -37,7 +36,7 @@ endtable;  // glyph
 
 /*******************************************************************
 
-	FEATURES
+    FEATURES
 
 *******************************************************************/
 
@@ -45,10 +44,12 @@ endtable;  // glyph
 
 /*******************************************************************
 
-	RULES
- US means Upper stationary and UM means Upper Mobile. these are defined
- in the glyph.gdh file
+    RULES
+    US means Upper stationary and UM means Upper Mobile. these are defined
+    in the glyph.gdh file
+    
 *******************************************************************/
+
 table(positioning)  {MUnits = 2048};
 
 pass(1)
@@ -518,14 +519,13 @@ if (sixcv == seb2)
 	cno_seb2  >  cseb2;
 endif;
 
-#endif
 
-	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
-	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
+// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
+// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
 	
-	codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
-	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
-		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
+codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
+        codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
 endtable;  // substitution
 

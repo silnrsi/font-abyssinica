@@ -7,7 +7,7 @@
   	<fontsrc>local("Abyssinica SIL")</fontsrc>
   	<styles>
   		<style feats=" 'smcp' 1" name="fset_smcp" />
-  		<style feats=" 'sups' 1" name="fset_sups" />
+  		<style feats=" 'cv17' 1" name="fset_cv17_1" />
   	</styles>
   	<title>Positioning tests</title>
   </head>
@@ -15,10 +15,14 @@
   <testgroup label='Rendering check'>
  		<test label='Check'><string>RenderingUnknown</string></test>
   	</testgroup>
+  	<testgroup label="Attachment">		
+  	<test label="Latin diacritics"><string>\uE34F\u0300 \u12BE\u0301 \u2d8e\u0302 \u12EB\u0303 \u12B8\u0304 \u12CB\u0307 \u2d8e\u0308 \u1281\u030B \u12B8\u030C \u12BB\u030F</string></test>
+  	<test label="Ethiopic diacritics"><string>\u1203\u135F \uE2A9\u135D \u12B9\u135E \u1245\uE50F \u12F6\uE51F</string></test>
+  	<test label="Ethiopic diacritics"><string>\u1245\u135F \u1245\u135D \u1245\u135E \u1245\uE50F \u1245\uE51F</string></test>
+  	<test label="Ethiopic diacritics"><string>\u1203\uE50F \uE2A9\uE50F \u12B9\uE50F \u1245\uE50F \u12F6\uE50F \u127D\uE50F \u1275\uE50F</string></test>
+  	</testgroup>
+  	
   	<testgroup label='Kerning'>
-
-	  <test label='U+1287...alt3??? FIX THIS'><string>\u1287\u2D8F</string><string>hello</string></test>
-
   	<test label='U+1202...'><string>\u1202\u1265 \u1202\u130A \u1202\u130D \u1202\u121A \u1202\u131B \u1202\u12D2 \u1202\u12D4 \u1202\u1275 \u1202\u1285</string></test>
   	<test label='U+1206...'><string>\u1206\u2D85 \u1206\u1348 \u1206\uE34F \u1206\u130B \u1206\u1207 \u1206\u1212 \u1206\u1243 \u1206\u1228 \u1206\u1225 \u1206\u2D8F \u1206\u12ED \u1206\u128B</string></test>
   	<test label='U+1207...'><string>\u1207\uE34F \u1207\u130B \u1207\u1212 \u1207\u1213 \u1207\u1208 \u1207\u1243 \u1207\u1251 \u1207\u1228 \u1207\u1225 \u1207\u2D8F \u1207\u128B</string></test>
@@ -51,7 +55,7 @@
   	<test label='U+126A...'><string>\u126A\u1293 \u126A\u1245 \u126A\u1275 \u126A\u1325</string></test>
   	<test label='U+1273...'><string>\u1273\u12F0 \u1273\u12A1 \u1273\u1225</string></test>
 	  <test label='U+1275...'><string>\u1275\u12B9</string></test>
-	  <test label='U+1287...alt3???'><string>\u1287\u2D8F</string></test>
+	  <test label='U+1287.alt3' stylename="fset_cv17_1"><string>\u1287\u2D8F</string></test>
 	  <test label='U+128B...'><string>\u128B\u120B</string></test>	  
 	  <test label='U+1292...'><string>\u1292\u123B \u1292\u1275</string></test>
 	  <test label='U+1293...'><string>\u1293\u12A2</string></test>
@@ -63,7 +67,7 @@
   	<test label='U+12A3...'><string>\u12A3\u12B8 \u12A3\u12B9 \u12A3\u12BA \u12A3\u12BB \u12A3\u12BD \u12A3\u12BE</string></test>
   	<test label='U+12A5...'><string>\u12A5\u130D \u12A5\u12BD \u12A5\u1295 \u12A5\u123D</string></test>
 	  <test label='U+12A9...'><string>\u12A9\u12B9</string></test>
-	  <test label='U+12AA...'><string>\u12AA\u127D \u12AA\u132D \u12AA\u1293 \u12AA\u1295 \u12AA\u1270 \u12AA\u1271 \u12AA\u1272 \u12AA\u1274 \u12AA\u1275 \u12AA\U1276 \u12AA\u1325 \u12AA\u12CA\u12E9</string></test>
+	  <test label='U+12AA...'><string>\u12AA\u127D \u12AA\u132D \u12AA\u1293 \u12AA\u1295 \u12AA\u1270 \u12AA\u1271 \u12AA\u1272 \u12AA\u1274 \u12AA\u1275 \u12AA\U1276 \u12AA\u1325 \u12AA\u12CA</string></test>
   	<test label='U+12B9...'><string>\u12B9\u12F0 \u12B9\u12A2 \u12B9\u12A3</string></test>
 	  <test label='U+12BA...'><string>\u12BA\u1275</string></test>
 	  <test label='U+12BE...'><string>\u12BE\u12A2</string></test>

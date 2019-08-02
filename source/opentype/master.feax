@@ -5,6 +5,7 @@ languagesystem DFLT dflt;
 languagesystem ethi dflt;
 
 
+
 #********************
 # Font rendering check
 #
@@ -34,6 +35,7 @@ lookup FontCheck {
 
 
 lookup PairKerning {
+	pos O O -200 ;
 
 	pos uni1202 uni1265 -113 ;
 	pos uni1202 uni130A -113 ;
@@ -402,6 +404,14 @@ lookup PairKerning {
 } PairKerning;
 
 
+lookup AttachMarks {
+	lookupflag 0;
+	pos base @U mark @_U ;
+	
+	#pos base uni121A <anchor 891 1271> mark @_U;
+} AttachMarks;
+
+
 #********************
 # GSUB features     *
 #********************
@@ -533,10 +543,14 @@ feature cv85 {  # 6th-form alternates
 #********************
 
 feature kern {
-		lookup PairKerning;
+	lookup PairKerning;
 
 	script ethi;
 } kern;
+
+feature mark {
+	lookup AttachMarks;
+} mark;
 
 #feature smcp { 
 #} smcp;
