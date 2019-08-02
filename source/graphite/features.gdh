@@ -518,30 +518,30 @@ endtable;	// feature
 //	Languages
 //
 
-// table(language)
+table(language)
 
-
+// The dda form is obsolete; don't make it a default.
 // oromo {
-//     languages = ( "oro", "gaz" ); // Oromo
+//     languages = ( "oro", "gaz" );  // Oromo
 //     ddacv = true;
 // };
 
-// sebatbet {
-//     languages = ( "sgw" ); // Sebat Bet
-//     gwaacv = true;
-// };
+sebatbet {
+    languages = ( "sgw", "CHG" );  // Sebat Bet Gurage
+    gwaacv = 1;
+};
 
-// gumuz {
-//     languages = ( "guk", "gmz" ); // Gumuz
-//     nyacv = true;
-//     nywacv = true;
-// };
+gumuz {
+    languages = ( "guk", "GMZ" );  // Gumuz
+    nyacv = true;
+    nywacv = 1;
+};
 
-// blin {
-//     languages = ( "byn", "bil" ); // Bilen
-//     ggwacv = true;
-//     ggwaacv = true
-//     ggacv = true;
-// };
+blin {
+    languages = ( "byn", "BIL" );  // Bilen
+    ggwacv = true;
+    ggwaacv = true
+    ggacv = true;
+};
 
-// endtable; // language
+endtable; // language

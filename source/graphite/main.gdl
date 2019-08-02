@@ -27,9 +27,9 @@ ScriptTag = ("ethi", "latn");
 
 table(glyph)
 
-cgumuzcv = (g1298_gumuz, g1299_gumuz, g129a_gumuz, g129b_gumuz, g129c_gumuz, g129d_gumuz, g129e_gumuz);
-
-cno_gumuzcv = (g1298, g1299, g129a, g129b, g129c, g129d, g129e);
+// Don't include 129F even though the alternate glyph is present in the font.
+cgumuz0 = (g1298_gumuz, g1299_gumuz, g129a_gumuz, g129b_gumuz, g129c_gumuz, g129d_gumuz, g129e_gumuz);
+cno_gumuz0 = (g1298, g1299, g129a, g129b, g129c, g129d, g129e);
 
 endtable;  // glyph
 
@@ -385,7 +385,7 @@ endif;
 
 // cv20
 if (nyacv == gumuz)
-	cno_gumuzcv  >  cgumuzcv;
+	cno_gumuz0  >  cgumuz0;
 endif;
 
 // cv21
@@ -520,6 +520,7 @@ codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codep
         codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
 endtable;  // substitution
+
 
 
 

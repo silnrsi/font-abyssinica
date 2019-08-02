@@ -43,9 +43,17 @@ lookup FontCheck {
 
 # These are alternatives that are default for some languages, so we create named lookups.
 
+# Don't include 129F even though the glyph is present in the font.
+@c_gumuz0 =   [uni1298.gumuz uni1299.gumuz uni129A.gumuz uni129B.gumuz uni129C.gumuz uni129D.gumuz uni129E.gumuz ];
+@cno_gumuz0 = [uni1298       uni1299       uni129A       uni129B       uni129C       uni129D       uni129E];
+
 lookup Cv20_nya  {    # Nya alternates
-		sub @cno_gumuz by @c_gumuz ;
+		sub @cno_gumuz0 by @c_gumuz0 ;
 } Cv20_nya;
+
+lookup Cv21_nywa {    # Nywa alternates
+		sub uni129F by uni129F.gumuz1 ;
+} Cv21_nywa;
 
 lookup Cv40_gwaa {    # Gwaa alternates
 		sub uni1313 by uni1313.seb0 ;
@@ -439,20 +447,21 @@ lookup AttachMarks {
 feature locl {  # Localized forms
 
 	script ethi;
-		language CHG;         #sgw
-			lookup Cv40_gwaa;
-		language BIL;         #byn
-		  lookup Cv41_gga;
-		  lookup Cv42_ggwaa;
-		  lookup Cv70_ggwa;
-		language GMZ;         #guk
-			lookup Cv20_nya;
+		language CHG;         # sgw
+			lookup Cv40_gwaa ;
+		language BIL;         # byn
+		  lookup Cv41_gga ;
+		  lookup Cv42_ggwaa ;
+		  lookup Cv70_ggwa ;
+		language GMZ;         # guk
+			lookup Cv20_nya ;
+			lookup Cv21_nywa ;
 
 } locl;
 
 
 feature ccmp {  # Glyph Composition/Decomposition
-    lookup FontCheck;
+    lookup FontCheck ;
 } ccmp;
 
 feature cv01 {  # Punctuation
@@ -464,27 +473,27 @@ feature cv04 {  # Mwa alternates
 } cv04;
 
 feature cv05 {  # Rwa alternate
-    sub @cno_cohen3 by @c_cohen3;
+    sub @cno_cohen3 by @c_cohen3 ;
 } cv05;
 
 feature cv17 {  # Xoa alternates
-		sub @cno_alt3 by @c_alt3;
+		sub @cno_alt3 by @c_alt3 ;
 } cv17;
 
 feature cv18 {  # Xwa alternates
-		sub @cno_handwriting by @c_handwriting;
+		sub @cno_handwriting by @c_handwriting ;
 } cv18;
 
 feature cv19 {  # Nwa alternates
-		sub @cno_cohen0 by @c_cohen0;
+		sub @cno_cohen0 by @c_cohen0 ;
 } cv19;
 
 feature cv20 {  # Nya alternates
-		lookup Cv20_nya;  # default for GMZ
+		lookup Cv20_nya ;  # default for guk/GMZ
 } cv20;
 
 feature cv21 {  # Nywa alternates
-		sub uni129F from [ uni129F.gumuz1 uni129F.cohen8 ] ;
+		lookup Cv21_nywa ;  # default for guk/GMZ
 } cv21;
 
 feature cv26 {  # Kxwaa alternate
@@ -504,15 +513,15 @@ feature cv32 {  # Dda alternates
 } cv32;
 
 feature cv40 {  # Gwaa alternates
-		lookup Cv40_gwaa;   # default for CHG
+		lookup Cv40_gwaa ;   # default for CHG
 } cv40;
 
 feature cv41 {  # Gga alternates
-		lookup Cv41_gga;   # default for BIL
+		lookup Cv41_gga ;   # default for BIL
 } cv41;
 
 feature cv42 {  # Ggwaa alternate
-		lookup Cv42_ggwaa;
+		lookup Cv42_ggwaa ;
 } cv42;
 
 feature cv45 {  # Phe alternate
