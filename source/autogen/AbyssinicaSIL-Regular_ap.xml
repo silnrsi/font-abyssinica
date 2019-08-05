@@ -1,0 +1,3474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font name="AbyssinicaSIL-Regular" upem="2048">
+<glyph PSName="uni136C" UID="136C"/>
+<glyph PSName="uni1291" UID="1291">
+  <point type="U">
+    <location x="231" y="1370"/>
+  </point>
+</glyph>
+<glyph PSName="uni120E" UID="120E">
+  <point type="U">
+    <location x="555" y="1327"/>
+  </point>
+</glyph>
+<glyph PSName="uni124D" UID="124D">
+  <point type="U">
+    <location x="700" y="1436"/>
+  </point>
+</glyph>
+<glyph PSName="quotesingle" UID="0027"/>
+<glyph PSName="hyphenminus" UID="002D"/>
+<glyph PSName="exclam.punct"/>
+<glyph PSName="figuredash" UID="2012"/>
+<glyph PSName="uni12E3.chaine">
+  <point type="U">
+    <location x="941" y="1219"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FD" UID="12FD">
+  <point type="U">
+    <location x="825" y="1596"/>
+  </point>
+</glyph>
+<glyph PSName="uni125A" UID="125A">
+  <point type="U">
+    <location x="784" y="1558"/>
+  </point>
+</glyph>
+<glyph PSName="r" UID="0072"/>
+<glyph PSName="uni2DA4" UID="2DA4">
+  <point type="U">
+    <location x="1003" y="1521"/>
+  </point>
+</glyph>
+<glyph PSName="uni1202" UID="1202">
+  <point type="U">
+    <location x="577" y="1383"/>
+  </point>
+</glyph>
+<glyph PSName="quotedblleft.punct"/>
+<glyph PSName="uni1242" UID="1242">
+  <point type="U">
+    <location x="745" y="1381"/>
+  </point>
+</glyph>
+<glyph PSName="zerosuperior" UID="2070"/>
+<glyph PSName="uniE33F">
+  <point type="U">
+    <location x="892" y="1326"/>
+  </point>
+</glyph>
+<glyph PSName="Ccedilla" UID="00C7"/>
+<glyph PSName="uni1267" UID="1267">
+  <point type="U">
+    <location x="602" y="1286"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE03" UID="FE03"/>
+<glyph PSName="Ucircumflex" UID="00DB"/>
+<glyph PSName="onehalf" UID="00BD"/>
+<glyph PSName="uni12C0" UID="12C0">
+  <point type="U">
+    <location x="649" y="1467"/>
+  </point>
+</glyph>
+<glyph PSName="uni1347" UID="1347">
+  <point type="U">
+    <location x="929" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB9" UID="2DB9">
+  <point type="U">
+    <location x="1392" y="1094"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB14" UID="AB14">
+  <point type="U">
+    <location x="599" y="1568"/>
+  </point>
+</glyph>
+<glyph PSName="uni120A" UID="120A">
+  <point type="U">
+    <location x="548" y="1350"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C9" UID="12C9">
+  <point type="U">
+    <location x="825" y="1213"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D8B" UID="2D8B">
+  <point type="U">
+    <location x="929" y="1301"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2A9">
+  <point type="U">
+    <location x="486" y="1455"/>
+  </point>
+</glyph>
+<glyph PSName="uni126A" UID="126A">
+  <point type="U">
+    <location x="621" y="1427"/>
+  </point>
+</glyph>
+<glyph PSName="otilde" UID="00F5"/>
+<glyph PSName="uni128B" UID="128B">
+  <point type="U">
+    <location x="680" y="1461"/>
+  </point>
+</glyph>
+<glyph PSName="dotlessi" UID="0131">
+  <point type="U">
+    <location x="310" y="1100"/>
+  </point>
+</glyph>
+<glyph PSName="W" UID="0057"/>
+<glyph PSName="asterisk" UID="002A"/>
+<glyph PSName="uni1394" UID="1394"/>
+<glyph PSName="uni2DCD" UID="2DCD">
+  <point type="U">
+    <location x="536" y="1405"/>
+  </point>
+</glyph>
+<glyph PSName="uniE51C"/>
+<glyph PSName="uni12F8" UID="12F8">
+  <point type="U">
+    <location x="818" y="1612"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD8" UID="2DD8">
+  <point type="U">
+    <location x="514" y="1467"/>
+  </point>
+</glyph>
+<glyph PSName="uni202A" UID="202A"/>
+<glyph PSName="L" UID="004C"/>
+<glyph PSName="NoBreakSpace" UID="00A0"/>
+<glyph PSName="bracketright" UID="005D"/>
+<glyph PSName="uni134B" UID="134B">
+  <point type="U">
+    <location x="696" y="1467"/>
+  </point>
+</glyph>
+<glyph PSName="uni1395" UID="1395"/>
+<glyph PSName="uni1325" UID="1325">
+  <point type="U">
+    <location x="733" y="1165"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2AD">
+  <point type="U">
+    <location x="486" y="1433"/>
+  </point>
+</glyph>
+<glyph PSName="five" UID="0035"/>
+<glyph PSName="semicolon" UID="003B"/>
+<glyph PSName="uni130A" UID="130A">
+  <point type="U">
+    <location x="558" y="1129"/>
+  </point>
+</glyph>
+<glyph PSName="uni1387.sebLes2">
+  <point type="U">
+    <location x="593" y="1311"/>
+  </point>
+</glyph>
+<glyph PSName="thorn" UID="00FE"/>
+<glyph PSName="sterling" UID="00A3"/>
+<glyph PSName="uni1255" UID="1255">
+  <point type="U">
+    <location x="633" y="1612"/>
+  </point>
+</glyph>
+<glyph PSName="Uacute" UID="00DA"/>
+<glyph PSName="uni120F" UID="120F">
+  <point type="U">
+    <location x="490" y="1413"/>
+  </point>
+</glyph>
+<glyph PSName="uni131C" UID="131C">
+  <point type="U">
+    <location x="632" y="1524"/>
+  </point>
+</glyph>
+<glyph PSName="ccedilla" UID="00E7"/>
+<glyph PSName="uni1350" UID="1350">
+  <point type="U">
+    <location x="721" y="1173"/>
+  </point>
+</glyph>
+<glyph PSName="uni1221" UID="1221">
+  <point type="U">
+    <location x="855" y="1179"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2BF">
+  <point type="U">
+    <location x="681" y="1561"/>
+  </point>
+</glyph>
+<glyph PSName="uni132C" UID="132C">
+  <point type="U">
+    <location x="979" y="1141"/>
+  </point>
+</glyph>
+<glyph PSName="uniFFFC" UID="FFFC"/>
+<glyph PSName="question" UID="003F"/>
+<glyph PSName="comma" UID="002C"/>
+<glyph PSName="uni12E5.cohen6">
+  <point type="U">
+    <location x="1066" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="uni2029" UID="2029"/>
+<glyph PSName="uni126E" UID="126E">
+  <point type="U">
+    <location x="615" y="1445"/>
+  </point>
+</glyph>
+<glyph PSName="uni1366" UID="1366"/>
+<glyph PSName="F" UID="0046"/>
+<glyph PSName="uni2D95" UID="2D95">
+  <point type="U">
+    <location x="712" y="1398"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA3" UID="2DA3">
+  <point type="U">
+    <location x="1025" y="1533"/>
+  </point>
+</glyph>
+<glyph PSName="guillemotright.punct"/>
+<glyph PSName="uni030F" UID="030F">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni1297.cohen0">
+  <point type="U">
+    <location x="444" y="1288"/>
+  </point>
+</glyph>
+<glyph PSName="k" UID="006B"/>
+<glyph PSName="perthousand" UID="2030"/>
+<glyph PSName="uni2DB8" UID="2DB8">
+  <point type="U">
+    <location x="1370" y="1088"/>
+  </point>
+</glyph>
+<glyph PSName="uniE37D"/>
+<glyph PSName="uniE502"/>
+<glyph PSName="uni121F.cohen1">
+  <point type="U">
+    <location x="834" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB28" UID="AB28">
+  <point type="U">
+    <location x="632" y="1499"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB13" UID="AB13">
+  <point type="U">
+    <location x="618" y="1539"/>
+  </point>
+</glyph>
+<glyph PSName="equal.punct"/>
+<glyph PSName="uni1342" UID="1342">
+  <point type="U">
+    <location x="485" y="1368"/>
+  </point>
+</glyph>
+<glyph PSName="dollar.punct"/>
+<glyph PSName="egrave" UID="00E8"/>
+<glyph PSName="uni1295" UID="1295">
+  <point type="U">
+    <location x="490" y="1352"/>
+  </point>
+</glyph>
+<glyph PSName="uni1246" UID="1246">
+  <point type="U">
+    <location x="781" y="1448"/>
+  </point>
+</glyph>
+<glyph PSName="uni12DF" UID="12DF">
+  <point type="U">
+    <location x="593" y="1228"/>
+  </point>
+</glyph>
+<glyph PSName="asciicircum" UID="005E"/>
+<glyph PSName="uni129A" UID="129A">
+  <point type="U">
+    <location x="664" y="1409"/>
+  </point>
+</glyph>
+<glyph PSName="uni1371" UID="1371"/>
+<glyph PSName="uni2DCE" UID="2DCE">
+  <point type="U">
+    <location x="508" y="1411"/>
+  </point>
+</glyph>
+<glyph PSName="Y" UID="0059"/>
+<glyph PSName="ordmasculine" UID="00BA"/>
+<glyph PSName="uni2DBA" UID="2DBA">
+  <point type="U">
+    <location x="1376" y="1091"/>
+  </point>
+</glyph>
+<glyph PSName="Euro" UID="20AC"/>
+<glyph PSName="uni129F.gumuz">
+  <point type="U">
+    <location x="669" y="1586"/>
+  </point>
+</glyph>
+<glyph PSName="uni129C.gumuz">
+  <point type="U">
+    <location x="619" y="1611"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB0" UID="2DB0">
+  <point type="U">
+    <location x="997" y="1204"/>
+  </point>
+</glyph>
+<glyph PSName="uniE515"/>
+<glyph PSName="uni12F4" UID="12F4">
+  <point type="U">
+    <location x="787" y="1388"/>
+  </point>
+</glyph>
+<glyph PSName="four" UID="0034"/>
+<glyph PSName="uniE06D">
+  <point type="U">
+    <location x="589" y="1787"/>
+  </point>
+</glyph>
+<glyph PSName="uni1215" UID="1215">
+  <point type="U">
+    <location x="930" y="1359"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B2" UID="12B2">
+  <point type="U">
+    <location x="480" y="1423"/>
+  </point>
+</glyph>
+<glyph PSName="nonmarkingreturn"/>
+<glyph PSName="uni00AD" UID="00AD"/>
+<glyph PSName="uni1306" UID="1306">
+  <point type="U">
+    <location x="872" y="1488"/>
+  </point>
+</glyph>
+<glyph PSName="uni1367" UID="1367"/>
+<glyph PSName="uniAB01" UID="AB01">
+  <point type="U">
+    <location x="593" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="uni1299.gumuz">
+  <point type="U">
+    <location x="644" y="1648"/>
+  </point>
+</glyph>
+<glyph PSName="foursuperior.punct"/>
+<glyph PSName="section" UID="00A7"/>
+<glyph PSName="ninesuperior" UID="2079"/>
+<glyph PSName="uni2DB5" UID="2DB5">
+  <point type="U">
+    <location x="586" y="1649"/>
+  </point>
+</glyph>
+<glyph PSName="uni12BD" UID="12BD">
+  <point type="U">
+    <location x="637" y="1518"/>
+  </point>
+</glyph>
+<glyph PSName="uni1355" UID="1355">
+  <point type="U">
+    <location x="712" y="1166"/>
+  </point>
+</glyph>
+<glyph PSName="uni1217" UID="1217">
+  <point type="U">
+    <location x="859" y="1413"/>
+  </point>
+</glyph>
+<glyph PSName="uniE373"/>
+<glyph PSName="uni12FB.oromo">
+  <point type="U">
+    <location x="800" y="1339"/>
+  </point>
+</glyph>
+<glyph PSName="ocircumflex" UID="00F4"/>
+<glyph PSName="divide" UID="00F7"/>
+<glyph PSName="uni127F" UID="127F">
+  <point type="U">
+    <location x="955" y="1324"/>
+  </point>
+</glyph>
+<glyph PSName="uniE217">
+  <point type="U">
+    <location x="1363" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2A8">
+  <point type="U">
+    <location x="524" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="sixsuperior.punct"/>
+<glyph PSName="uni2011" UID="2011"/>
+<glyph PSName="T" UID="0054"/>
+<glyph PSName="u" UID="0075"/>
+<glyph PSName="uni1219" UID="1219">
+  <point type="U">
+    <location x="1114" y="1178"/>
+  </point>
+</glyph>
+<glyph PSName="quotedblbase" UID="201E"/>
+<glyph PSName="uni1389" UID="1389">
+  <point type="U">
+    <location x="774" y="1257"/>
+  </point>
+</glyph>
+<glyph PSName="A" UID="0041"/>
+<glyph PSName="uni2DAE" UID="2DAE">
+  <point type="U">
+    <location x="925" y="1565"/>
+  </point>
+</glyph>
+<glyph PSName="Zcaron" UID="017D">
+  <point type="U">
+    <location x="610" y="1900"/>
+  </point>
+</glyph>
+<glyph PSName="uniE06C">
+  <point type="U">
+    <location x="580" y="1709"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DAD" UID="2DAD">
+  <point type="U">
+    <location x="643" y="1571"/>
+  </point>
+</glyph>
+<glyph PSName="uni1358.ala1">
+  <point type="U">
+    <location x="873" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB25" UID="AB25">
+  <point type="U">
+    <location x="954" y="1685"/>
+  </point>
+</glyph>
+<glyph PSName="Idieresis" UID="00CF"/>
+<glyph PSName="uni1340" UID="1340">
+  <point type="U">
+    <location x="543" y="1300"/>
+  </point>
+</glyph>
+<glyph PSName="paragraph" UID="00B6"/>
+<glyph PSName="uniE2AB">
+  <point type="U">
+    <location x="480" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni1377" UID="1377"/>
+<glyph PSName="uni1273" UID="1273">
+  <point type="U">
+    <location x="944" y="1383"/>
+  </point>
+</glyph>
+<glyph PSName="uni1335.praetorius">
+  <point type="U">
+    <location x="559" y="1683"/>
+  </point>
+</glyph>
+<glyph PSName="uni1290" UID="1290">
+  <point type="U">
+    <location x="252" y="1352"/>
+  </point>
+</glyph>
+<glyph PSName="uni1381.seb3">
+  <point type="U">
+    <location x="884" y="1254"/>
+  </point>
+</glyph>
+<glyph PSName="mu" UID="00B5"/>
+<glyph PSName="edieresis" UID="00EB"/>
+<glyph PSName="uniAB23" UID="AB23">
+  <point type="U">
+    <location x="1004" y="1635"/>
+  </point>
+</glyph>
+<glyph PSName="Ydieresis" UID="0178"/>
+<glyph PSName="uni1238" UID="1238">
+  <point type="U">
+    <location x="625" y="1480"/>
+  </point>
+</glyph>
+<glyph PSName="six" UID="0036"/>
+<glyph PSName="uni1323" UID="1323">
+  <point type="U">
+    <location x="902" y="1311"/>
+  </point>
+</glyph>
+<glyph PSName="uni200C" UID="200C"/>
+<glyph PSName="odieresis" UID="00F6"/>
+<glyph PSName="uni1349" UID="1349">
+  <point type="U">
+    <location x="687" y="1492"/>
+  </point>
+</glyph>
+<glyph PSName="uni1369" UID="1369"/>
+<glyph PSName="uni128C.handwriting">
+  <point type="U">
+    <location x="693" y="1279"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E8" UID="12E8">
+  <point type="U">
+    <location x="524" y="1314"/>
+  </point>
+</glyph>
+<glyph PSName="fi" UID="FB01">
+  <point type="U">
+    <location x="978" y="1480"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E6.chaine">
+  <point type="U">
+    <location x="972" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="infinity" UID="221E"/>
+<glyph PSName="quotedblleft" UID="201C"/>
+<glyph PSName="uni1247" UID="1247">
+  <point type="U">
+    <location x="805" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="uni131E.alt1">
+  <point type="U">
+    <location x="624" y="1392"/>
+  </point>
+</glyph>
+<glyph PSName="uni1343" UID="1343">
+  <point type="U">
+    <location x="495" y="1368"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB06" UID="AB06">
+  <point type="U">
+    <location x="593" y="1367"/>
+  </point>
+</glyph>
+<glyph PSName="uni1385.seb3">
+  <point type="U">
+    <location x="602" y="1323"/>
+  </point>
+</glyph>
+<glyph PSName="V" UID="0056"/>
+<glyph PSName="Z" UID="005A"/>
+<glyph PSName="CR" UID="000D"/>
+<glyph PSName="hungarumlaut" UID="02DD"/>
+<glyph PSName="zero" UID="0030"/>
+<glyph PSName="uni1383" UID="1383">
+  <point type="U">
+    <location x="909" y="1286"/>
+  </point>
+</glyph>
+<glyph PSName="uniE51F">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="Oacute" UID="00D3"/>
+<glyph PSName="uni2DA1" UID="2DA1">
+  <point type="U">
+    <location x="991" y="1511"/>
+  </point>
+</glyph>
+<glyph PSName="uni12AB" UID="12AB">
+  <point type="U">
+    <location x="555" y="1458"/>
+  </point>
+</glyph>
+<glyph PSName="uni1336" UID="1336">
+  <point type="U">
+    <location x="549" y="1486"/>
+  </point>
+</glyph>
+<glyph PSName="uni138B" UID="138B">
+  <point type="U">
+    <location x="765" y="1245"/>
+  </point>
+</glyph>
+<glyph PSName="uni12EA" UID="12EA">
+  <point type="U">
+    <location x="571" y="1345"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DAA" UID="2DAA">
+  <point type="U">
+    <location x="856" y="1423"/>
+  </point>
+</glyph>
+<glyph PSName="uni133F.oldstyle">
+  <point type="U">
+    <location x="731" y="1400"/>
+  </point>
+</glyph>
+<glyph PSName="uni1264" UID="1264">
+  <point type="U">
+    <location x="554" y="1317"/>
+  </point>
+</glyph>
+<glyph PSName="uni1216" UID="1216">
+  <point type="U">
+    <location x="919" y="1285"/>
+  </point>
+</glyph>
+<glyph PSName="uni133F" UID="133F">
+  <point type="U">
+    <location x="602" y="1320"/>
+  </point>
+</glyph>
+<glyph PSName="uni129D" UID="129D">
+  <point type="U">
+    <location x="642" y="1590"/>
+  </point>
+</glyph>
+<glyph PSName="uni1319" UID="1319">
+  <point type="U">
+    <location x="644" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="Egrave" UID="00C8"/>
+<glyph PSName="threesuperior" UID="00B3"/>
+<glyph PSName="uni1387.sebLes">
+  <point type="U">
+    <location x="593" y="1311"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD1" UID="2DD1">
+  <point type="U">
+    <location x="599" y="1693"/>
+  </point>
+</glyph>
+<glyph PSName="uacute" UID="00FA"/>
+<glyph PSName="uniE509"/>
+<glyph PSName="y" UID="0079"/>
+<glyph PSName="uni1397" UID="1397"/>
+<glyph PSName="uniE227">
+  <point type="U">
+    <location x="1239" y="1239"/>
+  </point>
+</glyph>
+<glyph PSName="uni1381.sebLes">
+  <point type="U">
+    <location x="1053" y="1116"/>
+  </point>
+</glyph>
+<glyph PSName="uni1373" UID="1373"/>
+<glyph PSName="uni128A.handwriting">
+  <point type="U">
+    <location x="593" y="1132"/>
+  </point>
+</glyph>
+<glyph PSName="uni1348" UID="1348">
+  <point type="U">
+    <location x="793" y="1270"/>
+  </point>
+</glyph>
+<glyph PSName="uni1229" UID="1229">
+  <point type="U">
+    <location x="678" y="1263"/>
+  </point>
+</glyph>
+<glyph PSName="breve" UID="02D8">
+  <point type="U">
+    <location x="305" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="multiply.punct"/>
+<glyph PSName="uni1226" UID="1226">
+  <point type="U">
+    <location x="740" y="1225"/>
+  </point>
+</glyph>
+<glyph PSName="aacute" UID="00E1"/>
+<glyph PSName="uni1313" UID="1313">
+  <point type="U">
+    <location x="552" y="1298"/>
+  </point>
+</glyph>
+<glyph PSName="uni133C" UID="133C">
+  <point type="U">
+    <location x="524" y="1235"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D88" UID="2D88">
+  <point type="U">
+    <location x="731" y="1400"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC5" UID="2DC5">
+  <point type="U">
+    <location x="517" y="1740"/>
+  </point>
+</glyph>
+<glyph PSName="uniFEFF" UID="FEFF"/>
+<glyph PSName="uniE2B7">
+  <point type="U">
+    <location x="589" y="1364"/>
+  </point>
+</glyph>
+<glyph PSName="uni122D" UID="122D">
+  <point type="U">
+    <location x="717" y="1239"/>
+  </point>
+</glyph>
+<glyph PSName="uniE519"/>
+<glyph PSName="uni12E5.chaine">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="fl" UID="FB02">
+  <point type="U">
+    <location x="974" y="1580"/>
+  </point>
+</glyph>
+<glyph PSName="sixsuperior" UID="2076"/>
+<glyph PSName="space" UID="0020"/>
+<glyph PSName="uni1338" UID="1338">
+  <point type="U">
+    <location x="571" y="1217"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE04" UID="FE04"/>
+<glyph PSName="uni133A" UID="133A">
+  <point type="U">
+    <location x="536" y="1248"/>
+  </point>
+</glyph>
+<glyph PSName="Oslash" UID="00D8"/>
+<glyph PSName="Ograve" UID="00D2"/>
+<glyph PSName="zero.punct"/>
+<glyph PSName="h" UID="0068"/>
+<glyph PSName="uni12B5" UID="12B5">
+  <point type="U">
+    <location x="489" y="1445"/>
+  </point>
+</glyph>
+<glyph PSName="uni136A" UID="136A"/>
+<glyph PSName="uni1258" UID="1258">
+  <point type="U">
+    <location x="671" y="1558"/>
+  </point>
+</glyph>
+<glyph PSName="Aring" UID="00C5"/>
+<glyph PSName="dieresis" UID="00A8"/>
+<glyph PSName="uni138B.sebLes">
+  <point type="U">
+    <location x="793" y="1264"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D94.blin">
+  <point type="U">
+    <location x="630" y="1380"/>
+  </point>
+</glyph>
+<glyph PSName="uni1321" UID="1321">
+  <point type="U">
+    <location x="825" y="1049"/>
+  </point>
+</glyph>
+<glyph PSName="Iacute" UID="00CD"/>
+<glyph PSName="uni2000" UID="2000">
+  <point type="U">
+    <location x="492" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="four.punct"/>
+<glyph PSName="Thorn" UID="00DE"/>
+<glyph PSName="uniE2D7">
+  <point type="U">
+    <location x="966" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="uni1245" UID="1245">
+  <point type="U">
+    <location x="752" y="1578"/>
+  </point>
+</glyph>
+<glyph PSName="ninesuperior.punct"/>
+<glyph PSName="uni1318" UID="1318">
+  <point type="U">
+    <location x="619" y="1524"/>
+  </point>
+</glyph>
+<glyph PSName="uniE512"/>
+<glyph PSName="uni120C" UID="120C">
+  <point type="U">
+    <location x="540" y="1342"/>
+  </point>
+</glyph>
+<glyph PSName="udieresis" UID="00FC"/>
+<glyph PSName="uniE51E"/>
+<glyph PSName="uni2DD3" UID="2DD3">
+  <point type="U">
+    <location x="605" y="1696"/>
+  </point>
+</glyph>
+<glyph PSName="emptyset" UID="2205"/>
+<glyph PSName="uniE528"/>
+<glyph PSName="aring" UID="00E5"/>
+<glyph PSName="uni1269" UID="1269">
+  <point type="U">
+    <location x="630" y="1430"/>
+  </point>
+</glyph>
+<glyph PSName="uni1298.gumuz">
+  <point type="U">
+    <location x="619" y="1648"/>
+  </point>
+</glyph>
+<glyph PSName="uni1352" UID="1352">
+  <point type="U">
+    <location x="746" y="1163"/>
+  </point>
+</glyph>
+<glyph PSName="uni1370" UID="1370"/>
+<glyph PSName="guillemotleft" UID="00AB"/>
+<glyph PSName="uni1209" UID="1209">
+  <point type="U">
+    <location x="578" y="1334"/>
+  </point>
+</glyph>
+<glyph PSName="uni1252" UID="1252">
+  <point type="U">
+    <location x="781" y="1539"/>
+  </point>
+</glyph>
+<glyph PSName="uni121C" UID="121C">
+  <point type="U">
+    <location x="884" y="1292"/>
+  </point>
+</glyph>
+<glyph PSName="uni131A.alt1">
+  <point type="U">
+    <location x="640" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni1312" UID="1312">
+  <point type="U">
+    <location x="571" y="1279"/>
+  </point>
+</glyph>
+<glyph PSName="threequarters" UID="00BE"/>
+<glyph PSName="colon" UID="003A"/>
+<glyph PSName="five.punct"/>
+<glyph PSName="slash" UID="002F"/>
+<glyph PSName="e" UID="0065"/>
+<glyph PSName="uniE37E"/>
+<glyph PSName="uni1354" UID="1354">
+  <point type="U">
+    <location x="727" y="1170"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B4" UID="12B4">
+  <point type="U">
+    <location x="511" y="1455"/>
+  </point>
+</glyph>
+<glyph PSName="uni1375" UID="1375"/>
+<glyph PSName="X" UID="0058"/>
+<glyph PSName="uni2D82" UID="2D82">
+  <point type="U">
+    <location x="1177" y="1338"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE01" UID="FE01"/>
+<glyph PSName="uni1335" UID="1335">
+  <point type="U">
+    <location x="546" y="1489"/>
+  </point>
+</glyph>
+<glyph PSName="uni1386" UID="1386">
+  <point type="U">
+    <location x="589" y="1317"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B5.seb2">
+  <point type="U">
+    <location x="508" y="1430"/>
+  </point>
+</glyph>
+<glyph PSName="registered" UID="00AE"/>
+<glyph PSName="Adieresis" UID="00C4"/>
+<glyph PSName="uni131D.alt1">
+  <point type="U">
+    <location x="674" y="1496"/>
+  </point>
+</glyph>
+<glyph PSName="uni121F" UID="121F">
+  <point type="U">
+    <location x="847" y="1307"/>
+  </point>
+</glyph>
+<glyph PSName="Delta" UID="2206"/>
+<glyph PSName="uni1253" UID="1253">
+  <point type="U">
+    <location x="953" y="1496"/>
+  </point>
+</glyph>
+<glyph PSName="uni133E" UID="133E">
+  <point type="U">
+    <location x="502" y="1238"/>
+  </point>
+</glyph>
+<glyph PSName="uni121A" UID="121A">
+  <point type="U">
+    <location x="891" y="1271"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E5" UID="12E5">
+  <point type="U">
+    <location x="595" y="1713"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D86" UID="2D86">
+  <point type="U">
+    <location x="855" y="1462"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB0C" UID="AB0C">
+  <point type="U">
+    <location x="809" y="1602"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E4.cohen6">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F0" UID="12F0">
+  <point type="U">
+    <location x="802" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="ntilde" UID="00F1"/>
+<glyph PSName="uni1288" UID="1288">
+  <point type="U">
+    <location x="784" y="1286"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A1" UID="12A1">
+  <point type="U">
+    <location x="393" y="1404"/>
+  </point>
+</glyph>
+<glyph PSName="uni1301" UID="1301">
+  <point type="U">
+    <location x="686" y="1504"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D95.blin">
+  <point type="U">
+    <location x="712" y="1398"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE09" UID="FE09"/>
+<glyph PSName="uni2D90" UID="2D90">
+  <point type="U">
+    <location x="1499" y="1388"/>
+  </point>
+</glyph>
+<glyph PSName="uni123E" UID="123E">
+  <point type="U">
+    <location x="689" y="1519"/>
+  </point>
+</glyph>
+<glyph PSName="uniE521"/>
+<glyph PSName="o" UID="006F"/>
+<glyph PSName="uni137B" UID="137B"/>
+<glyph PSName="C" UID="0043"/>
+<glyph PSName="uni2D93.blin">
+  <point type="U">
+    <location x="643" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="uni134F.cohen4">
+  <point type="U">
+    <location x="780" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="uni121D" UID="121D">
+  <point type="U">
+    <location x="901" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="ydieresis" UID="00FF"/>
+<glyph PSName="uni2DD4" UID="2DD4">
+  <point type="U">
+    <location x="608" y="1693"/>
+  </point>
+</glyph>
+<glyph PSName="uni128A" UID="128A">
+  <point type="U">
+    <location x="718" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="three" UID="0033"/>
+<glyph PSName="one" UID="0031"/>
+<glyph PSName="uni202E" UID="202E"/>
+<glyph PSName="uni1303" UID="1303">
+  <point type="U">
+    <location x="694" y="1488"/>
+  </point>
+</glyph>
+<glyph PSName="uni1326" UID="1326">
+  <point type="U">
+    <location x="818" y="1180"/>
+  </point>
+</glyph>
+<glyph PSName="uni1332" UID="1332">
+  <point type="U">
+    <location x="549" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="uni135D" UID="135D">
+  <point type="_U">
+    <location x="-547" y="1451"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A2" UID="12A2">
+  <point type="U">
+    <location x="401" y="1427"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C5.seb2">
+  <point type="U">
+    <location x="646" y="1474"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB29" UID="AB29">
+  <point type="U">
+    <location x="644" y="1549"/>
+  </point>
+</glyph>
+<glyph PSName="a" UID="0061"/>
+<glyph PSName="R" UID="0052"/>
+<glyph PSName="uni121B" UID="121B">
+  <point type="U">
+    <location x="877" y="1274"/>
+  </point>
+</glyph>
+<glyph PSName="uni120B" UID="120B">
+  <point type="U">
+    <location x="524" y="1350"/>
+  </point>
+</glyph>
+<glyph PSName="plus" UID="002B"/>
+<glyph PSName="uniAB20" UID="AB20">
+  <point type="U">
+    <location x="954" y="1512"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB6" UID="2DB6">
+  <point type="U">
+    <location x="953" y="1210"/>
+  </point>
+</glyph>
+<glyph PSName="uni1200" UID="1200">
+  <point type="U">
+    <location x="587" y="1241"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA2" UID="2DA2">
+  <point type="U">
+    <location x="1032" y="1499"/>
+  </point>
+</glyph>
+<glyph PSName="uniE522"/>
+<glyph PSName="two" UID="0032"/>
+<glyph PSName="uni12A0" UID="12A0">
+  <point type="U">
+    <location x="393" y="1427"/>
+  </point>
+</glyph>
+<glyph PSName="uni1236" UID="1236">
+  <point type="U">
+    <location x="593" y="1377"/>
+  </point>
+</glyph>
+<glyph PSName="uni131C.alt1">
+  <point type="U">
+    <location x="630" y="1499"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DBB" UID="2DBB">
+  <point type="U">
+    <location x="1496" y="1229"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E1.chaine">
+  <point type="U">
+    <location x="949" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uni1270" UID="1270">
+  <point type="U">
+    <location x="828" y="1336"/>
+  </point>
+</glyph>
+<glyph PSName="uni1378" UID="1378"/>
+<glyph PSName="uni2007" UID="2007"/>
+<glyph PSName="uni12D9" UID="12D9">
+  <point type="U">
+    <location x="571" y="1249"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD9" UID="2DD9">
+  <point type="U">
+    <location x="577" y="1502"/>
+  </point>
+</glyph>
+<glyph PSName="uni1333" UID="1333">
+  <point type="U">
+    <location x="542" y="1474"/>
+  </point>
+</glyph>
+<glyph PSName="uni131D" UID="131D">
+  <point type="U">
+    <location x="681" y="1549"/>
+  </point>
+</glyph>
+<glyph PSName="Edieresis" UID="00CB"/>
+<glyph PSName="ring" UID="02DA"/>
+<glyph PSName="uni030B" UID="030B">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC8" UID="2DC8">
+  <point type="U">
+    <location x="564" y="1458"/>
+  </point>
+</glyph>
+<glyph PSName="uni1307" UID="1307">
+  <point type="U">
+    <location x="790" y="1637"/>
+  </point>
+</glyph>
+<glyph PSName="uni1329" UID="1329">
+  <point type="U">
+    <location x="995" y="1103"/>
+  </point>
+</glyph>
+<glyph PSName="ellipsis" UID="2026"/>
+<glyph PSName="uni2DD6" UID="2DD6">
+  <point type="U">
+    <location x="608" y="1696"/>
+  </point>
+</glyph>
+<glyph PSName="Ntilde" UID="00D1"/>
+<glyph PSName="uni123D" UID="123D">
+  <point type="U">
+    <location x="582" y="1501"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE05" UID="FE05"/>
+<glyph PSName="uni135A" UID="135A">
+  <point type="U">
+    <location x="712" y="1458"/>
+  </point>
+</glyph>
+<glyph PSName="N" UID="004E"/>
+<glyph PSName="uni202F" UID="202F">
+  <point type="U">
+    <location x="246" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uni1296" UID="1296">
+  <point type="U">
+    <location x="660" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="quotedblright" UID="201D"/>
+<glyph PSName="uni2D8A" UID="2D8A">
+  <point type="U">
+    <location x="805" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FC.oromo">
+  <point type="U">
+    <location x="778" y="1345"/>
+  </point>
+</glyph>
+<glyph PSName="uni1297.oldstyle">
+  <point type="U">
+    <location x="444" y="1288"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB21" UID="AB21">
+  <point type="U">
+    <location x="966" y="1487"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE0E" UID="FE0E"/>
+<glyph PSName="uni133B" UID="133B">
+  <point type="U">
+    <location x="492" y="1238"/>
+  </point>
+</glyph>
+<glyph PSName="uni1393" UID="1393"/>
+<glyph PSName="emdash" UID="2014"/>
+<glyph PSName="uni122E" UID="122E">
+  <point type="U">
+    <location x="781" y="1271"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C3.cohen7">
+  <point type="U">
+    <location x="652" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC9" UID="2DC9">
+  <point type="U">
+    <location x="480" y="1489"/>
+  </point>
+</glyph>
+<glyph PSName="uni25CC" UID="25CC"/>
+<glyph PSName="uni2D87" UID="2D87">
+  <point type="U">
+    <location x="855" y="1611"/>
+  </point>
+</glyph>
+<glyph PSName="uni1399" UID="1399"/>
+<glyph PSName="daggerdbl" UID="2021"/>
+<glyph PSName="uni12D8" UID="12D8">
+  <point type="U">
+    <location x="563" y="1249"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E0.cohen6">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uniE371"/>
+<glyph PSName="uni124A" UID="124A">
+  <point type="U">
+    <location x="757" y="1448"/>
+  </point>
+</glyph>
+<glyph PSName="Igrave" UID="00CC"/>
+<glyph PSName="uniE510"/>
+<glyph PSName="uni127E" UID="127E">
+  <point type="U">
+    <location x="903" y="1583"/>
+  </point>
+</glyph>
+<glyph PSName="E" UID="0045"/>
+<glyph PSName="uniAB05" UID="AB05">
+  <point type="U">
+    <location x="477" y="1386"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DDE" UID="2DDE">
+  <point type="U">
+    <location x="533" y="1671"/>
+  </point>
+</glyph>
+<glyph PSName="uni0307" UID="0307">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB1" UID="2DB1">
+  <point type="U">
+    <location x="988" y="1210"/>
+  </point>
+</glyph>
+<glyph PSName="uni200D" UID="200D"/>
+<glyph PSName="questiondown" UID="00BF"/>
+<glyph PSName="uni130E" UID="130E">
+  <point type="U">
+    <location x="571" y="1358"/>
+  </point>
+</glyph>
+<glyph PSName="uni200A" UID="200A"/>
+<glyph PSName="uni134E" UID="134E">
+  <point type="U">
+    <location x="793" y="1238"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC4" UID="2DC4">
+  <point type="U">
+    <location x="809" y="1674"/>
+  </point>
+</glyph>
+<glyph PSName="numbersign" UID="0023"/>
+<glyph PSName="parenleft" UID="0028"/>
+<glyph PSName="uni138F.sebLes5">
+  <point type="U">
+    <location x="727" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FE" UID="12FE">
+  <point type="U">
+    <location x="705" y="1599"/>
+  </point>
+</glyph>
+<glyph PSName="uni030C" UID="030C">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni122B" UID="122B">
+  <point type="U">
+    <location x="855" y="1267"/>
+  </point>
+</glyph>
+<glyph PSName="uniE518"/>
+<glyph PSName="uni1223" UID="1223">
+  <point type="U">
+    <location x="763" y="1272"/>
+  </point>
+</glyph>
+<glyph PSName="Udieresis" UID="00DC"/>
+<glyph PSName="uniE34F">
+  <point type="U">
+    <location x="1189" y="1289"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DDC" UID="2DDC">
+  <point type="U">
+    <location x="542" y="1521"/>
+  </point>
+</glyph>
+<glyph PSName="uni1276" UID="1276">
+  <point type="U">
+    <location x="843" y="1376"/>
+  </point>
+</glyph>
+<glyph PSName="uni1284" UID="1284">
+  <point type="U">
+    <location x="817" y="1347"/>
+  </point>
+</glyph>
+<glyph PSName="uni135E" UID="135E">
+  <point type="_U">
+    <location x="-547" y="1464"/>
+  </point>
+</glyph>
+<glyph PSName="eight.punct"/>
+<glyph PSName="quotedblright.punct"/>
+<glyph PSName="uni131B.alt1">
+  <point type="U">
+    <location x="734" y="1405"/>
+  </point>
+</glyph>
+<glyph PSName="uni0308" UID="0308">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="idieresis" UID="00EF"/>
+<glyph PSName="uni1390" UID="1390"/>
+<glyph PSName="uni1365" UID="1365"/>
+<glyph PSName="uni1275" UID="1275">
+  <point type="U">
+    <location x="787" y="1524"/>
+  </point>
+</glyph>
+<glyph PSName="uni1385" UID="1385">
+  <point type="U">
+    <location x="596" y="1307"/>
+  </point>
+</glyph>
+<glyph PSName="uni12D0" UID="12D0">
+  <point type="U">
+    <location x="578" y="1364"/>
+  </point>
+</glyph>
+<glyph PSName="uni12D5" UID="12D5">
+  <point type="U">
+    <location x="582" y="1397"/>
+  </point>
+</glyph>
+<glyph PSName="uniE517"/>
+<glyph PSName="m" UID="006D"/>
+<glyph PSName="ograve" UID="00F2"/>
+<glyph PSName="oacute" UID="00F3"/>
+<glyph PSName="onequarter" UID="00BC"/>
+<glyph PSName="uni2DB3" UID="2DB3">
+  <point type="U">
+    <location x="969" y="1173"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FA" UID="12FA">
+  <point type="U">
+    <location x="825" y="1596"/>
+  </point>
+</glyph>
+<glyph PSName="Otilde" UID="00D5"/>
+<glyph PSName="uni12E1" UID="12E1">
+  <point type="U">
+    <location x="949" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE0C" UID="FE0C"/>
+<glyph PSName="uni1224" UID="1224">
+  <point type="U">
+    <location x="763" y="1272"/>
+  </point>
+</glyph>
+<glyph PSName="uni1314" UID="1314">
+  <point type="U">
+    <location x="759" y="1392"/>
+  </point>
+</glyph>
+<glyph PSName="f" UID="0066"/>
+<glyph PSName="uni2002" UID="2002">
+  <point type="U">
+    <location x="512" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D93" UID="2D93">
+  <point type="U">
+    <location x="643" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="Ecircumflex" UID="00CA"/>
+<glyph PSName="uni126F" UID="126F">
+  <point type="U">
+    <location x="628" y="1473"/>
+  </point>
+</glyph>
+<glyph PSName="uniE070">
+  <point type="U">
+    <location x="423" y="1361"/>
+  </point>
+</glyph>
+<glyph PSName="uni1372" UID="1372"/>
+<glyph PSName="uniFE0D" UID="FE0D"/>
+<glyph PSName="uni12F2" UID="12F2">
+  <point type="U">
+    <location x="810" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="uni1277" UID="1277">
+  <point type="U">
+    <location x="870" y="1281"/>
+  </point>
+</glyph>
+<glyph PSName="uni1218" UID="1218">
+  <point type="U">
+    <location x="1121" y="1200"/>
+  </point>
+</glyph>
+<glyph PSName="uni127D" UID="127D">
+  <point type="U">
+    <location x="596" y="1643"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C2.seb3">
+  <point type="U">
+    <location x="630" y="1477"/>
+  </point>
+</glyph>
+<glyph PSName="uni138D" UID="138D">
+  <point type="U">
+    <location x="721" y="1182"/>
+  </point>
+</glyph>
+<glyph PSName="uni12CA" UID="12CA">
+  <point type="U">
+    <location x="718" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="uni136D" UID="136D"/>
+<glyph PSName="twosuperior" UID="00B2"/>
+<glyph PSName="uniAB02" UID="AB02">
+  <point type="U">
+    <location x="599" y="1380"/>
+  </point>
+</glyph>
+<glyph PSName="uni1313.oldstyle">
+  <point type="U">
+    <location x="825" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="O" UID="004F"/>
+<glyph PSName="uni124A.seb3">
+  <point type="U">
+    <location x="752" y="1408"/>
+  </point>
+</glyph>
+<glyph PSName="oe" UID="0153"/>
+<glyph PSName="J" UID="004A"/>
+<glyph PSName="uni129C" UID="129C">
+  <point type="U">
+    <location x="689" y="1416"/>
+  </point>
+</glyph>
+<glyph PSName="uni1318.alt1">
+  <point type="U">
+    <location x="665" y="1496"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD2" UID="2DD2">
+  <point type="U">
+    <location x="611" y="1674"/>
+  </point>
+</glyph>
+<glyph PSName="uniFFFD" UID="FFFD"/>
+<glyph PSName="uni12A8" UID="12A8">
+  <point type="U">
+    <location x="542" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D8C" UID="2D8C">
+  <point type="U">
+    <location x="929" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A9" UID="12A9">
+  <point type="U">
+    <location x="524" y="1436"/>
+  </point>
+</glyph>
+<glyph PSName="uni128B.handwriting">
+  <point type="U">
+    <location x="897" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="uniE49C"/>
+<glyph PSName="uni1297" UID="1297">
+  <point type="U">
+    <location x="724" y="1292"/>
+  </point>
+</glyph>
+<glyph PSName="uni1302" UID="1302">
+  <point type="U">
+    <location x="710" y="1481"/>
+  </point>
+</glyph>
+<glyph PSName="uni125D" UID="125D">
+  <point type="U">
+    <location x="668" y="1527"/>
+  </point>
+</glyph>
+<glyph PSName="uni1281" UID="1281">
+  <point type="U">
+    <location x="834" y="1356"/>
+  </point>
+</glyph>
+<glyph PSName="uni2122" UID="2122"/>
+<glyph PSName="uni12DB" UID="12DB">
+  <point type="U">
+    <location x="509" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="uni1339" UID="1339">
+  <point type="U">
+    <location x="564" y="1207"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DBD" UID="2DBD">
+  <point type="U">
+    <location x="1499" y="1264"/>
+  </point>
+</glyph>
+<glyph PSName="dagger" UID="2020"/>
+<glyph PSName="notequal" UID="2260"/>
+<glyph PSName="uni129F.gumuz1">
+  <point type="U">
+    <location x="669" y="1586"/>
+  </point>
+</glyph>
+<glyph PSName="uni1274" UID="1274">
+  <point type="U">
+    <location x="815" y="1326"/>
+  </point>
+</glyph>
+<glyph PSName="uni1330" UID="1330">
+  <point type="U">
+    <location x="542" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="eight" UID="0038"/>
+<glyph PSName="uni1345" UID="1345">
+  <point type="U">
+    <location x="572" y="1368"/>
+  </point>
+</glyph>
+<glyph PSName="uni134A" UID="134A">
+  <point type="U">
+    <location x="809" y="1279"/>
+  </point>
+</glyph>
+<glyph PSName="uni138E" UID="138E">
+  <point type="U">
+    <location x="809" y="1342"/>
+  </point>
+</glyph>
+<glyph PSName="uni134F.oldstyle">
+  <point type="U">
+    <location x="705" y="1587"/>
+  </point>
+</glyph>
+<glyph PSName="uniE514"/>
+<glyph PSName="copyright.punct"/>
+<glyph PSName="uni1278" UID="1278">
+  <point type="U">
+    <location x="781" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E1.cohen6">
+  <point type="U">
+    <location x="949" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="exclamdown.punct"/>
+<glyph PSName="uni12D6" UID="12D6">
+  <point type="U">
+    <location x="815" y="1416"/>
+  </point>
+</glyph>
+<glyph PSName="nine.punct"/>
+<glyph PSName="greater" UID="003E"/>
+<glyph PSName="guilsinglright" UID="203A"/>
+<glyph PSName="uni2DCA" UID="2DCA">
+  <point type="U">
+    <location x="483" y="1474"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A5" UID="12A5">
+  <point type="U">
+    <location x="255" y="1427"/>
+  </point>
+</glyph>
+<glyph PSName="uni1251" UID="1251">
+  <point type="U">
+    <location x="743" y="1571"/>
+  </point>
+</glyph>
+<glyph PSName="florin" UID="0192"/>
+<glyph PSName="uni137C" UID="137C"/>
+<glyph PSName="uni2DC0" UID="2DC0">
+  <point type="U">
+    <location x="796" y="1731"/>
+  </point>
+</glyph>
+<glyph PSName="uniE513"/>
+<glyph PSName="uni1239" UID="1239">
+  <point type="U">
+    <location x="685" y="1508"/>
+  </point>
+</glyph>
+<glyph PSName="S" UID="0053"/>
+<glyph PSName="uni12A3" UID="12A3">
+  <point type="U">
+    <location x="416" y="1381"/>
+  </point>
+</glyph>
+<glyph PSName="quotesinglbase" UID="201A"/>
+<glyph PSName="uni131F" UID="131F">
+  <point type="U">
+    <location x="620" y="1424"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB4" UID="2DB4">
+  <point type="U">
+    <location x="969" y="1173"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B8" UID="12B8">
+  <point type="U">
+    <location x="656" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="uniE376"/>
+<glyph PSName="uni129F" UID="129F">
+  <point type="U">
+    <location x="668" y="1494"/>
+  </point>
+</glyph>
+<glyph PSName="uni123F" UID="123F">
+  <point type="U">
+    <location x="635" y="1480"/>
+  </point>
+</glyph>
+<glyph PSName="uni130B" UID="130B">
+  <point type="U">
+    <location x="922" y="1170"/>
+  </point>
+</glyph>
+<glyph PSName="uni132D" UID="132D">
+  <point type="U">
+    <location x="1055" y="1276"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB0B" UID="AB0B">
+  <point type="U">
+    <location x="831" y="1602"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB11" UID="AB11">
+  <point type="U">
+    <location x="593" y="1590"/>
+  </point>
+</glyph>
+<glyph PSName="guilsinglright.punct"/>
+<glyph PSName="s" UID="0073"/>
+<glyph PSName="uni1205" UID="1205">
+  <point type="U">
+    <location x="565" y="1303"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DAB" UID="2DAB">
+  <point type="U">
+    <location x="900" y="1408"/>
+  </point>
+</glyph>
+<glyph PSName="uni1360" UID="1360"/>
+<glyph PSName="partialdiff" UID="2202"/>
+<glyph PSName="uni1285" UID="1285">
+  <point type="U">
+    <location x="703" y="1345"/>
+  </point>
+</glyph>
+<glyph PSName="uni128C" UID="128C">
+  <point type="U">
+    <location x="727" y="1433"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A4" UID="12A4">
+  <point type="U">
+    <location x="347" y="1334"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DBE" UID="2DBE">
+  <point type="U">
+    <location x="1480" y="1245"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D8D" UID="2D8D">
+  <point type="U">
+    <location x="917" y="1685"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB2A" UID="AB2A">
+  <point type="U">
+    <location x="619" y="1573"/>
+  </point>
+</glyph>
+<glyph PSName="uni1261" UID="1261">
+  <point type="U">
+    <location x="564" y="1331"/>
+  </point>
+</glyph>
+<glyph PSName="uni2003" UID="2003">
+  <point type="U">
+    <location x="1024" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB15" UID="AB15">
+  <point type="U">
+    <location x="602" y="1571"/>
+  </point>
+</glyph>
+<glyph PSName="D" UID="0044"/>
+<glyph PSName="uni2D85" UID="2D85">
+  <point type="U">
+    <location x="972" y="1327"/>
+  </point>
+</glyph>
+<glyph PSName="uni1237" UID="1237">
+  <point type="U">
+    <location x="561" y="1405"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB2C" UID="AB2C">
+  <point type="U">
+    <location x="582" y="1573"/>
+  </point>
+</glyph>
+<glyph PSName="Aacute" UID="00C1"/>
+<glyph PSName="B" UID="0042"/>
+<glyph PSName="slash.punct"/>
+<glyph PSName="backslash" UID="005C"/>
+<glyph PSName="plus.punct"/>
+<glyph PSName="uni126D" UID="126D">
+  <point type="U">
+    <location x="1010" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni136B" UID="136B"/>
+<glyph PSName="uni137A" UID="137A"/>
+<glyph PSName="uni12F9.oromo">
+  <point type="U">
+    <location x="806" y="1376"/>
+  </point>
+</glyph>
+<glyph PSName="uni1391" UID="1391"/>
+<glyph PSName="Yacute" UID="00DD"/>
+<glyph PSName="uni1305" UID="1305">
+  <point type="U">
+    <location x="779" y="1458"/>
+  </point>
+</glyph>
+<glyph PSName="uni1214" UID="1214">
+  <point type="U">
+    <location x="898" y="1288"/>
+  </point>
+</glyph>
+<glyph PSName="question.punct"/>
+<glyph PSName="circumflex" UID="02C6"/>
+<glyph PSName="guilsinglleft" UID="2039"/>
+<glyph PSName="degree" UID="00B0"/>
+<glyph PSName="uni1381.seb5">
+  <point type="U">
+    <location x="884" y="1254"/>
+  </point>
+</glyph>
+<glyph PSName="igrave" UID="00EC"/>
+<glyph PSName="uniE2E7">
+  <point type="U">
+    <location x="954" y="1214"/>
+  </point>
+</glyph>
+<glyph PSName="oslash" UID="00F8"/>
+<glyph PSName="quoteleft.punct"/>
+<glyph PSName="uniAB09" UID="AB09">
+  <point type="U">
+    <location x="825" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="guillemotright" UID="00BB"/>
+<glyph PSName="uni203B" UID="203B"/>
+<glyph PSName="uni12B2.seb3">
+  <point type="U">
+    <location x="499" y="1314"/>
+  </point>
+</glyph>
+<glyph PSName="uni1358" UID="1358">
+  <point type="U">
+    <location x="759" y="1489"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC2" UID="2DC2">
+  <point type="U">
+    <location x="796" y="1721"/>
+  </point>
+</glyph>
+<glyph PSName="w" UID="0077"/>
+<glyph PSName="uni129F.cohen8">
+  <point type="U">
+    <location x="692" y="1446"/>
+  </point>
+</glyph>
+<glyph PSName="eightsuperior" UID="2078"/>
+<glyph PSName="equal" UID="003D"/>
+<glyph PSName="fivesuperior.punct"/>
+<glyph PSName="uni125B" UID="125B">
+  <point type="U">
+    <location x="743" y="1618"/>
+  </point>
+</glyph>
+<glyph PSName="uniE257">
+  <point type="U">
+    <location x="793" y="1635"/>
+  </point>
+</glyph>
+<glyph PSName="uni126B" UID="126B">
+  <point type="U">
+    <location x="636" y="1408"/>
+  </point>
+</glyph>
+<glyph PSName="M" UID="004D"/>
+<glyph PSName="uni138C" UID="138C">
+  <point type="U">
+    <location x="715" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="t" UID="0074"/>
+<glyph PSName="Eacute" UID="00C9"/>
+<glyph PSName="braceleft" UID="007B"/>
+<glyph PSName="iacute" UID="00ED"/>
+<glyph PSName="uniE26F">
+  <point type="U">
+    <location x="917" y="1462"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D8F" UID="2D8F">
+  <point type="U">
+    <location x="1276" y="1227"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB04" UID="AB04">
+  <point type="U">
+    <location x="586" y="1361"/>
+  </point>
+</glyph>
+<glyph PSName="uniE49D"/>
+<glyph PSName="uni12C4" UID="12C4">
+  <point type="U">
+    <location x="633" y="1492"/>
+  </point>
+</glyph>
+<glyph PSName="uniE511"/>
+<glyph PSName="underscore" UID="005F"/>
+<glyph PSName="uni12DC" UID="12DC">
+  <point type="U">
+    <location x="594" y="1257"/>
+  </point>
+</glyph>
+<glyph PSName="six.punct"/>
+<glyph PSName="uni1234" UID="1234">
+  <point type="U">
+    <location x="586" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="seven.punct"/>
+<glyph PSName="p" UID="0070"/>
+<glyph PSName="uni12F9" UID="12F9">
+  <point type="U">
+    <location x="825" y="1593"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB22" UID="AB22">
+  <point type="U">
+    <location x="979" y="1462"/>
+  </point>
+</glyph>
+<glyph PSName="uni1241" UID="1241">
+  <point type="U">
+    <location x="752" y="1381"/>
+  </point>
+</glyph>
+<glyph PSName="uni12D2" UID="12D2">
+  <point type="U">
+    <location x="578" y="1387"/>
+  </point>
+</glyph>
+<glyph PSName="uni1250" UID="1250">
+  <point type="U">
+    <location x="762" y="1543"/>
+  </point>
+</glyph>
+<glyph PSName=".null"/>
+<glyph PSName="uni1337" UID="1337">
+  <point type="U">
+    <location x="448" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="uni138A" UID="138A">
+  <point type="U">
+    <location x="702" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="uni1309" UID="1309">
+  <point type="U">
+    <location x="552" y="1126"/>
+  </point>
+</glyph>
+<glyph PSName="logicalnot" UID="00AC"/>
+<glyph PSName="uni12E7" UID="12E7">
+  <point type="U">
+    <location x="990" y="1214"/>
+  </point>
+</glyph>
+<glyph PSName="uni12AD" UID="12AD">
+  <point type="U">
+    <location x="536" y="1445"/>
+  </point>
+</glyph>
+<glyph PSName="uni2060" UID="2060"/>
+<glyph PSName="Euro.punct"/>
+<glyph PSName="lessequal" UID="2264"/>
+<glyph PSName="uni1288.handwriting">
+  <point type="U">
+    <location x="589" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="less" UID="003C"/>
+<glyph PSName="uni1222" UID="1222">
+  <point type="U">
+    <location x="763" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="j" UID="006A"/>
+<glyph PSName="uniFE0F" UID="FE0F"/>
+<glyph PSName="uni1260" UID="1260">
+  <point type="U">
+    <location x="554" y="1334"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA5" UID="2DA5">
+  <point type="U">
+    <location x="727" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="eth" UID="00F0"/>
+<glyph PSName="uni122A" UID="122A">
+  <point type="U">
+    <location x="870" y="1263"/>
+  </point>
+</glyph>
+<glyph PSName="uni12EB" UID="12EB">
+  <point type="U">
+    <location x="853" y="1348"/>
+  </point>
+</glyph>
+<glyph PSName="uni123A" UID="123A">
+  <point type="U">
+    <location x="678" y="1505"/>
+  </point>
+</glyph>
+<glyph PSName="at" UID="0040"/>
+<glyph PSName="uni1266" UID="1266">
+  <point type="U">
+    <location x="564" y="1327"/>
+  </point>
+</glyph>
+<glyph PSName="zcaron" UID="017E">
+  <point type="U">
+    <location x="483" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="ecircumflex" UID="00EA"/>
+<glyph PSName="z" UID="007A"/>
+<glyph PSName="period" UID="002E"/>
+<glyph PSName="bullet" UID="2022"/>
+<glyph PSName="uni1256" UID="1256">
+  <point type="U">
+    <location x="825" y="1558"/>
+  </point>
+</glyph>
+<glyph PSName="uni136F" UID="136F"/>
+<glyph PSName="uni138F.sebLes">
+  <point type="U">
+    <location x="727" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="uni12AF" UID="12AF">
+  <point type="U">
+    <location x="904" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni1294" UID="1294">
+  <point type="U">
+    <location x="291" y="1324"/>
+  </point>
+</glyph>
+<glyph PSName="uni1362" UID="1362"/>
+<glyph PSName="cent" UID="00A2"/>
+<glyph PSName="ordfeminine" UID="00AA"/>
+<glyph PSName="i" UID="0069"/>
+<glyph PSName="uni12D3" UID="12D3">
+  <point type="U">
+    <location x="555" y="1387"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA9" UID="2DA9">
+  <point type="U">
+    <location x="850" y="1433"/>
+  </point>
+</glyph>
+<glyph PSName="uni200F" UID="200F"/>
+<glyph PSName="uniE372"/>
+<glyph PSName="uniE529"/>
+<glyph PSName="OE" UID="0152"/>
+<glyph PSName="uni1210" UID="1210">
+  <point type="U">
+    <location x="910" y="1273"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F7" UID="12F7">
+  <point type="U">
+    <location x="796" y="1314"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DCB" UID="2DCB">
+  <point type="U">
+    <location x="508" y="1477"/>
+  </point>
+</glyph>
+<glyph PSName="currency" UID="00A4"/>
+<glyph PSName="uni12E3.cohen6">
+  <point type="U">
+    <location x="941" y="1219"/>
+  </point>
+</glyph>
+<glyph PSName="uni123C" UID="123C">
+  <point type="U">
+    <location x="692" y="1508"/>
+  </point>
+</glyph>
+<glyph PSName="uni1324" UID="1324">
+  <point type="U">
+    <location x="833" y="1087"/>
+  </point>
+</glyph>
+<glyph PSName="uni12A6" UID="12A6">
+  <point type="U">
+    <location x="470" y="1357"/>
+  </point>
+</glyph>
+<glyph PSName="zerosuperior.punct"/>
+<glyph PSName="uni1208" UID="1208">
+  <point type="U">
+    <location x="540" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="product" UID="220F"/>
+<glyph PSName="uniE49A">
+  <point type="U">
+    <location x="925" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="uni1344" UID="1344">
+  <point type="U">
+    <location x="504" y="1416"/>
+  </point>
+</glyph>
+<glyph PSName="uni1263" UID="1263">
+  <point type="U">
+    <location x="578" y="1317"/>
+  </point>
+</glyph>
+<glyph PSName="uni122F.cohen3">
+  <point type="U">
+    <location x="678" y="1263"/>
+  </point>
+</glyph>
+<glyph PSName="uni1328" UID="1328">
+  <point type="U">
+    <location x="995" y="1126"/>
+  </point>
+</glyph>
+<glyph PSName="eightsuperior.punct"/>
+<glyph PSName="uni1388" UID="1388">
+  <point type="U">
+    <location x="781" y="1254"/>
+  </point>
+</glyph>
+<glyph PSName="Agrave" UID="00C0"/>
+<glyph PSName="uni1327" UID="1327">
+  <point type="U">
+    <location x="972" y="1085"/>
+  </point>
+</glyph>
+<glyph PSName="uni132B" UID="132B">
+  <point type="U">
+    <location x="1018" y="1257"/>
+  </point>
+</glyph>
+<glyph PSName="uni1243" UID="1243">
+  <point type="U">
+    <location x="962" y="1340"/>
+  </point>
+</glyph>
+<glyph PSName="uni1203" UID="1203">
+  <point type="U">
+    <location x="545" y="1333"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E2" UID="12E2">
+  <point type="U">
+    <location x="996" y="1227"/>
+  </point>
+</glyph>
+<glyph PSName="uni12BE" UID="12BE">
+  <point type="U">
+    <location x="656" y="1555"/>
+  </point>
+</glyph>
+<glyph PSName="uni1363" UID="1363"/>
+<glyph PSName="uni2DBC" UID="2DBC">
+  <point type="U">
+    <location x="1380" y="1116"/>
+  </point>
+</glyph>
+<glyph PSName="uni132E" UID="132E">
+  <point type="U">
+    <location x="1072" y="1249"/>
+  </point>
+</glyph>
+<glyph PSName="macron" UID="00AF"/>
+<glyph PSName="uni1283" UID="1283">
+  <point type="U">
+    <location x="866" y="1394"/>
+  </point>
+</glyph>
+<glyph PSName="uni1312.seb3">
+  <point type="U">
+    <location x="536" y="1279"/>
+  </point>
+</glyph>
+<glyph PSName="uni12AA" UID="12AA">
+  <point type="U">
+    <location x="536" y="1449"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C8" UID="12C8">
+  <point type="U">
+    <location x="828" y="1223"/>
+  </point>
+</glyph>
+<glyph PSName="approxequal" UID="2248"/>
+<glyph PSName="percent" UID="0025"/>
+<glyph PSName="uni12AC" UID="12AC">
+  <point type="U">
+    <location x="549" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="uniE069">
+  <point type="U">
+    <location x="624" y="1709"/>
+  </point>
+</glyph>
+<glyph PSName="uni02C9" UID="02C9">
+  <point type="U">
+    <location x="343" y="1470"/>
+  </point>
+</glyph>
+<glyph PSName="uniE25F">
+  <point type="U">
+    <location x="837" y="1580"/>
+  </point>
+</glyph>
+<glyph PSName="asterisk.punct"/>
+<glyph PSName=".notdef"/>
+<glyph PSName="uni12B3" UID="12B3">
+  <point type="U">
+    <location x="486" y="1455"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F3" UID="12F3">
+  <point type="U">
+    <location x="779" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="uni12AE" UID="12AE">
+  <point type="U">
+    <location x="533" y="1442"/>
+  </point>
+</glyph>
+<glyph PSName="uniE51B"/>
+<glyph PSName="Scaron" UID="0160"/>
+<glyph PSName="onesuperior.punct"/>
+<glyph PSName="uni1308" UID="1308">
+  <point type="U">
+    <location x="542" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="adieresis" UID="00E4"/>
+<glyph PSName="Icircumflex" UID="00CE"/>
+<glyph PSName="uni1271" UID="1271">
+  <point type="U">
+    <location x="825" y="1333"/>
+  </point>
+</glyph>
+<glyph PSName="uni1353" UID="1353">
+  <point type="U">
+    <location x="1101" y="1163"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC3" UID="2DC3">
+  <point type="U">
+    <location x="1000" y="1646"/>
+  </point>
+</glyph>
+<glyph PSName="uniE520"/>
+<glyph PSName="integral" UID="222B"/>
+<glyph PSName="uniE508"/>
+<glyph PSName="q" UID="0071"/>
+<glyph PSName="uni128D" UID="128D">
+  <point type="U">
+    <location x="696" y="1298"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E3" UID="12E3">
+  <point type="U">
+    <location x="941" y="1219"/>
+  </point>
+</glyph>
+<glyph PSName="uniE50A"/>
+<glyph PSName="one.punct"/>
+<glyph PSName="uni136E" UID="136E"/>
+<glyph PSName="U" UID="0055"/>
+<glyph PSName="uni129A.gumuz">
+  <point type="U">
+    <location x="607" y="1611"/>
+  </point>
+</glyph>
+<glyph PSName="tilde" UID="02DC"/>
+<glyph PSName="exclam" UID="0021"/>
+<glyph PSName="uni131B" UID="131B">
+  <point type="U">
+    <location x="719" y="1474"/>
+  </point>
+</glyph>
+<glyph PSName="uni2005" UID="2005">
+  <point type="U">
+    <location x="246" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="brokenbar" UID="00A6"/>
+<glyph PSName="g" UID="0067"/>
+<glyph PSName="eacute" UID="00E9"/>
+<glyph PSName="uni2713" UID="2713"/>
+<glyph PSName="asciitilde" UID="007E"/>
+<glyph PSName="uni1310" UID="1310">
+  <point type="U">
+    <location x="530" y="1298"/>
+  </point>
+</glyph>
+<glyph PSName="uni12EF" UID="12EF">
+  <point type="U">
+    <location x="904" y="1412"/>
+  </point>
+</glyph>
+<glyph PSName="uni1382" UID="1382">
+  <point type="U">
+    <location x="906" y="1370"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD0" UID="2DD0">
+  <point type="U">
+    <location x="596" y="1712"/>
+  </point>
+</glyph>
+<glyph PSName="uni1235" UID="1235">
+  <point type="U">
+    <location x="444" y="1391"/>
+  </point>
+</glyph>
+<glyph PSName="uni1206" UID="1206">
+  <point type="U">
+    <location x="564" y="1329"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA8" UID="2DA8">
+  <point type="U">
+    <location x="890" y="1423"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DB2" UID="2DB2">
+  <point type="U">
+    <location x="972" y="1182"/>
+  </point>
+</glyph>
+<glyph PSName="uni12DE" UID="12DE">
+  <point type="U">
+    <location x="563" y="1265"/>
+  </point>
+</glyph>
+<glyph PSName="uni12D1" UID="12D1">
+  <point type="U">
+    <location x="647" y="1341"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D96" UID="2D96">
+  <point type="U">
+    <location x="618" y="1392"/>
+  </point>
+</glyph>
+<glyph PSName="uni1265" UID="1265">
+  <point type="U">
+    <location x="1001" y="1320"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E0.chaine">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uni1201" UID="1201">
+  <point type="U">
+    <location x="610" y="1236"/>
+  </point>
+</glyph>
+<glyph PSName="uni1280" UID="1280">
+  <point type="U">
+    <location x="813" y="1350"/>
+  </point>
+</glyph>
+<glyph PSName="uni1213" UID="1213">
+  <point type="U">
+    <location x="848" y="1260"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FE.oromo">
+  <point type="U">
+    <location x="756" y="1345"/>
+  </point>
+</glyph>
+<glyph PSName="uni1392" UID="1392"/>
+<glyph PSName="uniE375"/>
+<glyph PSName="uni132A" UID="132A">
+  <point type="U">
+    <location x="995" y="1103"/>
+  </point>
+</glyph>
+<glyph PSName="uni128D.handwriting">
+  <point type="U">
+    <location x="552" y="1132"/>
+  </point>
+</glyph>
+<glyph PSName="uni1334" UID="1334">
+  <point type="U">
+    <location x="586" y="1480"/>
+  </point>
+</glyph>
+<glyph PSName="uni1212" UID="1212">
+  <point type="U">
+    <location x="905" y="1285"/>
+  </point>
+</glyph>
+<glyph PSName="uni1374" UID="1374"/>
+<glyph PSName="quoteleft" UID="2018"/>
+<glyph PSName="uniE51A"/>
+<glyph PSName="uni2D8E" UID="2D8E">
+  <point type="U">
+    <location x="917" y="1524"/>
+  </point>
+</glyph>
+<glyph PSName="uni138A.trad">
+  <point type="U">
+    <location x="862" y="1511"/>
+  </point>
+</glyph>
+<glyph PSName="uni12ED" UID="12ED">
+  <point type="U">
+    <location x="765" y="1270"/>
+  </point>
+</glyph>
+<glyph PSName="uni2001" UID="2001">
+  <point type="U">
+    <location x="985" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="parenright" UID="0029"/>
+<glyph PSName="uniE37A"/>
+<glyph PSName="uni1282" UID="1282">
+  <point type="U">
+    <location x="818" y="1363"/>
+  </point>
+</glyph>
+<glyph PSName="uni120D" UID="120D">
+  <point type="U">
+    <location x="594" y="1311"/>
+  </point>
+</glyph>
+<glyph PSName="uni124C" UID="124C">
+  <point type="U">
+    <location x="833" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F5" UID="12F5">
+  <point type="U">
+    <location x="810" y="1357"/>
+  </point>
+</glyph>
+<glyph PSName="uni12BC" UID="12BC">
+  <point type="U">
+    <location x="675" y="1518"/>
+  </point>
+</glyph>
+<glyph PSName="uni130D" UID="130D">
+  <point type="U">
+    <location x="630" y="1207"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB0D" UID="AB0D">
+  <point type="U">
+    <location x="828" y="1587"/>
+  </point>
+</glyph>
+<glyph PSName="percent.punct"/>
+<glyph PSName="uniAB2D" UID="AB2D">
+  <point type="U">
+    <location x="619" y="1512"/>
+  </point>
+</glyph>
+<glyph PSName="uniE374"/>
+<glyph PSName="uniE37F"/>
+<glyph PSName="two.punct"/>
+<glyph PSName="uni2D91" UID="2D91">
+  <point type="U">
+    <location x="904" y="1561"/>
+  </point>
+</glyph>
+<glyph PSName="copyright" UID="00A9"/>
+<glyph PSName="uniFE07" UID="FE07"/>
+<glyph PSName="uni2D92" UID="2D92">
+  <point type="U">
+    <location x="1512" y="1313"/>
+  </point>
+</glyph>
+<glyph PSName="twosuperior.punct"/>
+<glyph PSName="uni138F" UID="138F">
+  <point type="U">
+    <location x="737" y="1163"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D96.blin">
+  <point type="U">
+    <location x="618" y="1392"/>
+  </point>
+</glyph>
+<glyph PSName="uniE500"/>
+<glyph PSName="uni12D4" UID="12D4">
+  <point type="U">
+    <location x="509" y="1387"/>
+  </point>
+</glyph>
+<glyph PSName="K" UID="004B"/>
+<glyph PSName="acute" UID="00B4"/>
+<glyph PSName="greaterequal" UID="2265"/>
+<glyph PSName="radical" UID="221A"/>
+<glyph PSName="uni12FB" UID="12FB">
+  <point type="U">
+    <location x="825" y="1593"/>
+  </point>
+</glyph>
+<glyph PSName="quotedbl" UID="0022"/>
+<glyph PSName="uni12E4.chaine">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB16" UID="AB16">
+  <point type="U">
+    <location x="605" y="1596"/>
+  </point>
+</glyph>
+<glyph PSName="sevensuperior.punct"/>
+<glyph PSName="uni1319.alt1">
+  <point type="U">
+    <location x="680" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni138D.seb3">
+  <point type="U">
+    <location x="712" y="1182"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DA0" UID="2DA0">
+  <point type="U">
+    <location x="1035" y="1508"/>
+  </point>
+</glyph>
+<glyph PSName="uni138B.sebLes3">
+  <point type="U">
+    <location x="793" y="1264"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C2" UID="12C2">
+  <point type="U">
+    <location x="646" y="1486"/>
+  </point>
+</glyph>
+<glyph PSName="c" UID="0063"/>
+<glyph PSName="uni1286" UID="1286">
+  <point type="U">
+    <location x="1165" y="1367"/>
+  </point>
+</glyph>
+<glyph PSName="uni1254" UID="1254">
+  <point type="U">
+    <location x="768" y="1536"/>
+  </point>
+</glyph>
+<glyph PSName="Eth" UID="00D0"/>
+<glyph PSName="H" UID="0048"/>
+<glyph PSName="uni1315.seb2">
+  <point type="U">
+    <location x="589" y="1220"/>
+  </point>
+</glyph>
+<glyph PSName="uni1322" UID="1322">
+  <point type="U">
+    <location x="818" y="1041"/>
+  </point>
+</glyph>
+<glyph PSName="uni1204" UID="1204">
+  <point type="U">
+    <location x="525" y="1405"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D94" UID="2D94">
+  <point type="U">
+    <location x="630" y="1380"/>
+  </point>
+</glyph>
+<glyph PSName="uni127C" UID="127C">
+  <point type="U">
+    <location x="806" y="1442"/>
+  </point>
+</glyph>
+<glyph PSName="uni1381.sebLes1">
+  <point type="U">
+    <location x="1053" y="1116"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB12" UID="AB12">
+  <point type="U">
+    <location x="599" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="uni1244" UID="1244">
+  <point type="U">
+    <location x="759" y="1360"/>
+  </point>
+</glyph>
+<glyph PSName="bar" UID="007C"/>
+<glyph PSName="I" UID="0049"/>
+<glyph PSName="uni121E" UID="121E">
+  <point type="U">
+    <location x="923" y="1302"/>
+  </point>
+</glyph>
+<glyph PSName="summation" UID="2211"/>
+<glyph PSName="uni2DA6" UID="2DA6">
+  <point type="U">
+    <location x="1047" y="1521"/>
+  </point>
+</glyph>
+<glyph PSName="uni1272" UID="1272">
+  <point type="U">
+    <location x="821" y="1329"/>
+  </point>
+</glyph>
+<glyph PSName="uni12DD" UID="12DD">
+  <point type="U">
+    <location x="802" y="1265"/>
+  </point>
+</glyph>
+<glyph PSName="uni132F" UID="132F">
+  <point type="U">
+    <location x="1000" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="threesuperior.punct"/>
+<glyph PSName="uni2DDB" UID="2DDB">
+  <point type="U">
+    <location x="834" y="1511"/>
+  </point>
+</glyph>
+<glyph PSName="uni131A" UID="131A">
+  <point type="U">
+    <location x="669" y="1437"/>
+  </point>
+</glyph>
+<glyph PSName="Odieresis" UID="00D6"/>
+<glyph PSName="ugrave" UID="00F9"/>
+<glyph PSName="uniAB2E" UID="AB2E">
+  <point type="U">
+    <location x="644" y="1549"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E5.oldstyle">
+  <point type="U">
+    <location x="1066" y="1176"/>
+  </point>
+</glyph>
+<glyph PSName="uni202D" UID="202D"/>
+<glyph PSName="uni2010" UID="2010"/>
+<glyph PSName="uni129B" UID="129B">
+  <point type="U">
+    <location x="678" y="1544"/>
+  </point>
+</glyph>
+<glyph PSName="foursuperior" UID="2074"/>
+<glyph PSName="uni1384" UID="1384">
+  <point type="U">
+    <location x="580" y="1314"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2D8">
+  <point type="U">
+    <location x="589" y="1571"/>
+  </point>
+</glyph>
+<glyph PSName="uniE370"/>
+<glyph PSName="uni1231" UID="1231">
+  <point type="U">
+    <location x="593" y="1381"/>
+  </point>
+</glyph>
+<glyph PSName="uniE493">
+  <point type="U">
+    <location x="630" y="1612"/>
+  </point>
+</glyph>
+<glyph PSName="uni1262" UID="1262">
+  <point type="U">
+    <location x="568" y="1327"/>
+  </point>
+</glyph>
+<glyph PSName="P" UID="0050"/>
+<glyph PSName="uni1346" UID="1346">
+  <point type="U">
+    <location x="805" y="1407"/>
+  </point>
+</glyph>
+<glyph PSName="acircumflex" UID="00E2"/>
+<glyph PSName="uni1398" UID="1398"/>
+<glyph PSName="uniFE00" UID="FE00"/>
+<glyph PSName="uni1300" UID="1300">
+  <point type="U">
+    <location x="787" y="1465"/>
+  </point>
+</glyph>
+<glyph PSName="uni1292" UID="1292">
+  <point type="U">
+    <location x="298" y="1327"/>
+  </point>
+</glyph>
+<glyph PSName="uni1379" UID="1379"/>
+<glyph PSName="dollar" UID="0024"/>
+<glyph PSName="uni12FF" UID="12FF">
+  <point type="U">
+    <location x="816" y="1597"/>
+  </point>
+</glyph>
+<glyph PSName="seven" UID="0037"/>
+<glyph PSName="uni1304" UID="1304">
+  <point type="U">
+    <location x="663" y="1473"/>
+  </point>
+</glyph>
+<glyph PSName="uni126C" UID="126C">
+  <point type="U">
+    <location x="640" y="1442"/>
+  </point>
+</glyph>
+<glyph PSName="bracketleft" UID="005B"/>
+<glyph PSName="yacute" UID="00FD"/>
+<glyph PSName="uni1225" UID="1225">
+  <point type="U">
+    <location x="1272" y="1295"/>
+  </point>
+</glyph>
+<glyph PSName="b" UID="0062"/>
+<glyph PSName="uni133F.alt4">
+  <point type="U">
+    <location x="731" y="1400"/>
+  </point>
+</glyph>
+<glyph PSName="uni1359.ala2">
+  <point type="U">
+    <location x="834" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="plusminus" UID="00B1"/>
+<glyph PSName="uniE06E">
+  <point type="U">
+    <location x="624" y="1721"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B0" UID="12B0">
+  <point type="U">
+    <location x="533" y="1445"/>
+  </point>
+</glyph>
+<glyph PSName="uni12CD" UID="12CD">
+  <point type="U">
+    <location x="812" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DAC" UID="2DAC">
+  <point type="U">
+    <location x="847" y="1433"/>
+  </point>
+</glyph>
+<glyph PSName="dotaccent" UID="02D9"/>
+<glyph PSName="uniE494" UID="E494"/>
+<glyph PSName="pi" UID="03C0">
+  <point type="U">
+    <location x="608" y="1100"/>
+  </point>
+</glyph>
+<glyph PSName="uniE501"/>
+<glyph PSName="guilsinglleft.punct"/>
+<glyph PSName="uniAB03" UID="AB03">
+  <point type="U">
+    <location x="586" y="1370"/>
+  </point>
+</glyph>
+<glyph PSName="three.punct"/>
+<glyph PSName="ucircumflex" UID="00FB"/>
+<glyph PSName="uni12CE" UID="12CE">
+  <point type="U">
+    <location x="821" y="1367"/>
+  </point>
+</glyph>
+<glyph PSName="uni12FA.oromo">
+  <point type="U">
+    <location x="790" y="1361"/>
+  </point>
+</glyph>
+<glyph PSName="uniE06B">
+  <point type="U">
+    <location x="640" y="1706"/>
+  </point>
+</glyph>
+<glyph PSName="x" UID="0078"/>
+<glyph PSName="uni127B" UID="127B">
+  <point type="U">
+    <location x="887" y="1420"/>
+  </point>
+</glyph>
+<glyph PSName="exclamdown" UID="00A1"/>
+<glyph PSName="yen" UID="00A5"/>
+<glyph PSName="uni2028" UID="2028"/>
+<glyph PSName="uniE230">
+  <point type="U">
+    <location x="605" y="1376"/>
+  </point>
+</glyph>
+<glyph PSName="uniE50F">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="guillemotleft.punct"/>
+<glyph PSName="uni1230" UID="1230">
+  <point type="U">
+    <location x="571" y="1381"/>
+  </point>
+</glyph>
+<glyph PSName="multiply" UID="00D7"/>
+<glyph PSName="uni1320" UID="1320">
+  <point type="U">
+    <location x="825" y="1049"/>
+  </point>
+</glyph>
+<glyph PSName="uni12EC" UID="12EC">
+  <point type="U">
+    <location x="527" y="1326"/>
+  </point>
+</glyph>
+<glyph PSName="uni1387" UID="1387">
+  <point type="U">
+    <location x="988" y="1307"/>
+  </point>
+</glyph>
+<glyph PSName="uniE516"/>
+<glyph PSName="uni2D80" UID="2D80">
+  <point type="U">
+    <location x="942" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="uni131F.type">
+  <point type="U">
+    <location x="605" y="1627"/>
+  </point>
+</glyph>
+<glyph PSName="uni1287.alt3">
+  <point type="U">
+    <location x="607" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="fivesuperior" UID="2075"/>
+<glyph PSName="uniE071">
+  <point type="U">
+    <location x="828" y="1289"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DDA" UID="2DDA">
+  <point type="U">
+    <location x="524" y="1405"/>
+  </point>
+</glyph>
+<glyph PSName="uni12B9" UID="12B9">
+  <point type="U">
+    <location x="656" y="1555"/>
+  </point>
+</glyph>
+<glyph PSName="tildecomb" UID="0303">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="quoteright" UID="2019"/>
+<glyph PSName="uniAB26" UID="AB26">
+  <point type="U">
+    <location x="1053" y="1685"/>
+  </point>
+</glyph>
+<glyph PSName="uni12CF" UID="12CF">
+  <point type="U">
+    <location x="1189" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="Acircumflex" UID="00C2"/>
+<glyph PSName="uni1376" UID="1376"/>
+<glyph PSName="uni1351" UID="1351">
+  <point type="U">
+    <location x="734" y="1163"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE0A" UID="FE0A"/>
+<glyph PSName="uni129E.gumuz">
+  <point type="U">
+    <location x="694" y="1722"/>
+  </point>
+</glyph>
+<glyph PSName="uni1381" UID="1381">
+  <point type="U">
+    <location x="884" y="1264"/>
+  </point>
+</glyph>
+<glyph PSName="uniE06A">
+  <point type="U">
+    <location x="636" y="1709"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB0A" UID="AB0A">
+  <point type="U">
+    <location x="821" y="1596"/>
+  </point>
+</glyph>
+<glyph PSName="uni133D" UID="133D">
+  <point type="U">
+    <location x="574" y="1204"/>
+  </point>
+</glyph>
+<glyph PSName="uni200E" UID="200E"/>
+<glyph PSName="uni12C5" UID="12C5">
+  <point type="U">
+    <location x="633" y="1486"/>
+  </point>
+</glyph>
+<glyph PSName="uni2004" UID="2004">
+  <point type="U">
+    <location x="328" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uniE37C"/>
+<glyph PSName="uniE49E"/>
+<glyph PSName="uni12CC" UID="12CC">
+  <point type="U">
+    <location x="709" y="1292"/>
+  </point>
+</glyph>
+<glyph PSName="AE" UID="00C6"/>
+<glyph PSName="fraction" UID="2044"/>
+<glyph PSName="uni2219" UID="2219"/>
+<glyph PSName="uniE072">
+  <point type="U">
+    <location x="549" y="1320"/>
+  </point>
+</glyph>
+<glyph PSName="uni1383.seb4">
+  <point type="U">
+    <location x="912" y="1292"/>
+  </point>
+</glyph>
+<glyph PSName="uniE491">
+  <point type="U">
+    <location x="793" y="1709"/>
+  </point>
+</glyph>
+<glyph PSName="uni12BA" UID="12BA">
+  <point type="U">
+    <location x="637" y="1518"/>
+  </point>
+</glyph>
+<glyph PSName="uni1368" UID="1368"/>
+<glyph PSName="uni2DDD" UID="2DDD">
+  <point type="U">
+    <location x="825" y="1552"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2AA">
+  <point type="U">
+    <location x="502" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni1356" UID="1356">
+  <point type="U">
+    <location x="1079" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="gravecomb" UID="0300">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni1268" UID="1268">
+  <point type="U">
+    <location x="624" y="1449"/>
+  </point>
+</glyph>
+<glyph PSName="uni122F" UID="122F">
+  <point type="U">
+    <location x="873" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="uni1359" UID="1359">
+  <point type="U">
+    <location x="834" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="onesuperior" UID="00B9"/>
+<glyph PSName="uni12FC" UID="12FC">
+  <point type="U">
+    <location x="800" y="1596"/>
+  </point>
+</glyph>
+<glyph PSName="n" UID="006E"/>
+<glyph PSName="uni1331" UID="1331">
+  <point type="U">
+    <location x="580" y="1477"/>
+  </point>
+</glyph>
+<glyph PSName="braceright" UID="007D"/>
+<glyph PSName="sevensuperior" UID="2077"/>
+<glyph PSName="uniAB2B" UID="AB2B">
+  <point type="U">
+    <location x="632" y="1561"/>
+  </point>
+</glyph>
+<glyph PSName="nine" UID="0039"/>
+<glyph PSName="uni1313.alonestokes">
+  <point type="U">
+    <location x="825" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="Ocircumflex" UID="00D4"/>
+<glyph PSName="uni125C" UID="125C">
+  <point type="U">
+    <location x="878" y="1587"/>
+  </point>
+</glyph>
+<glyph PSName="uni1298" UID="1298">
+  <point type="U">
+    <location x="692" y="1446"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2AE">
+  <point type="U">
+    <location x="477" y="1452"/>
+  </point>
+</glyph>
+<glyph PSName="l" UID="006C"/>
+<glyph PSName="uni134C" UID="134C">
+  <point type="U">
+    <location x="787" y="1257"/>
+  </point>
+</glyph>
+<glyph PSName="uni121F.cohen2">
+  <point type="U">
+    <location x="923" y="1302"/>
+  </point>
+</glyph>
+<glyph PSName="uni1313.seb0">
+  <point type="U">
+    <location x="564" y="1329"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE0B" UID="FE0B"/>
+<glyph PSName="v" UID="0076"/>
+<glyph PSName="uni1207" UID="1207">
+  <point type="U">
+    <location x="917" y="1350"/>
+  </point>
+</glyph>
+<glyph PSName="uni1228" UID="1228">
+  <point type="U">
+    <location x="852" y="1249"/>
+  </point>
+</glyph>
+<glyph PSName="uniE068">
+  <point type="U">
+    <location x="605" y="1740"/>
+  </point>
+</glyph>
+<glyph PSName="uni12BB" UID="12BB">
+  <point type="U">
+    <location x="656" y="1574"/>
+  </point>
+</glyph>
+<glyph PSName="uni129D.gumuz">
+  <point type="U">
+    <location x="607" y="1648"/>
+  </point>
+</glyph>
+<glyph PSName="uniE51D"/>
+<glyph PSName="uni12DA" UID="12DA">
+  <point type="U">
+    <location x="555" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="grave" UID="0060"/>
+<glyph PSName="d" UID="0064"/>
+<glyph PSName="uni12A7" UID="12A7">
+  <point type="U">
+    <location x="607" y="1725"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F1" UID="12F1">
+  <point type="U">
+    <location x="810" y="1396"/>
+  </point>
+</glyph>
+<glyph PSName="quoteright.punct"/>
+<glyph PSName="uni1357" UID="1357">
+  <point type="U">
+    <location x="800" y="1223"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB0E" UID="AB0E">
+  <point type="U">
+    <location x="699" y="1571"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C3" UID="12C3">
+  <point type="U">
+    <location x="574" y="1524"/>
+  </point>
+</glyph>
+<glyph PSName="uni127A" UID="127A">
+  <point type="U">
+    <location x="793" y="1433"/>
+  </point>
+</glyph>
+<glyph PSName="uni134F.cohen5">
+  <point type="U">
+    <location x="705" y="1587"/>
+  </point>
+</glyph>
+<glyph PSName="cedilla" UID="00B8"/>
+<glyph PSName="uni1233" UID="1233">
+  <point type="U">
+    <location x="582" y="1373"/>
+  </point>
+</glyph>
+<glyph PSName="uni124D.seb2">
+  <point type="U">
+    <location x="800" y="1587"/>
+  </point>
+</glyph>
+<glyph PSName="uni1383.sebLes4">
+  <point type="U">
+    <location x="1092" y="1210"/>
+  </point>
+</glyph>
+<glyph PSName="G" UID="0047"/>
+<glyph PSName="uni1211" UID="1211">
+  <point type="U">
+    <location x="910" y="1273"/>
+  </point>
+</glyph>
+<glyph PSName="endash" UID="2013"/>
+<glyph PSName="uni1232" UID="1232">
+  <point type="U">
+    <location x="600" y="1384"/>
+  </point>
+</glyph>
+<glyph PSName="uni2D81" UID="2D81">
+  <point type="U">
+    <location x="979" y="1425"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E0" UID="12E0">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uni129E" UID="129E">
+  <point type="U">
+    <location x="657" y="1540"/>
+  </point>
+</glyph>
+<glyph PSName="acutecomb" UID="0301">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni134F" UID="134F">
+  <point type="U">
+    <location x="796" y="1511"/>
+  </point>
+</glyph>
+<glyph PSName="uni134D" UID="134D">
+  <point type="U">
+    <location x="740" y="1242"/>
+  </point>
+</glyph>
+<glyph PSName="agrave" UID="00E0"/>
+<glyph PSName="Q" UID="0051"/>
+<glyph PSName="uni12EE" UID="12EE">
+  <point type="U">
+    <location x="520" y="1314"/>
+  </point>
+</glyph>
+<glyph PSName="uni1341" UID="1341">
+  <point type="U">
+    <location x="611" y="1300"/>
+  </point>
+</glyph>
+<glyph PSName="uni200B" UID="200B"/>
+<glyph PSName="uni2D83" UID="2D83">
+  <point type="U">
+    <location x="991" y="1462"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DD5" UID="2DD5">
+  <point type="U">
+    <location x="640" y="1681"/>
+  </point>
+</glyph>
+<glyph PSName="uni12CB" UID="12CB">
+  <point type="U">
+    <location x="712" y="1292"/>
+  </point>
+</glyph>
+<glyph PSName="ogonek" UID="02DB"/>
+<glyph PSName="uni1380" UID="1380">
+  <point type="U">
+    <location x="1088" y="1126"/>
+  </point>
+</glyph>
+<glyph PSName="uni1362.alt2"/>
+<glyph PSName="uni2DC6" UID="2DC6">
+  <point type="U">
+    <location x="856" y="1674"/>
+  </point>
+</glyph>
+<glyph PSName="periodcentered" UID="00B7"/>
+<glyph PSName="uni2D89" UID="2D89">
+  <point type="U">
+    <location x="694" y="1536"/>
+  </point>
+</glyph>
+<glyph PSName="uni0304" UID="0304">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni135F" UID="135F">
+  <point type="_U">
+    <location x="-546" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uniE24F">
+  <point type="U">
+    <location x="571" y="1552"/>
+  </point>
+</glyph>
+<glyph PSName="Ugrave" UID="00D9"/>
+<glyph PSName="caron" UID="02C7">
+  <point type="U">
+    <location x="335" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uni130C" UID="130C">
+  <point type="U">
+    <location x="558" y="1238"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE08" UID="FE08"/>
+<glyph PSName="uni1364" UID="1364"/>
+<glyph PSName="uni2008" UID="2008"/>
+<glyph PSName="uni12FD.oromo">
+  <point type="U">
+    <location x="818" y="1348"/>
+  </point>
+</glyph>
+<glyph PSName="icircumflex" UID="00EE"/>
+<glyph PSName="uni1227" UID="1227">
+  <point type="U">
+    <location x="767" y="1342"/>
+  </point>
+</glyph>
+<glyph PSName="uni1396" UID="1396"/>
+<glyph PSName="uniE496" UID="E496"/>
+<glyph PSName="uni1361" UID="1361"/>
+<glyph PSName="uni12E4" UID="12E4">
+  <point type="U">
+    <location x="964" y="1211"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F8.oromo">
+  <point type="U">
+    <location x="781" y="1329"/>
+  </point>
+</glyph>
+<glyph PSName="uni202B" UID="202B"/>
+<glyph PSName="uni2DCC" UID="2DCC">
+  <point type="U">
+    <location x="477" y="1471"/>
+  </point>
+</glyph>
+<glyph PSName="Atilde" UID="00C3"/>
+<glyph PSName="uni12E9" UID="12E9">
+  <point type="U">
+    <location x="574" y="1354"/>
+  </point>
+</glyph>
+<glyph PSName="uniAB24" UID="AB24">
+  <point type="U">
+    <location x="979" y="1462"/>
+  </point>
+</glyph>
+<glyph PSName="uni2009" UID="2009"/>
+<glyph PSName="uni202C" UID="202C"/>
+<glyph PSName="uniE2F8">
+  <point type="U">
+    <location x="831" y="1580"/>
+  </point>
+</glyph>
+<glyph PSName="uni124B" UID="124B">
+  <point type="U">
+    <location x="724" y="1525"/>
+  </point>
+</glyph>
+<glyph PSName="germandbls" UID="00DF"/>
+<glyph PSName="uni122C" UID="122C">
+  <point type="U">
+    <location x="852" y="1267"/>
+  </point>
+</glyph>
+<glyph PSName="uni12F6" UID="12F6">
+  <point type="U">
+    <location x="779" y="1342"/>
+  </point>
+</glyph>
+<glyph PSName="uni2015" UID="2015"/>
+<glyph PSName="uni1383.sebLes">
+  <point type="U">
+    <location x="1092" y="1210"/>
+  </point>
+</glyph>
+<glyph PSName="uni1299" UID="1299">
+  <point type="U">
+    <location x="664" y="1420"/>
+  </point>
+</glyph>
+<glyph PSName="uniE37B"/>
+<glyph PSName="uniE406">
+  <point type="U">
+    <location x="903" y="1398"/>
+  </point>
+</glyph>
+<glyph PSName="scaron" UID="0161"/>
+<glyph PSName="uni131E" UID="131E">
+  <point type="U">
+    <location x="632" y="1437"/>
+  </point>
+</glyph>
+<glyph PSName="uni1279" UID="1279">
+  <point type="U">
+    <location x="781" y="1439"/>
+  </point>
+</glyph>
+<glyph PSName="uni2DC1" UID="2DC1">
+  <point type="U">
+    <location x="790" y="1687"/>
+  </point>
+</glyph>
+<glyph PSName="Omega" UID="2126"/>
+<glyph PSName="atilde" UID="00E3"/>
+<glyph PSName="uni2D84" UID="2D84">
+  <point type="U">
+    <location x="1053" y="1561"/>
+  </point>
+</glyph>
+<glyph PSName="uni1248" UID="1248">
+  <point type="U">
+    <location x="684" y="1428"/>
+  </point>
+</glyph>
+<glyph PSName="uni1293" UID="1293">
+  <point type="U">
+    <location x="674" y="1334"/>
+  </point>
+</glyph>
+<glyph PSName="uni2006" UID="2006">
+  <point type="U">
+    <location x="164" y="1500"/>
+  </point>
+</glyph>
+<glyph PSName="uni130F" UID="130F">
+  <point type="U">
+    <location x="669" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE06" UID="FE06"/>
+<glyph PSName="uni1315" UID="1315">
+  <point type="U">
+    <location x="546" y="1286"/>
+  </point>
+</glyph>
+<glyph PSName="uniFE02" UID="FE02"/>
+<glyph PSName="uni1287" UID="1287">
+  <point type="U">
+    <location x="1065" y="1375"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E6.cohen6">
+  <point type="U">
+    <location x="972" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="uniE2AC">
+  <point type="U">
+    <location x="505" y="1442"/>
+  </point>
+</glyph>
+<glyph PSName="uni12E6" UID="12E6">
+  <point type="U">
+    <location x="972" y="1226"/>
+  </point>
+</glyph>
+<glyph PSName="uni123B" UID="123B">
+  <point type="U">
+    <location x="685" y="1501"/>
+  </point>
+</glyph>
+<glyph PSName="uni129B.gumuz">
+  <point type="U">
+    <location x="657" y="1648"/>
+  </point>
+</glyph>
+<glyph PSName="ampersand" UID="0026"/>
+<glyph PSName="tab" UID="0009"/>
+<glyph PSName="uni2027" UID="2027"/>
+<glyph PSName="ae" UID="00E6"/>
+<glyph PSName="minus" UID="2212"/>
+<glyph PSName="uni1240" UID="1240">
+  <point type="U">
+    <location x="752" y="1384"/>
+  </point>
+</glyph>
+<glyph PSName="uni12C3.oldstyle">
+  <point type="U">
+    <location x="652" y="1483"/>
+  </point>
+</glyph>
+<glyph PSName="uni0302" UID="0302">
+  <point type="_U">
+    <location x="-830" y="1450"/>
+  </point>
+</glyph>
+<glyph PSName="uni1220" UID="1220">
+  <point type="U">
+    <location x="862" y="1143"/>
+  </point>
+</glyph>
+</font>
