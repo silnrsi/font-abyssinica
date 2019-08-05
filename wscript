@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # this is a smith configuration file
 
-import glob
+#import glob
 
 APPNAME = "AbyssinicaSIL"
 FAMILY = APPNAME
