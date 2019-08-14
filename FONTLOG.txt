@@ -57,6 +57,11 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+30 August 2019 (Sharon Correll) Abyssinica SIL version 1.900
+- Unencoded most PUA characters as they are supported through Character Variants
+- Added language support for Sebat Bet and Gumuz variants
+- Added UI name strings for Graphite and OpenType features
+
 13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
 - Improved design of U+1396 and U+1399 (metrics changed for these characters)
 - Added character variants
@@ -139,7 +144,7 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Walt Agee, Victor Gaultney, Lorna Evans / Daniel Yacob, Kjell Magne Yri
+N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney  / Daniel Yacob, Kjell Magne Yri
 E: fonts@sil.org
 W: http://scripts.sil.org/
 D: SIL designers and font engineers / non-SIL script experts
@@ -148,6 +153,6 @@ The Abyssinica SIL project is maintained by SIL International.
 
 For more information please visit the Abyssinica SIL page on SIL International's
 Computers and Writing systems website:
-http://scripts.sil.org/AbyssinicaSIL
+http://software.sil.org/abyssinica
 
 Or send an email to <fonts AT sil DOT org>

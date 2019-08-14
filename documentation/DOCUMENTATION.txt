@@ -1,5 +1,5 @@
 DOCUMENTATION
-Abyssinica SIL v1.500
+Abyssinica SIL v1.900
 ========================
 
 
@@ -8,7 +8,7 @@ font. This information should be distributed along with the Abyssinica SIL
 font and any derivative works.
 
 Primary documentation for the Abyssinica SIL font is on the Abyssinica SIL
-website (http://scripts.sil.org/AbyssinicaSIL).
+website (https://software.sil.org/abyssinica/).
 
 AbyssinicaSILTypeSample.pdf - illustrates the character set in Abyssinica SIL.
 AbyssinicaSILOpenTypeFontFeatures.pdf - documents the OpenType features in the font.

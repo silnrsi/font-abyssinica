@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 AbyssinicaSIL-WOFF-metadata.html
-Abyssinica SIL v1.500
-13 Dec 2013
-This file is part of Abyssinica SIL font family (http://scripts.sil.org/AbyssinicaSIL)
-and is 2000-2013, SIL International (http://scripts.sil.org/) with Reserved Font 
+Abyssinica SIL v1.900
+30 Aug 2019
+This file is part of Abyssinica SIL font family (https://software.sil.org/abyssinica/)
+and is 2000-2019, SIL International (http://scripts.sil.org/) with Reserved Font 
 Names "Abyssinica" and "SIL". This Font Software is licensed under the SIL 
 Open Font License, Version 1.1. You should have received a copy of the license 
 along with this Font Software. If this is not the case, go to (http://scripts.sil.org/OFL) 
 for all the details including a FAQ.
 -->
 <metadata version="1.0">
-    <uniqueid id="org.sil.fonts.abyssinicasil.1.500" />
+    <uniqueid id="org.sil.fonts.abyssinicasil.1.900" />
     <vendor name="SIL International" url="http://scripts.sil.org" />
     <credits>
         <credit
@@ -19,13 +19,17 @@ for all the details including a FAQ.
             url="http://scripts.sil.org/"
             role="Designer" />
         <credit
-            name="Victor Gaultney"
-            url="http://www.sil.org/~gaultney/"
-            role="Designer" />
+            name="Sharon Correll"
+            url="http://scripts.sil.org/"
+            role="OpenType and Graphite support." />
         <credit
             name="Lorna Evans"
             url="http://scripts.sil.org/"
             role="Contributed some extended Ethiopic glyphs and OpenType and Graphite work" />
+        <credit
+            name="Victor Gaultney"
+            url="http://www.sil.org/~gaultney/"
+            role="Designer" />
         <credit
             name="Kjell Magne Yri"
             role="Font based on his original calligraphic design" />
@@ -62,6 +66,11 @@ for all the details including a FAQ.
 			---------
 			(This should list both major and minor changes, most recent first.)
 			
+			30 August 2019 (Sharon Correll) Abyssinica SIL version 1.900
+			- Unencoded most PUA characters as they are supported through Character Variants
+			- Added language support for Sebat Bet and Gumuz variants
+			- Added UI name strings for Graphite and OpenType features
+
 			13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
 			- Improved design of U+1396 and U+1399 (metrics changed for these characters)
 			- Added character variants
@@ -85,7 +94,7 @@ for all the details including a FAQ.
     <license url="http://scripts.sil.org/OFL"
              id="org.sil.ofl.1.1">
         <text lang="en">
-			Copyright (c) 2000-2013 SIL International (http://scripts.sil.org/) with 
+			Copyright (c) 2000-2019 SIL International (http://scripts.sil.org/) with 
 			Reserved Font Names "Abyssinica" and "SIL".
 
 			This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -182,7 +191,7 @@ for all the details including a FAQ.
 		</text>
     </license>
     <copyright>
-        <text lang="en">Copyright (c) 2000-2013, SIL International (http://scripts.sil.org/).</text>
+        <text lang="en">Copyright (c) 2000-2019, SIL International (http://scripts.sil.org/).</text>
     </copyright>
     <trademark>
         <text lang="en">Abyssinica SIL is a trademark of SIL International</text>

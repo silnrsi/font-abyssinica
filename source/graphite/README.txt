@@ -1,12 +1,12 @@
 README
-Abyssinica SIL 1.500
+Abyssinica SIL 1.900
 ========================
 
 This file describes the Graphite source files included with the Abyssinica SIL
 font family. This information should be distributed along with the Abyssinica
 SIL fonts and any derivative works.
 
-As a reminder: these source files are Copyright (c) 2000-2013, SIL International
+As a reminder: these source files are Copyright (c) 2000-2019, SIL International
 (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
            
