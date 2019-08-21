@@ -61,6 +61,10 @@ ChangeLog
 - Unencoded most PUA characters as they are supported through Character Variants
 - Added language support for Sebat Bet and Gumuz variants
 - Added UI name strings for Graphite and OpenType features
+- Added extra space to the right of U+1362
+- Changed design of U+1256 so the top flag touches
+- Changed design of U+1368 to fit the design of the font better
+- Removed Stylistic Sets
 
 13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
 - Improved design of U+1396 and U+1399 (metrics changed for these characters)
