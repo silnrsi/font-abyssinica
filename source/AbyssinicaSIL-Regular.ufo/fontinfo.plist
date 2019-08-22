@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1502</integer>
+  <integer>2034</integer>
   <key>capHeight</key>
   <integer>1108</integer>
   <key>copyright</key>
   <string>Copyright (c) 2000-2019 by SIL International</string>
   <key>descender</key>
-  <integer>-446</integer>
+  <integer>-682</integer>
   <key>familyName</key>
   <string>Abyssinica SIL</string>
   <key>openTypeHeadCreated</key>
   <string>2019/04/15 23:05:27</string>
   <key>openTypeHheaAscender</key>
-  <integer>1502</integer>
+  <integer>2034</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-446</integer>
+  <integer>-682</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -130,9 +130,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1502</integer>
+  <integer>2034</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-446</integer>
+  <integer>-682</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
