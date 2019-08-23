@@ -280,6 +280,7 @@
     <string>circumflex</string>
     <string>caron</string>
     <string>uni02C9</string>
+    <string>uni02D0</string>
     <string>breve</string>
     <string>dotaccent</string>
     <string>ring</string>
@@ -296,6 +297,7 @@
     <string>uni030B</string>
     <string>uni030C</string>
     <string>uni030F</string>
+    <string>uni034F</string>
     <string>pi</string>
     <string>uni1200</string>
     <string>uni1201</string>
@@ -965,10 +967,12 @@
     <string>radical</string>
     <string>infinity</string>
     <string>integral</string>
+    <string>blank</string>
     <string>approxequal</string>
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>lozenge</string>
     <string>uni25CC</string>
     <string>uni2713</string>
     <string>fi</string>

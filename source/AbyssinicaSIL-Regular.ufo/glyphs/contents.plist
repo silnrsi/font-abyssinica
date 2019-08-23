@@ -178,6 +178,8 @@
   <string>backslash.glif</string>
   <key>bar</key>
   <string>bar.glif</string>
+  <key>blank</key>
+  <string>blank.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -362,6 +364,8 @@
   <string>lessequal.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
+  <key>lozenge</key>
+  <string>lozenge.glif</string>
   <key>m</key>
   <string>m.glif</string>
   <key>macron</key>
@@ -574,6 +578,8 @@
   <string>uni00A_D_.glif</string>
   <key>uni02C9</key>
   <string>uni02C_9.glif</string>
+  <key>uni02D0</key>
+  <string>uni02D_0.glif</string>
   <key>uni0302</key>
   <string>uni0302.glif</string>
   <key>uni0304</key>
@@ -588,6 +594,8 @@
   <string>uni030C_.glif</string>
   <key>uni030F</key>
   <string>uni030F_.glif</string>
+  <key>uni034F</key>
+  <string>uni034F_.glif</string>
   <key>uni1200</key>
   <string>uni1200.glif</string>
   <key>uni1201</key>
