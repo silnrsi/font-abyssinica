@@ -1,10 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE all_features SYSTEM "feat_all.dtd">
 <all_features version="1.0">
+	
+	<feature name="Language" value="Default" tag="Lng">
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Sebat Bet Gurage" tag="Sgw">
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv40_gwaa}"/>			
+			<cmd name="gr_feat" args="{gr_cv40} 1"/>
+		</value>
+		<value name="Bilin" tag="Byn">
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv41_gga}"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv42_ggwaa}"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv70_ggwa}"/>			
+			<cmd name="gr_feat" args="{gr_cv41} 1"/>
+			<cmd name="gr_feat" args="{gr_cv42} 1"/>
+			<cmd name="gr_feat" args="{gr_cv70} 1"/>
+		</value>
+		<value name="Bilin" tag="Guk">
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv20_nya}"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv21_nywa}"/>					
+			<cmd name="gr_feat" args="{gr_cv20} 1"/>
+			<cmd name="gr_feat" args="{gr_cv21} 1"/>
+		</value>
+	</feature>
 
 	<feature name="Punctuation" value="Ethiopic" tag="Pnct">
 		<!-- see also the interactions section -->
-		<value name="Ethiopic-style" tag="Std">
+		<value name="Ethiopic-style" tag="Eth">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Latin-style" tag="Ltn">
@@ -89,7 +113,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Handwriting" tag="Alt">
+		<value name="Handwriting" tag="Hdwr">
 			<cmd name="encode" args="1288 uni1288.handwriting"/>
 			<cmd name="encode" args="128A uni128A.handwriting"/>
 			<cmd name="encode" args="128B uni128B.handwriting"/>
@@ -113,7 +137,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Disconnected" tag="Alt">
+		<value name="Disconnected" tag="Dcon">
 			<cmd name="encode" args="1298 uni1298.gumuz"/>
 			<cmd name="encode" args="1299 uni1299.gumuz"/>
 			<cmd name="encode" args="129A uni129A.gumuz"/>
@@ -129,10 +153,10 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Disconnected" tag="Alt">
+		<value name="Disconnected" tag="Dcon">
 			<cmd name="encode" args="129F uni129F.gumuz1"/>
 		</value>
-		<value name="Cohen" tag="Coh1">
+		<value name="Cohen" tag="Coh">
 			<cmd name="encode" args="129F uni129F.cohen8"/>
 		</value>
 	</feature>
@@ -152,7 +176,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Cohen" tag="Coh1">
+		<value name="Cohen" tag="Coh">
 			<cmd name="encode" args="12E0 uni12E0.cohen6"/>
 			<cmd name="encode" args="12E1 uni12E1.cohen6"/>
 			<cmd name="encode" args="12E3 uni12E3.cohen6"/>
@@ -204,7 +228,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Disconnected" tag="Alt">
+		<value name="Disconnected" tag="Dcon">
 			<cmd name="encode" args="1318 uni1318.alt1"/>
 			<cmd name="encode" args="1319 uni1319.alt1"/>
 			<cmd name="encode" args="131A uni131A.alt1"/>
@@ -220,7 +244,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Disconnected" tag="Alt">
+		<value name="Disconnected" tag="Dcon">
 			<cmd name="encode" args="131F uni131F.type"/>
 		</value>
 	</feature>
@@ -349,7 +373,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Disconnected" tag="Alt">
+		<value name="Disconnected" tag="Dcon">
 			<cmd name="encode" args="2D93 uni2D93.blin"/>
 			<cmd name="encode" args="2D94 uni2D94.blin"/>
 			<cmd name="encode" args="2D95 uni2D95.blin"/>
@@ -384,5 +408,8 @@
 			<cmd name="encode" args="1315 uni1315.seb2"/>
 		</value>
 	</feature>
+	
+	<!-- Aliases will be added during smith build by psftuneraliases -->
+	<aliases />
 
 </all_features>

@@ -25,5 +25,6 @@ designspace('source/' + FAMILY + '.designspace',
                     mapfile = 'source/${DS:FILENAME_BASE}.map'
                     #params = '-m ' + 'source/${DS:FILENAME_BASE}.map'
                 ),
+            typetuner = typetuner("source/typetuner/feat_all.xml"),
             pdf = fret(params="-r -oi")
 )
