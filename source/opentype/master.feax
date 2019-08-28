@@ -4,7 +4,7 @@
 languagesystem DFLT dflt;
 languagesystem ethi dflt;
 languagesystem ethi CHG;
-languagesystem ethi BIL;
+##languagesystem ethi BIL;
 languagesystem ethi GMZ;
 
 
@@ -49,27 +49,39 @@ lookup FontCheck {
 
 lookup Cv20_nya  {    # Nya alternates
 		sub @cno_gumuz0 by @c_gumuz0 ;
-} Cv20_nya;
+} Cv20_nya ;
 
-lookup Cv21_nywa {    # Nywa alternates
-		sub uni129F from [ uni129F.gumuz1  uni129F.cohen8 ] ;
-} Cv21_nywa;
+lookup Cv21_nywa_1 {  # Nywa alternate
+		sub uni129F by uni129F.gumuz1 ;
+} Cv21_nywa_1 ;
 
-lookup Cv40_gwaa {    # Gwaa alternates
-		sub uni1313 from [ uni1313.seb0  uni1313.alonestokes ] ;
-} Cv40_gwaa;
+lookup Cv40_gwaa_1 {  # Gwaa alternate
+		sub uni1313 by uni1313.seb0 ;
+} Cv40_gwaa_1 ;
 
 lookup Cv41_gga {     # Gga alternates
 		sub @cno_alt1 by @c_alt1 ;
-} Cv41_gga;
+} Cv41_gga ;
 
 lookup Cv42_ggwaa {   # Ggwaa alternate
 		sub @cno_type by @c_type ;
-} Cv42_ggwaa;
+} Cv42_ggwaa ;
+
+lookup Cv60_mwi_1 {   # Mwi alternates
+		sub uni1381 by uni1381.seb5 ;
+} Cv60_mwi_1 ;
 
 lookup Cv70_ggwa {    # Ggwa alternate
 		sub @cno_blin by @c_blin ;
-} Cv70_ggwa;
+} Cv70_ggwa ;
+
+lookup Cv80_3rd {     # 3rd-form alternates
+		sub @cno_seb3 by @c_seb3 ;
+} Cv80_3rd ;
+
+lookup Cv85_6th {     # 6th-form alternates
+		sub @cno_seb2 by @c_seb2 ;
+} Cv85_6th ;
 
 
 #**********************
@@ -447,14 +459,19 @@ lookup AttachMarks {
 feature locl {  # Localized forms
 	script ethi;
 		language CHG ;         # sgw - Sebat Bet Gurage
-			lookup Cv40_gwaa ;
-		language BIL ;         # byn - Bilin
-		  lookup Cv41_gga ;
-		  lookup Cv42_ggwaa ;
-		  lookup Cv70_ggwa ;
+			lookup Cv40_gwaa_1 ;
+			lookup Cv60_mwi_1 ;
+			lookup Cv80_3rd ;
+			lookup Cv85_6th ;
+			
+##		language BIL ;         # byn - Bilin
+##		  lookup Cv41_gga ;
+##		  lookup Cv42_ggwaa ;
+##		  lookup Cv70_ggwa ;
+
 		language GMZ ;         # guk = Gumuz
 			lookup Cv20_nya ;
-			lookup Cv21_nywa ;
+			lookup Cv21_nywa_1 ;
 } locl ;
 
 
@@ -527,7 +544,7 @@ feature cv20 {  # Nya alternates
 } cv20 ;
 
 feature cv21 {  # Nywa alternates
-		lookup Cv21_nywa ;  # default for guk/GMZ
+		sub uni129F from [ uni129F.gumuz1  uni129F.cohen8 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Nywa alternates" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
@@ -569,7 +586,7 @@ feature cv32 {  # Dda alternates
 } cv32 ;
 
 feature cv40 {  # Gwaa alternates
-		lookup Cv40_gwaa ;   # default for CHG
+		sub uni1313 from [ uni1313.seb0  uni1313.alonestokes ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Gwaa alternates" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
@@ -699,7 +716,7 @@ feature cv65 {  # Pwe alternate
 } cv65 ;
 
 feature cv70 {  # Ggwa alternate
-		lookup Cv70_ggwa;
+		lookup Cv70_ggwa ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Ggwa alternates" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
@@ -708,7 +725,7 @@ feature cv70 {  # Ggwa alternate
 } cv70 ;
 
 feature cv80 {  # 3rd-form alternates
-		sub @cno_seb3 by @c_seb3 ;
+		lookup Cv80_3rd ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "3rd-form alternates" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
@@ -717,7 +734,7 @@ feature cv80 {  # 3rd-form alternates
 } cv80 ;
 
 feature cv85 {  # 6th-form alternates
-		sub @cno_seb2 by @c_seb2 ;
+		lookup Cv85_6th ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "6th-form alternates" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;

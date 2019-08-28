@@ -65,11 +65,28 @@
   		<test><string>OpenType tags</string></test>
   		<test><string>ISO codes</string></test>
   	</testgroup>
-		<testgroup label='sgw = CHG'>
+		<testgroup label='sgw = CHG - gwaa'>
   		<test>                     <string>\u1313</string></test>
   		<test stylename="lang_CHG"><string>\u1313</string></test>
   		<test stylename="lang_sgw"><string>\u1313</string></test>
   	</testgroup>
+		<testgroup label='sgw = CHG - mwi'>
+  		<test>                     <string>\u1381</string></test>
+  		<test stylename="lang_CHG"><string>\u1381</string></test>
+  		<test stylename="lang_sgw"><string>\u1381</string></test>
+  	</testgroup>
+		<testgroup label='sgw = CHG - 3rd-forms'>
+  		<test>                     <string>\u124A \u12B2 \u12C2 \u1312 \u1381 \u1385 \u138D</string></test>
+  		<test stylename="lang_CHG"><string>\u124A \u12B2 \u12C2 \u1312 \u1381 \u1385 \u138D</string></test>
+  		<test stylename="lang_sgw"><string>\u124A \u12B2 \u12C2 \u1312 \u1381 \u1385 \u138D</string></test>
+  	</testgroup>
+		<testgroup label='sgw = CHG - 6th-forms'>
+  		<test>                     <string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  		<test stylename="lang_CHG"><string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  		<test stylename="lang_sgw"><string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  	</testgroup>
+
+		<!-- obsolete
 		<testgroup label='byn = BIL - gga'>
   		<test>                     <string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
   		<test stylename="lang_BIL"><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
@@ -85,6 +102,7 @@
   		<test stylename="lang_BIL"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   		<test stylename="lang_byn"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   	</testgroup>
+  	-->
 		<testgroup label='guk = GMZ - nya'>
   		<test>                     <string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   		<test stylename="lang_GMZ"><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
@@ -229,8 +247,8 @@
   		<test stylename="fset_ggwa_1"><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   	</testgroup>
   	<testgroup label='3rd form alternates'>
-  		<test>                           <string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
-  		<test stylename="fset_3rdform_1"><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
+  		<test>                           <string>\u124A \u12B2 \u12C2 \u1312 \u1381 \u1385 \u138D</string></test>
+  		<test stylename="fset_3rdform_1"><string>\u124A \u12B2 \u12C2 \u1312 \u1381 \u1385 \u138D</string></test>
   	</testgroup>
   	<testgroup label='6th form alternates'>
   		<test>                           <string>\u124D \u12B5 \u12C5 \u1315</string></test>
