@@ -529,6 +529,9 @@ table(language)
 sebatbet {
     languages = ( "sgw", "CHG" );  // Sebat Bet Gurage
     gwaacv = 1;
+    mwicv = 1;
+    threecv = 1;
+    sixcv = 1;
 };
 
 gumuz {
@@ -537,11 +540,12 @@ gumuz {
     nywacv = 1;
 };
 
-blin {
-    languages = ( "byn", "BIL" );  // Bilen
-    ggwacv = true;
-    ggwaacv = true
-    ggacv = true;
-};
+// Obsolete:
+//blin {
+//    languages = ( "byn", "BIL" );  // Bilen
+//    ggwacv = true;
+//    ggwaacv = true
+//    ggacv = true;
+//};
 
 endtable; // language
