@@ -58,6 +58,7 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 30 August 2019 (Sharon Correll) Abyssinica SIL version 1.900
+- Added U+02D0, U+034F, U+2423, U+25CA
 - Removed Stylistic Sets
 - Slight change to line spacing to make it consistent across applications
 - Unencoded most PUA characters as they are supported through Character Variants
