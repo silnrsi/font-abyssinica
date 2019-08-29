@@ -7,10 +7,10 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Sebat Bet Gurage" tag="Sgw">
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv40_gwaa}"/>
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv60_mwi_1}"/>
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv80_3rd}"/>
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv85_6th}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv40_gwaa"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv60_mwi_1"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv80_3rd"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv85_6th"/>
 			<cmd name="gr_feat" args="{gr_cv40} 1"/>
 			<cmd name="gr_feat" args="{gr_cv60} 1"/>
 			<cmd name="gr_feat" args="{gr_cv80} 1"/>
@@ -19,18 +19,18 @@
 		
 		<!-- obsolete
 		<value name="Bilin" tag="Byn">
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv41_gga}"/>			
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv42_ggwaa}"/>			
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv70_ggwa}"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv41_gga"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv42_ggwaa"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv70_ggwa"/>			
 			<cmd name="gr_feat" args="{gr_cv41} 1"/>
 			<cmd name="gr_feat" args="{gr_cv42} 1"/>
 			<cmd name="gr_feat" args="{gr_cv70} 1"/>
 		</value>
 		-->
 		
-		<value name="Bilin" tag="Guk">
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv20_nya}"/>			
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv21_nywa}"/>					
+		<value name="Gumuz" tag="Guk">
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv20_nya"/>			
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv21_nywa"/>					
 			<cmd name="gr_feat" args="{gr_cv20} 1"/>
 			<cmd name="gr_feat" args="{gr_cv21} 1"/>
 		</value>
