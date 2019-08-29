@@ -63,6 +63,10 @@
 \font\eighty="Abyssinica SIL/GR:3rd form alternate=Alternate" at 12pt
 \font\eightyfive="Abyssinica SIL/GR:6th form alternate=Alternate" at 12pt
 
+\font\guk="Abyssinica SIL/GR:language=guk" at 12pt
+\font\sgw="Abyssinica SIL/GR:language=sgw" at 12pt
+
+% Opentype character variants are not working for more than two values. Or else my syntax is wrong.
 \font\OTone="Abyssinica SIL:script=Ethi:+cv01=1" at 12pt
 \font\OTfourone="Abyssinica SIL:script=Ethi:+cv04=1" at 12pt
 \font\OTfourtwo="Abyssinica SIL:script=Ethi:+cv04=2" at 12pt 
@@ -90,7 +94,7 @@
 \font\OTsixtyone="Abyssinica SIL:script=Ethi:+cv60=1" at 12pt
 \font\OTsixtytwo="Abyssinica SIL:script=Ethi:+cv60=1" at 12pt 
 \font\OTsixtyoneone="Abyssinica SIL:script=Ethi:+cv61=1" at 12pt
-\font\OTsixtyonetwo="Abyssinica SIL:script=Ethi:+cv61=2" at 12pt 
+\font\OTsixtyonetwo="Abyssinica SIL:script=Ethi:+cv61{2}" at 12pt 
 \font\OTsixtytwoone="Abyssinica SIL:script=Ethi:+cv62=1" at 12pt
 \font\OTsixtythree="Abyssinica SIL:script=Ethi:+cv63=1" at 12pt
 \font\OTsixtyfour="Abyssinica SIL:script=Ethi:+cv64=1" at 12pt
@@ -99,8 +103,29 @@
 \font\OTeighty="Abyssinica SIL:script=Ethi:+cv80=1" at 12pt
 \font\OTeightyfive="Abyssinica SIL:script=Ethi:+cv85=1" at 12pt
 
+\font\GMZ="Abyssinica SIL:Ethi:language=GMZ" at 12pt
+\font\CHG="Abyssinica SIL:Ethi:language=CHG" at 12pt
+
+\A Gumuz
+
+\IndSS Default: ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ
+\IndSS\guk Feature on: ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ
+\IndSS\GMZ Feature on: ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ
+
+
+\A Gurage
+
+\IndSS  Default: ጓ ᎁ ቊ ኲ ዂ ጒ ᎅ ᎍ ቍ ኵ ዅ ጕ
+\IndSS\sgw sgw on:  ጓ ᎁ ቊ ኲ ዂ ጒ ᎅ ᎍ ቍ ኵ ዅ ጕ
+\IndSS\CHG sgw on:  ጓ ᎁ ቊ ኲ ዂ ጒ ᎅ ᎍ ቍ ኵ ዅ ጕ
+
+\IndSS cv85Default: ቍ ኵ ዅ ጕ 
+\IndSS\eightyfive Feature on: ቍ ኵ ዅ ጕ
+
+
 % \font\B=Abyssinica SIL: +ss01" at 12pt
 \font\C="Abyssinica SIL:script=ethi;language=dflt" at 12pt
+
 
 \A Graphite Font Features in Abyssinica SIL (for XeTeX)
 

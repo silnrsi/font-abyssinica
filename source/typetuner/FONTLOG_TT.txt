@@ -57,15 +57,21 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%DATE% (SIL TypeTuner) Tuned version of Abyssinica SIL Version 1.900
+%DATE% (SIL TypeTuner) Tuned version of Abyssinica SIL Version 2.000
 - Tuned and delivered by SIL TypeTuner 
 (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
-30 August 2019 (Sharon Correll) Abyssinica SIL version 1.900
+30 August 2019 (Sharon Correll) Abyssinica SIL version 2.000
+- Added U+02D0, U+034F, U+2423, U+25CA
+- Removed Stylistic Sets
+- Slight change to line spacing to make it consistent across applications
 - Unencoded most PUA characters as they are supported through Character Variants
 - Added language support for Sebat Bet and Gumuz variants
 - Added UI name strings for Graphite and OpenType features
+- Added extra space to the right of U+1362
+- Changed design of U+1256 so the top flag touches
+- Changed design of U+1368 to fit the design of the font better
 
 13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
 - Improved design of U+1396 and U+1399 (metrics changed for these characters)

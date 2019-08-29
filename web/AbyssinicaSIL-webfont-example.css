@@ -12,7 +12,7 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Abyssinica SIL - Regular in .woff format */
 @font-face {
   font-family: AbyssinicaSILW;
-  src: url(AbyssinicaSIL-R.woff);
+  src: url(AbyssinicaSIL-Regular.woff);
 }
 
 /* set body to use Abyssinica SIL in .woff format */
@@ -28,9 +28,21 @@ h1 {
 
 .cv320 {
   font-family: AbyssinicaSILW;
-  -moz-font-feature-settings: "cv32" 0; font-size: 200%;
+  font-feature-settings: "cv32" 0; 
 }
 .cv321 {
   font-family: AbyssinicaSILW;
-  -moz-font-feature-settings: "cv32" 1; font-size: 200%;
+  font-feature-settings: "cv32" 1; 
+}
+.cv400 {
+  font-family: AbyssinicaSILW;
+  font-feature-settings: "cv40" 0; 
+}
+.cv401 {
+  font-family: AbyssinicaSILW;
+  font-feature-settings: "cv40" 1; 
+}
+.cv402 {
+  font-family: AbyssinicaSILW;
+  font-feature-settings: "cv40" 2; 
 }

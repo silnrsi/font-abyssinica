@@ -57,7 +57,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-30 August 2019 (Sharon Correll) Abyssinica SIL version 1.900
+30 August 2019 (Sharon Correll) Abyssinica SIL version 2.000
 - Added U+02D0, U+034F, U+2423, U+25CA
 - Removed Stylistic Sets
 - Slight change to line spacing to make it consistent across applications

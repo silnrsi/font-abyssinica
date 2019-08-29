@@ -1,5 +1,5 @@
 ﻿README 
-Abyssinica SIL 1.900
+Abyssinica SIL 2.000
 ====================
 
 Thank you for your interest in the Abyssinica SIL font.
