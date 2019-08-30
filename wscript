@@ -46,5 +46,5 @@ designspace('source/' + FAMILY + '.designspace',
             typetuner = typetuner("source/typetuner/feat_all.xml"),
             script='ethi',
             pdf = fret(params="-r -oi"),
-            woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+            woff = woff('web/' + FONT_FILENAME + '.woff', params = '-v ' + VERSION + ' -m ../source/AbyssinicaSIL-WOFF-metadata.xml'),
     )
