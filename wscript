@@ -28,6 +28,9 @@ DEBPKG = 'fonts-sil-abyssinica'
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
 
+FONT_NAME = "Abyssinica SIL"
+FONT_FILENAME = "AbyssinicaSIL-Regular"
+
 
 designspace('source/' + FAMILY + '.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
