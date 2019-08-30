@@ -18,6 +18,7 @@ APPNAME = "AbyssinicaSIL"
 
 # set the font family name
 FAMILY = APPNAME
+fontfamily=APPNAME
 
 DESC_NAME = "Abyssinica SIL"
 DESC_SHORT = "Unicode font for the Ethiopic script"
@@ -27,7 +28,7 @@ DEBPKG = 'fonts-sil-abyssinica'
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
 
-fontfamily=APPNAME
+
 designspace('source/' + FAMILY + '.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
             ap = 'source/${DS:FILENAME_BASE}_ap.xml',
@@ -43,5 +44,7 @@ designspace('source/' + FAMILY + '.designspace',
                     #params = '-m ' + 'source/${DS:FILENAME_BASE}.map'
                 ),
             typetuner = typetuner("source/typetuner/feat_all.xml"),
-            pdf = fret(params="-r -oi")
-)
+            script='ethi',
+            pdf = fret(params="-r -oi"),
+            woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+    )
