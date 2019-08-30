@@ -3,9 +3,26 @@
 
 #import glob
 
+# set the default output folders
+out = "results"  # default is currently buildlinux2
+DOCDIR = ["documentation", "web"]  # add "web" to default
+OUTDIR = "installers"  # until these are defaults in smith itself we need to keep them
+ZIPDIR = "releases"
+TESTDIR = "tests"
+# TESTRESULTSDIR = "tests"
+# STANDARDS = "reference"
+# generated = "generated/"
+
+# set package name
 APPNAME = "AbyssinicaSIL"
+
+# set the font family name
 FAMILY = APPNAME
+
+DESC_NAME = "Abyssinica SIL"
 DESC_SHORT = "Unicode font for the Ethiopic script"
+
+DEBPKG = 'fonts-sil-abyssinica'
 
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
