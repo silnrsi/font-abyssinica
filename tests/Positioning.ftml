@@ -41,20 +41,6 @@
   		<style feats=" 'cv70' 1" name="cv70_1" />     <!-- ggwa alternates: blin -->
   		<style feats=" 'cv80' 1" name="cv80_1" />  <!-- 3rd form alternates: seb3 -->
   		<style feats=" 'cv85' 1" name="cv85_1" />  <!-- 6th form alternates: seb2 -->
-  		<style feats=" 'ss01' 1" name="ss01_1" />  <!-- Archaic Oromo dda forms -->
-  		<style feats=" 'ss02' 1" name="ss02_1" />  <!-- Gumuz nya forms -->
-  		<style feats=" 'ss03' 1" name="ss03_1" />  <!-- Old Style forms -->
-  		<style feats=" 'ss04' 1" name="ss04_1" />  <!-- Disconnected gga forms -->
-  		<style feats=" 'ss05' 1" name="ss05_1" />  <!-- Sebat Bet gwaa form -->
-  		<style feats=" 'ss06' 1" name="ss06_1" />  <!-- Leslau's Sebat Bet alternates -->
-  		<style feats=" 'ss07' 1" name="ss07_1" />  <!-- Sebat Bet xwa forms  -->
-  		<style feats=" 'ss08' 1" name="ss08_1" />  <!-- Sebat Bet 3rd form alternates -->
-  		<style feats=" 'ss09' 1" name="ss09_1" />  <!-- Sebat Bet 6th form alternates	s -->
-  		<style feats=" 'ss10' 1" name="ss10_1" />  <!-- Sebat Bet mwe alternate  -->
-  		<style feats=" 'ss11' 1" name="ss11_1" />  <!-- Traditional fwee alternate -->
-  		<style feats=" 'ss12' 1" name="ss12_1" />  <!-- Typewriter ggwaa alternate -->
-  		<style feats=" 'ss13' 1" name="ss13_1" />  <!-- xoa alternate -->
-  		<style feats=" 'ss14' 1" name="ss14_1" />  <!-- Latin punctuation -->
       <style lang="CHG" name="sgw" />               <!-- OT - sgw -->
       <style lang="BIL" name="byn" />               <!-- OT - byn -->
       <style lang="GMZ" name="guk" />               <!-- OT - guk -->
