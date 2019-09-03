@@ -1,13 +1,69 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='ftml.xsl'?>
-<ftml version='1.0'>
-	<head>
-  	<fontscale>300</fontscale>
-  	<fontsrc>url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
-  	<fontsrc>local("Abyssinica SIL")</fontsrc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>local(Abyssinica SIL)</fontsrc>
+    <fontsrc>url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
-  		<style feats=" 'smcp' 1" name="fset_smcp" />
-  		<style feats=" 'cv17' 1" name="fset_cv17_1" />
+   		<style feats=" 'cv01' 1" name="cv01_1" />    <!-- punctuation: Latin -->
+  		<style feats=" 'cv04' 1" name="cv04_1" />      <!-- mwa alternates: cohen1 -->
+  		<style feats=" 'cv04' 2" name="cv04_2" />      <!-- mwa alternates: cohen2 -->
+  		<style feats=" 'cv05' 1" name="cv05_1" />      <!-- rwa alternates: cohen3 -->
+  		<style feats=" 'cv17' 1" name="cv17_1" />      <!-- xoa alternates: alt3 -->
+  		<style feats=" 'cv18' 1" name="cv18_1" />      <!-- xwa alternates: handwriting -->
+  		<style feats=" 'cv19' 1" name="cv19_1" />      <!-- nwa alternates: cohen0 -->
+  		<style feats=" 'cv20' 1" name="cv20_1" />      <!-- nya alternates: gumuz -->
+  		<style feats=" 'cv21' 1" name="cv21_1" />     <!-- nywa alternates: gumuz1 -->
+  		<style feats=" 'cv21' 2" name="cv21_2" />     <!-- nywa alternates: cohen8 -->
+  		<style feats=" 'cv26' 1" name="cv26_1" />    <!-- kxwaa alternates: cohen7 -->
+  		<style feats=" 'cv31' 1" name="cv31_1" />      <!-- zha alternates: cohen6 -->
+  		<style feats=" 'cv31' 2" name="cv31_2" />      <!-- zha alternates: chaine -->
+  		<style feats=" 'cv32' 1" name="cv32_1" />      <!-- dda alternates: oromo -->
+  		<style feats=" 'cv40' 1" name="cv40_1" />     <!-- gwaa alternates: seb0 -->
+  		<style feats=" 'cv40' 2" name="cv40_2" />     <!-- gwaa alternates: alonestokes -->
+  		<style feats=" 'cv41' 1" name="cv41_1" />      <!-- gga alternates: alt1 -->
+  		<style feats=" 'cv42' 1" name="cv42_1" />    <!-- ggwaa alternates: type -->
+  		<style feats=" 'cv45' 1" name="cv45_1" />      <!-- phe alternates: praetorius -->
+  		<style feats=" 'cv46' 1" name="cv46_1" />     <!-- tswa alternates: oldstyle -->
+  		<style feats=" 'cv48' 1" name="cv48_1" />      <!-- fwa alternates: cohen4 -->
+  		<style feats=" 'cv48' 2" name="cv48_2" />      <!-- fwa alternates: cohen5 -->
+  		<style feats=" 'cv49' 1" name="cv49_1" />      <!-- rya alternates: ala1 -->
+  		<style feats=" 'cv50' 1" name="cv50_1" />      <!-- mya alternates: ala2 -->
+  		<style feats=" 'cv60' 1" name="cv60_1" />      <!-- mwi alternates: seb5 -->
+  		<style feats=" 'cv60' 2" name="cv60_2" />      <!-- mwi alternates: sebLes1 -->
+  		<style feats=" 'cv61' 1" name="cv61_1" />      <!-- mwe alternates: seb4 -->
+  		<style feats=" 'cv61' 2" name="cv61_2" />      <!-- mwe alternates: sebLes4 -->
+  		<style feats=" 'cv62' 1" name="cv62_1" />      <!-- bwe alternates: sebLes2 -->
+  		<style feats=" 'cv63' 1" name="cv63_1" />     <!-- fwee alternates: trad -->
+  		<style feats=" 'cv64' 1" name="cv64_1" />      <!-- fwe alternates: sebLes3 -->
+  		<style feats=" 'cv65' 1" name="cv65_1" />      <!-- pwe alternates: sebLes5 -->
+  		<style feats=" 'cv70' 1" name="cv70_1" />     <!-- ggwa alternates: blin -->
+  		<style feats=" 'cv80' 1" name="cv80_1" />  <!-- 3rd form alternates: seb3 -->
+  		<style feats=" 'cv85' 1" name="cv85_1" />  <!-- 6th form alternates: seb2 -->
+  		<style feats=" 'ss01' 1" name="ss01_1" />  <!-- Archaic Oromo dda forms -->
+  		<style feats=" 'ss02' 1" name="ss02_1" />  <!-- Gumuz nya forms -->
+  		<style feats=" 'ss03' 1" name="ss03_1" />  <!-- Old Style forms -->
+  		<style feats=" 'ss04' 1" name="ss04_1" />  <!-- Disconnected gga forms -->
+  		<style feats=" 'ss05' 1" name="ss05_1" />  <!-- Sebat Bet gwaa form -->
+  		<style feats=" 'ss06' 1" name="ss06_1" />  <!-- Leslau's Sebat Bet alternates -->
+  		<style feats=" 'ss07' 1" name="ss07_1" />  <!-- Sebat Bet xwa forms  -->
+  		<style feats=" 'ss08' 1" name="ss08_1" />  <!-- Sebat Bet 3rd form alternates -->
+  		<style feats=" 'ss09' 1" name="ss09_1" />  <!-- Sebat Bet 6th form alternates	s -->
+  		<style feats=" 'ss10' 1" name="ss10_1" />  <!-- Sebat Bet mwe alternate  -->
+  		<style feats=" 'ss11' 1" name="ss11_1" />  <!-- Traditional fwee alternate -->
+  		<style feats=" 'ss12' 1" name="ss12_1" />  <!-- Typewriter ggwaa alternate -->
+  		<style feats=" 'ss13' 1" name="ss13_1" />  <!-- xoa alternate -->
+  		<style feats=" 'ss14' 1" name="ss14_1" />  <!-- Latin punctuation -->
+      <style lang="CHG" name="sgw" />               <!-- OT - sgw -->
+      <style lang="BIL" name="byn" />               <!-- OT - byn -->
+      <style lang="GMZ" name="guk" />               <!-- OT - guk -->
+      <style lang="sgw" name="sgw" />               <!-- Graphite -->
+      <style lang="byn" name="byn" />               <!-- Graphite -->
+      <style lang="guk" name="guk" />               <!-- Graphite -->
+      
+      <style feats=" 'locl' 1" name="turn_on_locl" />
+
   	</styles>
   	<title>Positioning tests</title>
   </head>
