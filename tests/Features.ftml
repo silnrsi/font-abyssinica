@@ -4,7 +4,7 @@
 	<head>
   	<fontscale>300</fontscale>
     <fontsrc>local(Abyssinica SIL)</fontsrc>
-    <fontsrc>url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
+    <fontsrc>url(reference/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
   		<style feats=" 'cv01' 1" name="fset_punct_1" />    <!-- punctuation: Latin -->
   		<style feats=" 'cv04' 1" name="fset_mwa_1" />      <!-- mwa alternates: cohen1 -->
