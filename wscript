@@ -27,7 +27,7 @@ DEBPKG = 'fonts-sil-abyssinica'
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 BUILDLABEL = "alpha"
 
-ftmlTest('tools/ftml.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tests/ftml-smith.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
 
 designspace('source/' + FAMILY + '.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
