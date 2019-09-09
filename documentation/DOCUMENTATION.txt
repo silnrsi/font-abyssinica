@@ -1,5 +1,5 @@
 DOCUMENTATION
-Abyssinica SIL v1.900
+Abyssinica SIL v2.000
 ========================
 
 
@@ -11,7 +11,7 @@ Primary documentation for the Abyssinica SIL font is on the Abyssinica SIL
 website (https://software.sil.org/abyssinica/).
 
 AbyssinicaSILTypeSample.doc - illustrates the character set in Abyssinica SIL.
-AbyssinicaSILGraphiteFontFeatures.odt - documents the OpenType and Graphite
+AbyssinicaSILFontFeatures.odt - documents the OpenType and Graphite
      features in the font. It serves to illustrate the use of Graphite features
      in LibreOffice 3.4+.
 
