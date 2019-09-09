@@ -7,7 +7,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Sebat Bet Gurage" tag="Sgw">
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv40_gwaa"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv40_gwaa_1"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv60_mwi_1"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv80_3rd"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv85_6th"/>
@@ -30,7 +30,7 @@
 		
 		<value name="Gumuz" tag="Guk">
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv20_nya"/>			
-			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv21_nywa"/>					
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} Cv21_nywa_1"/>					
 			<cmd name="gr_feat" args="{gr_cv20} 1"/>
 			<cmd name="gr_feat" args="{gr_cv21} 1"/>
 		</value>
