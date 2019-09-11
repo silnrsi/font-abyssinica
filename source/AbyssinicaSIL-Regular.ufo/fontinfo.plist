@@ -202,9 +202,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>1</integer>
+  <integer>2</integer>
   <key>versionMinor</key>
-  <integer>900</integer>
+  <integer>000</integer>
   <key>xHeight</key>
   <integer>983</integer>
 </dict>
