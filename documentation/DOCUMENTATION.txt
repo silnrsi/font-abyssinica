@@ -10,8 +10,8 @@ font and any derivative works.
 Primary documentation for the Abyssinica SIL font is on the Abyssinica SIL
 website (https://software.sil.org/abyssinica/).
 
-AbyssinicaSILTypeSample.doc - illustrates the character set in Abyssinica SIL.
-AbyssinicaSILFontFeatures.odt - documents the OpenType and Graphite
+AbyssinicaSILTypeSample.doc/pdf - illustrates the character set in Abyssinica SIL.
+AbyssinicaSILFontFeatures.odt/pdf - documents the OpenType and Graphite
      features in the font. It serves to illustrate the use of Graphite features
      in LibreOffice 3.4+.
 

@@ -35,6 +35,3 @@ AbyssinicaSIL.designspace
 glyph_data.csv
     Complete list of glyphs (and metadata regarding them) for the project
 
-classes.xml
-    Glyph classes used in by the Graphite and OpenType logic but which
-    cannot be algorithmically generated.

@@ -2,7 +2,7 @@
 <!--
 AbyssinicaSIL-WOFF-metadata.html
 Abyssinica SIL v2.000
-12 Sept 2019
+11 Sept 2019
 This file is part of Abyssinica SIL font family (https://software.sil.org/abyssinica/)
 and is 2000-2019, SIL International (http://scripts.sil.org/) with Reserved Font 
 Names "Abyssinica" and "SIL". This Font Software is licensed under the SIL 
@@ -66,16 +66,16 @@ for all the details including a FAQ.
 			---------
 			(This should list both major and minor changes, most recent first.)
 			
-			12 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
-			- Added U+02D0, U+034F, U+2423, U+25CA
-			- Improved design of U+1256 so the top flag touches
-			- Improved design of U+1368 to fit the design of the font better
-			- Improved design of U+1362 (extra space to the right)
-			- Removed Stylistic Sets
-			- Slight change to line spacing to make it consistent across applications
+			11 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
+			- Added U+02D0, U+034F, U+2423, U+25CA                                          
+			- Improved design of U+1256 so the top flag touches                             
+			- Improved design of U+1368 to fit the design of the font better                
+			- Improved design of U+1362 (extra space to the right)                          
+			- Added language support for Sebat Bet Gurage and Gumuz variants                
+			- Added UI name strings for Graphite and OpenType features                      
+			- Removed Stylistic Sets                                                        
+			- Slight change to line spacing to make it consistent across applications       
 			- Unencoded most PUA characters as they are supported through Character Variants
-			- Added language support for Sebat Bet Gurage and Gumuz variants
-			- Added UI name strings for Graphite and OpenType features
 
 			13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
 			- Improved design of U+1396 and U+1399 (metrics changed for these characters)
