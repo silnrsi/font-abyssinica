@@ -25,7 +25,7 @@ DESC_SHORT = "Unicode font for the Ethiopic script"
 DEBPKG = 'fonts-sil-abyssinica'
 
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
-# BUILDLABEL = "alpha"
+BUILDLABEL = "alpha"
 
 ftmlTest('tests/ftml-smith.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
 
