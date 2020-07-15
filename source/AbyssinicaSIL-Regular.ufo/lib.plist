@@ -164,7 +164,7 @@
     <string>bar</string>
     <string>braceright</string>
     <string>asciitilde</string>
-    <string>NoBreakSpace</string>
+    <string>uni00A0</string>
     <string>exclamdown</string>
     <string>exclamdown.punct</string>
     <string>cent</string>

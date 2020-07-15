@@ -115,7 +115,7 @@ USV,ps_name,sort_final,bcp47tags,OTLang,assoc_feat,assoc_feat_val,assoc_uids,Com
   007C,bar,96,,,,,,
   007D,braceright,97,,,,,,
   007E,asciitilde,98,,,,,,
-  00A0,NoBreakSpace,99,,,,,,
+  00A0,uni00A0,99,,,,,,
   00A1,exclamdown,100,,,cv01,0,,
 ,exclamdown.punct,100.1,,,cv01,1,  00A1,
   00A2,cent,101,,,,,,

@@ -74,8 +74,8 @@
   <string>M_.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>NoBreakSpace</key>
-  <string>N_oB_reakS_pace.glif</string>
+  <key>nbspace</key>
+  <string>nbspace.glif</string>
   <key>Ntilde</key>
   <string>N_tilde.glif</string>
   <key>O</key>
