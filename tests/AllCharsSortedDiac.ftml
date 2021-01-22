@@ -261,9 +261,9 @@
   <test label='U+138F'><string>\u00138f\u00135F</string></test>
   <test label='U+138F' stylename="cv65_1"><string>\u00138f\u00135F</string><comment>pwe alternate</comment></test>
   <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D'><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string></test>
-  <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D' stylename="cv80_1"><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string><comment>3rd form alternates</comment></test>
+  <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D' stylename="cv80_1"><comment>3rd form alternates</comment><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string></test>
   <test label='U+124D U+12B5 U+12C5 U+1315'><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string></test>
-  <test label='U+124D U+12B5 U+12C5 U+1315' stylename="cv85_1"><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string><comment>6th form alternates</comment></test>
+  <test label='U+124D U+12B5 U+12C5 U+1315' stylename="cv85_1"><comment>6th form alternates</comment><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string></test>
 
   </testgroup>
 
@@ -271,17 +271,17 @@
   <testgroup label="Language Variants">
 
   <test label='U+1298'><comment>Gumuz</comment><string>\u001298\u00135F \u001299\u00135F \u00129a\u00135F \u00129b\u00135F \u00129c\u00135F \u00129d\u00135F \u00129e\u00135F</string></test>
-  <test label='U+1298' stylename="guk"><string>\u001298\u00135F \u001299\u00135F \u00129a\u00135F \u00129b\u00135F \u00129c\u00135F \u00129d\u00135F \u00129e\u00135F</string><comment>nya alternates</comment></test>
+  <test label='U+1298' stylename="guk"><comment>nya alternates</comment><string>\u001298\u00135F \u001299\u00135F \u00129a\u00135F \u00129b\u00135F \u00129c\u00135F \u00129d\u00135F \u00129e\u00135F</string></test>
   <test label='U+129F'><string>\u00129f\u00135F</string></test>
-  <test label='U+129F' stylename="guk"><string>\u00129f\u00135F</string><comment>nywa alternates (Gumuz)</comment></test>
-  <test label='U+1313'><comment>Sebat Bet</comment><string>\u001313\u00135F</string><comment>gwaa default</comment></test>
-  <test label='U+1313' stylename="sgw"><string>\u001313\u00135F</string><comment>gwaa alternates</comment></test>
+  <test label='U+129F' stylename="guk"><comment>nywa alternates (Gumuz)</comment><string>\u00129f\u00135F</string></test>
+  <test label='U+1313'><comment>Sebat Bet</comment><string>\u001313\u00135F</string></test>
+  <test label='U+1313' stylename="sgw"><comment>gwaa alternates</comment><string>\u001313\u00135F</string></test>
   <test label='U+1381'><string>\u001381\u00135F</string></test>
-  <test label='U+1381' stylename="sgw"><string>\u001381\u00135F</string><comment>mwi alternates (Sebat Bet)</comment></test>
+  <test label='U+1381' stylename="sgw"><comment>mwi alternates (Sebat Bet)</comment><string>\u001381\u00135F</string></test>
   <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D'><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string></test>
-  <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D' stylename="sgw"><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string><comment>3rd form alternates</comment></test>
+  <test label='U+124A U+12B2 U+12C2 U+1312 U+1385 U+138D' stylename="sgw"><comment>3rd form alternates</comment><string>\u00124a\u00135F \u0012b2\u00135F \u0012c2\u00135F \u001312\u00135F \u001385\u00135F \u00138D\u00135F</string></test>
   <test label='U+124D U+12B5 U+12C5 U+1315'><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string></test>
-  <test label='U+124D U+12B5 U+12C5 U+1315' stylename="sgw"><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string><comment>6th form alternates</comment></test>
+  <test label='U+124D U+12B5 U+12C5 U+1315' stylename="sgw"><comment>6th form alternates</comment><string>\u00124d\u00135F \u0012b5\u00135F \u0012c5\u00135F \u001315\u00135F</string></test>
 
   </testgroup>
 
