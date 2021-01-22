@@ -3,8 +3,8 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>local(Abyssinica SIL)</fontsrc>
-    <fontsrc>url(reference/AbyssinicaSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
+    <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
    		<style feats=" 'cv01' 1" name="cv01_1" />    <!-- punctuation: Latin -->
   		<style feats=" 'cv04' 1" name="cv04_1" />      <!-- mwa alternates: cohen1 -->
@@ -60,9 +60,9 @@
   	<testgroup label="Attachment">		
   	<test label="Latin diacritics"><string>\u12F0\u0300 \u12A2\u0301 \u2d8e\u0302 \u12EB\u0303 \u12B8\u0304 \u12CB\u0307 \u2d8e\u0308 \u1281\u030B \u12B8\u030C \u12BB\u030F</string></test>
   	<test label="Ethiopic diacritics"><string>\u1203\u135F \u1275\u135D \u12B9\u135E</string></test>
-  	</testgroup>
+  </testgroup>
   	
-  	<testgroup label='Kerning'>
+  <testgroup label='Kerning'>
   	<test label='U+1202...'><string>\u1202\u1265 \u1202\u130A \u1202\u130D \u1202\u121A \u1202\u131B \u1202\u12D2 \u1202\u12D4 \u1202\u1275 \u1202\u1285</string></test>
   	<test label='U+1206...'><string>\u1206\u2D85 \u1206\u1348 \u1206\u130B \u1206\u1207 \u1206\u1212 \u1206\u1243 \u1206\u1228 \u1206\u1225 \u1206\u2D8F \u1206\u12ED \u1206\u128B</string></test>
   	<test label='U+1207...'><string>\u1207\u130B \u1207\u1212 \u1207\u1213 \u1207\u1208 \u1207\u1243 \u1207\u1251 \u1207\u1228 \u1207\u1225 \u1207\u2D8F \u1207\u128B</string></test>
@@ -133,7 +133,6 @@
   	<test label='U+AB02...'><string>\uAB02\u12B9 \uAB02\u12D2 \uAB02\u12D4</string></test>
   	<test label='U+AB04...'><string>\uAB04\u12D4</string></test>
   	<test label='U+AB12...'><string>\uAB12\u12B8</string></test>
-
   </testgroup>
 </ftml>
 
