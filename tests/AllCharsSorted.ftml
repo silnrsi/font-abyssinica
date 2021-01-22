@@ -69,7 +69,7 @@
   <test label='U+002A'><string> \u00002A  \u00002B  \u00002F  \u000030  \u000031  \u000032  \u000033  \u000034  \u000035  \u000036  \u000037  \u000038  \u000039  \u00003D  \u00003F </string></test>
   <test label='U+002A' stylename="cv01_1"><comment>Punctuation</comment><string> \u00002A  \u00002B  \u00002F  \u000030  \u000031  \u000032  \u000033  \u000034  \u000035  \u000036  \u000037  \u000038  \u000039  \u00003D  \u00003F </string></test>
   <test label='U+00A1'><string> \u0000A1  \u0000A9  \u0000AB  \u0000B2  \u0000B3  \u0000B9  \u0000BB  \u0000D7  \u002018  \u002019  \u00201C  \u00201D  \u002039  \u00203A  \u002070  \u002074  \u002075  \u002076  \u002077  \u002078  \u002079  \u0020AC </string></test>
-  <test label='U+00A1' stylename="cv01_1"><string> \u0000A1  \u0000A9  \u0000AB  \u0000B2  \u0000B3  \u0000B9  \u0000BB  \u0000D7  \u002018  \u002019  \u00201C  \u00201D  \u002039  \u00203A  \u002070  \u002074  \u002075  \u002076  \u002077  \u002078  \u002079  \u0020AC </string><comment>Punctuation</comment></test>
+  <test label='U+00A1' stylename="cv01_1"><comment>Punctuation</comment><string> \u0000A1  \u0000A9  \u0000AB  \u0000B2  \u0000B3  \u0000B9  \u0000BB  \u0000D7  \u002018  \u002019  \u00201C  \u00201D  \u002039  \u00203A  \u002070  \u002074  \u002075  \u002076  \u002077  \u002078  \u002079  \u0020AC </string></test>
   <test label='U+002A'><string> \u002a  \u002b  \u002c  \u002d  \u002e  \u002f  \u0030  \u0031  \u0032  \u0033  \u0034  \u0035  \u0036  \u0037  \u0038  \u0039  \u003a  \u003b </string></test>
   <test label='U+003C'><string> \u003c \u003d \u003e</string></test>
   <test label='U+003F'><string> \u003f  \u0040  \u0041  \u0042  \u0043  \u0044  \u0045  \u0046  \u0047  \u0048  \u0049  \u004a  \u004b  \u004c  \u004d  \u004e  \u004f  \u0050  \u0051  \u0052  \u0053  \u0054  \u0055  \u0056  \u0057  \u0058  \u0059  \u005a </string></test>
@@ -114,7 +114,7 @@
   <test label='U+1383'><comment>mwe</comment><string>\u001383 </string></test>
   <test label='U+1383' stylename="cv61_1"><comment>mwe alternates (Sebat Bet)</comment><string>\u001383 </string></test>
   <test label='U+1383' stylename="cv61_2"><comment>mwe alternates (Leslau)</comment><string>\u001383 </string></test>
-  <test label='U+1359'><string>\u001359 </string><comment>mya</comment></test>
+  <test label='U+1359'><comment>mya</comment><string>\u001359 </string></test>
   <test label='U+1359' stylename="cv50_1"><comment>mya alternate</comment><string>\u001359 </string></test>
   <test label='U+2D81'><comment>moa</comment><string>\u002D81 </string></test>
   <test label='U+1220'><comment>sza</comment><string>\u001220 \u001221 \u001222 \u001223 \u001224 \u001225 \u001226 \u001227 </string></test>
@@ -169,77 +169,77 @@
   <test label='U+12B8'><comment>kxa</comment><string>\u0012B8 \u0012B9 \u0012Ba \u0012Bb \u0012Bc \u0012Bd \u0012Be \u0000A0 </string></test>
   <test label='U+12C0'><comment>kxwa</comment><string>\u0012C0 \u0000A0 \u0012C2 \u0012C3 \u0012C4 \u0012C5 \u0000A0 \u0000A0 </string></test>
   <test label='U+12C3' stylename="cv26_1"><comment>kxwaa alternate</comment><string>\u0000A0 \u0000A0 \u0000A0 \u0012C3 </string></test>
-  <test label='U+2DD0'><string>\u002DD0 \u002DD1 \u002DD2 \u002DD3 \u002DD4 \u002DD5 \u002DD6 \u0000a0 </string><comment>xya</comment></test>
-  <test label='U+12C8'><string>\u0012C8 \u0012C9 \u0012Ca \u0012Cb \u0012Cc \u0012Cd \u0012Ce \u0012Cf </string><comment>waa</comment></test>
-  <test label='U+12D0'><string>\u0012D0 \u0012D1 \u0012D2 \u0012D3 \u0012D4 \u0012D5 \u0012D6 \u0000A0 </string><comment>pharyngeal a</comment></test>
-  <test label='U+12D8'><string>\u0012D8 \u0012D9 \u0012Da \u0012Db \u0012Dc \u0012Dd \u0012De \u0012Df </string><comment>za</comment></test>
-  <test label='U+2D8B'><string>\u002D8b </string><comment>zoa</comment></test>
-  <test label='U+AB11'><string>\u0000a0 \u00AB11 \u00AB12 \u00AB13 \u00AB14 \u00AB15 \u00AB16 \u0000a0 </string><comment>dzu</comment></test>
-  <test label='U+12E0'><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string><comment>zha</comment></test>
-  <test label='U+12E0' stylename="cv31_1"><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string><comment>zha alternates (Cohen)</comment></test>
-  <test label='U+12E0' stylename="cv31_2"><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string><comment>zha alternates (Chaine)</comment></test>
-  <test label='U+12E7'><string>\u0012E7 </string><comment>zhwa</comment></test>
-  <test label='U+2DB0'><string>\u002DB0 \u002DB1 \u002DB2 \u002DB3 \u002DB4 \u002DB5 \u002DB6 \u0000a0 </string><comment>zza</comment></test>
-  <test label='U+12E8'><string>\u0012E8 \u0012E9 \u0012Ea \u0012Eb \u0012Ec \u0012Ed \u0012Ee \u0012Ef </string><comment>ya</comment></test>
-  <test label='U+12F0'><string>\u0012F0 \u0012F1 \u0012F2 \u0012F3 \u0012F4 \u0012F5 \u0012F6 \u0012F7 </string><comment>da</comment></test>
-  <test label='U+2D8C'><string>\u002D8c </string><comment>doa</comment></test>
-  <test label='U+12F8'><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string><comment>dda</comment></test>
-  <test label='U+12F8' stylename="cv32_1"><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string><comment>dda alternates</comment></test>
-  <test label='U+12FF'><string>\u0012Ff </string><comment>ddwa</comment></test>
-  <test label='U+2D8D'><string>\u002D8d </string><comment>ddoa</comment></test>
-  <test label='U+AB09'><string>\u0000a0 \u00AB09 \u00AB0a \u00AB0b \u00AB0c \u00AB0d \u00AB0e \u0000a0 </string><comment>ddhu</comment></test>
-  <test label='U+1300'><string>\u001300 \u001301 \u001302 \u001303 \u001304 \u001305 \u001306 \u001307 </string><comment>ja</comment></test>
-  <test label='U+2D8E'><string>\u002D8e </string><comment>joa</comment></test>
-  <test label='U+1308'><string>\u001308 \u001309 \u00130a \u00130b \u00130c \u00130d \u00130e \u00130f </string><comment>ga</comment></test>
-  <test label='U+1310'><string>\u001310 \u0000A0 \u001312 \u001313 \u001314 \u001315 \u0000A0 \u0000A0 </string><comment>gwa</comment></test>
-  <test label='U+1313'><string>\u001313 </string><comment>gwaa</comment></test>
-  <test label='U+1313' stylename="cv40_1"><string>\u001313 </string><comment>gwaa alternates (Sebat Bet)</comment></test>
-  <test label='U+1313' stylename="cv40_2"><string>\u001313 </string><comment>gwaa alternates (Alone Stokes)</comment></test>
-  <test label='U+2DD8'><string>\u002DD8 \u002DD9 \u002DDa \u002DDb \u002DDc \u002DDd \u002DDe \u0000a0 </string><comment>gya</comment></test>
-  <test label='U+1318'><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131E </string><comment>gga</comment></test>
-  <test label='U+1318' stylename="cv41_1"><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131e </string><comment>gga alternates</comment></test>
-  <test label='U+131F'><string>\u00131f </string><comment>ggwaa</comment></test>
-  <test label='U+131F' stylename="cv42_1"><string>\u00131f </string><comment>ggwaa alternate</comment></test>
-  <test label='U+2D93'><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string><comment>ggwa</comment></test>
-  <test label='U+2D93' stylename="cv70_1"><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string><comment>ggwa alternates</comment></test>
-  <test label='U+1320'><string>\u001320 \u001321 \u001322 \u001323 \u001324 \u001325 \u001326 \u001327 </string><comment>tha</comment></test>
-  <test label='U+2D8F'><string>\u002D8f </string><comment>thoa</comment></test>
-  <test label='U+1328'><string>\u001328 \u001329 \u00132a \u00132b \u00132c \u00132d \u00132e \u00132f </string><comment>cha</comment></test>
-  <test label='U+2D90'><string>\u002D90 </string><comment>choa</comment></test>
-  <test label='U+2DB8'><string>\u002DB8 \u002DB9 \u002DBa \u002DBb \u002DBc \u002DBd \u002DBe \u0000a0 </string><comment>ccha</comment></test>
-  <test label='U+AB20'><string>\u00AB20 \u00AB21 \u00AB22 \u00AB23 \u00AB24 \u00AB25 \u00AB26 \u0000a0 </string><comment>cchha</comment></test>
-  <test label='U+1330'><string>\u001330 \u001331 \u001332 \u001333 \u001334 \u001335 \u001336 \u001337 </string><comment>pha</comment></test>
-  <test label='U+1335'><string>\u001335 </string><comment>phe</comment></test>
-  <test label='U+1335' stylename="cv45_1"><string>\u001335 </string><comment>phe alternate</comment></test>
-  <test label='U+2D91'><string>\u002D91 </string><comment>phoa</comment></test>
-  <test label='U+1338'><string>\u001338 \u001339 \u00133a \u00133b \u00133c \u00133d \u00133e </string><comment>tsa</comment></test>
-  <test label='U+133F'><string>\u00133F </string><comment>tswa</comment></test>
-  <test label='U+133F' stylename="cv46_1"><string>\u00133F </string><comment>tswa alternate</comment></test>
-  <test label='U+AB28'><string>\u00AB28 \u00AB29 \u00AB2a \u00AB2b \u00AB2c \u00AB2d \u00AB2e \u0000a0 </string><comment>bba</comment></test>
-  <test label='U+1340'><string>\u001340 \u001341 \u001342 \u001343 \u001344 \u001345 \u001346 \u001347 </string><comment>tza</comment></test>
-  <test label='U+1348'><string>\u001348 \u001349 \u00134a \u00134b \u00134c \u00134d \u00134e </string><comment>fa</comment></test>
-  <test label='U+134F'><string>\u00134F </string><comment>fwa</comment></test>
-  <test label='U+134F' stylename="cv48_1"><string>\u00134F </string><comment>fwa alternates</comment></test>
-  <test label='U+134F' stylename="cv48_2"><string>\u00134F </string><comment>fwa alternates</comment></test>
-  <test label='U+1388'><string>\u001388 </string><comment>sebatbeit fwa</comment></test>
-  <test label='U+1389'><string>\u001389 </string><comment>fwi</comment></test>
-  <test label='U+138A'><string>\u00138A </string><comment>fwee</comment></test>
-  <test label='U+138A' stylename="cv63_1"><string>\u00138A </string><comment>fwee alternate</comment></test>
-  <test label='U+138B'><string>\u00138b </string><comment>fwe</comment></test>
-  <test label='U+138B' stylename="cv64_1"><string>\u00138b </string><comment>fwe alternate</comment></test>
-  <test label='U+135A'><string>\u00135a </string><comment>fya</comment></test>
-  <test label='U+1350'><string>\u001350 \u001351 \u001352 \u001353 \u001354 \u001355 \u001356 \u001357 </string><comment>pa</comment></test>
-  <test label='U+2D92'><string>\u002D92 </string><comment>poa</comment></test>
-  <test label='U+138C'><string>\u00138c \u0000A0 \u00138d \u0000A0 \u00138e </string><comment>sebatbeit pwa</comment></test>
-  <test label='U+138F'><string>\u00138f </string><comment>pwe</comment></test>
-  <test label='U+138F' stylename="cv65_1"><string>\u00138f </string><comment>pwe alternate</comment></test>
+  <test label='U+2DD0'><comment>xya</comment><string>\u002DD0 \u002DD1 \u002DD2 \u002DD3 \u002DD4 \u002DD5 \u002DD6 \u0000a0 </string></test>
+  <test label='U+12C8'><comment>waa</comment><string>\u0012C8 \u0012C9 \u0012Ca \u0012Cb \u0012Cc \u0012Cd \u0012Ce \u0012Cf </string></test>
+  <test label='U+12D0'><comment>pharyngeal a</comment><string>\u0012D0 \u0012D1 \u0012D2 \u0012D3 \u0012D4 \u0012D5 \u0012D6 \u0000A0 </string></test>
+  <test label='U+12D8'><comment>za</comment><string>\u0012D8 \u0012D9 \u0012Da \u0012Db \u0012Dc \u0012Dd \u0012De \u0012Df </string></test>
+  <test label='U+2D8B'><comment>zoa</comment><string>\u002D8b </string></test>
+  <test label='U+AB11'><comment>dzu</comment><string>\u0000a0 \u00AB11 \u00AB12 \u00AB13 \u00AB14 \u00AB15 \u00AB16 \u0000a0 </string></test>
+  <test label='U+12E0'><comment>zha</comment><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
+  <test label='U+12E0' stylename="cv31_1"><comment>zha alternates (Cohen)</comment><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
+  <test label='U+12E0' stylename="cv31_2"><comment>zha alternates (Chaine)</comment><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
+  <test label='U+12E7'><comment>zhwa</comment><string>\u0012E7 </string></test>
+  <test label='U+2DB0'><comment>zza</comment><string>\u002DB0 \u002DB1 \u002DB2 \u002DB3 \u002DB4 \u002DB5 \u002DB6 \u0000a0 </string></test>
+  <test label='U+12E8'><comment>ya</comment><string>\u0012E8 \u0012E9 \u0012Ea \u0012Eb \u0012Ec \u0012Ed \u0012Ee \u0012Ef </string></test>
+  <test label='U+12F0'><comment>da</comment><string>\u0012F0 \u0012F1 \u0012F2 \u0012F3 \u0012F4 \u0012F5 \u0012F6 \u0012F7 </string></test>
+  <test label='U+2D8C'><comment>doa</comment><string>\u002D8c </string></test>
+  <test label='U+12F8'><comment>dda</comment><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string></test>
+  <test label='U+12F8' stylename="cv32_1"><comment>dda alternates</comment><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string></test>
+  <test label='U+12FF'><comment>ddwa</comment><string>\u0012Ff </string></test>
+  <test label='U+2D8D'><comment>ddoa</comment><string>\u002D8d </string></test>
+  <test label='U+AB09'><comment>ddhu</comment><string>\u0000a0 \u00AB09 \u00AB0a \u00AB0b \u00AB0c \u00AB0d \u00AB0e \u0000a0 </string></test>
+  <test label='U+1300'><comment>ja</comment><string>\u001300 \u001301 \u001302 \u001303 \u001304 \u001305 \u001306 \u001307 </string></test>
+  <test label='U+2D8E'><comment>joa</comment><string>\u002D8e </string></test>
+  <test label='U+1308'><comment>ga</comment><string>\u001308 \u001309 \u00130a \u00130b \u00130c \u00130d \u00130e \u00130f </string></test>
+  <test label='U+1310'><comment>gwa</comment><string>\u001310 \u0000A0 \u001312 \u001313 \u001314 \u001315 \u0000A0 \u0000A0 </string></test>
+  <test label='U+1313'><comment>gwaa</comment><string>\u001313 </string></test>
+  <test label='U+1313' stylename="cv40_1"><comment>gwaa alternates (Sebat Bet)</comment><string>\u001313 </string></test>
+  <test label='U+1313' stylename="cv40_2"><comment>gwaa alternates (Alone Stokes)</comment><string>\u001313 </string></test>
+  <test label='U+2DD8'><comment>gya</comment><string>\u002DD8 \u002DD9 \u002DDa \u002DDb \u002DDc \u002DDd \u002DDe \u0000a0 </string></test>
+  <test label='U+1318'><comment>gga</comment><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131E </string></test>
+  <test label='U+1318' stylename="cv41_1"><comment>gga alternates</comment><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131e </string></test>
+  <test label='U+131F'><comment>ggwaa</comment><string>\u00131f </string></test>
+  <test label='U+131F' stylename="cv42_1"><comment>ggwaa alternate</comment><string>\u00131f </string></test>
+  <test label='U+2D93'><comment>ggwa</comment><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string></test>
+  <test label='U+2D93' stylename="cv70_1"><comment>ggwa alternates</comment><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string></test>
+  <test label='U+1320'><comment>tha</comment><string>\u001320 \u001321 \u001322 \u001323 \u001324 \u001325 \u001326 \u001327 </string></test>
+  <test label='U+2D8F'><comment>thoa</comment><string>\u002D8f </string></test>
+  <test label='U+1328'><comment>cha</comment><string>\u001328 \u001329 \u00132a \u00132b \u00132c \u00132d \u00132e \u00132f </string></test>
+  <test label='U+2D90'><comment>choa</comment><string>\u002D90 </string></test>
+  <test label='U+2DB8'><comment>ccha</comment><string>\u002DB8 \u002DB9 \u002DBa \u002DBb \u002DBc \u002DBd \u002DBe \u0000a0 </string></test>
+  <test label='U+AB20'><comment>cchha</comment><string>\u00AB20 \u00AB21 \u00AB22 \u00AB23 \u00AB24 \u00AB25 \u00AB26 \u0000a0 </string></test>
+  <test label='U+1330'><comment>pha</comment><string>\u001330 \u001331 \u001332 \u001333 \u001334 \u001335 \u001336 \u001337 </string></test>
+  <test label='U+1335'><comment>phe</comment><string>\u001335 </string></test>
+  <test label='U+1335' stylename="cv45_1"><comment>phe alternate</comment><string>\u001335 </string></test>
+  <test label='U+2D91'><comment>phoa</comment><string>\u002D91 </string></test>
+  <test label='U+1338'><comment>tsa</comment><string>\u001338 \u001339 \u00133a \u00133b \u00133c \u00133d \u00133e </string></test>
+  <test label='U+133F'><comment>tswa</comment><string>\u00133F </string></test>
+  <test label='U+133F' stylename="cv46_1"><comment>tswa alternate</comment><string>\u00133F </string></test>
+  <test label='U+AB28'><comment>bba</comment><string>\u00AB28 \u00AB29 \u00AB2a \u00AB2b \u00AB2c \u00AB2d \u00AB2e \u0000a0 </string></test>
+  <test label='U+1340'><comment>tza</comment><string>\u001340 \u001341 \u001342 \u001343 \u001344 \u001345 \u001346 \u001347 </string></test>
+  <test label='U+1348'><comment>fa</comment><string>\u001348 \u001349 \u00134a \u00134b \u00134c \u00134d \u00134e </string></test>
+  <test label='U+134F'><comment>fwa</comment><string>\u00134F </string></test>
+  <test label='U+134F' stylename="cv48_1"><comment>fwa alternates</comment><string>\u00134F </string></test>
+  <test label='U+134F' stylename="cv48_2"><comment>fwa alternates</comment><string>\u00134F </string></test>
+  <test label='U+1388'><comment>sebatbeit fwa</comment><string>\u001388 </string></test>
+  <test label='U+1389'><comment>fwi</comment><string>\u001389 </string></test>
+  <test label='U+138A'><comment>fwee</comment><string>\u00138A </string></test>
+  <test label='U+138A' stylename="cv63_1"><comment>fwee alternate</comment><string>\u00138A </string></test>
+  <test label='U+138B'><comment>fwe</comment><string>\u00138b </string></test>
+  <test label='U+138B' stylename="cv64_1"><comment>fwe alternate</comment><string>\u00138b </string></test>
+  <test label='U+135A'><comment>fya</comment><string>\u00135a </string></test>
+  <test label='U+1350'><comment>pa</comment><string>\u001350 \u001351 \u001352 \u001353 \u001354 \u001355 \u001356 \u001357 </string></test>
+  <test label='U+2D92'><comment>poa</comment><string>\u002D92 </string></test>
+  <test label='U+138C'><comment>sebatbeit pwa</comment><string>\u00138c \u0000A0 \u00138d \u0000A0 \u00138e </string></test>
+  <test label='U+138F'><comment>pwe</comment><string>\u00138f </string></test>
+  <test label='U+138F' stylename="cv65_1"><comment>pwe alternate</comment><string>\u00138f </string></test>
   <test label='U+135D'><string>\u0025cc\u00135d \u0025cc\u00135e \u0025cc\u00135f </string></test>
   <test label='U+1360'><string>\u001360 \u001361 \u001362 \u001363 \u001364 \u001365 \u001366 \u001367 \u001368 </string></test>
-  <test label='U+1369'><string>\u001369 \u00136a \u00136b \u00136c \u00136d \u00136e \u00136f \u001370 \u001371 </string><comment>digits</comment></test>
-  <test label='U+1372'><string>\u001372 \u001373 \u001374 \u001375 \u001376 \u001377 \u001378 \u001379 \u00137a \u00137b \u00137c </string><comment>numbers</comment></test>
+  <test label='U+1369'><comment>digits</comment><string>\u001369 \u00136a \u00136b \u00136c \u00136d \u00136e \u00136f \u001370 \u001371 </string></test>
+  <test label='U+1372'><comment>numbers</comment><string>\u001372 \u001373 \u001374 \u001375 \u001376 \u001377 \u001378 \u001379 \u00137a \u00137b \u00137c </string></test>
   <test label='U+1390'><string>\u001390 \u001391 \u001392 \u001393 \u001394 \u001395 \u001396 \u001397 \u001398 \u001399 </string></test>
   <test label='U+2000'><string>\u00002e\u002000\u00002e \u00002e\u002001\u00002e \u00002e\u002002\u00002e \u00002e\u002003\u00002e \u00002e\u002004\u00002e \u00002e\u002005\u00002e \u00002e\u002006\u00002e \u00002e\u002007\u00002e \u00002e\u002008\u00002e \u00002e\u002009\u00002e \u00002e\u00200a\u00002e \u00200b \u00200c </string></test>
-  <test label='U+200D'><string>\u00200d </string><comment>zerojoin</comment></test>
+  <test label='U+200D'><comment>zerojoin</comment><string>\u00200d </string></test>
   <test label='U+200E'><string>\u00200e </string></test>
   <test label='U+200F'><string>\u00200f </string></test>
   <test label='U+2010'><string>\u002010 \u002011 \u002012 \u002013 \u002014 \u002015 </string></test>
@@ -249,8 +249,8 @@
   <test label='U+2026'><string>\u002026 \u002027 \u002028 \u002029 </string></test>
   <test label='U+202A'><string>\u00202A \u00202B \u00202C \u00202D \u00202E \u00202F </string></test>
   <test label='U+2030'><string>\u002030 </string></test>
-  <test label='U+2039'><string>\u002039 </string><comment>guilsinglleft</comment></test>
-  <test label='U+203A'><string>\u00203a </string><comment>guilsinglright</comment></test>
+  <test label='U+2039'><comment>guilsinglleft</comment><string>\u002039 </string></test>
+  <test label='U+203A'><comment>guilsinglright</comment><string>\u00203a </string></test>
   <test label='U+203B'><string>\u00203b </string></test>
   <test label='U+2044'><string>\u002044 </string></test>
   <test label='U+2060'><string>\u002060 </string></test>
@@ -270,8 +270,8 @@
   <test label='U+2248'><string>\u002248 </string></test>
   <test label='U+2260'><string>\u002260 </string></test>
   <test label='U+2264'><string>\u002264 \u002265 </string></test>
-  <test label='U+2423'><string>\u002423 </string><comment>blank</comment></test>
-  <test label='U+25CA'><string>\u0025ca </string><comment>lozenge</comment></test>
+  <test label='U+2423'><comment>blank</comment><string>\u002423 </string></test>
+  <test label='U+25CA'><comment>lozenge</comment><string>\u0025ca </string></test>
   <test label='U+25CC'><string>\u0025cc </string></test>
   <test label='U+2713'><string>\u002713 </string></test>
   <test label='U+E494'><string>\u00E494 </string></test>
@@ -282,89 +282,89 @@
   <testgroup label="Character Variants">
 
   <test label='U+0021'><string>\u000021 \u000024 \u000025 \u00002A \u00002B \u00002F \u000030 \u000031 \u000032 \u000033 \u000034 \u000035 \u000036 \u000037 \u000038 \u000039 \u00003D \u00003F </string></test>
-  <test label='U+0021' stylename="cv01_1"><string>\u000021 \u000024 \u000025 \u00002A \u00002B \u00002F \u000030 \u000031 \u000032 \u000033 \u000034 \u000035 \u000036 \u000037 \u000038 \u000039 \u00003D \u00003F </string><comment>Punctuation</comment></test>
+  <test label='U+0021' stylename="cv01_1"><comment>Punctuation</comment><string>\u000021 \u000024 \u000025 \u00002A \u00002B \u00002F \u000030 \u000031 \u000032 \u000033 \u000034 \u000035 \u000036 \u000037 \u000038 \u000039 \u00003D \u00003F </string></test>
 
   <test label='U+00A1'><string>\u0000A1 \u0000A9 \u0000AB \u0000B2 \u0000B3 \u0000B9 \u0000BB \u0000D7 \u002018 \u002019 \u00201C \u00201D \u002039 \u00203A \u002070 \u002074 \u002075 \u002076 \u002077 \u002078 \u002079 \u0020AC </string></test>
-  <test label='U+00A1' stylename="cv01_1"><string>\u0000A1 \u0000A9 \u0000AB \u0000B2 \u0000B3 \u0000B9 \u0000BB \u0000D7 \u002018 \u002019 \u00201C \u00201D \u002039 \u00203A \u002070 \u002074 \u002075 \u002076 \u002077 \u002078 \u002079 \u0020AC </string><comment>Punctuation</comment></test>
+  <test label='U+00A1' stylename="cv01_1"><comment>Punctuation</comment><string>\u0000A1 \u0000A9 \u0000AB \u0000B2 \u0000B3 \u0000B9 \u0000BB \u0000D7 \u002018 \u002019 \u00201C \u00201D \u002039 \u00203A \u002070 \u002074 \u002075 \u002076 \u002077 \u002078 \u002079 \u0020AC </string></test>
 
   <test label='U+121F'><string>\u00121f </string></test>
-  <test label='U+121F' stylename="cv04_1"><string>\u00121f </string><comment>mwa alternates</comment></test>
-  <test label='U+121F' stylename="cv04_2"><string>\u00121f </string><comment>mwa alternates</comment></test>
+  <test label='U+121F' stylename="cv04_1"><comment>mwa alternates</comment><string>\u00121f </string></test>
+  <test label='U+121F' stylename="cv04_2"><comment>mwa alternates</comment><string>\u00121f </string></test>
 
   <test label='U+122F'><string>\u00122f </string></test>
-  <test label='U+122F' stylename="cv05_1"><string>\u00122f </string><comment>rwa alternate</comment></test>
+  <test label='U+122F' stylename="cv05_1"><comment>rwa alternate</comment><string>\u00122f </string></test>
 
   <test label='U+1287'><string>\u001287 </string></test>
-  <test label='U+1287' stylename="cv17_1"><string>\u001287 </string><comment>xoa alternate</comment></test>
+  <test label='U+1287' stylename="cv17_1"><comment>xoa alternate</comment><string>\u001287 </string></test>
 
   <test label='U+1288'><string>\u001288 \u0000A0 \u00128a \u00128b \u00128c \u00128d \u0000A0 \u0000A0 </string></test>
-  <test label='U+1288' stylename="cv18_1"><string>\u001288 \u0000A0 \u00128a \u00128b \u00128c \u00128d \u0000A0 \u0000A0 </string><comment>xwa alternates</comment></test>
+  <test label='U+1288' stylename="cv18_1"><comment>xwa alternates</comment><string>\u001288 \u0000A0 \u00128a \u00128b \u00128c \u00128d \u0000A0 \u0000A0 </string></test>
 
   <test label='U+1297'><string>\u001297 </string></test>
-  <test label='U+1297' stylename="cv19_1"><string>\u001297 </string><comment>nwa alternate</comment></test>
+  <test label='U+1297' stylename="cv19_1"><comment>nwa alternate</comment><string>\u001297 </string></test>
 
   <test label='U+1298'><string>\u001298 \u001299 \u00129a \u00129b \u00129c \u00129d \u00129e </string></test>
-  <test label='U+1298' stylename="cv20_1"><string>\u001298 \u001299 \u00129a \u00129b \u00129c \u00129d \u00129e </string><comment>nya alternates</comment></test>
+  <test label='U+1298' stylename="cv20_1"><comment>nya alternates</comment><string>\u001298 \u001299 \u00129a \u00129b \u00129c \u00129d \u00129e </string></test>
 
   <test label='U+129F'><string>\u00129f </string></test>
-  <test label='U+129F' stylename="cv21_1"><string>\u00129f </string><comment>nywa alternates (Gumuz)</comment></test>
-  <test label='U+129F' stylename="cv21_2"><string>\u00129f </string><comment>nywa alternates (Cohen)</comment></test>
+  <test label='U+129F' stylename="cv21_1"><comment>nywa alternates (Gumuz)</comment><string>\u00129f </string></test>
+  <test label='U+129F' stylename="cv21_2"><comment>nywa alternates (Cohen)</comment><string>\u00129f </string></test>
 
   <test label='U+12C3'><string>\u0012C3 </string></test>
-  <test label='U+12C3' stylename="cv26_1"><string>\u0012C3 </string><comment>kxwaa alternate</comment></test>
+  <test label='U+12C3' stylename="cv26_1"><comment>kxwaa alternate</comment><string>\u0012C3 </string></test>
 
   <test label='U+12E0'><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
-  <test label='U+12E0' stylename="cv31_1"><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string><comment>zha alternates (Cohen)</comment></test>
-  <test label='U+12E0' stylename="cv31_2"><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string><comment>zha alternates (Chaine)</comment></test>
+  <test label='U+12E0' stylename="cv31_1"><comment>zha alternates (Cohen)</comment><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
+  <test label='U+12E0' stylename="cv31_2"><comment>zha alternates (Chaine)</comment><string>\u0012E0 \u0012E1 \u0012E2 \u0012E3 \u0012E4 \u0012E5 \u0012E6 </string></test>
 
   <test label='U+12F8'><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string></test>
-  <test label='U+12F8' stylename="cv32_1"><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string><comment>dda alternates</comment></test>
+  <test label='U+12F8' stylename="cv32_1"><comment>dda alternates</comment><string>\u0012F8 \u0012F9 \u0012Fa \u0012Fb \u0012Fc \u0012Fd \u0012Fe </string></test>
 
   <test label='U+1313'><string>\u001313 </string></test>
-  <test label='U+1313' stylename="cv40_1"><string>\u001313 </string><comment>gwaa alternates (Sebat Bet)</comment></test>
-  <test label='U+1313' stylename="cv40_2"><string>\u001313 </string><comment>gwaa alternates (Alone Stokes)</comment></test>
+  <test label='U+1313' stylename="cv40_1"><comment>gwaa alternates (Sebat Bet)</comment><string>\u001313 </string></test>
+  <test label='U+1313' stylename="cv40_2"><comment>gwaa alternates (Alone Stokes)</comment><string>\u001313 </string></test>
 
   <test label='U+1318'><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131e </string></test>
-  <test label='U+1318' stylename="cv41_1"><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131e </string><comment>gga alternates</comment></test>
+  <test label='U+1318' stylename="cv41_1"><comment>gga alternates</comment><string>\u001318 \u001319 \u00131a \u00131b \u00131c \u00131d \u00131e </string></test>
 
   <test label='U+131F'><string>\u00131f </string></test>
-  <test label='U+131F' stylename="cv42_1"><string>\u00131f </string><comment>ggwaa alternate</comment></test>
+  <test label='U+131F' stylename="cv42_1"><comment>ggwaa alternate</comment><string>\u00131f </string></test>
 
   <test label='U+1335'><string>\u001335 </string></test>
-  <test label='U+1335' stylename="cv45_1"><string>\u001335 </string><comment>phe alternate</comment></test>
+  <test label='U+1335' stylename="cv45_1"><comment>phe alternate</comment><string>\u001335 </string></test>
 
   <test label='U+133F'><string>\u00133F </string></test>
-  <test label='U+133F' stylename="cv46_1"><string>\u00133F </string><comment>tswa alternate</comment></test>
+  <test label='U+133F' stylename="cv46_1"><comment>tswa alternate</comment><string>\u00133F </string></test>
 
   <test label='U+134F'><string>\u00134F </string></test>
-  <test label='U+134F' stylename="cv48_1"><string>\u00134F </string><comment>fwa alternates</comment></test>
-  <test label='U+134F' stylename="cv48_2"><string>\u00134F </string><comment>fwa alternates</comment></test>
+  <test label='U+134F' stylename="cv48_1"><comment>fwa alternates</comment><string>\u00134F </string></test>
+  <test label='U+134F' stylename="cv48_2"><comment>fwa alternates</comment><string>\u00134F </string></test>
 
   <test label='U+1358'><string>\u001358 </string></test>
-  <test label='U+1358' stylename="cv49_1"><string>\u001358 </string><comment>rya alternate</comment></test>
+  <test label='U+1358' stylename="cv49_1"><comment>rya alternate</comment><string>\u001358 </string></test>
 
   <test label='U+1359'><string>\u001359 </string></test>
-  <test label='U+1359' stylename="cv50_1"><string>\u001359 </string><comment>mya alternate</comment></test>
+  <test label='U+1359' stylename="cv50_1"><comment>mya alternate</comment><string>\u001359 </string></test>
 
   <test label='U+1381'><string>\u001381 </string></test>
-  <test label='U+1381' stylename="cv60_1"><string>\u001381 </string><comment>mwi alternates (Sebat Bet)</comment></test>
-  <test label='U+1381' stylename="cv60_2"><string>\u001381 </string><comment>mwi alternates (Leslau)</comment></test>
+  <test label='U+1381' stylename="cv60_1"><comment>mwi alternates (Sebat Bet)</comment><string>\u001381 </string></test>
+  <test label='U+1381' stylename="cv60_2"><comment>mwi alternates (Leslau)</comment><string>\u001381 </string></test>
 
   <test label='U+1383'><string>\u001383 </string></test>
-  <test label='U+1383' stylename="cv61_1"><string>\u001383 </string><comment>mwe alternates (Sebat Bet)</comment></test>
-  <test label='U+1383' stylename="cv61_2"><string>\u001383 </string><comment>mwe alternates (Leslau)</comment></test>
+  <test label='U+1383' stylename="cv61_1"><comment>mwe alternates (Sebat Bet)</comment><string>\u001383 </string></test>
+  <test label='U+1383' stylename="cv61_2"><comment>mwe alternates (Leslau)</comment><string>\u001383 </string></test>
 
   <test label='U+1387'><string>\u001387 </string></test>
-  <test label='U+1387' stylename="cv62_1"><string>\u001387 </string><comment>bwe alternate</comment></test>
+  <test label='U+1387' stylename="cv62_1"><comment>bwe alternate</comment><string>\u001387 </string></test>
 
   <test label='U+138A'><string>\u00138A </string></test>
-  <test label='U+138A' stylename="cv63_1"><string>\u00138A </string><comment>fwee alternate</comment></test>
+  <test label='U+138A' stylename="cv63_1"><comment>fwee alternate</comment><string>\u00138A </string></test>
 
   <test label='U+138B'><string>\u00138b </string></test>
-  <test label='U+138B' stylename="cv64_1"><string>\u00138b </string><comment>fwe alternate</comment></test>
+  <test label='U+138B' stylename="cv64_1"><comment>fwe alternate</comment><string>\u00138b </string></test>
 
   <test label='U+138F'><string>\u00138f </string></test>
-  <test label='U+138F' stylename="cv65_1"><string>\u00138f </string><comment>pwe alternate</comment></test>
+  <test label='U+138F' stylename="cv65_1"><comment>pwe alternate</comment><string>\u00138f </string></test>
   <test label='U+2D93'><comment>ggwa</comment><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string></test>
   <test label='U+2D93' stylename="cv70_1"><comment>ggwa alternates</comment><string>\u002D93 \u0000A0 \u002D94 \u0000A0 \u002D95 \u002D96 </string></test>
 
