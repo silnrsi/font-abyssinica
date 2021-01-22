@@ -72,7 +72,7 @@
   <test label='U+1381' stylename="cv60_1"><string>\u001381\u00135F</string><comment>mwi alternates (Sebat Bet)</comment></test>
   <test label='U+1381' stylename="cv60_2"><string>\u001381\u00135F</string><comment>mwi alternates (Leslau)</comment></test>
   <test label='U+1382'><string>\u001382\u00135F</string><comment>mwee</comment></test>
-  <test label='U+1383'><string>\u001383\u00135F</string><comment>mwe</comment>mwe</test>
+  <test label='U+1383'><string>\u001383\u00135F</string><comment>mwe</comment></test>
   <test label='U+1383' stylename="cv61_1"><string>\u001383\u00135F</string><comment>mwe alternates (Sebat Bet)</comment></test>
   <test label='U+1383' stylename="cv61_2"><string>\u001383\u00135F</string><comment>mwe alternates (Leslau)</comment></test>
   <test label='U+1359'><string>\u001359\u00135F</string><comment>mya</comment></test>
