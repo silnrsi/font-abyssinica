@@ -42,10 +42,10 @@
  		<style feats=" 'cv80' 1" name="cv80_1"/> <!-- 3rd form alternates: seb3 -->
  		<style feats=" 'cv85' 1" name="cv85_1"/> <!-- 6th form alternates: seb2 -->
    <style lang="CHG" name="sgw"/>        <!-- OT - sgw -->
-   <style lang="BIL" name="byn"/>        <!-- OT - byn -->
+   <!--<style lang="BIL" name="byn"/>         OT - byn -->
    <style lang="GMZ" name="guk"/>        <!-- OT - guk -->
    <style lang="sgw" name="sgw"/>        <!-- Graphite -->
-   <style lang="byn" name="byn"/>        <!-- Graphite -->
+<!--   <style lang="byn" name="byn"/>         Graphite -->
    <style lang="guk" name="guk"/>        <!-- Graphite -->
    
    <style feats=" 'locl' 1" name="turn_on_locl"/>

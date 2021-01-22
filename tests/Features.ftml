@@ -42,10 +42,10 @@
   		<style feats=" 'cv80' 1" name="fset_3rdform_1" />  <!-- 3rd form alternates: seb3 -->
   		<style feats=" 'cv85' 1" name="fset_6thform_1" />  <!-- 6th form alternates: seb2 -->
       <style lang="CHG" name="lang_CHG" />               <!-- OT - sgw -->
-      <style lang="BIL" name="lang_BIL" />               <!-- OT - byn -->
+<!--      <style lang="BIL" name="lang_BIL" />                OT - byn -->
       <style lang="GMZ" name="lang_GMZ" />               <!-- OT - guk -->
       <style lang="sgw" name="lang_sgw" />               <!-- Graphite -->
-      <style lang="byn" name="lang_byn" />               <!-- Graphite -->
+<!--      <style lang="byn" name="lang_byn" />                Graphite -->
       <style lang="guk" name="lang_guk" />               <!-- Graphite -->
       
       <style feats=" 'locl' 1" name="turn_on_locl" />
@@ -62,15 +62,6 @@
 		<test label='sgw = CHG'><comment></comment><string>\u1313</string></test>
   		<test stylename="lang_CHG"><comment>CHG</comment><string>\u1313</string></test>
   		<test stylename="lang_sgw"><comment>sgw</comment><string>\u1313</string></test>
-		<test label='byn = BIL - gga'><comment></comment><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
-  		<test stylename="lang_BIL"><comment>BIL</comment><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
-  		<test stylename="lang_byn"><comment>byn</comment><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
-  	<test label='byn = BIL - ggwaa'><comment></comment><string>\u131F</string></test>
-  		<test stylename="lang_BIL"><comment>BIL</comment><string>\u131F</string></test>
-  		<test stylename="lang_byn"><comment>byn</comment><string>\u131F</string></test>
-		<test label='byn = BIL - ggwa'><comment></comment><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
-  		<test stylename="lang_BIL"><comment>BIL</comment><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
-  		<test stylename="lang_byn"><comment>byn</comment><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
 		<test label='guk = GMZ - nya'><comment></comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   		<test stylename="lang_GMZ"><comment>GMZ</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   		<test stylename="lang_guk"><comment>guk</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
