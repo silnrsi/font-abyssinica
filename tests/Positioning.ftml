@@ -95,7 +95,7 @@
   	<test label="U+126A..."><string>\u126A\u1293 \u126A\u1245 \u126A\u1275 \u126A\u1325</string></test>
   	<test label="U+1273..."><string>\u1273\u12F0 \u1273\u12A1 \u1273\u1225</string></test>
 	  <test label="U+1275..."><string>\u1275\u12B9</string></test>
-	  <test label="U+1287.alt3" stylename="fset_cv17_1"><string>\u1287\u2D8F</string></test>
+	  <test label="U+1287.alt3" stylename="cv17_1"><string>\u1287\u2D8F</string></test>
 	  <test label="U+128B..."><string>\u128B\u120B</string></test>	  
 	  <test label="U+1292..."><string>\u1292\u123B \u1292\u1275</string></test>
 	  <test label="U+1293..."><string>\u1293\u12A2</string></test>
