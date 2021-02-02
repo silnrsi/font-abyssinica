@@ -60,97 +60,97 @@
  		
 	<testgroup label="Languages">
 		<test label="sgw = CHG"><comment/><string>\u1313</string></test>
-  		<test stylename="lang_CHG"><comment>CHG</comment><string>\u1313</string></test>
-  		<test stylename="lang_sgw"><comment>sgw</comment><string>\u1313</string></test>
+  		<test label="" stylename="lang_CHG"><comment>CHG</comment><string>\u1313</string></test>
+  		<test label="" stylename="lang_sgw"><comment>sgw</comment><string>\u1313</string></test>
 		<test label="guk = GMZ - nya"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-  		<test stylename="lang_GMZ"><comment>GMZ</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-  		<test stylename="lang_guk"><comment>guk</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test label="" stylename="lang_GMZ"><comment>GMZ</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test label="" stylename="lang_guk"><comment>guk</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
 		<test label="guk = GMZ - nywa"><comment/><string>\u129F</string></test>
-  		<test stylename="lang_GMZ"><comment>GMZ</comment><string>\u129F</string></test>
-  		<test stylename="lang_guk"><comment>guk</comment><string>\u129F</string></test>
+  		<test label="" stylename="lang_GMZ"><comment>GMZ</comment><string>\u129F</string></test>
+  		<test label="" stylename="lang_guk"><comment>guk</comment><string>\u129F</string></test>
   	</testgroup>
 
 
 	<testgroup label="Features">
 
 		<test label="Punctuation"><comment/><string>\u003F \u0021 \u00A1</string></test>
-  		<test stylename="fset_punct_1"><comment/><string>\u003F \u0021 \u00A1</string></test>
+  		<test label="" stylename="fset_punct_1"><comment/><string>\u003F \u0021 \u00A1</string></test>
   	<test label="Punctuation - Digits"><comment/><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
-  		<test stylename="fset_punct_1"><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
+  		<test label="" stylename="fset_punct_1"><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
   	<test label="Punctuation - Superior Digits"><comment/><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
-  		<test stylename="fset_punct_1"><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
+  		<test label="" stylename="fset_punct_1"><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
 		<test label="Punctuation - quotes"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
-  		<test stylename="fset_punct_1"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
+  		<test label="" stylename="fset_punct_1"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
 		<test label="Punctuation - symbols"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
-  		<test stylename="fset_punct_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
+  		<test label="" stylename="fset_punct_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
 
 
   	<test label="mwa alternates"><comment/><string>\u121F</string></test>
-  		<test stylename="fset_mwa_1"><comment/><string>\u121F</string></test>
-  		<test stylename="fset_mwa_2"><comment/><string>\u121F</string></test>
+  		<test label="" stylename="fset_mwa_1"><comment/><string>\u121F</string></test>
+  		<test label="" stylename="fset_mwa_2"><comment/><string>\u121F</string></test>
 
   	<test label="rwa alternates"><comment/><string>\u122F</string></test>
-  		<test stylename="fset_rwa_1"><comment/><string>\u122F</string></test>
+  		<test label="" stylename="fset_rwa_1"><comment/><string>\u122F</string></test>
 
   	<test label="xoa alternates"><comment/><string>\u1287</string></test>
-  		<test stylename="fset_xoa_1"><comment/><string>\u1287</string></test>
+  		<test label="" stylename="fset_xoa_1"><comment/><string>\u1287</string></test>
 
   	<test label="xwa alternates"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
-  		<test stylename="fset_xwa_1"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
+  		<test label="" stylename="fset_xwa_1"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
 
   	<test label="nwa alternates"><comment/><string>\u1297</string></test>
-  		<test stylename="fset_nwa_1"><comment/><string>\u1297</string></test>
+  		<test label="" stylename="fset_nwa_1"><comment/><string>\u1297</string></test>
 
   	<test label="nya alternates"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-  		<test stylename="fset_nya_1"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test label="" stylename="fset_nya_1"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   	<test label="nywa alternates"><comment/><string>\u129F</string></test>
-  		<test stylename="fset_nywa_1"><comment/><string>\u129F</string></test>
-  		<test stylename="fset_nywa_2"><comment/><string>\u129F</string></test>
+  		<test label="" stylename="fset_nywa_1"><comment/><string>\u129F</string></test>
+  		<test label="" stylename="fset_nywa_2"><comment/><string>\u129F</string></test>
   	<test label="kxwaa alternates"><comment/><string>\u12C3</string></test>
-  		<test stylename="fset_kxwaa_1"><comment/><string>\u12C3</string></test>
+  		<test label="" stylename="fset_kxwaa_1"><comment/><string>\u12C3</string></test>
   	<test label="zha alternates"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
-  		<test stylename="fset_zha_1"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
-  		<test stylename="fset_zha_2"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test label="" stylename="fset_zha_1"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test label="" stylename="fset_zha_2"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
   	<test label="dda alternates"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
-  		<test stylename="fset_dda_1"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
+  		<test label="" stylename="fset_dda_1"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
   	<test label="gwaa alternates"><comment/><string>\u1313</string></test>
-  		<test stylename="fset_gwaa_1"><comment/><string>\u1313</string></test>
-  		<test stylename="fset_gwaa_2"><comment/><string>\u1313</string></test>
+  		<test label="" stylename="fset_gwaa_1"><comment/><string>\u1313</string></test>
+  		<test label="" stylename="fset_gwaa_2"><comment/><string>\u1313</string></test>
   	<test label="gga alternates"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
-  		<test stylename="fset_gga_1"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  		<test label="" stylename="fset_gga_1"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
 		<test label="ggwaa alternates"><comment/><string>\u131F</string></test>
-  		<test stylename="fset_ggwaa_1"><comment/><string>\u131F</string></test>
+  		<test label="" stylename="fset_ggwaa_1"><comment/><string>\u131F</string></test>
 		<test label="phe alternates"><comment/><string>\u1335</string></test>
-  		<test stylename="fset_phe_1"><comment/><string>\u1335</string></test>
+  		<test label="" stylename="fset_phe_1"><comment/><string>\u1335</string></test>
 		<test label="tswa alternates"><comment/><string>\u133F</string></test>
-  		<test stylename="fset_tswa_1"><comment/><string>\u133F</string></test>
+  		<test label="" stylename="fset_tswa_1"><comment/><string>\u133F</string></test>
 		<test label="fwa alternates"><comment/><string>\u134F</string></test>
-  		<test stylename="fset_fwa_1"><comment/><string>\u134F</string></test>
-  		<test stylename="fset_fwa_2"><comment/><string>\u134F</string></test>
+  		<test label="" stylename="fset_fwa_1"><comment/><string>\u134F</string></test>
+  		<test label="" stylename="fset_fwa_2"><comment/><string>\u134F</string></test>
   	<test label="rya alternates"><comment/><string>\u1358</string></test>
-  		<test stylename="fset_rya_1"><comment/><string>\u1358</string></test>
+  		<test label="" stylename="fset_rya_1"><comment/><string>\u1358</string></test>
   	<test label="mya alternates"><comment/><string>\u1359</string></test>
-  		<test stylename="fset_mya_1"><comment/><string>\u1359</string></test>
+  		<test label="" stylename="fset_mya_1"><comment/><string>\u1359</string></test>
   	<test label="mwi alternates"><comment/><string>\u1381</string></test>
-  		<test stylename="fset_mwi_1"><comment/><string>\u1381</string></test>
-  		<test stylename="fset_mwi_2"><comment/><string>\u1381</string></test>
+  		<test label="" stylename="fset_mwi_1"><comment/><string>\u1381</string></test>
+  		<test label="" stylename="fset_mwi_2"><comment/><string>\u1381</string></test>
   	<test label="mwe alternates"><comment/><string>\u1383</string></test>
-  		<test stylename="fset_mwe_1"><comment/><string>\u1383</string></test>
-  		<test stylename="fset_mwe_2"><comment/><string>\u1383</string></test>
+  		<test label="" stylename="fset_mwe_1"><comment/><string>\u1383</string></test>
+  		<test label="" stylename="fset_mwe_2"><comment/><string>\u1383</string></test>
   	<test label="bwe alternates"><comment/><string>\u1387</string></test>
-  		<test stylename="fset_bwe_1"><string>\u1387</string></test>
+  		<test label="" stylename="fset_bwe_1"><string>\u1387</string></test>
   	<test label="fwee alternates"><comment/><string>\u138A</string></test>
-  		<test stylename="fset_fwee_1"><comment/><string>\u138A</string></test>
+  		<test label="" stylename="fset_fwee_1"><comment/><string>\u138A</string></test>
   	<test label="fwe alternates"><comment/><string>\u138B</string></test>
-  		<test stylename="fset_fwe_1"><comment/><string>\u138B</string></test>
+  		<test label="" stylename="fset_fwe_1"><comment/><string>\u138B</string></test>
   	<test label="pwe alternates"><comment/><string>\u138F</string></test>
-  		<test stylename="fset_pwe_1"><comment/><string>\u138F</string></test>
+  		<test label="" stylename="fset_pwe_1"><comment/><string>\u138F</string></test>
   	<test label="ggwa alternates"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
-  		<test stylename="fset_ggwa_1"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  		<test label="" stylename="fset_ggwa_1"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   	<test label="3rd form alternates"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
-  		<test stylename="fset_3rdform_1"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
+  		<test label="" stylename="fset_3rdform_1"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
   	<test label="6th form alternates"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
-  		<test stylename="fset_6thform_1"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  		<test label="" stylename="fset_6thform_1"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
 </testgroup>
 
 
