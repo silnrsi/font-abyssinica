@@ -18,8 +18,6 @@ out = "results"  # default is currently buildlinux2
 # OUTDIR = "installers"  # until these are defaults in smith itself we need to keep them
 ZIPDIR = "releases"
 TESTDIR = "tests"
-# TESTRESULTSDIR = "tests"
-STANDARDS = "tests/reference"
 
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = "alpha"
