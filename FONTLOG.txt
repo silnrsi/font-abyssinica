@@ -57,6 +57,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+xx xx 2021 (WSTech Team) Abyssinica SIL version 2.100
+- Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE,
+  U+1E7F0..U+1E7FE
+
 11 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
 - Added U+02D0, U+034F, U+2423, U+25CA
 - Improved design of U+1256 so the top flag touches
@@ -112,10 +116,14 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney  / Daniel Yacob, Kjell Magne Yri
+N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney, Annie Olsen / Kjell Magne Yri
 E: fonts@sil.org
 W: http://scripts.sil.org/
 D: SIL designers and font engineers / non-SIL script experts
+
+N: Daniel Yacob
+W: http://www.geez.org/, https://github.com/geezorg
+D: Font designer
 
 The Abyssinica SIL project is maintained by SIL International.
 

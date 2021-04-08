@@ -117,10 +117,14 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney  / Daniel Yacob, Kjell Magne Yri
+N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney, Annie Olsen / Kjell Magne Yri
 E: fonts@sil.org
 W: http://scripts.sil.org/
 D: SIL designers and font engineers / non-SIL script experts
+
+N: Daniel Yacob
+W: http://www.geez.org/, https://github.com/geezorg
+D: Font designer
 
 The Abyssinica SIL project is maintained by SIL International.
 

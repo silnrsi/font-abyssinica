@@ -4,7 +4,8 @@
  <head>
   <fontscale>300</fontscale>
   <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
-  <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
+  <fontsrc label="v2.001">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
  	<styles>
   		<style feats=" 'cv01' 1" name="cv01_1"/>  <!-- punctuation: Latin -->
  		<style feats=" 'cv04' 1" name="cv04_1"/>   <!-- mwa alternates: cohen1 -->
@@ -855,6 +856,42 @@
 	</test>
 	<test label="U+E496">
 		<string>\u00E496 </string>
+	</test>
+	<test label="U+1E7E0">
+		<comment>hhya</comment>
+		<string>\u1E7E0 \u1E7E1 \u1E7E2 \u1E7E3 \u1E7E4 \u1E7E5 \u1E7E6</string>
+	</test>
+	<test label="U+1E7E8">
+		<comment>hhwa</comment>
+		<string>\u1E7E8 \u1E7E9 \u1E7EA \u1E7EB</string>
+	</test>
+	<test label="U+1E7ED">
+		<comment>gurage mwi</comment>
+		<string>\u1E7ED \u1E7EE</string>
+	</test>
+	<test label="U+1E7F0">
+		<comment>gurage qwi</comment>
+		<string>\u1E7F0 \u1E7F1 \u1E7F2</string>
+	</test>
+	<test label="U+1E7F3">
+		<comment>gurage bwi</comment>
+		<string>\u1E7F3 \u1E7F4</string>
+	</test>
+	<test label="U+1E7F5">
+		<comment>gurage kwi</comment>
+		<string>\u1E7F5 \u1E7F6 \u1E7F7</string>
+	</test>
+	<test label="U+1E7F8">
+		<comment>gurage gwi</comment>
+		<string>\u1E7F8 \u1E7F9 \u1E7FA</string>
+	</test>
+	<test label="U+1E7FB">
+		<comment>gurage fwi</comment>
+		<string>\u1E7FB \u1E7FC</string>
+	</test>
+	<test label="U+1E7FD">
+		<comment>gurage pwi</comment>
+		<string>\u1E7FD \u1E7FE</string>
 	</test>
 </testgroup>
 <testgroup label="Character Variants">
