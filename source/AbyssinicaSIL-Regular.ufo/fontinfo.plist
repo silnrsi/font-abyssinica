@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Abyssinica SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/04/15 23:05:27</string>
+  <string>2021/04/08 16:22:54</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -204,7 +204,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>001</integer>
+  <integer>1</integer>
   <key>xHeight</key>
   <integer>983</integer>
 </dict>

@@ -74,8 +74,6 @@
   <string>M_.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>nbspace</key>
-  <string>nbspace.glif</string>
   <key>Ntilde</key>
   <string>N_tilde.glif</string>
   <key>O</key>
@@ -378,6 +376,8 @@
   <string>multiply.punct.glif</string>
   <key>n</key>
   <string>n.glif</string>
+  <key>nbspace</key>
+  <string>nbspace.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nine.punct</key>
@@ -562,6 +562,62 @@
   <string>twosuperior.punct.glif</string>
   <key>u</key>
   <string>u.glif</string>
+  <key>u1E7E0</key>
+  <string>u1E_7E_0.glif</string>
+  <key>u1E7E1</key>
+  <string>u1E_7E_1.glif</string>
+  <key>u1E7E2</key>
+  <string>u1E_7E_2.glif</string>
+  <key>u1E7E3</key>
+  <string>u1E_7E_3.glif</string>
+  <key>u1E7E4</key>
+  <string>u1E_7E_4.glif</string>
+  <key>u1E7E5</key>
+  <string>u1E_7E_5.glif</string>
+  <key>u1E7E6</key>
+  <string>u1E_7E_6.glif</string>
+  <key>u1E7E8</key>
+  <string>u1E_7E_8.glif</string>
+  <key>u1E7E9</key>
+  <string>u1E_7E_9.glif</string>
+  <key>u1E7EA</key>
+  <string>u1E_7E_A_.glif</string>
+  <key>u1E7EB</key>
+  <string>u1E_7E_B_.glif</string>
+  <key>u1E7ED</key>
+  <string>u1E_7E_D_.glif</string>
+  <key>u1E7EE</key>
+  <string>u1E_7E_E_.glif</string>
+  <key>u1E7F0</key>
+  <string>u1E_7F_0.glif</string>
+  <key>u1E7F1</key>
+  <string>u1E_7F_1.glif</string>
+  <key>u1E7F2</key>
+  <string>u1E_7F_2.glif</string>
+  <key>u1E7F3</key>
+  <string>u1E_7F_3.glif</string>
+  <key>u1E7F4</key>
+  <string>u1E_7F_4.glif</string>
+  <key>u1E7F5</key>
+  <string>u1E_7F_5.glif</string>
+  <key>u1E7F6</key>
+  <string>u1E_7F_6.glif</string>
+  <key>u1E7F7</key>
+  <string>u1E_7F_7.glif</string>
+  <key>u1E7F8</key>
+  <string>u1E_7F_8.glif</string>
+  <key>u1E7F9</key>
+  <string>u1E_7F_9.glif</string>
+  <key>u1E7FA</key>
+  <string>u1E_7F_A_.glif</string>
+  <key>u1E7FB</key>
+  <string>u1E_7F_B_.glif</string>
+  <key>u1E7FC</key>
+  <string>u1E_7F_C_.glif</string>
+  <key>u1E7FD</key>
+  <string>u1E_7F_D_.glif</string>
+  <key>u1E7FE</key>
+  <string>u1E_7F_E_.glif</string>
   <key>uacute</key>
   <string>uacute.glif</string>
   <key>ucircumflex</key>
