@@ -3,15 +3,43 @@
 <plist version="1.0">
 <dict>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
-  <dict/>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
+    <array/>
+  </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1230</string>
+  <string>3077</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
+  <dict>
+    <key>XXXX</key>
+    <dict>
+      <key>0</key>
+      <integer>0</integer>
+    </dict>
+    <key>wdth</key>
+    <dict>
+      <key>100</key>
+      <integer>100</integer>
+    </dict>
+    <key>wght</key>
+    <dict>
+      <key>400</key>
+      <integer>400</integer>
+      <key>700</key>
+      <integer>700</integer>
+    </dict>
+  </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/uni1210/u1E7E0/space/uni1211/u1E7E1/space/uni1212/u1E7E2/space/uni1213/u1E7E3/space/uni1214/u1E7E4/space/uni1215/u1E7E5/space/uni1216/u1E7E6/space/uni1210/u1E7E8/space/uni1212/u1E7E9/space/uni1214/u1E7EA/space/uni1215/u1E7EB/space/uni121A/u1E7ED/space/uni121C/u1E7EE/space/uni1242/u1E7F0/space/uni1244/u1E7F1/space/uni1245/u1E7F2/space/uni1262/u1E7F3/space/uni1264/u1E7F4/space/uni12AA/uni12B0/u1E7F5/space/uni12AC/uni12B0/u1E7F6/space/uni12AD/uni12B0/u1E7F7/space/uni130A/uni1310/u1E7F8/space/uni130C/uni1310/u1E7F9/space/uni130D/u1E7FA/space/uni134A/u1E7FB/space/uni134C/u1E7FC/space/uni1352/u1E7FD/space/uni1354/u1E7FE</string>
+    <string>/uni121A/u1E7ED/space/uni121C/u1E7EE/space/uni1242/u1E7F0/space/uni1244/u1E7F1/space/uni1245/u1E7F2</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
+  <string>SIL International: Abyssinica SIL Regular: 2021</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -30,8 +58,6 @@
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
   <integer>0</integer>
-  <key>com.schriftgestaltung.glyphOrder</key>
-  <false/>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>

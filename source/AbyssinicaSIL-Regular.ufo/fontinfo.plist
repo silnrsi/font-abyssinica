@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Abyssinica SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/04/08 16:31:32</string>
+  <string>2021/04/15 17:06:32</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -183,10 +183,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>AbyssinicaSIL-Regular</string>
   <key>postscriptFullName</key>
   <string>Abyssinica SIL Regular</string>
-  <key>postscriptStemSnapH</key>
-  <array/>
-  <key>postscriptStemSnapV</key>
-  <array/>
   <key>postscriptUnderlinePosition</key>
   <integer>-251</integer>
   <key>postscriptUnderlineThickness</key>
