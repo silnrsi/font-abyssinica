@@ -2,7 +2,7 @@
 <glyph name="uni130D" format="2">
   <advance width="1270"/>
   <unicode hex="130D"/>
-  <anchor x="630" y="1207" name="U"/>
+  <anchor x="620" y="1215" name="U"/>
   <outline>
     <contour>
       <point x="1214" y="934" type="curve" smooth="yes"/>
@@ -13,9 +13,9 @@
       <point x="702" y="1182"/>
       <point x="586" y="1148" type="curve" smooth="yes"/>
       <point x="515" y="1127"/>
-      <point x="445" y="1105"/>
+      <point x="440" y="1105"/>
       <point x="371" y="1096" type="curve" smooth="yes"/>
-      <point x="214" y="1077"/>
+      <point x="214" y="1076"/>
       <point x="82" y="1026"/>
       <point x="82" y="846" type="curve" smooth="yes"/>
       <point x="82" y="742"/>
@@ -27,7 +27,7 @@
       <point x="524" y="705"/>
       <point x="589" y="699"/>
       <point x="647" y="712" type="curve" smooth="yes"/>
-      <point x="740" y="732"/>
+      <point x="740" y="733"/>
       <point x="788" y="863"/>
       <point x="788" y="946" type="curve" smooth="yes"/>
       <point x="788" y="996"/>
@@ -50,11 +50,10 @@
       <point x="772" y="0"/>
       <point x="834" y="0" type="curve" smooth="yes"/>
       <point x="858" y="0"/>
-      <point x="880" y="4"/>
-      <point x="903" y="8" type="curve" smooth="yes"/>
-      <point x="1075" y="41" type="line"/>
+      <point x="977" y="22"/>
+      <point x="1075" y="41" type="curve"/>
       <point x="1075" y="68" type="line"/>
-      <point x="1035" y="67"/>
+      <point x="1035" y="68"/>
       <point x="1026" y="100"/>
       <point x="1026" y="133" type="curve" smooth="yes"/>
       <point x="1026" y="158"/>
