@@ -2,7 +2,7 @@
 <glyph name="uni121A" format="2">
   <advance width="2019"/>
   <unicode hex="121A"/>
-  <anchor x="884" y="1293" name="U"/>
+  <anchor x="884" y="1303" name="U"/>
   <outline>
     <contour>
       <point x="1952" y="-68" type="curve"/>
