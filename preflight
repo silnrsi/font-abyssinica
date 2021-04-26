@@ -2,6 +2,10 @@
 
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/AbyssinicaSIL-Regular.ufo -l source/logs/norm.log
+wait
+
+echo "Updating woff metadata xml file..."
+psfmakewoffmetadata -q -n AbyssinicaSIL -i org.sil.fonts source/*-Regular.ufo -o "source/AbyssinicaSIL-WOFF-metadata.xml"
 
 # Building composites - needs to be done after normalization or may complain due to bad anchor coordinates
 # psfbuildcomp -i source/composites.txt source/AbyssinicaSIL-Regular.ufo -l source/logs/comps.log

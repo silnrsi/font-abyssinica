@@ -119,14 +119,37 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Walt Agee, Sharon Correll, Lorna Evans, Victor Gaultney, Annie Olsen / Kjell Magne Yri
+N: Walt Agee
 E: fonts@sil.org
 W: http://scripts.sil.org/
-D: SIL designers and font engineers / non-SIL script experts
+D: Designer
+
+N: Sharon Correll
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: OpenType and Graphite support
+
+N: Lorna Evans
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: Contributed some extended Ethiopic glyphs and OpenType and Graphite work
+
+N: Victor Gaultney
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: Designer
+
+N: Annie Olsen
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: Designer
 
 N: Daniel Yacob
 W: http://www.geez.org/, https://github.com/geezorg
-D: Font designer
+D: Font designer, contributed significant input on the design of extended Ethiopic
+
+N: Kjell Magne Yri
+D: Font based on his original calligraphic design
 
 The Abyssinica SIL project is maintained by SIL International.
 
@@ -135,3 +158,4 @@ Computers and Writing systems website:
 http://software.sil.org/abyssinica
 
 Or send an email to <fonts AT sil DOT org>
+    
