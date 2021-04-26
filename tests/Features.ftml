@@ -5,7 +5,7 @@
     <fontscale>300</fontscale>
   <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
   <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
-  <fontsrc label="v2.001">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.001">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
   		<style feats=" 'cv01' 1" name="fset_punct_1"/>    <!-- punctuation: Latin -->
   		<style feats=" 'cv04' 1" name="fset_mwa_1"/>      <!-- mwa alternates: cohen1 -->

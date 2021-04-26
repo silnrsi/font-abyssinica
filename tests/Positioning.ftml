@@ -5,7 +5,7 @@
     <fontscale>300</fontscale>
   <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
   <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
-  <fontsrc label="v2.001">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.001">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
    		<style feats=" 'cv01' 1" name="cv01_1"/>    <!-- punctuation: Latin -->
   		<style feats=" 'cv04' 1" name="cv04_1"/>      <!-- mwa alternates: cohen1 -->
@@ -129,10 +129,19 @@
 	  <test label="U+132A..."><string>\u132A\u1275</string></test>
 	  <test label="U+133D..."><string>\u133D\u1213</string></test>
 	  <test label="U+1348..."><string>\u1348\u121E</string></test>
-	  <test label="U+1356..."><string>\u1356\u1228 \u1356\u1228</string></test>
+	  <test label="U+1356..."><string>\u1356\u1228 \u1356\u1328</string></test>
   	<test label="U+2D84..."><string>\u2D84\u1247</string></test>
   	<test label="U+AB02..."><string>\uAB02\u12B9 \uAB02\u12D2 \uAB02\u12D4</string></test>
   	<test label="U+AB04..."><string>\uAB04\u12D4</string></test>
   	<test label="U+AB12..."><string>\uAB12\u12B8</string></test>
+  	<test label="U+1228..."><string>\u1228\u1E7F1</string></test>
+  	<test label="U+1270..."><string>\u1270\u1E7EB</string></test>
+  	<test label="U+1270..."><string>\u1270\u1E7FC</string></test>
+  	<test label="U+1273..."><string>\u1273\u1E7E1</string></test>
+  	<test label="U+1275..."><string>\u1275\u1214</string></test>
+  	<test label="U+1348..."><string>\u1348\u1E7F6</string></test>
+  	<test label="U+1E7E5..."><string>\u1E7E5\u1295</string></test>
+  	<test label="U+1E7F9..."><string>\u1E7F9\u1273</string></test>
+  	<test label="U+1E7EB..."><string>\u1E7EB\u1293</string></test>
   </testgroup>
 </ftml>

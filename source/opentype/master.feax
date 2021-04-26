@@ -416,30 +416,40 @@ lookup PairKerning {
 	pos uni130B uni1225  -73 ;
 	
 	pos uni1322 uni134B -205 ;
-	pos uni1322 uni1295 -180 ;
-	pos uni1322 uni12D2 -245 ;
-	pos uni1322 uni1275 -113 ;
+	pos uni1322 uni1295 -205 ;
+	pos uni1322 uni12D2 -250 ;
+	pos uni1322 uni1275 -143 ;
 
 	pos uni1328 uni1252  -47 ;
 	
-	pos uni132A uni1275 -113 ;
+	pos uni132A uni1275 -143 ;
 	
 	pos uni133D uni1213 -143 ;
 	
 	pos uni1348 uni121E  -93 ;
 	
-	pos uni1356 uni1328 -143 ;
+	pos uni1356 uni1328 -193 ;
 	pos uni1356 uni1228 -193 ;
 	
 	pos uni2D84 uni1247  -39 ;
 	
-	pos uniAB02 uni12B9 -200 ;
-	pos uniAB02 uni12D2 -213 ;
+	pos uniAB02 uni12B9 -250 ;
+	pos uniAB02 uni12D2 -233 ;
 	pos uniAB02 uni12D4 -233 ;
 	
-	pos uniAB04 uni12D4 -160 ;
+	pos uniAB04 uni12D4 -180 ;
 	
-	pos uniAB12 uni12B8 -150 ;
+	pos uniAB12 uni12B8 -205 ;
+
+	pos uni1228 u1E7F1 -150 ;
+	pos uni1270 u1E7EB -150 ;
+	pos uni1270 u1E7FC -150 ;
+	pos uni1273 u1E7E1 -180 ;
+	pos uni1275 uni1214 -113 ;
+	pos uni1348 u1E7F6 -150 ;
+	pos u1E7E5 uni1295 -180 ;
+	pos u1E7F9 uni1273 -150 ;
+	pos u1E7EB uni1293 -113 ;	
 
 } PairKerning ;
 
