@@ -2,6 +2,42 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>eight</key>
+  <string>eight.glif</string>
+  <key>eightsuperior</key>
+  <string>eightsuperior.glif</string>
+  <key>five</key>
+  <string>five.glif</string>
+  <key>fivesuperior</key>
+  <string>fivesuperior.glif</string>
+  <key>four</key>
+  <string>four.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
+  <key>nine</key>
+  <string>nine.glif</string>
+  <key>ninesuperior</key>
+  <string>ninesuperior.glif</string>
+  <key>one</key>
+  <string>one.glif</string>
+  <key>onesuperior</key>
+  <string>onesuperior.glif</string>
+  <key>seven</key>
+  <string>seven.glif</string>
+  <key>sevensuperior</key>
+  <string>sevensuperior.glif</string>
+  <key>six</key>
+  <string>six.glif</string>
+  <key>sixsuperior</key>
+  <string>sixsuperior.glif</string>
+  <key>three</key>
+  <string>three.glif</string>
+  <key>threesuperior</key>
+  <string>threesuperior.glif</string>
+  <key>two</key>
+  <string>two.glif</string>
+  <key>twosuperior</key>
+  <string>twosuperior.glif</string>
   <key>u1E7E0</key>
   <string>u1E_7E_0.glif</string>
   <key>u1E7E2</key>
@@ -70,5 +106,9 @@
   <string>uni1352.glif</string>
   <key>uni1354</key>
   <string>uni1354.glif</string>
+  <key>zero</key>
+  <string>zero.glif</string>
+  <key>zerosuperior</key>
+  <string>zerosuperior.glif</string>
 </dict>
 </plist>

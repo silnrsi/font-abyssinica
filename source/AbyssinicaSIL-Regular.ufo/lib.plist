@@ -37,6 +37,10 @@
     <string>/uni121A/uni121C/space/uni1242/uni1244/uni1245 
 /u1E7ED/u1E7EE/space/u1E7F0/u1E7F1/u1E7F2/space/space/space</string>
     <string>/uni12AA/uni12B0/u1E7F5/space/uni12AC/uni12B0/u1E7F6/space/uni12AD/u1E7F7</string>
+    <string>/zero.punct/one.punct/two.punct/three.punct/four.punct/five.punct/six.punct/seven.punct/eight.punct/nine.punct 
+0123456789</string>
+    <string>/zerosuperior.punct/onesuperior.punct/twosuperior.punct/threesuperior.punct/foursuperior.punct/fivesuperior.punct/sixsuperior.punct/sevensuperior.punct/eightsuperior.punct/ninesuperior.punct 
+/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
