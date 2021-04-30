@@ -4,38 +4,76 @@
 <dict>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight-ethiopic.nobar</key>
+  <string>eight-ethiopic.nobar.glif</string>
   <key>eightsuperior</key>
   <string>eightsuperior.glif</string>
+  <key>eighty-ethiopic.nobar</key>
+  <string>eighty-ethiopic.nobar.glif</string>
+  <key>fifty-ethiopic.nobar</key>
+  <string>fifty-ethiopic.nobar.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five-ethiopic.nobar</key>
+  <string>five-ethiopic.nobar.glif</string>
   <key>fivesuperior</key>
   <string>fivesuperior.glif</string>
+  <key>forty-ethiopic.nobar</key>
+  <string>forty-ethiopic.nobar.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four-ethiopic.nobar</key>
+  <string>four-ethiopic.nobar.glif</string>
+  <key>four-ethiopic.nobar.alt</key>
+  <string>four-ethiopic.nobar.alt.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
+  <key>hundred-ethiopic.nobar</key>
+  <string>hundred-ethiopic.nobar.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine-ethiopic.nobar</key>
+  <string>nine-ethiopic.nobar.glif</string>
   <key>ninesuperior</key>
   <string>ninesuperior.glif</string>
+  <key>ninety-ethiopic.nobar</key>
+  <string>ninety-ethiopic.nobar.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>onesuperior</key>
   <string>onesuperior.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven-ethiopic.nobar</key>
+  <string>seven-ethiopic.nobar.glif</string>
   <key>sevensuperior</key>
   <string>sevensuperior.glif</string>
+  <key>seventy-ethiopic.nobar</key>
+  <string>seventy-ethiopic.nobar.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>sixsuperior</key>
   <string>sixsuperior.glif</string>
+  <key>sixty-ethiopic.nobar</key>
+  <string>sixty-ethiopic.nobar.glif</string>
+  <key>ten-ethiopic.nobar</key>
+  <string>ten-ethiopic.nobar.glif</string>
+  <key>tenthousand-ethiopic.nobar</key>
+  <string>tenthousand-ethiopic.nobar.glif</string>
+  <key>thirty-ethiopic.nobar</key>
+  <string>thirty-ethiopic.nobar.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three-ethiopic.nobar</key>
+  <string>three-ethiopic.nobar.glif</string>
   <key>threesuperior</key>
   <string>threesuperior.glif</string>
+  <key>twenty-ethiopic.nobar</key>
+  <string>twenty-ethiopic.nobar.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two-ethiopic.nobar</key>
+  <string>two-ethiopic.nobar.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u1E7E0</key>
@@ -48,6 +86,8 @@
   <string>u1E_7E_5.glif</string>
   <key>u1E7E6</key>
   <string>u1E_7E_6.glif</string>
+  <key>u1E7E8</key>
+  <string>u1E_7E_8.glif</string>
   <key>u1E7E9</key>
   <string>u1E_7E_9.glif</string>
   <key>u1E7EA</key>
@@ -70,6 +110,10 @@
   <string>u1E_7F_6.glif</string>
   <key>u1E7F7</key>
   <string>u1E_7F_7.glif</string>
+  <key>u1E7FB</key>
+  <string>u1E_7F_B_.glif</string>
+  <key>u1E7FC</key>
+  <string>u1E_7F_C_.glif</string>
   <key>u1E7FD</key>
   <string>u1E_7F_D_.glif</string>
   <key>u1E7FE</key>
@@ -96,6 +140,8 @@
   <string>uni12A_D_.glif</string>
   <key>uni12B0</key>
   <string>uni12B_0.glif</string>
+  <key>uni12D0</key>
+  <string>uni12D_0.glif</string>
   <key>uni130C</key>
   <string>uni130C_.glif</string>
   <key>uni130D</key>
@@ -106,6 +152,8 @@
   <string>uni1352.glif</string>
   <key>uni1354</key>
   <string>uni1354.glif</string>
+  <key>uni136D</key>
+  <string>uni136D_.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
   <key>zerosuperior</key>

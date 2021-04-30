@@ -32,15 +32,8 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/uni1210/u1E7E0/space/uni1211/u1E7E1/space/uni1212/u1E7E2/space/uni1213/u1E7E3/space/uni1214/u1E7E4/space/uni1215/u1E7E5/space/uni1216/u1E7E6/space/uni1210/u1E7E8/space/uni1212/u1E7E9/space/uni1214/u1E7EA/space/uni1215/u1E7EB/space/uni121A/u1E7ED/space/uni121C/u1E7EE/space/uni1242/u1E7F0/space/uni1244/u1E7F1/space/uni1245/u1E7F2/space/uni1262/u1E7F3/space/uni1264/u1E7F4/space/uni12AA/uni12B0/u1E7F5/space/uni12AC/uni12B0/u1E7F6/space/uni12AD/uni12B0/u1E7F7/space/uni130A/uni1310/u1E7F8/space/uni130C/uni1310/u1E7F9/space/uni130D/u1E7FA/space/uni134A/u1E7FB/space/uni134C/u1E7FC/space/uni1352/u1E7FD/space/uni1354/u1E7FE</string>
-    <string>/uni1210/uni1211/uni1212/uni1213/uni1216/uni1214/uni1215 
-/u1E7E8/u1E7E9/u1E7EA/u1E7EB/space/u1E7E0/u1E7E1/u1E7E2/u1E7E3/u1E7E4/u1E7E6</string>
-    <string>/uni121A/uni121C/space/uni1242/uni1244/uni1245 
-/u1E7ED/u1E7EE/space/u1E7F0/u1E7F1/u1E7F2/space/space/space</string>
-    <string>/uni12AA/uni12B0/u1E7F5/space/uni12AC/uni12B0/u1E7F6/space/uni12AD/u1E7F7</string>
-    <string>/zero.punct/one.punct/two.punct/three.punct/four.punct/five.punct/six.punct/seven.punct/eight.punct/nine.punct 
-0123456789</string>
-    <string>/zerosuperior.punct/onesuperior.punct/twosuperior.punct/threesuperior.punct/foursuperior.punct/fivesuperior.punct/sixsuperior.punct/sevensuperior.punct/eightsuperior.punct/ninesuperior.punct 
-/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior</string>
+    <string>/uni1369/uni136A/uni136B/uni136C/uni136D/uni136E/uni136F/uni1370/uni1371/uni1372/uni1373/uni1374/uni1375/uni1376/uni1377/uni1378/uni1379/uni137A/uni137B/uni137C 
+/one-ethiopic.nobar/two-ethiopic.nobar/three-ethiopic.nobar/four-ethiopic.nobar/four-ethiopic.nobar.alt/five-ethiopic.nobar/six-ethiopic.nobar/seven-ethiopic.nobar/eight-ethiopic.nobar/nine-ethiopic.nobar/ten-ethiopic.nobar/twenty-ethiopic.nobar/thirty-ethiopic.nobar/forty-ethiopic.nobar/fifty-ethiopic.nobar/sixty-ethiopic.nobar/seventy-ethiopic.nobar/eighty-ethiopic.nobar/ninety-ethiopic.nobar/hundred-ethiopic.nobar/tenthousand-ethiopic.nobar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
