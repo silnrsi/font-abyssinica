@@ -244,16 +244,12 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
-  <key>eight-ethiopic.nobar</key>
-  <string>eight-ethiopic.nobar.glif</string>
   <key>eight.punct</key>
   <string>eight.punct.glif</string>
   <key>eightsuperior</key>
   <string>eightsuperior.glif</string>
   <key>eightsuperior.punct</key>
   <string>eightsuperior.punct.glif</string>
-  <key>eighty-ethiopic.nobar</key>
-  <string>eighty-ethiopic.nobar.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emdash</key>
@@ -280,14 +276,10 @@
   <string>f.glif</string>
   <key>fi</key>
   <string>fi.glif</string>
-  <key>fifty-ethiopic.nobar</key>
-  <string>fifty-ethiopic.nobar.glif</string>
   <key>figuredash</key>
   <string>figuredash.glif</string>
   <key>five</key>
   <string>five.glif</string>
-  <key>five-ethiopic.nobar</key>
-  <string>five-ethiopic.nobar.glif</string>
   <key>five.punct</key>
   <string>five.punct.glif</string>
   <key>fivesuperior</key>
@@ -298,14 +290,8 @@
   <string>fl.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
-  <key>forty-ethiopic.nobar</key>
-  <string>forty-ethiopic.nobar.glif</string>
   <key>four</key>
   <string>four.glif</string>
-  <key>four-ethiopic.nobar</key>
-  <string>four-ethiopic.nobar.glif</string>
-  <key>four-ethiopic.nobar.alt</key>
-  <string>four-ethiopic.nobar.alt.glif</string>
   <key>four.punct</key>
   <string>four.punct.glif</string>
   <key>foursuperior</key>
@@ -344,8 +330,6 @@
   <string>guilsinglright.punct.glif</string>
   <key>h</key>
   <string>h.glif</string>
-  <key>hundred-ethiopic.nobar</key>
-  <string>hundred-ethiopic.nobar.glif</string>
   <key>hungarumlaut</key>
   <string>hungarumlaut.glif</string>
   <key>hyphenminus</key>
@@ -396,16 +380,12 @@
   <string>nbspace.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
-  <key>nine-ethiopic.nobar</key>
-  <string>nine-ethiopic.nobar.glif</string>
   <key>nine.punct</key>
   <string>nine.punct.glif</string>
   <key>ninesuperior</key>
   <string>ninesuperior.glif</string>
   <key>ninesuperior.punct</key>
   <string>ninesuperior.punct.glif</string>
-  <key>ninety-ethiopic.nobar</key>
-  <string>ninety-ethiopic.nobar.glif</string>
   <key>nonmarkingreturn</key>
   <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
@@ -430,8 +410,6 @@
   <string>ograve.glif</string>
   <key>one</key>
   <string>one.glif</string>
-  <key>one-ethiopic.nobar</key>
-  <string>one-ethiopic.nobar.glif</string>
   <key>one.punct</key>
   <string>one.punct.glif</string>
   <key>onehalf</key>
@@ -530,28 +508,20 @@
   <string>semicolon.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
-  <key>seven-ethiopic.nobar</key>
-  <string>seven-ethiopic.nobar.glif</string>
   <key>seven.punct</key>
   <string>seven.punct.glif</string>
   <key>sevensuperior</key>
   <string>sevensuperior.glif</string>
   <key>sevensuperior.punct</key>
   <string>sevensuperior.punct.glif</string>
-  <key>seventy-ethiopic.nobar</key>
-  <string>seventy-ethiopic.nobar.glif</string>
   <key>six</key>
   <string>six.glif</string>
-  <key>six-ethiopic.nobar</key>
-  <string>six-ethiopic.nobar.glif</string>
   <key>six.punct</key>
   <string>six.punct.glif</string>
   <key>sixsuperior</key>
   <string>sixsuperior.glif</string>
   <key>sixsuperior.punct</key>
   <string>sixsuperior.punct.glif</string>
-  <key>sixty-ethiopic.nobar</key>
-  <string>sixty-ethiopic.nobar.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>slash.punct</key>
@@ -566,18 +536,10 @@
   <string>t.glif</string>
   <key>tab</key>
   <string>tab.glif</string>
-  <key>ten-ethiopic.nobar</key>
-  <string>ten-ethiopic.nobar.glif</string>
-  <key>tenthousand-ethiopic.nobar</key>
-  <string>tenthousand-ethiopic.nobar.glif</string>
-  <key>thirty-ethiopic.nobar</key>
-  <string>thirty-ethiopic.nobar.glif</string>
   <key>thorn</key>
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
-  <key>three-ethiopic.nobar</key>
-  <string>three-ethiopic.nobar.glif</string>
   <key>three.punct</key>
   <string>three.punct.glif</string>
   <key>threequarters</key>
@@ -590,12 +552,8 @@
   <string>tilde.glif</string>
   <key>tildecomb</key>
   <string>tildecomb.glif</string>
-  <key>twenty-ethiopic.nobar</key>
-  <string>twenty-ethiopic.nobar.glif</string>
   <key>two</key>
   <string>two.glif</string>
-  <key>two-ethiopic.nobar</key>
-  <string>two-ethiopic.nobar.glif</string>
   <key>two.punct</key>
   <string>two.punct.glif</string>
   <key>twosuperior</key>
@@ -1510,44 +1468,86 @@
   <string>uni1368.glif</string>
   <key>uni1369</key>
   <string>uni1369.glif</string>
+  <key>uni1369.nobar</key>
+  <string>uni1369.nobar.glif</string>
   <key>uni136A</key>
   <string>uni136A_.glif</string>
+  <key>uni136A.nobar</key>
+  <string>uni136A_.nobar.glif</string>
   <key>uni136B</key>
   <string>uni136B_.glif</string>
+  <key>uni136B.nobar</key>
+  <string>uni136B_.nobar.glif</string>
   <key>uni136C</key>
   <string>uni136C_.glif</string>
+  <key>uni136C.nobar</key>
+  <string>uni136C_.nobar.glif</string>
+  <key>uni136C.nobar.alt</key>
+  <string>uni136C_.nobar.alt.glif</string>
   <key>uni136D</key>
   <string>uni136D_.glif</string>
+  <key>uni136D.nobar</key>
+  <string>uni136D_.nobar.glif</string>
   <key>uni136E</key>
   <string>uni136E_.glif</string>
+  <key>uni136E.nobar</key>
+  <string>uni136E_.nobar.glif</string>
   <key>uni136F</key>
   <string>uni136F_.glif</string>
+  <key>uni136F.nobar</key>
+  <string>uni136F_.nobar.glif</string>
   <key>uni1370</key>
   <string>uni1370.glif</string>
+  <key>uni1370.nobar</key>
+  <string>uni1370.nobar.glif</string>
   <key>uni1371</key>
   <string>uni1371.glif</string>
+  <key>uni1371.nobar</key>
+  <string>uni1371.nobar.glif</string>
   <key>uni1372</key>
   <string>uni1372.glif</string>
+  <key>uni1372.nobar</key>
+  <string>uni1372.nobar.glif</string>
   <key>uni1373</key>
   <string>uni1373.glif</string>
+  <key>uni1373.nobar</key>
+  <string>uni1373.nobar.glif</string>
   <key>uni1374</key>
   <string>uni1374.glif</string>
+  <key>uni1374.nobar</key>
+  <string>uni1374.nobar.glif</string>
   <key>uni1375</key>
   <string>uni1375.glif</string>
+  <key>uni1375.nobar</key>
+  <string>uni1375.nobar.glif</string>
   <key>uni1376</key>
   <string>uni1376.glif</string>
+  <key>uni1376.nobar</key>
+  <string>uni1376.nobar.glif</string>
   <key>uni1377</key>
   <string>uni1377.glif</string>
+  <key>uni1377.nobar</key>
+  <string>uni1377.nobar.glif</string>
   <key>uni1378</key>
   <string>uni1378.glif</string>
+  <key>uni1378.nobar</key>
+  <string>uni1378.nobar.glif</string>
   <key>uni1379</key>
   <string>uni1379.glif</string>
+  <key>uni1379.nobar</key>
+  <string>uni1379.nobar.glif</string>
   <key>uni137A</key>
   <string>uni137A_.glif</string>
+  <key>uni137A.nobar</key>
+  <string>uni137A_.nobar.glif</string>
   <key>uni137B</key>
   <string>uni137B_.glif</string>
+  <key>uni137B.nobar</key>
+  <string>uni137B_.nobar.glif</string>
   <key>uni137C</key>
   <string>uni137C_.glif</string>
+  <key>uni137C.nobar</key>
+  <string>uni137C_.nobar.glif</string>
   <key>uni1380</key>
   <string>uni1380.glif</string>
   <key>uni1381</key>
