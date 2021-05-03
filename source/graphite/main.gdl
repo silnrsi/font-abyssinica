@@ -3,7 +3,7 @@
     Author: Lorna Priest Evans
    	This file is part of the Abyssinica SIL font family 
 	(http://software.sil.org/abyssinica) and is 
-	Copyright (c) 2000-2019, SIL International (http://scripts.sil.org/)
+	Copyright (c) 2000-2021, SIL International (http://scripts.sil.org/)
 	with Reserved Font Names "Abyssinica" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License,
@@ -362,6 +362,11 @@ table(substitution)
 // cv01
 if (punctuationcv == punct)
 	cno_punct  >  cpunct;
+endif;
+
+// cv02
+if (digitscv == nobar)
+	cno_nobar  >  cnobar;
 endif;
 
 // cv04

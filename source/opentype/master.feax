@@ -498,6 +498,15 @@ feature cv01 {  # Punctuation
 		} ;
 } cv01 ;
 
+feature cv02 {  # Ethiopic digits
+		sub @cno_nobar by @c_nobar ;
+		cvParameters {
+			FeatUILabelNameID  { name 3 1 0x0409 "Ethiopic digits" ; } ;
+			ParamUILabelNameID { name 3 1 0x0409 "Standard" ; } ;
+      ParamUILabelNameID { name 3 1 0x0409 "Nobar"    ; } ;
+		} ;
+} cv02 ;
+
 feature cv04 {  # Mwa alternates
     sub uni121F from [ uni121F.cohen1  uni121F.cohen2 ] ;
 		cvParameters {

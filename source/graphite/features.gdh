@@ -7,7 +7,7 @@
 	Author: Lorna Priest Evans
    	This file is part of the Abyssinica SIL font family 
 	(http://software.sil.org/abyssinica) and is 
-	Copyright (c) 2000-2019, SIL International (http://scripts.sil.org/)
+	Copyright (c) 2000-2021, SIL International (http://scripts.sil.org/)
 	with Reserved Font Names "Abyssinica" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License,
@@ -44,6 +44,22 @@ punctuationcv {
         punct {
             value = 1;
             name.1033 = string("Latin-style");
+        }
+    }
+    default = std;
+}
+
+digitscv {
+	id = "cv02";
+	name.1033 = string("Ethiopic digits");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        nobar {
+            value = 1;
+            name.1033 = string("Nobar");
         }
     }
     default = std;
