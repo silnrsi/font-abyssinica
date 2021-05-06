@@ -114,10 +114,18 @@
   <string>uni1352.glif</string>
   <key>uni1354</key>
   <string>uni1354.glif</string>
+  <key>uni1369</key>
+  <string>uni1369.glif</string>
+  <key>uni136A</key>
+  <string>uni136A_.glif</string>
   <key>uni136A.nobar</key>
   <string>uni136A_.nobar.glif</string>
+  <key>uni136B</key>
+  <string>uni136B_.glif</string>
   <key>uni136B.nobar</key>
   <string>uni136B_.nobar.glif</string>
+  <key>uni136C</key>
+  <string>uni136C_.glif</string>
   <key>uni136C.nobar</key>
   <string>uni136C_.nobar.glif</string>
   <key>uni136C.nobar.alt</key>
@@ -126,32 +134,62 @@
   <string>uni136D_.glif</string>
   <key>uni136D.nobar</key>
   <string>uni136D_.nobar.glif</string>
+  <key>uni136E</key>
+  <string>uni136E_.glif</string>
+  <key>uni136F</key>
+  <string>uni136F_.glif</string>
   <key>uni136F.nobar</key>
   <string>uni136F_.nobar.glif</string>
+  <key>uni1370</key>
+  <string>uni1370.glif</string>
   <key>uni1370.nobar</key>
   <string>uni1370.nobar.glif</string>
+  <key>uni1371</key>
+  <string>uni1371.glif</string>
   <key>uni1371.nobar</key>
   <string>uni1371.nobar.glif</string>
+  <key>uni1372</key>
+  <string>uni1372.glif</string>
   <key>uni1372.nobar</key>
   <string>uni1372.nobar.glif</string>
+  <key>uni1373</key>
+  <string>uni1373.glif</string>
   <key>uni1373.nobar</key>
   <string>uni1373.nobar.glif</string>
+  <key>uni1374</key>
+  <string>uni1374.glif</string>
   <key>uni1374.nobar</key>
   <string>uni1374.nobar.glif</string>
+  <key>uni1375</key>
+  <string>uni1375.glif</string>
   <key>uni1375.nobar</key>
   <string>uni1375.nobar.glif</string>
+  <key>uni1376</key>
+  <string>uni1376.glif</string>
   <key>uni1376.nobar</key>
   <string>uni1376.nobar.glif</string>
+  <key>uni1377</key>
+  <string>uni1377.glif</string>
   <key>uni1377.nobar</key>
   <string>uni1377.nobar.glif</string>
+  <key>uni1378</key>
+  <string>uni1378.glif</string>
   <key>uni1378.nobar</key>
   <string>uni1378.nobar.glif</string>
+  <key>uni1379</key>
+  <string>uni1379.glif</string>
   <key>uni1379.nobar</key>
   <string>uni1379.nobar.glif</string>
+  <key>uni137A</key>
+  <string>uni137A_.glif</string>
   <key>uni137A.nobar</key>
   <string>uni137A_.nobar.glif</string>
+  <key>uni137B</key>
+  <string>uni137B_.glif</string>
   <key>uni137B.nobar</key>
   <string>uni137B_.nobar.glif</string>
+  <key>uni137C</key>
+  <string>uni137C_.glif</string>
   <key>uni137C.nobar</key>
   <string>uni137C_.nobar.glif</string>
   <key>zero</key>
