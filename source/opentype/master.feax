@@ -490,95 +490,85 @@ feature ccmp {  # Glyph Composition/Decomposition
 } ccmp ;
 
 feature cv01 {  # Punctuation
-		sub @cno_punct by @c_punct ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Punctuation" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Ethiopic style" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Latin style"    ; } ;
 		} ;
+		sub @cno_punct by @c_punct ;
 } cv01 ;
 
 feature cv02 {  # Ethiopic digits
-		sub @cno_nobar by @c_nobar ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Ethiopic digits" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard" ; } ;
-      ParamUILabelNameID { name 3 1 0x0409 "Nobar"    ; } ;
+      ParamUILabelNameID { name 3 1 0x0409 "Connected"    ; } ;
 		} ;
+		sub @cno_isol by @c_isol ;
 } cv02 ;
 
 feature cv04 {  # Mwa alternates
-    sub uni121F from [ uni121F.cohen1  uni121F.cohen2 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Mwa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate-1" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate-2" ; } ;
 		} ;
+    sub uni121F from [ uni121F.cohen1  uni121F.cohen2 ] ;
 } cv04 ;
 
 feature cv05 {  # Rwa alternate
-    sub @cno_cohen3 by @c_cohen3 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Rwa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+    sub @cno_cohen3 by @c_cohen3 ;
 } cv05 ;
 
 feature cv17 {  # Xoa alternates
-		sub @cno_alt3 by @c_alt3 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Xoa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_alt3 by @c_alt3 ;
 } cv17 ;
 
 feature cv18 {  # Xwa alternates
-		sub @cno_handwriting by @c_handwriting ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Xwa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Handwriting" ; } ;
 		} ;
+		sub @cno_handwriting by @c_handwriting ;
 } cv18 ;
 
 feature cv19 {  # Nwa alternates
-		sub @cno_cohen0 by @c_cohen0 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Nwa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_cohen0 by @c_cohen0 ;
 } cv19 ;
 
 feature cv20 {  # Nya alternates
-		lookup Cv20_nya ;  # default for guk/GMZ
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Nya alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Disconnected" ; } ;
 		} ;
+		lookup Cv20_nya ;  # default for guk/GMZ
 } cv20 ;
 
 feature cv21 {  # Nywa alternates
-		sub uni129F from [ uni129F.gumuz1  uni129F.cohen8 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Nywa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Disconnected" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Cohen"        ; } ;
 		} ;
+		sub uni129F from [ uni129F.gumuz1  uni129F.cohen8 ] ;
 } cv21 ;
 
 feature cv26 {  # Kxwaa alternate
-		sub @cno_cohen7 by @c_cohen7 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Kxwaa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_cohen7 by @c_cohen7 ;
 } cv26 ;
 
 @c_cv31 =        [ uni12E0        uni12E1        uni12E3        uni12E4        uni12E5        uni12E6 ];
@@ -586,179 +576,160 @@ feature cv26 {  # Kxwaa alternate
 @c_cv31_chaine = [ uni12E0.chaine uni12E1.chaine uni12E3.chaine uni12E4.chaine uni12E5.chaine uni12E6.chaine ];
 
 feature cv31 {  # Zha alternates
-		sub @c_cv31 from [ @c_cv31_cohen6  @c_cv31_chaine ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Zha alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard" ; } ;
 			ParamUILabelNameID { name 3 1 0x0409 "Cohen"    ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Chaine"   ; } ;
 		} ;
+		sub @c_cv31 from [ @c_cv31_cohen6  @c_cv31_chaine ] ;
 } cv31 ;
 
 feature cv32 {  # Dda alternates
-		sub @cno_oromo by @c_oromo ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Dda alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_oromo by @c_oromo ;
 } cv32 ;
 
 feature cv40 {  # Gwaa alternates
-		sub uni1313 from [ uni1313.seb0  uni1313.alonestokes ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Gwaa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Sebat Bet"    ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alone Stokes" ; } ;
 		} ;
+		sub uni1313 from [ uni1313.seb0  uni1313.alonestokes ] ;
 } cv40 ;
 
 feature cv41 {  # Gga alternates
-		lookup Cv41_gga ;   # default for BIL
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Gga alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Disconnected" ; } ;
 		} ;
+		lookup Cv41_gga ;   # default for BIL
 } cv41 ;
 
 feature cv42 {  # Ggwaa alternate
-		lookup Cv42_ggwaa ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Ggwaa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Disconnected" ; } ;
 		} ;
+		lookup Cv42_ggwaa ;
 } cv42 ;
 
 feature cv45 {  # Phe alternate
-		sub @cno_praetorius by @c_praetorius ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Phe alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_praetorius by @c_praetorius ;
 } cv45 ;
 
 feature cv46 {  # Tswa alternate
-		sub @cno_oldstyle by @c_oldstyle ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Tswa alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_oldstyle by @c_oldstyle ;
 } cv46 ;
 
 feature cv48 {  # Fwa alternate
-		sub uni134F from [ uni134F.cohen4  uni134F.cohen5 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Fwa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Cohen-1"   ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Cohen-2"   ; } ;
 		} ;
+		sub uni134F from [ uni134F.cohen4  uni134F.cohen5 ] ;
 } cv48 ;
 
 feature cv49 {  # Rya alternate
-		sub @cno_ala1 by @c_ala1 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Rya alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_ala1 by @c_ala1 ;
 } cv49 ;
 
 feature cv50 {  # Mya alternate
-		sub @cno_ala2 by @c_ala2 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Mya alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_ala2 by @c_ala2 ;
 } cv50 ;
 
 feature cv60 {  # Mwi alternates
-		sub uni1381 from [ uni1381.seb5  uni1381.sebLes1 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Mwi alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Sebat Bet" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Leslau"    ; } ;
 		} ;
+		sub uni1381 from [ uni1381.seb5  uni1381.sebLes1 ] ;
 } cv60 ;
 
 feature cv61 {  # Mwe alternates
-		sub uni1383 from [ uni1383.seb4 uni1383.sebLes4 ] ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Mwe alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Sebat Bet" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Leslau"    ; } ;
 		} ;
+		sub uni1383 from [ uni1383.seb4 uni1383.sebLes4 ] ;
 } cv61 ;
 
 feature cv62 {  # Bwe alternate
-		sub @cno_sebLes2 by @c_sebLes2 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Bwe alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_sebLes2 by @c_sebLes2 ;
 } cv62 ;
 
 feature cv63 {  # Fwee alternate
-		sub @cno_trad by @c_trad ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Fwee alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_trad by @c_trad ;
 } cv63 ;
 
 feature cv64 {  # Fwe alternate
-		sub @cno_sebLes3 by @c_sebLes3 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Fwe alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_sebLes3 by @c_sebLes3 ;
 } cv64 ;
 
 feature cv65 {  # Pwe alternate
-		sub @cno_sebLes5 by @c_sebLes5 ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Pwe alternate" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		sub @cno_sebLes5 by @c_sebLes5 ;
 } cv65 ;
 
 feature cv70 {  # Ggwa alternate
-		lookup Cv70_ggwa ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "Ggwa alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		lookup Cv70_ggwa ;
 } cv70 ;
 
 feature cv80 {  # 3rd-form alternates
-		lookup Cv80_3rd ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "3rd-form alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		lookup Cv80_3rd ;
 } cv80 ;
 
 feature cv85 {  # 6th-form alternates
-		lookup Cv85_6th ;
 		cvParameters {
 			FeatUILabelNameID  { name 3 1 0x0409 "6th-form alternates" ; } ;
-			ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; } ;
 		} ;
+		lookup Cv85_6th ;
 } cv85 ;
 
 

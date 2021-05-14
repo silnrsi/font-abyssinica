@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numeral.medi" format="2">
+  <advance width="1402"/>
+  <outline>
+    <contour>
+      <point x="-30" y="1240" type="line"/>
+      <point x="-29" y="1171" type="line"/>
+      <point x="1761" y="1171" type="line"/>
+      <point x="1761" y="1240" type="line"/>
+    </contour>
+    <contour>
+      <point x="-30" y="-63" type="line"/>
+      <point x="-29" y="-132" type="line"/>
+      <point x="1761" y="-132" type="line"/>
+      <point x="1761" y="-63" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -720,46 +720,6 @@
     <string>uni1366</string>
     <string>uni1367</string>
     <string>uni1368</string>
-    <string>uni1369</string>
-    <string>uni136A</string>
-    <string>uni136B</string>
-    <string>uni136C</string>
-    <string>uni136D</string>
-    <string>uni136E</string>
-    <string>uni136F</string>
-    <string>uni1370</string>
-    <string>uni1371</string>
-    <string>uni1372</string>
-    <string>uni1373</string>
-    <string>uni1374</string>
-    <string>uni1375</string>
-    <string>uni1376</string>
-    <string>uni1377</string>
-    <string>uni1378</string>
-    <string>uni1379</string>
-    <string>uni137A</string>
-    <string>uni137B</string>
-    <string>uni137C</string>
-    <string>uni1369.nobar</string>
-    <string>uni136A.nobar</string>
-    <string>uni136B.nobar</string>
-    <string>uni136C.nobar</string>
-    <string>uni136D.nobar</string>
-    <string>uni136E.nobar</string>
-    <string>uni136F.nobar</string>
-    <string>uni1370.nobar</string>
-    <string>uni1371.nobar</string>
-    <string>uni1372.nobar</string>
-    <string>uni1373.nobar</string>
-    <string>uni1374.nobar</string>
-    <string>uni1375.nobar</string>
-    <string>uni1376.nobar</string>
-    <string>uni1377.nobar</string>
-    <string>uni1378.nobar</string>
-    <string>uni1379.nobar</string>
-    <string>uni137A.nobar</string>
-    <string>uni137B.nobar</string>
-    <string>uni137C.nobar</string>
     <string>uni1380</string>
     <string>uni1381</string>
     <string>uni1381.seb5</string>
@@ -1030,6 +990,126 @@
     <string>uniFFFC</string>
     <string>uniFFFD</string>
     <string>nonmarkingreturn</string>
+    <string>uni1369</string>
+    <string>uni136A</string>
+    <string>uni136B</string>
+    <string>uni136C</string>
+    <string>uni136D</string>
+    <string>uni136E</string>
+    <string>uni136F</string>
+    <string>uni1370</string>
+    <string>uni1371</string>
+    <string>uni1372</string>
+    <string>uni1373</string>
+    <string>uni1374</string>
+    <string>uni1375</string>
+    <string>uni1376</string>
+    <string>uni1377</string>
+    <string>uni1378</string>
+    <string>uni1379</string>
+    <string>uni137A</string>
+    <string>uni137B</string>
+    <string>uni137C</string>
+    <string>uni1369.isol</string>
+    <string>uni136A.isol</string>
+    <string>uni136B.isol</string>
+    <string>uni136C.isol</string>
+    <string>uni136D.isol</string>
+    <string>uni136E.isol</string>
+    <string>uni136F.isol</string>
+    <string>uni1370.isol</string>
+    <string>uni1371.isol</string>
+    <string>uni1372.isol</string>
+    <string>uni1373.isol</string>
+    <string>uni1374.isol</string>
+    <string>uni1375.isol</string>
+    <string>uni1376.isol</string>
+    <string>uni1377.isol</string>
+    <string>uni1378.isol</string>
+    <string>uni1379.isol</string>
+    <string>uni137A.isol</string>
+    <string>uni137B.isol</string>
+    <string>uni137C.isol</string>
+    <string>uni1369.init</string>
+    <string>uni136A.init</string>
+    <string>uni136B.init</string>
+    <string>uni136C.init</string>
+    <string>uni136D.init</string>
+    <string>uni136E.init</string>
+    <string>uni136F.init</string>
+    <string>uni1370.init</string>
+    <string>uni1371.init</string>
+    <string>uni1372.init</string>
+    <string>uni1373.init</string>
+    <string>uni1374.init</string>
+    <string>uni1375.init</string>
+    <string>uni1376.init</string>
+    <string>uni1377.init</string>
+    <string>uni1378.init</string>
+    <string>uni1379.init</string>
+    <string>uni137A.init</string>
+    <string>uni137B.init</string>
+    <string>uni137C.init</string>
+    <string>uni1369.medi</string>
+    <string>uni136A.medi</string>
+    <string>uni136B.medi</string>
+    <string>uni136C.medi</string>
+    <string>uni136D.medi</string>
+    <string>uni136E.medi</string>
+    <string>uni136F.medi</string>
+    <string>uni1370.medi</string>
+    <string>uni1371.medi</string>
+    <string>uni1372.medi</string>
+    <string>uni1373.medi</string>
+    <string>uni1374.medi</string>
+    <string>uni1375.medi</string>
+    <string>uni1376.medi</string>
+    <string>uni1377.medi</string>
+    <string>uni1378.medi</string>
+    <string>uni1379.medi</string>
+    <string>uni137A.medi</string>
+    <string>uni137B.medi</string>
+    <string>uni137C.medi</string>
+    <string>uni1369.fina</string>
+    <string>uni136A.fina</string>
+    <string>uni136B.fina</string>
+    <string>uni136C.fina</string>
+    <string>uni136D.fina</string>
+    <string>uni136E.fina</string>
+    <string>uni136F.fina</string>
+    <string>uni1370.fina</string>
+    <string>uni1371.fina</string>
+    <string>uni1372.fina</string>
+    <string>uni1373.fina</string>
+    <string>uni1374.fina</string>
+    <string>uni1375.fina</string>
+    <string>uni1376.fina</string>
+    <string>uni1377.fina</string>
+    <string>uni1378.fina</string>
+    <string>uni1379.fina</string>
+    <string>uni137A.fina</string>
+    <string>uni137B.fina</string>
+    <string>uni137C.fina</string>
+    <string>uni1369.nobar</string>
+    <string>uni136A.nobar</string>
+    <string>uni136B.nobar</string>
+    <string>uni136C.nobar</string>
+    <string>uni136D.nobar</string>
+    <string>uni136E.nobar</string>
+    <string>uni136F.nobar</string>
+    <string>uni1370.nobar</string>
+    <string>uni1371.nobar</string>
+    <string>uni1372.nobar</string>
+    <string>uni1373.nobar</string>
+    <string>uni1374.nobar</string>
+    <string>uni1375.nobar</string>
+    <string>uni1376.nobar</string>
+    <string>uni1377.nobar</string>
+    <string>uni1378.nobar</string>
+    <string>uni1379.nobar</string>
+    <string>uni137A.nobar</string>
+    <string>uni137B.nobar</string>
+    <string>uni137C.nobar</string>
     <string>uniE068</string>
     <string>uniE069</string>
     <string>uniE06A</string>
@@ -1110,6 +1190,11 @@
     <string>uniE522</string>
     <string>uniE528</string>
     <string>uniE529</string>
+    <string>numeral</string>
+    <string>numeralnarrow</string>
+    <string>numeral.init</string>
+    <string>numeral.medi</string>
+    <string>numeral.fina</string>
     <string>u1E7E0</string>
     <string>u1E7E1</string>
     <string>u1E7E2</string>
@@ -1810,46 +1895,6 @@
     <string>uni1366</string>
     <string>uni1367</string>
     <string>uni1368</string>
-    <string>uni1369</string>
-    <string>uni136A</string>
-    <string>uni136B</string>
-    <string>uni136C</string>
-    <string>uni136D</string>
-    <string>uni136E</string>
-    <string>uni136F</string>
-    <string>uni1370</string>
-    <string>uni1371</string>
-    <string>uni1372</string>
-    <string>uni1373</string>
-    <string>uni1374</string>
-    <string>uni1375</string>
-    <string>uni1376</string>
-    <string>uni1377</string>
-    <string>uni1378</string>
-    <string>uni1379</string>
-    <string>uni137A</string>
-    <string>uni137B</string>
-    <string>uni137C</string>
-    <string>uni1369.nobar</string>
-    <string>uni136A.nobar</string>
-    <string>uni136B.nobar</string>
-    <string>uni136C.nobar</string>
-    <string>uni136D.nobar</string>
-    <string>uni136E.nobar</string>
-    <string>uni136F.nobar</string>
-    <string>uni1370.nobar</string>
-    <string>uni1371.nobar</string>
-    <string>uni1372.nobar</string>
-    <string>uni1373.nobar</string>
-    <string>uni1374.nobar</string>
-    <string>uni1375.nobar</string>
-    <string>uni1376.nobar</string>
-    <string>uni1377.nobar</string>
-    <string>uni1378.nobar</string>
-    <string>uni1379.nobar</string>
-    <string>uni137A.nobar</string>
-    <string>uni137B.nobar</string>
-    <string>uni137C.nobar</string>
     <string>uni1380</string>
     <string>uni1381</string>
     <string>uni1381.seb5</string>
@@ -2120,6 +2165,126 @@
     <string>uniFFFC</string>
     <string>uniFFFD</string>
     <string>nonmarkingreturn</string>
+    <string>uni1369</string>
+    <string>uni136A</string>
+    <string>uni136B</string>
+    <string>uni136C</string>
+    <string>uni136D</string>
+    <string>uni136E</string>
+    <string>uni136F</string>
+    <string>uni1370</string>
+    <string>uni1371</string>
+    <string>uni1372</string>
+    <string>uni1373</string>
+    <string>uni1374</string>
+    <string>uni1375</string>
+    <string>uni1376</string>
+    <string>uni1377</string>
+    <string>uni1378</string>
+    <string>uni1379</string>
+    <string>uni137A</string>
+    <string>uni137B</string>
+    <string>uni137C</string>
+    <string>uni1369.isol</string>
+    <string>uni136A.isol</string>
+    <string>uni136B.isol</string>
+    <string>uni136C.isol</string>
+    <string>uni136D.isol</string>
+    <string>uni136E.isol</string>
+    <string>uni136F.isol</string>
+    <string>uni1370.isol</string>
+    <string>uni1371.isol</string>
+    <string>uni1372.isol</string>
+    <string>uni1373.isol</string>
+    <string>uni1374.isol</string>
+    <string>uni1375.isol</string>
+    <string>uni1376.isol</string>
+    <string>uni1377.isol</string>
+    <string>uni1378.isol</string>
+    <string>uni1379.isol</string>
+    <string>uni137A.isol</string>
+    <string>uni137B.isol</string>
+    <string>uni137C.isol</string>
+    <string>uni1369.init</string>
+    <string>uni136A.init</string>
+    <string>uni136B.init</string>
+    <string>uni136C.init</string>
+    <string>uni136D.init</string>
+    <string>uni136E.init</string>
+    <string>uni136F.init</string>
+    <string>uni1370.init</string>
+    <string>uni1371.init</string>
+    <string>uni1372.init</string>
+    <string>uni1373.init</string>
+    <string>uni1374.init</string>
+    <string>uni1375.init</string>
+    <string>uni1376.init</string>
+    <string>uni1377.init</string>
+    <string>uni1378.init</string>
+    <string>uni1379.init</string>
+    <string>uni137A.init</string>
+    <string>uni137B.init</string>
+    <string>uni137C.init</string>
+    <string>uni1369.medi</string>
+    <string>uni136A.medi</string>
+    <string>uni136B.medi</string>
+    <string>uni136C.medi</string>
+    <string>uni136D.medi</string>
+    <string>uni136E.medi</string>
+    <string>uni136F.medi</string>
+    <string>uni1370.medi</string>
+    <string>uni1371.medi</string>
+    <string>uni1372.medi</string>
+    <string>uni1373.medi</string>
+    <string>uni1374.medi</string>
+    <string>uni1375.medi</string>
+    <string>uni1376.medi</string>
+    <string>uni1377.medi</string>
+    <string>uni1378.medi</string>
+    <string>uni1379.medi</string>
+    <string>uni137A.medi</string>
+    <string>uni137B.medi</string>
+    <string>uni137C.medi</string>
+    <string>uni1369.fina</string>
+    <string>uni136A.fina</string>
+    <string>uni136B.fina</string>
+    <string>uni136C.fina</string>
+    <string>uni136D.fina</string>
+    <string>uni136E.fina</string>
+    <string>uni136F.fina</string>
+    <string>uni1370.fina</string>
+    <string>uni1371.fina</string>
+    <string>uni1372.fina</string>
+    <string>uni1373.fina</string>
+    <string>uni1374.fina</string>
+    <string>uni1375.fina</string>
+    <string>uni1376.fina</string>
+    <string>uni1377.fina</string>
+    <string>uni1378.fina</string>
+    <string>uni1379.fina</string>
+    <string>uni137A.fina</string>
+    <string>uni137B.fina</string>
+    <string>uni137C.fina</string>
+    <string>uni1369.nobar</string>
+    <string>uni136A.nobar</string>
+    <string>uni136B.nobar</string>
+    <string>uni136C.nobar</string>
+    <string>uni136D.nobar</string>
+    <string>uni136E.nobar</string>
+    <string>uni136F.nobar</string>
+    <string>uni1370.nobar</string>
+    <string>uni1371.nobar</string>
+    <string>uni1372.nobar</string>
+    <string>uni1373.nobar</string>
+    <string>uni1374.nobar</string>
+    <string>uni1375.nobar</string>
+    <string>uni1376.nobar</string>
+    <string>uni1377.nobar</string>
+    <string>uni1378.nobar</string>
+    <string>uni1379.nobar</string>
+    <string>uni137A.nobar</string>
+    <string>uni137B.nobar</string>
+    <string>uni137C.nobar</string>
     <string>uniE068</string>
     <string>uniE069</string>
     <string>uniE06A</string>
@@ -2200,6 +2365,11 @@
     <string>uniE522</string>
     <string>uniE528</string>
     <string>uniE529</string>
+    <string>numeral</string>
+    <string>numeralnarrow</string>
+    <string>numeral.init</string>
+    <string>numeral.medi</string>
+    <string>numeral.fina</string>
     <string>u1E7E0</string>
     <string>u1E7E1</string>
     <string>u1E7E2</string>

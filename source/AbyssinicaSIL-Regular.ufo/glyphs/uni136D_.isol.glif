@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni136D.isol" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="uni136D.nobar"/>
+    <component base="numeral" xOffset="30" yOffset="0"/>
+  </outline>
+</glyph>

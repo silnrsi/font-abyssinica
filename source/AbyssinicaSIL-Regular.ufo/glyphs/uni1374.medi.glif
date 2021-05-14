@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1374.medi" format="2">
+  <advance width="1366"/>
+  <outline>
+    <component base="uni1374.nobar"/>
+    <component base="numeral.medi"/>
+  </outline>
+</glyph>

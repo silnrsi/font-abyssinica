@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1379.isol" format="2">
+  <advance width="1745"/>
+  <outline>
+    <component base="uni1379.nobar"/>
+    <component base="numeral" xOffset="350" yOffset="0"/>
+  </outline>
+</glyph>
