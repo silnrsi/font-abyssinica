@@ -8,7 +8,7 @@
   <fontsrc label="v2.001">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
   		<style feats=" 'cv01' 1" name="fset_punct_1"/>    <!-- punctuation: Latin -->
-  		<style feats=" 'cv02' 1" name="fset_nobar_1"/>    <!-- ethiopic digits: nobar -->
+  		<style feats=" 'cv02' 1" name="fset_isol_1"/>    <!-- ethiopic digits: isol -->
   		<style feats=" 'cv04' 1" name="fset_mwa_1"/>      <!-- mwa alternates: cohen1 -->
   		<style feats=" 'cv04' 2" name="fset_mwa_2"/>      <!-- mwa alternates: cohen2 -->
   		<style feats=" 'cv05' 1" name="fset_rwa_1"/>      <!-- rwa alternates: cohen3 -->
@@ -86,8 +86,8 @@
 		<test label="Punctuation - symbols"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
   		<test label="" stylename="fset_punct_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
 
-  	<test label="Ethiopic digits"><comment/><string>\u1210\u1369\u136A\u136B\u136C\u136D\u136E\u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
-  		<test label="" stylename="fset_nobar_1"><comment/><string>\u1210\u1369\u136A\u136B\u136C\u136D\u136E\u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
+  	<test label="Ethiopic digits"><comment/><string>\u1210\u1369 \u136A\u136B \u136C\u136D\u136E \u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
+  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210\u1369 \u136A\u136B \u136C\u136D\u136E \u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
 
   	<test label="mwa alternates"><comment/><string>\u121F</string></test>
   		<test label="" stylename="fset_mwa_1"><comment/><string>\u121F</string></test>

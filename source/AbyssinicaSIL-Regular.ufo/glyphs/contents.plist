@@ -394,12 +394,12 @@
   <string>numbersign.glif</string>
   <key>numeral</key>
   <string>numeral.glif</string>
-  <key>numeral.fina</key>
-  <string>numeral.fina.glif</string>
-  <key>numeral.init</key>
-  <string>numeral.init.glif</string>
-  <key>numeral.medi</key>
-  <string>numeral.medi.glif</string>
+  <key>numeralfina</key>
+  <string>numeralfina.glif</string>
+  <key>numeralinit</key>
+  <string>numeralinit.glif</string>
+  <key>numeralmedi</key>
+  <string>numeralmedi.glif</string>
   <key>numeralnarrow</key>
   <string>numeralnarrow.glif</string>
   <key>o</key>

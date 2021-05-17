@@ -502,7 +502,11 @@ feature cv02 {  # Ethiopic digits
 			FeatUILabelNameID  { name 3 1 0x0409 "Ethiopic digits" ; } ;
       ParamUILabelNameID { name 3 1 0x0409 "Connected"    ; } ;
 		} ;
-		sub @cno_isol by @c_isol ;
+    sub [@c_init @c_medi] @cno_isol' @cno_isol by @c_medi;
+    sub [@c_init @c_medi] @cno_isol' by @c_fina;
+    sub @c_init @cno_isol' by @c_medi;
+    sub @cno_isol' @cno_isol by @c_init;
+    sub @cno_isol' by @c_isol;
 } cv02 ;
 
 feature cv04 {  # Mwa alternates
