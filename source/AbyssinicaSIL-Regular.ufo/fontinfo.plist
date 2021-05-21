@@ -12,8 +12,21 @@
   <integer>-682</integer>
   <key>familyName</key>
   <string>Abyssinica SIL</string>
+  <key>guidelines</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>name</key>
+      <string>m</string>
+      <key>x</key>
+      <integer>0</integer>
+      <key>y</key>
+      <integer>512</integer>
+    </dict>
+  </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/05/14 12:03:49</string>
+  <string>2021/05/21 11:01:19</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -146,6 +159,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>33</integer>
     <integer>35</integer>
     <integer>38</integer>
+    <integer>40</integer>
     <integer>45</integer>
     <integer>47</integer>
     <integer>60</integer>

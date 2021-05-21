@@ -93,6 +93,7 @@
       - Changed Latin digits (for use in Ethiopic) to use a serif style
       - Modified Ethiopic digits to have a more consistent size
       - Removed Graphite support
+      - Added cv02 to support digits with connecting above and below lines
       
       11 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
       - Added U+02D0, U+034F, U+2423, U+25CA
@@ -176,7 +177,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2000-2019 by SIL International
+      Copyright (c) 2000-2021 by SIL International
     </text>
   </copyright>
   <trademark>
