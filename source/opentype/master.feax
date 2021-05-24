@@ -506,7 +506,7 @@ feature cv02 {  # Ethiopic digits
     sub [@c_init @c_medi] @cno_isol' by @c_fina;
     sub @c_init @cno_isol' by @c_medi;
     sub @cno_isol' @cno_isol by @c_init;
-    sub @cno_isol' by @c_isol;
+#    sub @cno_isol' by @c_isol;
 } cv02 ;
 
 feature cv04 {  # Mwa alternates
