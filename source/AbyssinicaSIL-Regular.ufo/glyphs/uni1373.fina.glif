@@ -3,6 +3,37 @@
   <advance width="1309"/>
   <outline>
     <component base="uni1373.nobar"/>
-    <component base="numeralfina" xOffset="-60"/>
+    <contour>
+      <point x="-30" y="-232" type="curve" smooth="yes"/>
+      <point x="1011" y="-232" type="line"/>
+      <point x="1028" y="-309"/>
+      <point x="1090" y="-358"/>
+      <point x="1161" y="-358" type="curve" smooth="yes"/>
+      <point x="1198" y="-358"/>
+      <point x="1247" y="-346"/>
+      <point x="1277" y="-323" type="curve"/>
+      <point x="1251" y="-285"/>
+      <point x="1238" y="-209"/>
+      <point x="1234" y="-163" type="curve"/>
+      <point x="-30" y="-163" type="line" smooth="yes"/>
+      <point x="-49" y="-163"/>
+      <point x="-48" y="-232"/>
+    </contour>
+    <contour>
+      <point x="-18" y="1158" type="curve" smooth="yes"/>
+      <point x="1011" y="1158" type="line"/>
+      <point x="1028" y="1081"/>
+      <point x="1090" y="1032"/>
+      <point x="1161" y="1032" type="curve" smooth="yes"/>
+      <point x="1198" y="1032"/>
+      <point x="1247" y="1044"/>
+      <point x="1277" y="1067" type="curve"/>
+      <point x="1251" y="1105"/>
+      <point x="1238" y="1181"/>
+      <point x="1234" y="1227" type="curve"/>
+      <point x="-18" y="1227" type="line" smooth="yes"/>
+      <point x="-37" y="1227"/>
+      <point x="-36" y="1158"/>
+    </contour>
   </outline>
 </glyph>
