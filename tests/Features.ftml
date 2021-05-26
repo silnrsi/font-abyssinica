@@ -1,57 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
-<ftml version="1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
   <head>
-    <fontscale>300</fontscale>
+  <fontscale>300</fontscale>
   <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
   <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
-  <fontsrc label="nyala">url(../references/nyala.ttf)</fontsrc>
   <fontsrc label="v2.001">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
-  		<style feats=" 'cv01' 1" name="fset_punct_1"/>    <!-- punctuation: Latin -->
-  		<style feats=" 'cv02' 1" name="fset_isol_1"/>    <!-- ethiopic digits: isol -->
-  		<style feats=" 'cv04' 1" name="fset_mwa_1"/>      <!-- mwa alternates: cohen1 -->
-  		<style feats=" 'cv04' 2" name="fset_mwa_2"/>      <!-- mwa alternates: cohen2 -->
-  		<style feats=" 'cv05' 1" name="fset_rwa_1"/>      <!-- rwa alternates: cohen3 -->
-  		<style feats=" 'cv17' 1" name="fset_xoa_1"/>      <!-- xoa alternates: alt3 -->
-  		<style feats=" 'cv18' 1" name="fset_xwa_1"/>      <!-- xwa alternates: handwriting -->
-  		<style feats=" 'cv19' 1" name="fset_nwa_1"/>      <!-- nwa alternates: cohen0 -->
-  		<style feats=" 'cv20' 1" name="fset_nya_1"/>      <!-- nya alternates: gumuz -->
-  		<style feats=" 'cv21' 1" name="fset_nywa_1"/>     <!-- nywa alternates: gumuz1 -->
-  		<style feats=" 'cv21' 2" name="fset_nywa_2"/>     <!-- nywa alternates: cohen8 -->
-  		<style feats=" 'cv26' 1" name="fset_kxwaa_1"/>    <!-- kxwaa alternates: cohen7 -->
-  		<style feats=" 'cv31' 1" name="fset_zha_1"/>      <!-- zha alternates: cohen6 -->
-  		<style feats=" 'cv31' 2" name="fset_zha_2"/>      <!-- zha alternates: chaine -->
-  		<style feats=" 'cv32' 1" name="fset_dda_1"/>      <!-- dda alternates: oromo -->
-  		<style feats=" 'cv40' 1" name="fset_gwaa_1"/>     <!-- gwaa alternates: seb0 -->
-  		<style feats=" 'cv40' 2" name="fset_gwaa_2"/>     <!-- gwaa alternates: alonestokes -->
-  		<style feats=" 'cv41' 1" name="fset_gga_1"/>      <!-- gga alternates: alt1 -->
-  		<style feats=" 'cv42' 1" name="fset_ggwaa_1"/>    <!-- ggwaa alternates: type -->
-  		<style feats=" 'cv45' 1" name="fset_phe_1"/>      <!-- phe alternates: praetorius -->
-  		<style feats=" 'cv46' 1" name="fset_tswa_1"/>     <!-- tswa alternates: oldstyle -->
-  		<style feats=" 'cv48' 1" name="fset_fwa_1"/>      <!-- fwa alternates: cohen4 -->
-  		<style feats=" 'cv48' 2" name="fset_fwa_2"/>      <!-- fwa alternates: cohen5 -->
-  		<style feats=" 'cv49' 1" name="fset_rya_1"/>      <!-- rya alternates: ala1 -->
-  		<style feats=" 'cv50' 1" name="fset_mya_1"/>      <!-- mya alternates: ala2 -->
-  		<style feats=" 'cv60' 1" name="fset_mwi_1"/>      <!-- mwi alternates: seb5 -->
-  		<style feats=" 'cv60' 2" name="fset_mwi_2"/>      <!-- mwi alternates: sebLes1 -->
-  		<style feats=" 'cv61' 1" name="fset_mwe_1"/>      <!-- mwe alternates: seb4 -->
-  		<style feats=" 'cv61' 2" name="fset_mwe_2"/>      <!-- mwe alternates: sebLes4 -->
-  		<style feats=" 'cv62' 1" name="fset_bwe_1"/>      <!-- bwe alternates: sebLes2 -->
-  		<style feats=" 'cv63' 1" name="fset_fwee_1"/>     <!-- fwee alternates: trad -->
-  		<style feats=" 'cv64' 1" name="fset_fwe_1"/>      <!-- fwe alternates: sebLes3 -->
-  		<style feats=" 'cv65' 1" name="fset_pwe_1"/>      <!-- pwe alternates: sebLes5 -->
-  		<style feats=" 'cv70' 1" name="fset_ggwa_1"/>     <!-- ggwa alternates: blin -->
-  		<style feats=" 'cv80' 1" name="fset_3rdform_1"/>  <!-- 3rd form alternates: seb3 -->
-  		<style feats=" 'cv85' 1" name="fset_6thform_1"/>  <!-- 6th form alternates: seb2 -->
-      <style lang="CHG" name="lang_CHG"/>               <!-- OT - sgw -->
-<!--      <style lang="BIL" name="lang_BIL" />                OT - byn -->
-      <style lang="GMZ" name="lang_GMZ"/>               <!-- OT - guk -->
+  		<style feats="'cv01' 1" name="cv01_1"/>    <!-- punctuation: Latin -->
+  		<style feats="'cv02' 1" name="cv02_1"/>    <!-- ethiopic digits: isol -->
+  		<style feats="'cv04' 1" name="cv04_1"/>    <!-- mwa alternates: cohen1 -->
+  		<style feats="'cv04' 2" name="cv04_2"/>    <!-- mwa alternates: cohen2 -->
+  		<style feats="'cv05' 1" name="cv05_1"/>    <!-- rwa alternates: cohen3 -->
+  		<style feats="'cv17' 1" name="cv17_1"/>    <!-- xoa alternates: alt3 -->
+  		<style feats="'cv18' 1" name="cv18_1"/>    <!-- xwa alternates: handwriting -->
+  		<style feats="'cv19' 1" name="cv19_1"/>    <!-- nwa alternates: cohen0 -->
+  		<style feats="'cv20' 1" name="cv20_1"/>    <!-- nya alternates: gumuz -->
+  		<style feats="'cv21' 1" name="cv21_1"/>    <!-- nywa alternates: gumuz1 -->
+  		<style feats="'cv21' 2" name="cv21_2"/>    <!-- nywa alternates: cohen8 -->
+  		<style feats="'cv26' 1" name="cv26_1"/>    <!-- kxwaa alternates: cohen7 -->
+  		<style feats="'cv31' 1" name="cv31_1"/>    <!-- zha alternates: cohen6 -->
+  		<style feats="'cv31' 2" name="cv31_2"/>    <!-- zha alternates: chaine -->
+  		<style feats="'cv32' 1" name="cv32_1"/>    <!-- dda alternates: oromo -->
+  		<style feats="'cv40' 1" name="cv40_1"/>    <!-- gwaa alternates: seb0 -->
+  		<style feats="'cv40' 2" name="cv40_2"/>    <!-- gwaa alternates: alonestokes -->
+  		<style feats="'cv41' 1" name="cv41_1"/>    <!-- gga alternates: alt1 -->
+  		<style feats="'cv42' 1" name="cv42_1"/>    <!-- ggwaa alternates: type -->
+  		<style feats="'cv45' 1" name="cv45_1"/>    <!-- phe alternates: praetorius -->
+  		<style feats="'cv46' 1" name="cv46_1"/>    <!-- tswa alternates: oldstyle -->
+  		<style feats="'cv48' 1" name="cv48_1"/>    <!-- fwa alternates: cohen4 -->
+  		<style feats="'cv48' 2" name="cv48_2"/>    <!-- fwa alternates: cohen5 -->
+  		<style feats="'cv49' 1" name="cv49_1"/>    <!-- rya alternates: ala1 -->
+  		<style feats="'cv50' 1" name="cv50_1"/>    <!-- mya alternates: ala2 -->
+  		<style feats="'cv60' 1" name="cv60_1"/>    <!-- mwi alternates: seb5 -->
+  		<style feats="'cv60' 2" name="cv60_2"/>    <!-- mwi alternates: sebLes1 -->
+  		<style feats="'cv61' 1" name="cv61_1"/>    <!-- mwe alternates: seb4 -->
+  		<style feats="'cv61' 2" name="cv61_2"/>    <!-- mwe alternates: sebLes4 -->
+  		<style feats="'cv62' 1" name="cv62_1"/>    <!-- bwe alternates: sebLes2 -->
+  		<style feats="'cv63' 1" name="cv63_1"/>    <!-- fwee alternates: trad -->
+  		<style feats="'cv64' 1" name="cv64_1"/>    <!-- fwe alternates: sebLes3 -->
+  		<style feats="'cv65' 1" name="cv65_1"/>    <!-- pwe alternates: sebLes5 -->
+  		<style feats="'cv70' 1" name="cv70_1"/>    <!-- ggwa alternates: blin -->
+  		<style feats="'cv80' 1" name="cv80_1"/>    <!-- 3rd form alternates: seb3 -->
+  		<style feats="'cv85' 1" name="cv85_1"/>    <!-- 6th form alternates: seb2 -->
       <style lang="sgw" name="lang_sgw"/>               <!-- Graphite -->
-<!--      <style lang="byn" name="lang_byn" />                Graphite -->
       <style lang="guk" name="lang_guk"/>               <!-- Graphite -->
-      
-      <style feats=" 'locl' 1" name="turn_on_locl"/>
 
   	</styles>
   	<title>Feature tests</title>
@@ -62,14 +55,11 @@
  	</testgroup>
  		
 	<testgroup label="Languages">
-		<test label="sgw = CHG"><comment/><string>\u1313</string></test>
-  		<test label="" stylename="lang_CHG"><comment>CHG</comment><string>\u1313</string></test>
+		<test label="sgw"><comment/><string>\u1313</string></test>
   		<test label="" stylename="lang_sgw"><comment>sgw</comment><string>\u1313</string></test>
-		<test label="guk = GMZ - nya"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-  		<test label="" stylename="lang_GMZ"><comment>GMZ</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+		<test label="guk - nya"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   		<test label="" stylename="lang_guk"><comment>guk</comment><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-		<test label="guk = GMZ - nywa"><comment/><string>\u129F</string></test>
-  		<test label="" stylename="lang_GMZ"><comment>GMZ</comment><string>\u129F</string></test>
+		<test label="guk - nywa"><comment/><string>\u129F</string></test>
   		<test label="" stylename="lang_guk"><comment>guk</comment><string>\u129F</string></test>
   	</testgroup>
 
@@ -77,90 +67,89 @@
 	<testgroup label="Features">
 
 		<test label="Punctuation"><comment/><string>\u003F \u0021 \u00A1</string></test>
-  		<test label="" stylename="fset_punct_1"><comment/><string>\u003F \u0021 \u00A1</string></test>
+  		<test label="" stylename="cv01_1"><comment/><string>\u003F \u0021 \u00A1</string></test>
   	<test label="Punctuation - Digits"><comment/><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
-  		<test label="" stylename="fset_punct_1"><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
+  		<test label="" stylename="cv01_1"><string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string></test>
   	<test label="Punctuation - Superior Digits"><comment/><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
-  		<test label="" stylename="fset_punct_1"><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
+  		<test label="" stylename="cv01_1"><string>\u2070 \u00B9 \u00B2 \u00B3 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079</string></test>
 		<test label="Punctuation - quotes"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
-  		<test label="" stylename="fset_punct_1"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
+  		<test label="" stylename="cv01_1"><comment/><string>\u201C \u201D \u2018 \u2019 \u00AB \u00BB \u2039 \u203A</string></test>
 		<test label="Punctuation - symbols"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
-  		<test label="" stylename="fset_punct_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
+  		<test label="" stylename="cv01_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
 
   	<test label="Ethiopic digits"><comment/><string>\u1210\u1369 \u136A \u136B \u136C \u136D \u136E \u136F \u1370 \u1371 \u1372 \u1373 \u1374 \u1375 \u1376 \u1377 \u1378 \u1379 \u137A \u137B \u137C \u1200</string></test>
-  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210\u1369 \u136A \u136B \u136C \u136D \u136E \u136F \u1370 \u1371 \u1372 \u1373 \u1374 \u1375 \u1376 \u1377 \u1378 \u1379 \u137A \u137B \u137C \u1200</string></test>
-
+  		<test label="" stylename="cv02_1"><comment/><string>\u1210\u1369 \u136A \u136B \u136C \u136D \u136E \u136F \u1370 \u1371 \u1372 \u1373 \u1374 \u1375 \u1376 \u1377 \u1378 \u1379 \u137A \u137B \u137C \u1200</string></test>
   	<test label="Ethiopic digits"><comment/><string>\u1210 \u1369\u136A \u136A\u136B \u136B\u136C \u136C\u136D \u136D\u136E \u136E\u136F \u136F\u1370 \u1370\u1371 \u1371\u1372 \u1372\u1373 \u1373\u1374 \u1374\u1375 \u1375\u1376 \u1376\u1377 \u1377\u1378 \u1378\u1379 \u1379\u137A \u137A\u137B \u137B\u137C \u137C\u1369 \u1200</string></test>
-  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210 \u1369\u136A \u136A\u136B \u136B\u136C \u136C\u136D \u136D\u136E \u136E\u136F \u136F\u1370 \u1370\u1371 \u1371\u1372 \u1372\u1373 \u1373\u1374 \u1374\u1375 \u1375\u1376 \u1376\u1377 \u1377\u1378 \u1378\u1379 \u1379\u137A \u137A\u137B \u137B\u137C \u137C\u1369 \u1200</string></test>
+  		<test label="" stylename="cv02_1"><comment/><string>\u1210 \u1369\u136A \u136A\u136B \u136B\u136C \u136C\u136D \u136D\u136E \u136E\u136F \u136F\u1370 \u1370\u1371 \u1371\u1372 \u1372\u1373 \u1373\u1374 \u1374\u1375 \u1375\u1376 \u1376\u1377 \u1377\u1378 \u1378\u1379 \u1379\u137A \u137A\u137B \u137B\u137C \u137C\u1369 \u1200</string></test>
   	<test label="Ethiopic digits"><comment/><string>\u1210 \u1369\u136A\u136B \u136A\u136B\u136C \u136B\u136C\u136D \u136C\u136D\u136E \u136D\u136E\u136F \u136E\u136F\u1370 \u136F\u1370\u1371 \u1370\u1371\u1372 \u1371\u1372\u1373 \u1372\u1373\u1374 \u1373\u1374\u1375 \u1374\u1375\u1376 \u1375\u1376\u1377 \u1376\u1377\u1378 \u1377\u1378\u1379 \u1378\u1379\u137A \u1379\u137A\u137B \u137A\u137B\u137C \u137B\u137C\u1369 \u137C\u1369\u136A \u1200 \u137A\u137B\u137C\u137B\u137C\u1369\u137C\u1369\u136A </string></test>
-  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210 \u1369\u136A\u136B \u136A\u136B\u136C \u136B\u136C\u136D \u136C\u136D\u136E \u136D\u136E\u136F \u136E\u136F\u1370 \u136F\u1370\u1371 \u1370\u1371\u1372 \u1371\u1372\u1373 \u1372\u1373\u1374 \u1373\u1374\u1375 \u1374\u1375\u1376 \u1375\u1376\u1377 \u1376\u1377\u1378 \u1377\u1378\u1379 \u1378\u1379\u137A \u1379\u137A\u137B \u137A\u137B\u137C \u137B\u137C\u1369 \u137C\u1369\u136A \u1200 \u137A\u137B\u137C\u137B\u137C\u1369\u137C\u1369\u136A</string></test>
+  		<test label="" stylename="cv02_1"><comment/><string>\u1210 \u1369\u136A\u136B \u136A\u136B\u136C \u136B\u136C\u136D \u136C\u136D\u136E \u136D\u136E\u136F \u136E\u136F\u1370 \u136F\u1370\u1371 \u1370\u1371\u1372 \u1371\u1372\u1373 \u1372\u1373\u1374 \u1373\u1374\u1375 \u1374\u1375\u1376 \u1375\u1376\u1377 \u1376\u1377\u1378 \u1377\u1378\u1379 \u1378\u1379\u137A \u1379\u137A\u137B \u137A\u137B\u137C \u137B\u137C\u1369 \u137C\u1369\u136A \u1200 \u137A\u137B\u137C\u137B\u137C\u1369\u137C\u1369\u136A</string></test>
 
   	<test label="mwa alternates"><comment/><string>\u121F</string></test>
-  		<test label="" stylename="fset_mwa_1"><comment/><string>\u121F</string></test>
-  		<test label="" stylename="fset_mwa_2"><comment/><string>\u121F</string></test>
+  		<test label="" stylename="cv04_1"><comment/><string>\u121F</string></test>
+  		<test label="" stylename="cv04_2"><comment/><string>\u121F</string></test>
 
   	<test label="rwa alternates"><comment/><string>\u122F</string></test>
-  		<test label="" stylename="fset_rwa_1"><comment/><string>\u122F</string></test>
+  		<test label="" stylename="cv05_1"><comment/><string>\u122F</string></test>
 
   	<test label="xoa alternates"><comment/><string>\u1287</string></test>
-  		<test label="" stylename="fset_xoa_1"><comment/><string>\u1287</string></test>
+  		<test label="" stylename="cv17_1"><comment/><string>\u1287</string></test>
 
   	<test label="xwa alternates"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
-  		<test label="" stylename="fset_xwa_1"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
+  		<test label="" stylename="cv18_1"><comment/><string>\u1288 \u128A \u128B \u128C \u128D</string></test>
 
   	<test label="nwa alternates"><comment/><string>\u1297</string></test>
-  		<test label="" stylename="fset_nwa_1"><comment/><string>\u1297</string></test>
+  		<test label="" stylename="cv19_1"><comment/><string>\u1297</string></test>
 
   	<test label="nya alternates"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
-  		<test label="" stylename="fset_nya_1"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
+  		<test label="" stylename="cv20_1"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
   	<test label="nywa alternates"><comment/><string>\u129F</string></test>
-  		<test label="" stylename="fset_nywa_1"><comment/><string>\u129F</string></test>
-  		<test label="" stylename="fset_nywa_2"><comment/><string>\u129F</string></test>
+  		<test label="" stylename="cv21_1"><comment/><string>\u129F</string></test>
+  		<test label="" stylename="cv21_2"><comment/><string>\u129F</string></test>
   	<test label="kxwaa alternates"><comment/><string>\u12C3</string></test>
-  		<test label="" stylename="fset_kxwaa_1"><comment/><string>\u12C3</string></test>
+  		<test label="" stylename="cv26_1"><comment/><string>\u12C3</string></test>
   	<test label="zha alternates"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
-  		<test label="" stylename="fset_zha_1"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
-  		<test label="" stylename="fset_zha_2"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test label="" stylename="cv31_1"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
+  		<test label="" stylename="cv31_2"><comment/><string>\u12E0 \u12E1 \u12E2 \u12E3 \u12E4 \u12E5 \u12E6</string></test>
   	<test label="dda alternates"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
-  		<test label="" stylename="fset_dda_1"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
+  		<test label="" stylename="cv32_1"><comment/><string>\u12F8 \u12F9 \u12FA \u12FB \u12FC \u12FD \u12FE</string></test>
   	<test label="gwaa alternates"><comment/><string>\u1313</string></test>
-  		<test label="" stylename="fset_gwaa_1"><comment/><string>\u1313</string></test>
-  		<test label="" stylename="fset_gwaa_2"><comment/><string>\u1313</string></test>
+  		<test label="" stylename="cv40_1"><comment/><string>\u1313</string></test>
+  		<test label="" stylename="cv40_2"><comment/><string>\u1313</string></test>
   	<test label="gga alternates"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
-  		<test label="" stylename="fset_gga_1"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
+  		<test label="" stylename="cv41_1"><comment/><string>\u1318 \u1319 \u131A \u131B \u131C \u131D \u131E</string></test>
 		<test label="ggwaa alternates"><comment/><string>\u131F</string></test>
-  		<test label="" stylename="fset_ggwaa_1"><comment/><string>\u131F</string></test>
+  		<test label="" stylename="cv42_1"><comment/><string>\u131F</string></test>
 		<test label="phe alternates"><comment/><string>\u1335</string></test>
-  		<test label="" stylename="fset_phe_1"><comment/><string>\u1335</string></test>
+  		<test label="" stylename="cv45_1"><comment/><string>\u1335</string></test>
 		<test label="tswa alternates"><comment/><string>\u133F</string></test>
-  		<test label="" stylename="fset_tswa_1"><comment/><string>\u133F</string></test>
+  		<test label="" stylename="cv46_1"><comment/><string>\u133F</string></test>
 		<test label="fwa alternates"><comment/><string>\u134F</string></test>
-  		<test label="" stylename="fset_fwa_1"><comment/><string>\u134F</string></test>
-  		<test label="" stylename="fset_fwa_2"><comment/><string>\u134F</string></test>
+  		<test label="" stylename="cv47_1"><comment/><string>\u134F</string></test>
+  		<test label="" stylename="cv47_2"><comment/><string>\u134F</string></test>
   	<test label="rya alternates"><comment/><string>\u1358</string></test>
-  		<test label="" stylename="fset_rya_1"><comment/><string>\u1358</string></test>
+  		<test label="" stylename="cv49_1"><comment/><string>\u1358</string></test>
   	<test label="mya alternates"><comment/><string>\u1359</string></test>
-  		<test label="" stylename="fset_mya_1"><comment/><string>\u1359</string></test>
+  		<test label="" stylename="cv50_1"><comment/><string>\u1359</string></test>
   	<test label="mwi alternates"><comment/><string>\u1381</string></test>
-  		<test label="" stylename="fset_mwi_1"><comment/><string>\u1381</string></test>
-  		<test label="" stylename="fset_mwi_2"><comment/><string>\u1381</string></test>
+  		<test label="" stylename="cv60_1"><comment/><string>\u1381</string></test>
+  		<test label="" stylename="cv60_2"><comment/><string>\u1381</string></test>
   	<test label="mwe alternates"><comment/><string>\u1383</string></test>
-  		<test label="" stylename="fset_mwe_1"><comment/><string>\u1383</string></test>
-  		<test label="" stylename="fset_mwe_2"><comment/><string>\u1383</string></test>
+  		<test label="" stylename="cv61_1"><comment/><string>\u1383</string></test>
+  		<test label="" stylename="cv61_2"><comment/><string>\u1383</string></test>
   	<test label="bwe alternates"><comment/><string>\u1387</string></test>
-  		<test label="" stylename="fset_bwe_1"><string>\u1387</string></test>
+  		<test label="" stylename="cv62_1"><string>\u1387</string></test>
   	<test label="fwee alternates"><comment/><string>\u138A</string></test>
-  		<test label="" stylename="fset_fwee_1"><comment/><string>\u138A</string></test>
+  		<test label="" stylename="cv63_1"><comment/><string>\u138A</string></test>
   	<test label="fwe alternates"><comment/><string>\u138B</string></test>
-  		<test label="" stylename="fset_fwe_1"><comment/><string>\u138B</string></test>
+  		<test label="" stylename="cv64_1"><comment/><string>\u138B</string></test>
   	<test label="pwe alternates"><comment/><string>\u138F</string></test>
-  		<test label="" stylename="fset_pwe_1"><comment/><string>\u138F</string></test>
+  		<test label="" stylename="cv65_1"><comment/><string>\u138F</string></test>
   	<test label="ggwa alternates"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
-  		<test label="" stylename="fset_ggwa_1"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
+  		<test label="" stylename="cv70_1"><comment/><string>\u2D93 \u2D94 \u2D95 \u2D96</string></test>
   	<test label="3rd form alternates"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
-  		<test label="" stylename="fset_3rdform_1"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
+  		<test label="" stylename="cv80_1"><comment/><string>\u124A \u12B2 \u12C2 \u1312 \u1385 \u138D</string></test>
   	<test label="6th form alternates"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
-  		<test label="" stylename="fset_6thform_1"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
+  		<test label="" stylename="cv85_1"><comment/><string>\u124D \u12B5 \u12C5 \u1315</string></test>
 </testgroup>
 
 

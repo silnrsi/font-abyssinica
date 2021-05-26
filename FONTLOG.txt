@@ -146,7 +146,7 @@ W: http://scripts.sil.org/
 D: Designer
 
 N: Daniel Yacob
-E:
+E: yacob@geez.org
 W: http://www.geez.org/, https://github.com/geezorg
 D: Font designer, contributed significant input on the design of extended Ethiopic
 
@@ -160,4 +160,3 @@ Computers and Writing systems website:
 http://software.sil.org/abyssinica
 
 Or send an email to <fonts AT sil DOT org>
-    

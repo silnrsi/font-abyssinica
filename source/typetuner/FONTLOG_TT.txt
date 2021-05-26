@@ -131,6 +131,7 @@ W: http://scripts.sil.org/
 D: SIL designers and font engineers / non-SIL script experts
 
 N: Daniel Yacob
+E: yacob@geez.org
 W: http://www.geez.org/, https://github.com/geezorg
 D: Font designer
 

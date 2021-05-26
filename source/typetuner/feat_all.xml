@@ -90,12 +90,12 @@
 			<cmd name="null" args="null" />
 		</value>
 		<value name="Connected" tag="Cnct">
-			<cmd name="lookup_add" args="GSUB {calt_ethi_dflt} {DigitAlternates}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {DigitAlternates}"/>
 			<cmd name="gr_feat" args="{gr_cv02} 1"/>
 		</value>"
 	</feature>
 
-	<feature name="mwa" value="Standard" tag="mwa">
+	<feature name="mwa alternates" value="Standard" tag="mwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -108,7 +108,7 @@
 		</value>
 	</feature>
 
-	<feature name="rwa" value="Standard" tag="rwa">
+	<feature name="rwa alternate" value="Standard" tag="rwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -118,7 +118,7 @@
 		</value>
 	</feature>
 
-	<feature name="xoa" value="Standard" tag="xoa">
+	<feature name="xoa alternate" value="Standard" tag="xoa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -128,7 +128,7 @@
 		</value>
 	</feature>
 
-	<feature name="xwa" value="Standard" tag="xwa">
+	<feature name="xwa alternates" value="Standard" tag="xwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -142,7 +142,7 @@
 		</value>
 	</feature>
 
-	<feature name="nwa" value="Standard" tag="nwa">
+	<feature name="nwa alternate" value="Standard" tag="nwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -152,7 +152,7 @@
 		</value>
 	</feature>
 
-	<feature name="nya" value="Standard" tag="nya">
+	<feature name="nya alternates" value="Standard" tag="nya">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -168,7 +168,7 @@
 		</value>
 	</feature>
 
-	<feature name="nywa" value="Standard" tag="nywa">
+	<feature name="nywa alternates" value="Standard" tag="nywa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -181,7 +181,7 @@
 		</value>
 	</feature>
 
-	<feature name="kxwaa" value="Standard" tag="kxwaa">
+	<feature name="kxwaa alternate" value="Standard" tag="kxwaa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -191,7 +191,7 @@
 		</value>
 	</feature>
 
-	<feature name="zha" value="Standard" tag="zha">
+	<feature name="zha alternates" value="Standard" tag="zha">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -214,7 +214,7 @@
 		</value>
 	</feature>
 
-	<feature name="dda" value="Standard" tag="dda">
+	<feature name="dda alternates" value="Standard" tag="dda">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -230,7 +230,7 @@
 		</value>
 	</feature>
 
-	<feature name="gwaa" value="Standard" tag="gwaa">
+	<feature name="gwaa alternates" value="Standard" tag="gwaa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -243,7 +243,7 @@
 		</value>
 	</feature>
 
-	<feature name="gga" value="Standard" tag="gga">
+	<feature name="gga alternates" value="Standard" tag="gga">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -259,7 +259,7 @@
 		</value>
 	</feature>
 
-	<feature name="ggwaa" value="Standard" tag="ggwaa">
+	<feature name="ggwaa alternate" value="Standard" tag="ggwaa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -269,7 +269,7 @@
 		</value>
 	</feature>
 
-	<feature name="phe" value="Standard" tag="phe">
+	<feature name="phe alternate" value="Standard" tag="phe">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -279,7 +279,7 @@
 		</value>
 	</feature>
 
-	<feature name="tswa" value="Standard" tag="tswa">
+	<feature name="tswa alternate" value="Standard" tag="tswa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -289,7 +289,7 @@
 		</value>
 	</feature>
 
-	<feature name="fwa" value="Standard" tag="fwa">
+	<feature name="fwa alternates" value="Standard" tag="fwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -302,7 +302,7 @@
 		</value>
 	</feature>
 
-	<feature name="rya" value="Standard" tag="rya">
+	<feature name="rya alternate" value="Standard" tag="rya">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -312,7 +312,7 @@
 		</value>
 	</feature>
 
-	<feature name="mya" value="Standard" tag="mya">
+	<feature name="mya alternate" value="Standard" tag="mya">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -322,7 +322,7 @@
 		</value>
 	</feature>
 
-	<feature name="mwi" value="Standard" tag="mwi">
+	<feature name="mwi alternates" value="Standard" tag="mwi">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -335,7 +335,7 @@
 		</value>
 	</feature>
 
-	<feature name="mwe" value="Standard" tag="mwe">
+	<feature name="mwe alternates" value="Standard" tag="mwe">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -348,7 +348,7 @@
 		</value>
 	</feature>
 
-	<feature name="bwe" value="Standard" tag="bwe">
+	<feature name="bwe alternate" value="Standard" tag="bwe">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -358,7 +358,7 @@
 		</value>
 	</feature>
 
-	<feature name="fwee" value="Standard" tag="fwee">
+	<feature name="fwee alternate" value="Standard" tag="fwee">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -368,7 +368,7 @@
 		</value>
 	</feature>
 
-	<feature name="fwe" value="Standard" tag="fwe">
+	<feature name="fwe alternate" value="Standard" tag="fwe">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -378,7 +378,7 @@
 		</value>
 	</feature>
 
-	<feature name="pwe" value="Standard" tag="pwe">
+	<feature name="pwe alternate" value="Standard" tag="pwe">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -388,7 +388,7 @@
 		</value>
 	</feature>
 
-	<feature name="ggwa" value="Standard" tag="ggwa">
+	<feature name="ggwa alternates" value="Standard" tag="ggwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -401,7 +401,7 @@
 		</value>
 	</feature>
 
-	<feature name="Third form" value="Standard" tag="Third">
+	<feature name="3rd form alternates" value="Standard" tag="Third">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -416,7 +416,7 @@
 		</value>
 	</feature>
 
-	<feature name="Sixth form" value="Standard" tag="Six">
+	<feature name="6th form alternates" value="Standard" tag="Six">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>

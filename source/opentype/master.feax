@@ -3,9 +3,8 @@
 #
 languagesystem DFLT dflt;
 languagesystem ethi dflt;
-languagesystem ethi CHG;
-##languagesystem ethi BIL;
-languagesystem ethi GMZ;
+languagesystem ethi CHG; # langtag is sgw
+languagesystem ethi GMZ; # langtag is guk
 
 
 
@@ -84,10 +83,9 @@ lookup Cv85_6th {     # 6th-form alternates
 } Cv85_6th ;
 
 lookup DigitAlternates {  # Ethiopic digits
-    sub [@c_init @c_medi] @cno_isol' @cno_isol by @c_medi;
-    sub [@c_init @c_medi] @cno_isol' by @c_fina;
-    sub @c_init @cno_isol' by @c_medi;
-    sub @cno_isol' @cno_isol by @c_init;
+    sub [@c_init @c_medi] @cno_init' @cno_init by @c_medi;
+    sub [@c_init @c_medi] @cno_init' by @c_fina;
+    sub @cno_init' @cno_init by @c_init;
 #    sub @cno_isol' by @c_isol;
 } DigitAlternates ;
 

@@ -6,9 +6,10 @@ lang=guk,Language,Gumuz,,
 ,,,,
 # feat tag mappings,TT feat,default,value 1,value 2
 cv01,Punctuation,Ethiopic-style,Latin-style,
+cv02,Ethiopic digits,Standard,Connected,
 cv04,mwa alternates,Standard,Alternate-1,Alternate-2
 cv05,rwa alternate,Standard,Alternate,
-cv17,xoa alternate ,Standard,Alternate,
+cv17,xoa alternate,Standard,Alternate,
 cv18,xwa alternates,Standard,Handwriting,
 cv19,nwa alternate,Standard,Alternate,
 cv20,nya alternates,Standard,Disconnected,
