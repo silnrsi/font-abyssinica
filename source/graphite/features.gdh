@@ -57,9 +57,9 @@ digitscv {
             value = 0;
             name.1033 = string("Standard");
         }
-        nobar {
+        connected {
             value = 1;
-            name.1033 = string("Nobar");
+            name.1033 = string("Connected");
         }
     }
     default = std;

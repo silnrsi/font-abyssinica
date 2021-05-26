@@ -365,8 +365,13 @@ if (punctuationcv == punct)
 endif;
 
 // cv02
-if (digitscv == nobar)
-	cno_nobar  >  cnobar;
+if (digitscv == connected)
+  cno_isol  > cmedi / cinit _ cno_isol ;
+  cno_isol  > cmedi / cmedi _ cno_isol ;
+  cno_isol  > cfina / cmedi _ ;
+  cno_isol  > cfina / cinit _ ;
+  cno_isol  > cinit / _ cno_isol ;
+  
 endif;
 
 // cv04

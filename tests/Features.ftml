@@ -5,6 +5,7 @@
     <fontscale>300</fontscale>
   <fontsrc label="v1.9">url(../references/AbyssinicaSIL-Regular-v1.9.ttf)</fontsrc>
   <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
+  <fontsrc label="nyala">url(../references/nyala.ttf)</fontsrc>
   <fontsrc label="v2.001">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
   		<style feats=" 'cv01' 1" name="fset_punct_1"/>    <!-- punctuation: Latin -->
@@ -86,8 +87,13 @@
 		<test label="Punctuation - symbols"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
   		<test label="" stylename="fset_punct_1"><comment/><string>\u0024 \u20AC \u002A \u003D \u002B \u002F \u0025 \u00D7</string></test>
 
-  	<test label="Ethiopic digits"><comment/><string>\u1210\u1369 \u136A\u136B \u136C\u136D\u136E \u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
-  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210\u1369 \u136A\u136B \u136C\u136D\u136E \u1370\u1371\u1372\u1373\u1374\u1375\u1376\u1377\u1378\u1379\u137A\u137B\u137C\u1200</string></test>
+  	<test label="Ethiopic digits"><comment/><string>\u1210\u1369 \u136A \u136B \u136C \u136D \u136E \u136F \u1370 \u1371 \u1372 \u1373 \u1374 \u1375 \u1376 \u1377 \u1378 \u1379 \u137A \u137B \u137C \u1200</string></test>
+  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210\u1369 \u136A \u136B \u136C \u136D \u136E \u136F \u1370 \u1371 \u1372 \u1373 \u1374 \u1375 \u1376 \u1377 \u1378 \u1379 \u137A \u137B \u137C \u1200</string></test>
+
+  	<test label="Ethiopic digits"><comment/><string>\u1210 \u1369\u136A \u136A\u136B \u136B\u136C \u136C\u136D \u136D\u136E \u136E\u136F \u136F\u1370 \u1370\u1371 \u1371\u1372 \u1372\u1373 \u1373\u1374 \u1374\u1375 \u1375\u1376 \u1376\u1377 \u1377\u1378 \u1378\u1379 \u1379\u137A \u137A\u137B \u137B\u137C \u137C\u1369 \u1200</string></test>
+  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210 \u1369\u136A \u136A\u136B \u136B\u136C \u136C\u136D \u136D\u136E \u136E\u136F \u136F\u1370 \u1370\u1371 \u1371\u1372 \u1372\u1373 \u1373\u1374 \u1374\u1375 \u1375\u1376 \u1376\u1377 \u1377\u1378 \u1378\u1379 \u1379\u137A \u137A\u137B \u137B\u137C \u137C\u1369 \u1200</string></test>
+  	<test label="Ethiopic digits"><comment/><string>\u1210 \u1369\u136A\u136B \u136A\u136B\u136C \u136B\u136C\u136D \u136C\u136D\u136E \u136D\u136E\u136F \u136E\u136F\u1370 \u136F\u1370\u1371 \u1370\u1371\u1372 \u1371\u1372\u1373 \u1372\u1373\u1374 \u1373\u1374\u1375 \u1374\u1375\u1376 \u1375\u1376\u1377 \u1376\u1377\u1378 \u1377\u1378\u1379 \u1378\u1379\u137A \u1379\u137A\u137B \u137A\u137B\u137C \u137B\u137C\u1369 \u137C\u1369\u136A \u1200 \u137A\u137B\u137C\u137B\u137C\u1369\u137C\u1369\u136A </string></test>
+  		<test label="" stylename="fset_isol_1"><comment/><string>\u1210 \u1369\u136A\u136B \u136A\u136B\u136C \u136B\u136C\u136D \u136C\u136D\u136E \u136D\u136E\u136F \u136E\u136F\u1370 \u136F\u1370\u1371 \u1370\u1371\u1372 \u1371\u1372\u1373 \u1372\u1373\u1374 \u1373\u1374\u1375 \u1374\u1375\u1376 \u1375\u1376\u1377 \u1376\u1377\u1378 \u1377\u1378\u1379 \u1378\u1379\u137A \u1379\u137A\u137B \u137A\u137B\u137C \u137B\u137C\u1369 \u137C\u1369\u136A \u1200 \u137A\u137B\u137C\u137B\u137C\u1369\u137C\u1369\u136A</string></test>
 
   	<test label="mwa alternates"><comment/><string>\u121F</string></test>
   		<test label="" stylename="fset_mwa_1"><comment/><string>\u121F</string></test>

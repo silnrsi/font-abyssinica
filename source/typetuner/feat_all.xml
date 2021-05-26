@@ -85,6 +85,16 @@
 		</value>
 	</feature>
 
+	<feature name="Ethiopic digits" value="Isolate" tag="Iso">
+		<value name="Isolate" tag="Iso">
+			<cmd name="null" args="null" />
+		</value>
+		<value name="Connected" tag="Cnct">
+			<cmd name="lookup_add" args="GSUB {calt_ethi_dflt} {DigitAlternates}"/>
+			<cmd name="gr_feat" args="{gr_cv02} 1"/>
+		</value>"
+	</feature>
+
 	<feature name="mwa" value="Standard" tag="mwa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
