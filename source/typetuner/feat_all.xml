@@ -85,7 +85,7 @@
 		</value>
 	</feature>
 
-	<feature name="Ethiopic digits" value="Isolate" tag="Iso">
+	<feature name="Ethiopic digits" value="Standard" tag="Iso">
 		<value name="Isolate" tag="Iso">
 			<cmd name="null" args="null" />
 		</value>

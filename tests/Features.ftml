@@ -43,9 +43,8 @@
   		<style feats="'cv70' 1" name="cv70_1"/>    <!-- ggwa alternates: blin -->
   		<style feats="'cv80' 1" name="cv80_1"/>    <!-- 3rd form alternates: seb3 -->
   		<style feats="'cv85' 1" name="cv85_1"/>    <!-- 6th form alternates: seb2 -->
-      <style lang="sgw" name="lang_sgw"/>               <!-- Graphite -->
-      <style lang="guk" name="lang_guk"/>               <!-- Graphite -->
-
+      <style lang="sgw" name="lang_sgw"/>               <!-- Sebat Bet -->
+      <style lang="guk" name="lang_guk"/>               <!-- Gumuz -->
   	</styles>
   	<title>Feature tests</title>
   </head>
@@ -54,7 +53,7 @@
  		<test label="Check"><string>RenderingUnknown</string></test>
  	</testgroup>
  		
-	<testgroup label="Languages">
+	<testgroup label="Language Variants">
 		<test label="sgw"><comment/><string>\u1313</string></test>
   		<test label="" stylename="lang_sgw"><comment>sgw</comment><string>\u1313</string></test>
 		<test label="guk - nya"><comment/><string>\u1298 \u1299 \u129A \u129B \u129C \u129D \u129E</string></test>
@@ -64,7 +63,7 @@
   	</testgroup>
 
 
-	<testgroup label="Features">
+	<testgroup label="Character Variants">
 
 		<test label="Punctuation"><comment/><string>\u003F \u0021 \u00A1</string></test>
   		<test label="" stylename="cv01_1"><comment/><string>\u003F \u0021 \u00A1</string></test>
