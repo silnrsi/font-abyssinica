@@ -4,10 +4,8 @@
   <outline>
     <component base="uni137C.nobar"/>
     <contour>
-      <point x="1421" y="1158" type="line"/>
-      <point x="1448" y="1160"/>
-      <point x="1448" y="1226"/>
-      <point x="1421" y="1227" type="curve"/>
+      <point x="1441" y="1158" type="line"/>
+      <point x="1441" y="1227" type="line"/>
       <point x="50" y="1227" type="line"/>
       <point x="58" y="1210"/>
       <point x="64" y="1168"/>
@@ -23,10 +21,8 @@
       <point x="281" y="1158" type="curve"/>
     </contour>
     <contour>
-      <point x="1421" y="-232" type="line"/>
-      <point x="1448" y="-230"/>
-      <point x="1448" y="-164"/>
-      <point x="1421" y="-163" type="curve"/>
+      <point x="1441" y="-232" type="line"/>
+      <point x="1441" y="-163" type="line"/>
       <point x="50" y="-163" type="line"/>
       <point x="58" y="-180"/>
       <point x="64" y="-222"/>

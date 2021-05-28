@@ -92,7 +92,6 @@
       - Modified a few kerning pairs and added kerning pairs for some of the new characters
       - Changed Latin digits (for use in Ethiopic) to use a serif style
       - Modified Ethiopic digits to have a more consistent size
-      - Removed Graphite support
       - Added cv02 to support digits with connecting above and below lines
       
       11 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
