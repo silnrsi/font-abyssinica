@@ -5,7 +5,7 @@ The Abyssinica SIL font supports the Ethiopic script.
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Abyssinica/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Abyssinica&guest=1)  
 
-Abyssinica SIL v2.000 has been released. 
+Abyssinica SIL v2.100 has been released. 
 
 Abyssinica SIL is a mature product with no major changes anticipated. We will be releasing maintenance updates to fix bugs. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).
 

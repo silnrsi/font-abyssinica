@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.AbyssinicaSIL.2.001" />
+  <uniqueid id="org.sil.fonts.AbyssinicaSIL.2.100" />
   <vendor name="SIL International" url="http://scripts.sil.org" />
   <credits>
     <credit
@@ -48,12 +48,11 @@
       Latin characters and symbols. This font makes use of state-of-the-art font
       technologies to support the need to position arbitrary combinations of
       *Ethiopic* base glyphs and combining marks optimally. It also supports
-      almost 200 kerning pairs. This version of the font also supports Stylistic
-      Sets and Character Variants (OpenType) or Features (Graphite) which make
-      glyph alternates available for a number of Ethiopic and punctuation
-      characters. See the AbyssinicaSILOpenTypeFontFeatures.pdf,
-      AbyssinicaSILGraphiteFontFeatures.pdf and AbyssinicaSILTypeTunerGuide.pdf
-      for details on applications which support Stylistic Sets and how to access them.
+      almost 200 kerning pairs. This version of the font also supports Character
+      Variants (OpenType) or Features (Graphite) which make glyph alternates
+      available for a number of Ethiopic and punctuation characters. See the
+      AbyssinicaSILFontFeatures.pdf, for details on applications which support
+      Character Variants and how to access them.
       
       One font from this typeface family is included in this release:
       
@@ -86,7 +85,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      xx xx 2021 (WSTech Team) Abyssinica SIL version 2.100
+      9 June 2021 (WSTech Team) Abyssinica SIL version 2.100
       - Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE,
       U+1E7F0..U+1E7FE
       - Modified a few kerning pairs and added kerning pairs for some of the new characters
