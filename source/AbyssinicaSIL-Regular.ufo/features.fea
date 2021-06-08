@@ -1,0 +1,2124 @@
+
+# Main Classes
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro Euro.punct F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk asterisk.punct at atilde b backslash bar blank braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circumflex colon comma copyright copyright.punct currency d dagger daggerdbl degree dieresis divide dollar dollar.punct dotaccent dotlessi e eacute ecircumflex edieresis egrave eight eight.punct eightsuperior eightsuperior.punct ellipsis emdash emptyset endash equal equal.punct eth exclam exclam.punct exclamdown exclamdown.punct f fi figuredash five five.punct fivesuperior fivesuperior.punct fl florin four four.punct foursuperior foursuperior.punct fraction g germandbls grave greater greaterequal guillemotleft guillemotleft.punct guillemotright guillemotright.punct guilsinglleft guilsinglleft.punct guilsinglright guilsinglright.punct h hungarumlaut hyphenminus i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus mu multiply multiply.punct n nine nine.punct ninesuperior ninesuperior.punct nonmarkingreturn notequal ntilde numbersign numeral numeralfina numeralinit numeralmedi numeralnarrow o oacute ocircumflex odieresis oe ogonek ograve one one.punct onehalf onequarter onesuperior onesuperior.punct ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent percent.punct period periodcentered perthousand pi plus plus.punct plusminus product q question question.punct questiondown quotedbl quotedblbase quotedblleft quotedblleft.punct quotedblright quotedblright.punct quoteleft quoteleft.punct quoteright quoteright.punct quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven seven.punct sevensuperior sevensuperior.punct six six.punct sixsuperior sixsuperior.punct slash slash.punct space sterling summation t tab thorn three three.punct threequarters threesuperior threesuperior.punct tilde two two.punct twosuperior twosuperior.punct u u1E7E0 u1E7E1 u1E7E2 u1E7E3 u1E7E4 u1E7E5 u1E7E6 u1E7E8 u1E7E9 u1E7EA u1E7EB u1E7ED u1E7EE u1E7F0 u1E7F1 u1E7F2 u1E7F3 u1E7F4 u1E7F5 u1E7F6 u1E7F7 u1E7F8 u1E7F9 u1E7FA u1E7FB u1E7FC u1E7FD u1E7FE uacute ucircumflex udieresis ugrave underscore uni00A0 uni00AD uni02C9 uni02D0 uni1200 uni1201 uni1202 uni1203 uni1204 uni1205 uni1206 uni1207 uni1208 uni1209 uni120A uni120B uni120C uni120D uni120E uni120F uni1210 uni1211 uni1212 uni1213 uni1214 uni1215 uni1216 uni1217 uni1218 uni1219 uni121A uni121B uni121C uni121D uni121E uni121F uni121F.cohen1 uni121F.cohen2 uni1220 uni1221 uni1222 uni1223 uni1224 uni1225 uni1226 uni1227 uni1228 uni1229 uni122A uni122B uni122C uni122D uni122E uni122F uni122F.cohen3 uni1230 uni1231 uni1232 uni1233 uni1234 uni1235 uni1236 uni1237 uni1238 uni1239 uni123A uni123B uni123C uni123D uni123E uni123F uni1240 uni1241 uni1242 uni1243 uni1244 uni1245 uni1246 uni1247 uni1248 uni124A uni124A.seb3 uni124B uni124C uni124D uni124D.seb2 uni1250 uni1251 uni1252 uni1253 uni1254 uni1255 uni1256 uni1258 uni125A uni125B uni125C uni125D uni1260 uni1261 uni1262 uni1263 uni1264 uni1265 uni1266 uni1267 uni1268 uni1269 uni126A uni126B uni126C uni126D uni126E uni126F uni1270 uni1271 uni1272 uni1273 uni1274 uni1275 uni1276 uni1277 uni1278 uni1279 uni127A uni127B uni127C uni127D uni127E uni127F uni1280 uni1281 uni1282 uni1283 uni1284 uni1285 uni1286 uni1287 uni1287.alt3 uni1288 uni1288.handwriting uni128A uni128A.handwriting uni128B uni128B.handwriting uni128C uni128C.handwriting uni128D uni128D.handwriting uni1290 uni1291 uni1292 uni1293 uni1294 uni1295 uni1296 uni1297 uni1297.cohen0 uni1297.oldstyle uni1298 uni1298.gumuz uni1299 uni1299.gumuz uni129A uni129A.gumuz uni129B uni129B.gumuz uni129C uni129C.gumuz uni129D uni129D.gumuz uni129E uni129E.gumuz uni129F uni129F.cohen8 uni129F.gumuz uni129F.gumuz1 uni12A0 uni12A1 uni12A2 uni12A3 uni12A4 uni12A5 uni12A6 uni12A7 uni12A8 uni12A9 uni12AA uni12AB uni12AC uni12AD uni12AE uni12AF uni12B0 uni12B2 uni12B2.seb3 uni12B3 uni12B4 uni12B5 uni12B5.seb2 uni12B8 uni12B9 uni12BA uni12BB uni12BC uni12BD uni12BE uni12C0 uni12C2 uni12C2.seb3 uni12C3 uni12C3.cohen7 uni12C3.oldstyle uni12C4 uni12C5 uni12C5.seb2 uni12C8 uni12C9 uni12CA uni12CB uni12CC uni12CD uni12CE uni12CF uni12D0 uni12D1 uni12D2 uni12D3 uni12D4 uni12D5 uni12D6 uni12D8 uni12D9 uni12DA uni12DB uni12DC uni12DD uni12DE uni12DF uni12E0 uni12E0.chaine uni12E0.cohen6 uni12E1 uni12E1.chaine uni12E1.cohen6 uni12E2 uni12E3 uni12E3.chaine uni12E3.cohen6 uni12E4 uni12E4.chaine uni12E4.cohen6 uni12E5 uni12E5.chaine uni12E5.cohen6 uni12E5.oldstyle uni12E6 uni12E6.chaine uni12E6.cohen6 uni12E7 uni12E8 uni12E9 uni12EA uni12EB uni12EC uni12ED uni12EE uni12EF uni12F0 uni12F1 uni12F2 uni12F3 uni12F4 uni12F5 uni12F6 uni12F7 uni12F8 uni12F8.oromo uni12F9 uni12F9.oromo uni12FA uni12FA.oromo uni12FB uni12FB.oromo uni12FC uni12FC.oromo uni12FD uni12FD.oromo uni12FE uni12FE.oromo uni12FF uni1300 uni1301 uni1302 uni1303 uni1304 uni1305 uni1306 uni1307 uni1308 uni1309 uni130A uni130B uni130C uni130D uni130E uni130F uni1310 uni1312 uni1312.seb3 uni1313 uni1313.alonestokes uni1313.oldstyle uni1313.seb0 uni1314 uni1315 uni1315.seb2 uni1318 uni1318.alt1 uni1319 uni1319.alt1 uni131A uni131A.alt1 uni131B uni131B.alt1 uni131C uni131C.alt1 uni131D uni131D.alt1 uni131E uni131E.alt1 uni131F uni131F.type uni1320 uni1321 uni1322 uni1323 uni1324 uni1325 uni1326 uni1327 uni1328 uni1329 uni132A uni132B uni132C uni132D uni132E uni132F uni1330 uni1331 uni1332 uni1333 uni1334 uni1335 uni1335.praetorius uni1336 uni1337 uni1338 uni1339 uni133A uni133B uni133C uni133D uni133E uni133F uni133F.alt4 uni133F.oldstyle uni1340 uni1341 uni1342 uni1343 uni1344 uni1345 uni1346 uni1347 uni1348 uni1349 uni134A uni134B uni134C uni134D uni134E uni134F uni134F.cohen4 uni134F.cohen5 uni134F.oldstyle uni1350 uni1351 uni1352 uni1353 uni1354 uni1355 uni1356 uni1357 uni1358 uni1358.ala1 uni1359 uni1359.ala2 uni135A uni1360 uni1361 uni1362 uni1363 uni1364 uni1365 uni1366 uni1367 uni1368 uni1369 uni1369.fina uni1369.init uni1369.isol uni1369.medi uni1369.nobar uni136A uni136A.fina uni136A.init uni136A.isol uni136A.medi uni136A.nobar uni136B uni136B.fina uni136B.init uni136B.isol uni136B.medi uni136B.nobar uni136C uni136C.fina uni136C.init uni136C.isol uni136C.medi uni136C.nobar uni136C.nobar.alt uni136D uni136D.fina uni136D.init uni136D.isol uni136D.medi uni136D.nobar uni136E uni136E.fina uni136E.init uni136E.isol uni136E.medi uni136E.nobar uni136F uni136F.fina uni136F.init uni136F.isol uni136F.medi uni136F.nobar uni1370 uni1370.fina uni1370.init uni1370.isol uni1370.medi uni1370.nobar uni1371 uni1371.fina uni1371.init uni1371.isol uni1371.medi uni1371.nobar uni1372 uni1372.fina uni1372.init uni1372.isol uni1372.medi uni1372.nobar uni1373 uni1373.fina uni1373.init uni1373.isol uni1373.medi uni1373.nobar uni1374 uni1374.fina uni1374.init uni1374.isol uni1374.medi uni1374.nobar uni1375 uni1375.fina uni1375.init uni1375.isol uni1375.medi uni1375.nobar uni1376 uni1376.fina uni1376.init uni1376.isol uni1376.medi uni1376.nobar uni1377 uni1377.fina uni1377.init uni1377.isol uni1377.medi uni1377.nobar uni1378 uni1378.fina uni1378.init uni1378.isol uni1378.medi uni1378.nobar uni1379 uni1379.fina uni1379.init uni1379.isol uni1379.medi uni1379.nobar uni137A uni137A.fina uni137A.init uni137A.isol uni137A.medi uni137A.nobar uni137B uni137B.fina uni137B.init uni137B.isol uni137B.medi uni137B.nobar uni137C uni137C.fina uni137C.init uni137C.isol uni137C.medi uni137C.nobar uni1380 uni1381 uni1381.seb3 uni1381.seb5 uni1381.sebLes uni1381.sebLes1 uni1382 uni1383 uni1383.seb4 uni1383.sebLes uni1383.sebLes4 uni1384 uni1385 uni1385.seb3 uni1386 uni1387 uni1387.sebLes uni1387.sebLes2 uni1388 uni1389 uni138A uni138A.trad uni138B uni138B.sebLes uni138B.sebLes3 uni138C uni138D uni138D.seb3 uni138E uni138F uni138F.sebLes uni138F.sebLes5 uni1390 uni1391 uni1392 uni1393 uni1394 uni1395 uni1396 uni1397 uni1398 uni1399 uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni2006 uni2007 uni2008 uni2009 uni200A uni200B uni200C uni200D uni200E uni200F uni2010 uni2011 uni2015 uni2027 uni2028 uni2029 uni202A uni202B uni202C uni202D uni202E uni202F uni203B uni2060 uni2122 uni2219 uni25CC uni2713 uni2D80 uni2D81 uni2D82 uni2D83 uni2D84 uni2D85 uni2D86 uni2D87 uni2D88 uni2D89 uni2D8A uni2D8B uni2D8C uni2D8D uni2D8E uni2D8F uni2D90 uni2D91 uni2D92 uni2D93 uni2D93.blin uni2D94 uni2D94.blin uni2D95 uni2D95.blin uni2D96 uni2D96.blin uni2DA0 uni2DA1 uni2DA2 uni2DA3 uni2DA4 uni2DA5 uni2DA6 uni2DA8 uni2DA9 uni2DAA uni2DAB uni2DAC uni2DAD uni2DAE uni2DB0 uni2DB1 uni2DB2 uni2DB3 uni2DB4 uni2DB5 uni2DB6 uni2DB8 uni2DB9 uni2DBA uni2DBB uni2DBC uni2DBD uni2DBE uni2DC0 uni2DC1 uni2DC2 uni2DC3 uni2DC4 uni2DC5 uni2DC6 uni2DC8 uni2DC9 uni2DCA uni2DCB uni2DCC uni2DCD uni2DCE uni2DD0 uni2DD1 uni2DD2 uni2DD3 uni2DD4 uni2DD5 uni2DD6 uni2DD8 uni2DD9 uni2DDA uni2DDB uni2DDC uni2DDD uni2DDE uniAB01 uniAB02 uniAB03 uniAB04 uniAB05 uniAB06 uniAB09 uniAB0A uniAB0B uniAB0C uniAB0D uniAB0E uniAB11 uniAB12 uniAB13 uniAB14 uniAB15 uniAB16 uniAB20 uniAB21 uniAB22 uniAB23 uniAB24 uniAB25 uniAB26 uniAB28 uniAB29 uniAB2A uniAB2B uniAB2C uniAB2D uniAB2E uniE068 uniE069 uniE06A uniE06B uniE06C uniE06D uniE06E uniE070 uniE071 uniE072 uniE217 uniE227 uniE230 uniE24F uniE257 uniE25F uniE26F uniE2A8 uniE2A9 uniE2AA uniE2AB uniE2AC uniE2AD uniE2AE uniE2B7 uniE2BF uniE2D7 uniE2D8 uniE2E7 uniE2F8 uniE33F uniE34F uniE370 uniE371 uniE372 uniE373 uniE374 uniE375 uniE376 uniE37A uniE37B uniE37C uniE37D uniE37E uniE37F uniE406 uniE491 uniE493 uniE494 uniE496 uniE49A uniE49C uniE49D uniE49E uniE500 uniE501 uniE502 uniE508 uniE509 uniE50A uniE510 uniE511 uniE512 uniE513 uniE514 uniE515 uniE516 uniE517 uniE518 uniE519 uniE51A uniE51B uniE51C uniE51D uniE51E uniE520 uniE521 uniE522 uniE528 uniE529 uniFEFF uniFFFC uniFFFD v w x y yacute ydieresis yen z zcaron zero zero.punct zerosuperior zerosuperior.punct];
+@GDEF_marks = [acutecomb gravecomb tildecomb uni0302 uni0304 uni0307 uni0308 uni030B uni030C uni030F uni034F uni135D uni135E uni135F uniE50F uniE51F uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F];
+@c_ala1 = [uni1358.ala1];
+@cno_ala1 = [uni1358];
+@c_ala2 = [uni1359.ala2];
+@cno_ala2 = [uni1359];
+@c_alonestokes = [uni1313.alonestokes];
+@cno_alonestokes = [uni1313];
+@c_alt = [uni136C.nobar.alt];
+@cno_alt = [uni136C.nobar];
+@c_alt1 = [uni1318.alt1 uni1319.alt1 uni131A.alt1 uni131B.alt1 uni131C.alt1 uni131D.alt1 uni131E.alt1];
+@cno_alt1 = [uni1318 uni1319 uni131A uni131B uni131C uni131D uni131E];
+@c_alt3 = [uni1287.alt3];
+@cno_alt3 = [uni1287];
+@c_alt4 = [uni133F.alt4];
+@cno_alt4 = [uni133F];
+@c_blin = [uni2D93.blin uni2D94.blin uni2D95.blin uni2D96.blin];
+@cno_blin = [uni2D93 uni2D94 uni2D95 uni2D96];
+@c_chaine = [uni12E0.chaine uni12E1.chaine uni12E3.chaine uni12E4.chaine uni12E5.chaine uni12E6.chaine];
+@cno_chaine = [uni12E0 uni12E1 uni12E3 uni12E4 uni12E5 uni12E6];
+@c_cohen0 = [uni1297.cohen0];
+@cno_cohen0 = [uni1297];
+@c_cohen1 = [uni121F.cohen1];
+@cno_cohen1 = [uni121F];
+@c_cohen2 = [uni121F.cohen2];
+@cno_cohen2 = [uni121F];
+@c_cohen3 = [uni122F.cohen3];
+@cno_cohen3 = [uni122F];
+@c_cohen4 = [uni134F.cohen4];
+@cno_cohen4 = [uni134F];
+@c_cohen5 = [uni134F.cohen5];
+@cno_cohen5 = [uni134F];
+@c_cohen6 = [uni12E0.cohen6 uni12E1.cohen6 uni12E3.cohen6 uni12E4.cohen6 uni12E5.cohen6 uni12E6.cohen6];
+@cno_cohen6 = [uni12E0 uni12E1 uni12E3 uni12E4 uni12E5 uni12E6];
+@c_cohen7 = [uni12C3.cohen7];
+@cno_cohen7 = [uni12C3];
+@c_cohen8 = [uni129F.cohen8];
+@cno_cohen8 = [uni129F];
+@c_fina = [uni1369.fina uni136A.fina uni136B.fina uni136C.fina uni136D.fina uni136E.fina uni136F.fina uni1370.fina uni1371.fina uni1372.fina uni1373.fina uni1374.fina uni1375.fina uni1376.fina uni1377.fina uni1378.fina uni1379.fina uni137A.fina uni137B.fina uni137C.fina];
+@cno_fina = [uni1369 uni136A uni136B uni136C uni136D uni136E uni136F uni1370 uni1371 uni1372 uni1373 uni1374 uni1375 uni1376 uni1377 uni1378 uni1379 uni137A uni137B uni137C];
+@c_gumuz = [uni1298.gumuz uni1299.gumuz uni129A.gumuz uni129B.gumuz uni129C.gumuz uni129D.gumuz uni129E.gumuz uni129F.gumuz];
+@cno_gumuz = [uni1298 uni1299 uni129A uni129B uni129C uni129D uni129E uni129F];
+@c_gumuz1 = [uni129F.gumuz1];
+@cno_gumuz1 = [uni129F];
+@c_handwriting = [uni1288.handwriting uni128A.handwriting uni128B.handwriting uni128C.handwriting uni128D.handwriting];
+@cno_handwriting = [uni1288 uni128A uni128B uni128C uni128D];
+@c_init = [uni1369.init uni136A.init uni136B.init uni136C.init uni136D.init uni136E.init uni136F.init uni1370.init uni1371.init uni1372.init uni1373.init uni1374.init uni1375.init uni1376.init uni1377.init uni1378.init uni1379.init uni137A.init uni137B.init uni137C.init];
+@cno_init = [uni1369 uni136A uni136B uni136C uni136D uni136E uni136F uni1370 uni1371 uni1372 uni1373 uni1374 uni1375 uni1376 uni1377 uni1378 uni1379 uni137A uni137B uni137C];
+@c_isol = [uni1369.isol uni136A.isol uni136B.isol uni136C.isol uni136D.isol uni136E.isol uni136F.isol uni1370.isol uni1371.isol uni1372.isol uni1373.isol uni1374.isol uni1375.isol uni1376.isol uni1377.isol uni1378.isol uni1379.isol uni137A.isol uni137B.isol uni137C.isol];
+@cno_isol = [uni1369 uni136A uni136B uni136C uni136D uni136E uni136F uni1370 uni1371 uni1372 uni1373 uni1374 uni1375 uni1376 uni1377 uni1378 uni1379 uni137A uni137B uni137C];
+@c_medi = [uni1369.medi uni136A.medi uni136B.medi uni136C.medi uni136D.medi uni136E.medi uni136F.medi uni1370.medi uni1371.medi uni1372.medi uni1373.medi uni1374.medi uni1375.medi uni1376.medi uni1377.medi uni1378.medi uni1379.medi uni137A.medi uni137B.medi uni137C.medi];
+@cno_medi = [uni1369 uni136A uni136B uni136C uni136D uni136E uni136F uni1370 uni1371 uni1372 uni1373 uni1374 uni1375 uni1376 uni1377 uni1378 uni1379 uni137A uni137B uni137C];
+@c_nobar = [uni1369.nobar uni136A.nobar uni136B.nobar uni136C.nobar uni136D.nobar uni136E.nobar uni136F.nobar uni1370.nobar uni1371.nobar uni1372.nobar uni1373.nobar uni1374.nobar uni1375.nobar uni1376.nobar uni1377.nobar uni1378.nobar uni1379.nobar uni137A.nobar uni137B.nobar uni137C.nobar];
+@cno_nobar = [uni1369 uni136A uni136B uni136C uni136D uni136E uni136F uni1370 uni1371 uni1372 uni1373 uni1374 uni1375 uni1376 uni1377 uni1378 uni1379 uni137A uni137B uni137C];
+@c_oldstyle = [uni1297.oldstyle uni12C3.oldstyle uni12E5.oldstyle uni1313.oldstyle uni133F.oldstyle uni134F.oldstyle];
+@cno_oldstyle = [uni1297 uni12C3 uni12E5 uni1313 uni133F uni134F];
+@c_oromo = [uni12F8.oromo uni12F9.oromo uni12FA.oromo uni12FB.oromo uni12FC.oromo uni12FD.oromo uni12FE.oromo];
+@cno_oromo = [uni12F8 uni12F9 uni12FA uni12FB uni12FC uni12FD uni12FE];
+@c_praetorius = [uni1335.praetorius];
+@cno_praetorius = [uni1335];
+@c_punct = [Euro.punct asterisk.punct copyright.punct dollar.punct eight.punct eightsuperior.punct equal.punct exclam.punct exclamdown.punct five.punct fivesuperior.punct four.punct foursuperior.punct guillemotleft.punct guillemotright.punct guilsinglleft.punct guilsinglright.punct multiply.punct nine.punct ninesuperior.punct one.punct onesuperior.punct percent.punct plus.punct question.punct quotedblleft.punct quotedblright.punct quoteleft.punct quoteright.punct seven.punct sevensuperior.punct six.punct sixsuperior.punct slash.punct three.punct threesuperior.punct two.punct twosuperior.punct zero.punct zerosuperior.punct];
+@cno_punct = [Euro asterisk copyright dollar eight eightsuperior equal exclam exclamdown five fivesuperior four foursuperior guillemotleft guillemotright guilsinglleft guilsinglright multiply nine ninesuperior one onesuperior percent plus question quotedblleft quotedblright quoteleft quoteright seven sevensuperior six sixsuperior slash three threesuperior two twosuperior zero zerosuperior];
+@c_seb0 = [uni1313.seb0];
+@cno_seb0 = [uni1313];
+@c_seb2 = [uni124D.seb2 uni12B5.seb2 uni12C5.seb2 uni1315.seb2];
+@cno_seb2 = [uni124D uni12B5 uni12C5 uni1315];
+@c_seb3 = [uni124A.seb3 uni12B2.seb3 uni12C2.seb3 uni1312.seb3 uni1381.seb3 uni1385.seb3 uni138D.seb3];
+@cno_seb3 = [uni124A uni12B2 uni12C2 uni1312 uni1381 uni1385 uni138D];
+@c_seb4 = [uni1383.seb4];
+@cno_seb4 = [uni1383];
+@c_seb5 = [uni1381.seb5];
+@cno_seb5 = [uni1381];
+@c_sebLes = [uni1381.sebLes uni1383.sebLes uni1387.sebLes uni138B.sebLes uni138F.sebLes];
+@cno_sebLes = [uni1381 uni1383 uni1387 uni138B uni138F];
+@c_sebLes1 = [uni1381.sebLes1];
+@cno_sebLes1 = [uni1381];
+@c_sebLes2 = [uni1387.sebLes2];
+@cno_sebLes2 = [uni1387];
+@c_sebLes3 = [uni138B.sebLes3];
+@cno_sebLes3 = [uni138B];
+@c_sebLes4 = [uni1383.sebLes4];
+@cno_sebLes4 = [uni1383];
+@c_sebLes5 = [uni138F.sebLes5];
+@cno_sebLes5 = [uni138F];
+@c_trad = [uni138A.trad];
+@cno_trad = [uni138A];
+@c_type = [uni131F.type];
+@cno_type = [uni131F];
+
+# Positioning classes and statements
+
+# AP: U
+@U = [Zcaron breve caron dotlessi fi fl pi u1E7E0 u1E7E1 u1E7E2 u1E7E4 u1E7E6 u1E7E3 u1E7E5 u1E7E8 u1E7E9 u1E7EA uni1210 uni1211 uni1212 uni1214 u1E7EB u1E7ED u1E7EE uni121A uni121C u1E7F0 uni1242 uni1244 u1E7F1 u1E7F2 uni1245 u1E7F3 u1E7F4 uni1262 uni1264 u1E7F5 u1E7F6 u1E7F7 uni12AA uni12AC uni12AD uni12B0 u1E7F8 u1E7F9 uni1310 u1E7FA uni130D u1E7FB u1E7FC uni134A uni134C u1E7FD uni1352 u1E7FE uni1354 uni02C9 uni02D0 uni1200 uni1201 uni1202 uni1203 uni1204 uni1205 uni1206 uni1313.seb0 uni1207 uni1208 uni1209 uni120A uni120B uni120C uni120D uni120E uni120F uni1213 uni1215 uni1216 uni1217 uni1218 uni1219 uni121B uni121D uni121E uni121F.cohen2 uni121F uni121F.cohen1 uni1359 uni1359.ala2 uni1220 uni1221 uni1222 uni1223 uni1224 uni1225 uni1226 uni1227 uni1228 uni1229 uni122F.cohen3 uni122A uni122B uni122C uni122D uni122E uni122F uni1358.ala1 uni1230 uni1231 uni1232 uni1233 uni1234 uni1235 uni1236 uni1237 uni1238 uni1239 uni123A uni123B uni123C uni123D uni123E uni123F uni1240 uni1241 uni1243 uni1246 uni1247 uni1248 uni124A uni124A.seb3 uni124B uni124C uni124D uni124D.seb2 uni1250 uni1251 uni1252 uni1253 uni1254 uni1255 uni1256 uni1258 uni125A uni125B uni125C uni125D uni1260 uni1261 uni1263 uni1265 uni1266 uni1267 uni1268 uni1269 uni126A uni126B uni126C uni126D uni126E uni126F uni1270 uni1271 uni1272 uni1273 uni1274 uni1275 uni1276 uni1277 uni1278 uni1279 uni127A uni127B uni127C uni127D uni127E uni127F uni1280 uni1281 uni1282 uni1283 uni1284 uni1285 uni1286 uni1287 uni1287.alt3 uni1288 uni1288.handwriting uni128A uni12CA uni128A.handwriting uni128B uni128B.handwriting uni128C uni128C.handwriting uni128D uni128D.handwriting uni1290 uni1291 uni1292 uni1293 uni1294 uni1295 uni1296 uni1297 uni1297.cohen0 uni1297.oldstyle uni1298 uni129F.cohen8 uni1298.gumuz uni1299 uni1299.gumuz uni129A uni129A.gumuz uni129B uni129B.gumuz uni129C uni129C.gumuz uni129D uni129D.gumuz uni129E uni129E.gumuz uni129F uni129F.gumuz uni129F.gumuz1 uni12A0 uni12A1 uni12A2 uni12A3 uni12A4 uni12A5 uni12A6 uni12A7 uni12A8 uni12A9 uni12AB uni12AE uni12AF uni12B2 uni12B2.seb3 uni12B3 uniE2A9 uni12B4 uni12B5 uni12B5.seb2 uni12B8 uni12BB uni12B9 uni12BE uni12BA uni12BD uni12BC uni12C0 uni12C2 uni12C2.seb3 uni12C3 uni12C3.cohen7 uni12C3.oldstyle uni12C4 uni12C5 uni12C5.seb2 uni12C8 uni12C9 uni12CB uni12CC uni12CD uni12CE uni12CF uni12D0 uni12D1 uni12D2 uni12D3 uni12D4 uni12D5 uni12D6 uni12D8 uni12D9 uni12DA uni12DB uni12DC uni12DD uni12DE uni12DF uni12E0 uni12E0.chaine uni12E0.cohen6 uni12E4 uni12E4.chaine uni12E4.cohen6 uni12E5.chaine uni12E1 uni12E1.chaine uni12E1.cohen6 uni12E2 uni12E3 uni12E3.chaine uni12E3.cohen6 uni12E5 uni12E5.cohen6 uni12E5.oldstyle uni12E6 uni12E6.chaine uni12E6.cohen6 uni12E7 uni12E8 uni12E9 uni12EA uni12EB uni12EC uni12ED uni12EE uni12EF uni12F0 uni12F1 uni12F2 uni12F3 uni12F4 uni12F5 uni12F6 uni12F7 uni12F8 uni12F8.oromo uni12F9 uni12FB uni12F9.oromo uni12FA uni12FD uni12FA.oromo uni12FB.oromo uni12FC uni12FC.oromo uni12FD.oromo uni12FE uni12FE.oromo uni12FF uni1300 uni1301 uni1302 uni1303 uni1304 uni1305 uni1306 uni1307 uni1308 uni1309 uni130A uni130B uni130C uni130E uni130F uni1312 uni1312.seb3 uni1313 uni1313.alonestokes uni1313.oldstyle uni1314 uni1315 uni1315.seb2 uni1318 uni1318.alt1 uni1319 uni1319.alt1 uni131A uni131A.alt1 uni131B uni131B.alt1 uni131C uni131C.alt1 uni131D uni131D.alt1 uni131E uni131E.alt1 uni131F uni131F.type uni1320 uni1321 uni1322 uni1323 uni1324 uni1325 uni1326 uni1327 uni1328 uni1329 uni132A uni132B uni132C uni132D uni132E uni132F uni1330 uni1331 uni1332 uni1333 uni1334 uni1335 uni1335.praetorius uni1336 uni1337 uni1338 uni1339 uni133A uni133B uni133C uni133D uni133E uni133F uni133F.alt4 uni133F.oldstyle uni2D88 uni1340 uni1341 uni1342 uni1343 uni1344 uni1345 uni1346 uni1347 uni1348 uni1349 uni134B uni134D uni134E uni134F uni134F.cohen4 uni134F.cohen5 uni134F.oldstyle uni1350 uni1351 uni1353 uni1355 uni1356 uni1357 uni1358 uni135A uni1380 uni1381 uni1381.seb3 uni1381.seb5 uni1381.sebLes uni1381.sebLes1 uni1382 uni1383 uni1383.seb4 uni1383.sebLes uni1383.sebLes4 uni1384 uni1385 uni1385.seb3 uni1386 uni1387 uni1387.sebLes uni1387.sebLes2 uni1388 uni1389 uni138A uni138A.trad uni138B uni138B.sebLes uni138B.sebLes3 uni138C uni138D uni138D.seb3 uni138E uni138F uni138F.sebLes uni138F.sebLes5 uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni202F uni2006 uni2D80 uni2D81 uni2D82 uni2D83 uni2D84 uni2D85 uni2D86 uni2D87 uni2D89 uni2D8A uni2D8B uni2D8C uni2D8D uni2D8E uni2D8F uni2D90 uni2D91 uni2D92 uni2D93 uni2D93.blin uni2D94 uni2D94.blin uni2D95 uni2D95.blin uni2D96 uni2D96.blin uni2DA0 uni2DA1 uni2DA2 uni2DA3 uni2DA4 uni2DA5 uni2DA6 uni2DA8 uni2DA9 uni2DAA uni2DAB uni2DAC uni2DAD uni2DAE uni2DB0 uni2DB1 uni2DB2 uni2DB3 uni2DB4 uni2DB5 uni2DB6 uni2DB8 uni2DB9 uni2DBA uni2DBB uni2DBC uni2DBD uni2DBE uni2DC0 uni2DC1 uni2DC2 uni2DC3 uni2DC4 uni2DC5 uni2DC6 uni2DC8 uni2DC9 uni2DCA uni2DCB uni2DCC uni2DCD uni2DCE uni2DD0 uni2DD1 uni2DD2 uni2DD3 uni2DD4 uni2DD5 uni2DD6 uni2DD8 uni2DD9 uni2DDA uni2DDB uni2DDC uni2DDD uni2DDE uniAB01 uniAB02 uniAB03 uniAB04 uniAB05 uniAB06 uniAB09 uniAB0A uniAB0B uniAB0C uniAB0D uniAB0E uniAB11 uniAB12 uniAB13 uniAB14 uniAB15 uniAB16 uniAB20 uniAB21 uniAB22 uniAB24 uniAB23 uniAB25 uniAB26 uniAB28 uniAB29 uniAB2E uniAB2A uniAB2B uniAB2C uniAB2D uniE068 uniE069 uniE06A uniE06B uniE06C uniE06D uniE06E uniE070 uniE071 uniE072 uniE217 uniE227 uniE230 uniE24F uniE257 uniE25F uniE26F uniE2A8 uniE2AA uniE2AB uniE2AC uniE2AD uniE2AE uniE2B7 uniE2BF uniE2D7 uniE2D8 uniE2E7 uniE2F8 uniE33F uniE34F uniE406 uniE491 uniE493 uniE49A zcaron];
+@U_MarkBase = [uni034F];
+# baseClass Zcaron <anchor 610 1900> @U;
+# baseClass breve <anchor 305 1500> @U;
+# baseClass caron <anchor 335 1500> @U;
+# baseClass dotlessi <anchor 310 1100> @U;
+# baseClass fi <anchor 978 1480> @U;
+# baseClass fl <anchor 974 1580> @U;
+# baseClass pi <anchor 608 1100> @U;
+# baseClass [u1E7E0 u1E7E1 u1E7E2 u1E7E4 u1E7E6] <anchor 920 1423> @U;
+# baseClass u1E7E3 <anchor 870 1423> @U;
+# baseClass u1E7E5 <anchor 660 1508> @U;
+# baseClass [u1E7E8 u1E7E9 u1E7EA uni1210 uni1211 uni1212 uni1214] <anchor 900 1273> @U;
+# baseClass u1E7EB <anchor 910 1360> @U;
+# baseClass [u1E7ED u1E7EE uni121A uni121C] <anchor 884 1303> @U;
+# baseClass [u1E7F0 uni1242 uni1244] <anchor 725 1390> @U;
+# baseClass u1E7F1 <anchor 755 1390> @U;
+# baseClass [u1E7F2 uni1245] <anchor 722 1588> @U;
+# baseClass [u1E7F3 u1E7F4 uni1262 uni1264] <anchor 568 1328> @U;
+# baseClass [u1E7F5 u1E7F6 u1E7F7 uni12AA uni12AC uni12AD uni12B0] <anchor 566 1442> @U;
+# baseClass [u1E7F8 u1E7F9 uni1310] <anchor 570 1322> @U;
+# baseClass [u1E7FA uni130D] <anchor 620 1215> @U;
+# baseClass [u1E7FB u1E7FC uni134A uni134C] <anchor 780 1280> @U;
+# baseClass [u1E7FD uni1352] <anchor 735 1215> @U;
+# baseClass [u1E7FE uni1354] <anchor 735 1205> @U;
+# baseClass uni02C9 <anchor 343 1470> @U;
+# baseClass uni02D0 <anchor 261 1100> @U;
+# baseClass uni1200 <anchor 587 1241> @U;
+# baseClass uni1201 <anchor 610 1236> @U;
+# baseClass uni1202 <anchor 577 1383> @U;
+# baseClass uni1203 <anchor 545 1333> @U;
+# baseClass uni1204 <anchor 525 1405> @U;
+# baseClass uni1205 <anchor 565 1303> @U;
+# baseClass [uni1206 uni1313.seb0] <anchor 564 1329> @U;
+# baseClass uni1207 <anchor 917 1350> @U;
+# baseClass uni1208 <anchor 540 1396> @U;
+# baseClass uni1209 <anchor 578 1334> @U;
+# baseClass uni120A <anchor 548 1350> @U;
+# baseClass uni120B <anchor 524 1350> @U;
+# baseClass uni120C <anchor 540 1342> @U;
+# baseClass uni120D <anchor 594 1311> @U;
+# baseClass uni120E <anchor 555 1327> @U;
+# baseClass uni120F <anchor 490 1413> @U;
+# baseClass uni1213 <anchor 840 1273> @U;
+# baseClass uni1215 <anchor 900 1360> @U;
+# baseClass uni1216 <anchor 920 1273> @U;
+# baseClass uni1217 <anchor 859 1413> @U;
+# baseClass uni1218 <anchor 1121 1200> @U;
+# baseClass uni1219 <anchor 1114 1178> @U;
+# baseClass uni121B <anchor 877 1274> @U;
+# baseClass uni121D <anchor 901 1295> @U;
+# baseClass [uni121E uni121F.cohen2] <anchor 923 1302> @U;
+# baseClass uni121F <anchor 847 1307> @U;
+# baseClass [uni121F.cohen1 uni1359 uni1359.ala2] <anchor 834 1574> @U;
+# baseClass uni1220 <anchor 862 1143> @U;
+# baseClass uni1221 <anchor 855 1179> @U;
+# baseClass uni1222 <anchor 763 1295> @U;
+# baseClass [uni1223 uni1224] <anchor 763 1272> @U;
+# baseClass uni1225 <anchor 1272 1295> @U;
+# baseClass uni1226 <anchor 740 1225> @U;
+# baseClass uni1227 <anchor 767 1342> @U;
+# baseClass uni1228 <anchor 852 1249> @U;
+# baseClass [uni1229 uni122F.cohen3] <anchor 678 1263> @U;
+# baseClass uni122A <anchor 870 1263> @U;
+# baseClass uni122B <anchor 855 1267> @U;
+# baseClass uni122C <anchor 852 1267> @U;
+# baseClass uni122D <anchor 717 1239> @U;
+# baseClass uni122E <anchor 781 1271> @U;
+# baseClass [uni122F uni1358.ala1] <anchor 873 1373> @U;
+# baseClass uni1230 <anchor 571 1381> @U;
+# baseClass uni1231 <anchor 593 1381> @U;
+# baseClass uni1232 <anchor 600 1384> @U;
+# baseClass uni1233 <anchor 582 1373> @U;
+# baseClass uni1234 <anchor 586 1363> @U;
+# baseClass uni1235 <anchor 444 1391> @U;
+# baseClass uni1236 <anchor 593 1377> @U;
+# baseClass uni1237 <anchor 561 1405> @U;
+# baseClass uni1238 <anchor 625 1480> @U;
+# baseClass uni1239 <anchor 685 1508> @U;
+# baseClass uni123A <anchor 678 1505> @U;
+# baseClass uni123B <anchor 685 1501> @U;
+# baseClass uni123C <anchor 692 1508> @U;
+# baseClass uni123D <anchor 582 1501> @U;
+# baseClass uni123E <anchor 689 1519> @U;
+# baseClass uni123F <anchor 635 1480> @U;
+# baseClass uni1240 <anchor 752 1384> @U;
+# baseClass uni1241 <anchor 752 1381> @U;
+# baseClass uni1243 <anchor 962 1340> @U;
+# baseClass uni1246 <anchor 781 1448> @U;
+# baseClass uni1247 <anchor 805 1425> @U;
+# baseClass uni1248 <anchor 684 1428> @U;
+# baseClass uni124A <anchor 757 1448> @U;
+# baseClass uni124A.seb3 <anchor 752 1408> @U;
+# baseClass uni124B <anchor 724 1525> @U;
+# baseClass uni124C <anchor 833 1396> @U;
+# baseClass uni124D <anchor 700 1436> @U;
+# baseClass uni124D.seb2 <anchor 800 1587> @U;
+# baseClass uni1250 <anchor 762 1543> @U;
+# baseClass uni1251 <anchor 743 1571> @U;
+# baseClass uni1252 <anchor 781 1539> @U;
+# baseClass uni1253 <anchor 953 1496> @U;
+# baseClass uni1254 <anchor 768 1536> @U;
+# baseClass uni1255 <anchor 633 1612> @U;
+# baseClass uni1256 <anchor 825 1558> @U;
+# baseClass uni1258 <anchor 671 1558> @U;
+# baseClass uni125A <anchor 784 1558> @U;
+# baseClass uni125B <anchor 743 1618> @U;
+# baseClass uni125C <anchor 878 1587> @U;
+# baseClass uni125D <anchor 668 1527> @U;
+# baseClass uni1260 <anchor 554 1334> @U;
+# baseClass uni1261 <anchor 564 1331> @U;
+# baseClass uni1263 <anchor 578 1317> @U;
+# baseClass uni1265 <anchor 1001 1320> @U;
+# baseClass uni1266 <anchor 564 1327> @U;
+# baseClass uni1267 <anchor 602 1286> @U;
+# baseClass uni1268 <anchor 624 1449> @U;
+# baseClass uni1269 <anchor 630 1430> @U;
+# baseClass uni126A <anchor 621 1427> @U;
+# baseClass uni126B <anchor 636 1408> @U;
+# baseClass uni126C <anchor 640 1442> @U;
+# baseClass uni126D <anchor 1010 1439> @U;
+# baseClass uni126E <anchor 615 1445> @U;
+# baseClass uni126F <anchor 628 1473> @U;
+# baseClass uni1270 <anchor 828 1336> @U;
+# baseClass uni1271 <anchor 825 1333> @U;
+# baseClass uni1272 <anchor 821 1329> @U;
+# baseClass uni1273 <anchor 944 1383> @U;
+# baseClass uni1274 <anchor 815 1326> @U;
+# baseClass uni1275 <anchor 787 1524> @U;
+# baseClass uni1276 <anchor 843 1376> @U;
+# baseClass uni1277 <anchor 870 1281> @U;
+# baseClass uni1278 <anchor 781 1452> @U;
+# baseClass uni1279 <anchor 781 1439> @U;
+# baseClass uni127A <anchor 793 1433> @U;
+# baseClass uni127B <anchor 887 1420> @U;
+# baseClass uni127C <anchor 806 1442> @U;
+# baseClass uni127D <anchor 596 1643> @U;
+# baseClass uni127E <anchor 903 1583> @U;
+# baseClass uni127F <anchor 955 1324> @U;
+# baseClass uni1280 <anchor 813 1350> @U;
+# baseClass uni1281 <anchor 834 1356> @U;
+# baseClass uni1282 <anchor 818 1363> @U;
+# baseClass uni1283 <anchor 866 1394> @U;
+# baseClass uni1284 <anchor 817 1347> @U;
+# baseClass uni1285 <anchor 703 1345> @U;
+# baseClass uni1286 <anchor 1165 1367> @U;
+# baseClass uni1287 <anchor 1065 1375> @U;
+# baseClass uni1287.alt3 <anchor 607 1425> @U;
+# baseClass uni1288 <anchor 784 1286> @U;
+# baseClass uni1288.handwriting <anchor 589 1176> @U;
+# baseClass [uni128A uni12CA] <anchor 718 1295> @U;
+# baseClass uni128A.handwriting <anchor 593 1132> @U;
+# baseClass uni128B <anchor 680 1461> @U;
+# baseClass uni128B.handwriting <anchor 897 1242> @U;
+# baseClass uni128C <anchor 727 1433> @U;
+# baseClass uni128C.handwriting <anchor 693 1279> @U;
+# baseClass uni128D <anchor 696 1298> @U;
+# baseClass uni128D.handwriting <anchor 552 1132> @U;
+# baseClass uni1290 <anchor 252 1352> @U;
+# baseClass uni1291 <anchor 231 1370> @U;
+# baseClass uni1292 <anchor 298 1327> @U;
+# baseClass uni1293 <anchor 674 1334> @U;
+# baseClass uni1294 <anchor 291 1324> @U;
+# baseClass uni1295 <anchor 490 1352> @U;
+# baseClass uni1296 <anchor 660 1363> @U;
+# baseClass uni1297 <anchor 724 1292> @U;
+# baseClass [uni1297.cohen0 uni1297.oldstyle] <anchor 444 1288> @U;
+# baseClass [uni1298 uni129F.cohen8] <anchor 692 1446> @U;
+# baseClass uni1298.gumuz <anchor 619 1648> @U;
+# baseClass uni1299 <anchor 664 1420> @U;
+# baseClass uni1299.gumuz <anchor 644 1648> @U;
+# baseClass uni129A <anchor 664 1409> @U;
+# baseClass uni129A.gumuz <anchor 607 1611> @U;
+# baseClass uni129B <anchor 678 1544> @U;
+# baseClass uni129B.gumuz <anchor 657 1648> @U;
+# baseClass uni129C <anchor 689 1416> @U;
+# baseClass uni129C.gumuz <anchor 619 1611> @U;
+# baseClass uni129D <anchor 642 1590> @U;
+# baseClass uni129D.gumuz <anchor 607 1648> @U;
+# baseClass uni129E <anchor 657 1540> @U;
+# baseClass uni129E.gumuz <anchor 694 1722> @U;
+# baseClass uni129F <anchor 668 1494> @U;
+# baseClass [uni129F.gumuz uni129F.gumuz1] <anchor 669 1586> @U;
+# baseClass uni12A0 <anchor 393 1427> @U;
+# baseClass uni12A1 <anchor 393 1404> @U;
+# baseClass uni12A2 <anchor 401 1427> @U;
+# baseClass uni12A3 <anchor 416 1381> @U;
+# baseClass uni12A4 <anchor 347 1334> @U;
+# baseClass uni12A5 <anchor 255 1427> @U;
+# baseClass uni12A6 <anchor 470 1357> @U;
+# baseClass uni12A7 <anchor 607 1725> @U;
+# baseClass uni12A8 <anchor 542 1452> @U;
+# baseClass uni12A9 <anchor 524 1436> @U;
+# baseClass uni12AB <anchor 555 1458> @U;
+# baseClass uni12AE <anchor 533 1442> @U;
+# baseClass uni12AF <anchor 904 1450> @U;
+# baseClass uni12B2 <anchor 480 1423> @U;
+# baseClass uni12B2.seb3 <anchor 499 1314> @U;
+# baseClass [uni12B3 uniE2A9] <anchor 486 1455> @U;
+# baseClass uni12B4 <anchor 511 1455> @U;
+# baseClass uni12B5 <anchor 489 1445> @U;
+# baseClass uni12B5.seb2 <anchor 508 1430> @U;
+# baseClass [uni12B8 uni12BB] <anchor 656 1574> @U;
+# baseClass [uni12B9 uni12BE] <anchor 656 1555> @U;
+# baseClass [uni12BA uni12BD] <anchor 637 1518> @U;
+# baseClass uni12BC <anchor 675 1518> @U;
+# baseClass uni12C0 <anchor 649 1467> @U;
+# baseClass uni12C2 <anchor 646 1486> @U;
+# baseClass uni12C2.seb3 <anchor 630 1477> @U;
+# baseClass uni12C3 <anchor 574 1524> @U;
+# baseClass [uni12C3.cohen7 uni12C3.oldstyle] <anchor 652 1483> @U;
+# baseClass uni12C4 <anchor 633 1492> @U;
+# baseClass uni12C5 <anchor 633 1486> @U;
+# baseClass uni12C5.seb2 <anchor 646 1474> @U;
+# baseClass uni12C8 <anchor 828 1223> @U;
+# baseClass uni12C9 <anchor 825 1213> @U;
+# baseClass uni12CB <anchor 712 1292> @U;
+# baseClass uni12CC <anchor 709 1292> @U;
+# baseClass uni12CD <anchor 812 1226> @U;
+# baseClass uni12CE <anchor 821 1367> @U;
+# baseClass uni12CF <anchor 1189 1425> @U;
+# baseClass uni12D0 <anchor 578 1364> @U;
+# baseClass uni12D1 <anchor 647 1341> @U;
+# baseClass uni12D2 <anchor 578 1387> @U;
+# baseClass uni12D3 <anchor 555 1387> @U;
+# baseClass uni12D4 <anchor 509 1387> @U;
+# baseClass uni12D5 <anchor 582 1397> @U;
+# baseClass uni12D6 <anchor 815 1416> @U;
+# baseClass uni12D8 <anchor 563 1249> @U;
+# baseClass uni12D9 <anchor 571 1249> @U;
+# baseClass uni12DA <anchor 555 1242> @U;
+# baseClass uni12DB <anchor 509 1226> @U;
+# baseClass uni12DC <anchor 594 1257> @U;
+# baseClass uni12DD <anchor 802 1265> @U;
+# baseClass uni12DE <anchor 563 1265> @U;
+# baseClass uni12DF <anchor 593 1228> @U;
+# baseClass [uni12E0 uni12E0.chaine uni12E0.cohen6 uni12E4 uni12E4.chaine uni12E4.cohen6 uni12E5.chaine] <anchor 964 1211> @U;
+# baseClass [uni12E1 uni12E1.chaine uni12E1.cohen6] <anchor 949 1211> @U;
+# baseClass uni12E2 <anchor 996 1227> @U;
+# baseClass [uni12E3 uni12E3.chaine uni12E3.cohen6] <anchor 941 1219> @U;
+# baseClass uni12E5 <anchor 595 1713> @U;
+# baseClass [uni12E5.cohen6 uni12E5.oldstyle] <anchor 1066 1176> @U;
+# baseClass [uni12E6 uni12E6.chaine uni12E6.cohen6] <anchor 972 1226> @U;
+# baseClass uni12E7 <anchor 990 1214> @U;
+# baseClass uni12E8 <anchor 524 1314> @U;
+# baseClass uni12E9 <anchor 574 1354> @U;
+# baseClass uni12EA <anchor 571 1345> @U;
+# baseClass uni12EB <anchor 853 1348> @U;
+# baseClass uni12EC <anchor 527 1326> @U;
+# baseClass uni12ED <anchor 765 1270> @U;
+# baseClass uni12EE <anchor 520 1314> @U;
+# baseClass uni12EF <anchor 904 1412> @U;
+# baseClass uni12F0 <anchor 802 1396> @U;
+# baseClass [uni12F1 uni12F2] <anchor 810 1396> @U;
+# baseClass uni12F3 <anchor 779 1396> @U;
+# baseClass uni12F4 <anchor 787 1388> @U;
+# baseClass uni12F5 <anchor 810 1357> @U;
+# baseClass uni12F6 <anchor 779 1342> @U;
+# baseClass uni12F7 <anchor 796 1314> @U;
+# baseClass uni12F8 <anchor 818 1612> @U;
+# baseClass uni12F8.oromo <anchor 781 1329> @U;
+# baseClass [uni12F9 uni12FB] <anchor 825 1593> @U;
+# baseClass uni12F9.oromo <anchor 806 1376> @U;
+# baseClass [uni12FA uni12FD] <anchor 825 1596> @U;
+# baseClass uni12FA.oromo <anchor 790 1361> @U;
+# baseClass uni12FB.oromo <anchor 800 1339> @U;
+# baseClass uni12FC <anchor 800 1596> @U;
+# baseClass uni12FC.oromo <anchor 778 1345> @U;
+# baseClass uni12FD.oromo <anchor 818 1348> @U;
+# baseClass uni12FE <anchor 705 1599> @U;
+# baseClass uni12FE.oromo <anchor 756 1345> @U;
+# baseClass uni12FF <anchor 816 1597> @U;
+# baseClass uni1300 <anchor 787 1465> @U;
+# baseClass uni1301 <anchor 686 1504> @U;
+# baseClass uni1302 <anchor 710 1481> @U;
+# baseClass uni1303 <anchor 694 1488> @U;
+# baseClass uni1304 <anchor 663 1473> @U;
+# baseClass uni1305 <anchor 779 1458> @U;
+# baseClass uni1306 <anchor 872 1488> @U;
+# baseClass uni1307 <anchor 790 1637> @U;
+# baseClass uni1308 <anchor 542 1226> @U;
+# baseClass uni1309 <anchor 552 1126> @U;
+# baseClass uni130A <anchor 558 1150> @U;
+# baseClass uni130B <anchor 922 1170> @U;
+# baseClass uni130C <anchor 558 1244> @U;
+# baseClass uni130E <anchor 571 1358> @U;
+# baseClass uni130F <anchor 669 1450> @U;
+# baseClass uni1312 <anchor 571 1279> @U;
+# baseClass uni1312.seb3 <anchor 536 1279> @U;
+# baseClass uni1313 <anchor 552 1298> @U;
+# baseClass [uni1313.alonestokes uni1313.oldstyle] <anchor 825 1242> @U;
+# baseClass uni1314 <anchor 759 1392> @U;
+# baseClass uni1315 <anchor 546 1286> @U;
+# baseClass uni1315.seb2 <anchor 589 1220> @U;
+# baseClass uni1318 <anchor 619 1524> @U;
+# baseClass uni1318.alt1 <anchor 665 1496> @U;
+# baseClass uni1319 <anchor 644 1450> @U;
+# baseClass uni1319.alt1 <anchor 680 1439> @U;
+# baseClass uni131A <anchor 669 1437> @U;
+# baseClass uni131A.alt1 <anchor 640 1439> @U;
+# baseClass uni131B <anchor 719 1474> @U;
+# baseClass uni131B.alt1 <anchor 734 1405> @U;
+# baseClass uni131C <anchor 632 1524> @U;
+# baseClass uni131C.alt1 <anchor 630 1499> @U;
+# baseClass uni131D <anchor 681 1549> @U;
+# baseClass uni131D.alt1 <anchor 674 1496> @U;
+# baseClass uni131E <anchor 632 1437> @U;
+# baseClass uni131E.alt1 <anchor 624 1392> @U;
+# baseClass uni131F <anchor 620 1424> @U;
+# baseClass uni131F.type <anchor 605 1627> @U;
+# baseClass [uni1320 uni1321] <anchor 825 1049> @U;
+# baseClass uni1322 <anchor 818 1041> @U;
+# baseClass uni1323 <anchor 902 1311> @U;
+# baseClass uni1324 <anchor 833 1087> @U;
+# baseClass uni1325 <anchor 733 1165> @U;
+# baseClass uni1326 <anchor 818 1180> @U;
+# baseClass uni1327 <anchor 972 1085> @U;
+# baseClass uni1328 <anchor 995 1126> @U;
+# baseClass [uni1329 uni132A] <anchor 995 1103> @U;
+# baseClass uni132B <anchor 1018 1257> @U;
+# baseClass uni132C <anchor 979 1141> @U;
+# baseClass uni132D <anchor 1055 1276> @U;
+# baseClass uni132E <anchor 1072 1249> @U;
+# baseClass uni132F <anchor 1000 1176> @U;
+# baseClass uni1330 <anchor 542 1483> @U;
+# baseClass uni1331 <anchor 580 1477> @U;
+# baseClass uni1332 <anchor 549 1483> @U;
+# baseClass uni1333 <anchor 542 1474> @U;
+# baseClass uni1334 <anchor 586 1480> @U;
+# baseClass uni1335 <anchor 546 1489> @U;
+# baseClass uni1335.praetorius <anchor 559 1683> @U;
+# baseClass uni1336 <anchor 549 1486> @U;
+# baseClass uni1337 <anchor 448 1483> @U;
+# baseClass uni1338 <anchor 571 1217> @U;
+# baseClass uni1339 <anchor 564 1207> @U;
+# baseClass uni133A <anchor 536 1248> @U;
+# baseClass uni133B <anchor 492 1238> @U;
+# baseClass uni133C <anchor 524 1235> @U;
+# baseClass uni133D <anchor 574 1204> @U;
+# baseClass uni133E <anchor 502 1238> @U;
+# baseClass uni133F <anchor 602 1320> @U;
+# baseClass [uni133F.alt4 uni133F.oldstyle uni2D88] <anchor 731 1400> @U;
+# baseClass uni1340 <anchor 543 1300> @U;
+# baseClass uni1341 <anchor 611 1300> @U;
+# baseClass uni1342 <anchor 485 1368> @U;
+# baseClass uni1343 <anchor 495 1368> @U;
+# baseClass uni1344 <anchor 504 1416> @U;
+# baseClass uni1345 <anchor 572 1368> @U;
+# baseClass uni1346 <anchor 805 1407> @U;
+# baseClass uni1347 <anchor 929 1425> @U;
+# baseClass uni1348 <anchor 793 1270> @U;
+# baseClass uni1349 <anchor 687 1492> @U;
+# baseClass uni134B <anchor 696 1467> @U;
+# baseClass uni134D <anchor 740 1242> @U;
+# baseClass uni134E <anchor 793 1238> @U;
+# baseClass uni134F <anchor 796 1511> @U;
+# baseClass uni134F.cohen4 <anchor 780 1242> @U;
+# baseClass [uni134F.cohen5 uni134F.oldstyle] <anchor 705 1587> @U;
+# baseClass uni1350 <anchor 721 1173> @U;
+# baseClass uni1351 <anchor 734 1163> @U;
+# baseClass uni1353 <anchor 1101 1163> @U;
+# baseClass uni1355 <anchor 712 1166> @U;
+# baseClass uni1356 <anchor 1079 1226> @U;
+# baseClass uni1357 <anchor 800 1223> @U;
+# baseClass uni1358 <anchor 759 1489> @U;
+# baseClass uni135A <anchor 712 1458> @U;
+# baseClass uni1380 <anchor 1088 1126> @U;
+# baseClass uni1381 <anchor 884 1264> @U;
+# baseClass [uni1381.seb3 uni1381.seb5] <anchor 884 1254> @U;
+# baseClass [uni1381.sebLes uni1381.sebLes1] <anchor 1053 1116> @U;
+# baseClass uni1382 <anchor 906 1370> @U;
+# baseClass uni1383 <anchor 909 1286> @U;
+# baseClass uni1383.seb4 <anchor 912 1292> @U;
+# baseClass [uni1383.sebLes uni1383.sebLes4] <anchor 1092 1210> @U;
+# baseClass uni1384 <anchor 580 1314> @U;
+# baseClass uni1385 <anchor 596 1307> @U;
+# baseClass uni1385.seb3 <anchor 602 1323> @U;
+# baseClass uni1386 <anchor 589 1317> @U;
+# baseClass uni1387 <anchor 988 1307> @U;
+# baseClass [uni1387.sebLes uni1387.sebLes2] <anchor 593 1311> @U;
+# baseClass uni1388 <anchor 781 1254> @U;
+# baseClass uni1389 <anchor 774 1257> @U;
+# baseClass uni138A <anchor 702 1483> @U;
+# baseClass uni138A.trad <anchor 862 1511> @U;
+# baseClass uni138B <anchor 765 1245> @U;
+# baseClass [uni138B.sebLes uni138B.sebLes3] <anchor 793 1264> @U;
+# baseClass uni138C <anchor 715 1176> @U;
+# baseClass uni138D <anchor 721 1182> @U;
+# baseClass uni138D.seb3 <anchor 712 1182> @U;
+# baseClass uni138E <anchor 809 1342> @U;
+# baseClass uni138F <anchor 737 1163> @U;
+# baseClass [uni138F.sebLes uni138F.sebLes5] <anchor 727 1176> @U;
+# baseClass uni2000 <anchor 492 1500> @U;
+# baseClass uni2001 <anchor 985 1500> @U;
+# baseClass uni2002 <anchor 512 1500> @U;
+# baseClass uni2003 <anchor 1024 1500> @U;
+# baseClass uni2004 <anchor 328 1500> @U;
+# baseClass [uni2005 uni202F] <anchor 246 1500> @U;
+# baseClass uni2006 <anchor 164 1500> @U;
+# baseClass uni2D80 <anchor 942 1425> @U;
+# baseClass uni2D81 <anchor 979 1425> @U;
+# baseClass uni2D82 <anchor 1177 1338> @U;
+# baseClass uni2D83 <anchor 991 1462> @U;
+# baseClass uni2D84 <anchor 1053 1561> @U;
+# baseClass uni2D85 <anchor 972 1327> @U;
+# baseClass uni2D86 <anchor 855 1462> @U;
+# baseClass uni2D87 <anchor 855 1611> @U;
+# baseClass uni2D89 <anchor 694 1536> @U;
+# baseClass uni2D8A <anchor 805 1363> @U;
+# baseClass uni2D8B <anchor 929 1301> @U;
+# baseClass uni2D8C <anchor 929 1363> @U;
+# baseClass uni2D8D <anchor 917 1685> @U;
+# baseClass uni2D8E <anchor 917 1524> @U;
+# baseClass uni2D8F <anchor 1276 1227> @U;
+# baseClass uni2D90 <anchor 1499 1388> @U;
+# baseClass uni2D91 <anchor 904 1561> @U;
+# baseClass uni2D92 <anchor 1512 1313> @U;
+# baseClass [uni2D93 uni2D93.blin] <anchor 643 1373> @U;
+# baseClass [uni2D94 uni2D94.blin] <anchor 630 1380> @U;
+# baseClass [uni2D95 uni2D95.blin] <anchor 712 1398> @U;
+# baseClass [uni2D96 uni2D96.blin] <anchor 618 1392> @U;
+# baseClass uni2DA0 <anchor 1035 1508> @U;
+# baseClass uni2DA1 <anchor 991 1511> @U;
+# baseClass uni2DA2 <anchor 1032 1499> @U;
+# baseClass uni2DA3 <anchor 1025 1533> @U;
+# baseClass uni2DA4 <anchor 1003 1521> @U;
+# baseClass uni2DA5 <anchor 727 1452> @U;
+# baseClass uni2DA6 <anchor 1047 1521> @U;
+# baseClass uni2DA8 <anchor 890 1423> @U;
+# baseClass uni2DA9 <anchor 850 1433> @U;
+# baseClass uni2DAA <anchor 856 1423> @U;
+# baseClass uni2DAB <anchor 900 1408> @U;
+# baseClass uni2DAC <anchor 847 1433> @U;
+# baseClass uni2DAD <anchor 643 1571> @U;
+# baseClass uni2DAE <anchor 925 1565> @U;
+# baseClass uni2DB0 <anchor 997 1204> @U;
+# baseClass uni2DB1 <anchor 988 1210> @U;
+# baseClass uni2DB2 <anchor 972 1182> @U;
+# baseClass [uni2DB3 uni2DB4] <anchor 969 1173> @U;
+# baseClass uni2DB5 <anchor 586 1649> @U;
+# baseClass uni2DB6 <anchor 953 1210> @U;
+# baseClass uni2DB8 <anchor 1370 1088> @U;
+# baseClass uni2DB9 <anchor 1392 1094> @U;
+# baseClass uni2DBA <anchor 1376 1091> @U;
+# baseClass uni2DBB <anchor 1496 1229> @U;
+# baseClass uni2DBC <anchor 1380 1116> @U;
+# baseClass uni2DBD <anchor 1499 1264> @U;
+# baseClass uni2DBE <anchor 1480 1245> @U;
+# baseClass uni2DC0 <anchor 796 1731> @U;
+# baseClass uni2DC1 <anchor 790 1687> @U;
+# baseClass uni2DC2 <anchor 796 1721> @U;
+# baseClass uni2DC3 <anchor 1000 1646> @U;
+# baseClass uni2DC4 <anchor 809 1674> @U;
+# baseClass uni2DC5 <anchor 517 1740> @U;
+# baseClass uni2DC6 <anchor 856 1674> @U;
+# baseClass uni2DC8 <anchor 564 1458> @U;
+# baseClass uni2DC9 <anchor 480 1489> @U;
+# baseClass uni2DCA <anchor 483 1474> @U;
+# baseClass uni2DCB <anchor 508 1477> @U;
+# baseClass uni2DCC <anchor 477 1471> @U;
+# baseClass uni2DCD <anchor 536 1405> @U;
+# baseClass uni2DCE <anchor 508 1411> @U;
+# baseClass uni2DD0 <anchor 596 1712> @U;
+# baseClass uni2DD1 <anchor 599 1693> @U;
+# baseClass uni2DD2 <anchor 611 1674> @U;
+# baseClass uni2DD3 <anchor 605 1696> @U;
+# baseClass uni2DD4 <anchor 608 1693> @U;
+# baseClass uni2DD5 <anchor 640 1681> @U;
+# baseClass uni2DD6 <anchor 608 1696> @U;
+# baseClass uni2DD8 <anchor 514 1467> @U;
+# baseClass uni2DD9 <anchor 577 1502> @U;
+# baseClass uni2DDA <anchor 524 1405> @U;
+# baseClass uni2DDB <anchor 834 1511> @U;
+# baseClass uni2DDC <anchor 542 1521> @U;
+# baseClass uni2DDD <anchor 825 1552> @U;
+# baseClass uni2DDE <anchor 533 1671> @U;
+# baseClass uniAB01 <anchor 593 1373> @U;
+# baseClass uniAB02 <anchor 599 1380> @U;
+# baseClass uniAB03 <anchor 586 1370> @U;
+# baseClass uniAB04 <anchor 586 1361> @U;
+# baseClass uniAB05 <anchor 477 1386> @U;
+# baseClass uniAB06 <anchor 593 1367> @U;
+# baseClass uniAB09 <anchor 825 1574> @U;
+# baseClass uniAB0A <anchor 821 1596> @U;
+# baseClass uniAB0B <anchor 831 1602> @U;
+# baseClass uniAB0C <anchor 809 1602> @U;
+# baseClass uniAB0D <anchor 828 1587> @U;
+# baseClass uniAB0E <anchor 699 1571> @U;
+# baseClass uniAB11 <anchor 593 1590> @U;
+# baseClass uniAB12 <anchor 599 1574> @U;
+# baseClass uniAB13 <anchor 618 1539> @U;
+# baseClass uniAB14 <anchor 599 1568> @U;
+# baseClass uniAB15 <anchor 602 1571> @U;
+# baseClass uniAB16 <anchor 605 1596> @U;
+# baseClass uniAB20 <anchor 954 1512> @U;
+# baseClass uniAB21 <anchor 966 1487> @U;
+# baseClass [uniAB22 uniAB24] <anchor 979 1462> @U;
+# baseClass uniAB23 <anchor 1004 1635> @U;
+# baseClass uniAB25 <anchor 954 1685> @U;
+# baseClass uniAB26 <anchor 1053 1685> @U;
+# baseClass uniAB28 <anchor 632 1499> @U;
+# baseClass [uniAB29 uniAB2E] <anchor 644 1549> @U;
+# baseClass uniAB2A <anchor 619 1573> @U;
+# baseClass uniAB2B <anchor 632 1561> @U;
+# baseClass uniAB2C <anchor 582 1573> @U;
+# baseClass uniAB2D <anchor 619 1512> @U;
+# baseClass uniE068 <anchor 605 1740> @U;
+# baseClass uniE069 <anchor 624 1709> @U;
+# baseClass uniE06A <anchor 636 1709> @U;
+# baseClass uniE06B <anchor 640 1706> @U;
+# baseClass uniE06C <anchor 580 1709> @U;
+# baseClass uniE06D <anchor 589 1787> @U;
+# baseClass uniE06E <anchor 624 1721> @U;
+# baseClass uniE070 <anchor 423 1361> @U;
+# baseClass uniE071 <anchor 828 1289> @U;
+# baseClass uniE072 <anchor 549 1320> @U;
+# baseClass uniE217 <anchor 1363 1363> @U;
+# baseClass uniE227 <anchor 1239 1239> @U;
+# baseClass uniE230 <anchor 605 1376> @U;
+# baseClass uniE24F <anchor 571 1552> @U;
+# baseClass uniE257 <anchor 793 1635> @U;
+# baseClass uniE25F <anchor 837 1580> @U;
+# baseClass uniE26F <anchor 917 1462> @U;
+# baseClass uniE2A8 <anchor 524 1452> @U;
+# baseClass uniE2AA <anchor 502 1439> @U;
+# baseClass uniE2AB <anchor 480 1439> @U;
+# baseClass uniE2AC <anchor 505 1442> @U;
+# baseClass uniE2AD <anchor 486 1433> @U;
+# baseClass uniE2AE <anchor 477 1452> @U;
+# baseClass uniE2B7 <anchor 589 1364> @U;
+# baseClass uniE2BF <anchor 681 1561> @U;
+# baseClass uniE2D7 <anchor 966 1363> @U;
+# baseClass uniE2D8 <anchor 589 1571> @U;
+# baseClass uniE2E7 <anchor 954 1214> @U;
+# baseClass uniE2F8 <anchor 831 1580> @U;
+# baseClass uniE33F <anchor 892 1326> @U;
+# baseClass uniE34F <anchor 1189 1289> @U;
+# baseClass uniE406 <anchor 903 1398> @U;
+# baseClass uniE491 <anchor 793 1709> @U;
+# baseClass uniE493 <anchor 630 1612> @U;
+# baseClass uniE49A <anchor 925 1295> @U;
+# baseClass zcaron <anchor 483 1500> @U;
+# baseClass uni034F <anchor 0 0> @U_MarkBase;
+
+# AP: _U
+markClass [acutecomb gravecomb tildecomb uni0302 uni0304 uni0307 uni0308 uni030B uni030C uni030F uniE50F uniE51F] <anchor -830 1450> @_U;
+markClass uni034F <anchor 0 0> @_U;
+markClass uni135D <anchor -547 1451> @_U;
+markClass uni135E <anchor -547 1464> @_U;
+markClass uni135F <anchor -546 1450> @_U;
+
+# AP: L
+@L = [uni02D0];
+@L_MarkBase = [uni034F];
+# baseClass uni02D0 <anchor 261 -100> @L;
+# baseClass uni034F <anchor 0 0> @L_MarkBase;
+
+# AP: _L
+markClass uni034F <anchor 0 0> @_L;
+
+# AP: _none
+markClass [uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F] <anchor 0 0> @_none;
+#
+# Hand-crafted FEA code
+#
+languagesystem DFLT dflt;
+languagesystem ethi dflt;
+languagesystem ethi CHG;
+# langtag is sgw
+languagesystem ethi GMZ;
+# langtag is guk
+#**********************
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+lookup FontCheck_Unknow {
+    lookupflag IgnoreMarks;
+    sub [U n k o w] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+    lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+    lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
+} FontCheck;
+
+#**********************
+# Substitution lookups
+#
+# These are alternatives that are default for some languages, so we create named lookups.
+# Don't include 129F even though the glyph is present in the font.
+@c_gumuz0 = [uni1298.gumuz uni1299.gumuz uni129A.gumuz uni129B.gumuz uni129C.gumuz uni129D.gumuz uni129E.gumuz];
+@cno_gumuz0 = [uni1298 uni1299 uni129A uni129B uni129C uni129D uni129E];
+lookup Cv20_nya {
+    # Nya alternates
+    sub @cno_gumuz0 by @c_gumuz0;
+} Cv20_nya;
+
+lookup Cv21_nywa_1 {
+    # Nywa alternate
+    sub uni129F by uni129F.gumuz1;
+} Cv21_nywa_1;
+
+lookup Cv40_gwaa_1 {
+    # Gwaa alternate
+    sub uni1313 by uni1313.seb0;
+} Cv40_gwaa_1;
+
+lookup Cv41_gga {
+    # Gga alternates
+    sub @cno_alt1 by @c_alt1;
+} Cv41_gga;
+
+lookup Cv42_ggwaa {
+    # Ggwaa alternate
+    sub @cno_type by @c_type;
+} Cv42_ggwaa;
+
+lookup Cv60_mwi_1 {
+    # Mwi alternates
+    sub uni1381 by uni1381.seb5;
+} Cv60_mwi_1;
+
+lookup Cv70_ggwa {
+    # Ggwa alternate
+    sub @cno_blin by @c_blin;
+} Cv70_ggwa;
+
+lookup Cv80_3rd {
+    # 3rd-form alternates
+    sub @cno_seb3 by @c_seb3;
+} Cv80_3rd;
+
+lookup Cv85_6th {
+    # 6th-form alternates
+    sub @cno_seb2 by @c_seb2;
+} Cv85_6th;
+
+lookup DigitAlternates {
+    # Ethiopic digits
+    sub [@c_init @c_medi] @cno_init' @cno_init by @c_medi;
+    sub [@c_init @c_medi] @cno_init' by @c_fina;
+    sub @cno_init' @cno_init by @c_init;
+    #    sub @cno_isol' by @c_isol;
+} DigitAlternates;
+
+#**********************
+# Positioning lookups
+#
+lookup PairKerning {
+    pos O O -200;
+    pos uni1202 uni1265 -113;
+    pos uni1202 uni130A -113;
+    pos uni1202 uni130D -85;
+    pos uni1202 uni121A -135;
+    pos uni1202 uni131B -100;
+    pos uni1202 uni12D2 -135;
+    pos uni1202 uni12D4 -113;
+    pos uni1202 uni1275 -95;
+    pos uni1202 uni1285 -135;
+    pos uni1206 uni2D85 -85;
+    pos uni1206 uni1348 -125;
+    pos uni1206 uni130B -125;
+    pos uni1206 uni1207 -39;
+    pos uni1206 uni1212 -125;
+    pos uni1206 uni1243 -120;
+    pos uni1206 uni1228 -125;
+    pos uni1206 uni1225 -185;
+    pos uni1206 uni2D8F -200;
+    pos uni1206 uni12ED -85;
+    pos uni1206 uni2D8B -85;
+    pos uni1207 uni130B -85;
+    pos uni1207 uni1212 -155;
+    pos uni1207 uni1213 -65;
+    pos uni1207 uni1208 -49;
+    pos uni1207 uni1243 -100;
+    pos uni1207 uni1251 -55;
+    pos uni1207 uni1228 -85;
+    pos uni1207 uni1225 -185;
+    pos uni1207 uni2D8F -155;
+    pos uni1207 uni2D8B -85;
+    pos uni1208 uni12B8 -113;
+    pos uni1208 uni12BD -131;
+    pos uni1209 uni12F0 -85;
+    pos uni1209 uni130B -113;
+    pos uni1209 uni1243 -163;
+    pos uni1209 uni1225 -165;
+    pos uni120A uni1265 -184;
+    pos uni120A uni127D -125;
+    pos uni120A uni132D -125;
+    pos uni120A uni134B -85;
+    pos uni120A uni1308 -150;
+    pos uni120A uni130A -113;
+    pos uni120A uni130D -170;
+    pos uni120A uni12B8 -213;
+    pos uni120A uni12B9 -250;
+    pos uni120A uni12BA -250;
+    pos uni120A uni12BB -250;
+    pos uni120A uni12BD -213;
+    pos uni120A uni12BE -219;
+    pos uni120A uni121A -150;
+    pos uni120A uni121B -85;
+    pos uni120A uni121E -65;
+    pos uni120A uni1293 -185;
+    pos uni120A uni1295 -185;
+    pos uni120A uni1296 -245;
+    pos uni120A uni12D2 -250;
+    pos uni120A uni12D4 -250;
+    pos uni120A uni1240 -184;
+    pos uni120A uni1245 -135;
+    pos uni120A uni1251 -184;
+    pos uni120A uni125A -125;
+    pos uni120A uni1233 -163;
+    pos uni120A uni123D -100;
+    pos uni120A uni1275 -135;
+    pos uni120A uni1285 -185;
+    pos uni120C uni130D -65;
+    pos uni120C uni12B8 -150;
+    pos uni120C uni12B9 -85;
+    pos uni120C uni12BA -200;
+    pos uni120C uni12BB -219;
+    pos uni120C uni12BD -150;
+    pos uni120C uni12BE -85;
+    pos uni120C uni1295 -85;
+    pos uni120C uni12D2 -125;
+    pos uni120C uni12D4 -125;
+    pos uni120C uni123D -150;
+    pos uni120D uni1308 -85;
+    pos uni120D uni130A -113;
+    pos uni120D uni130D -85;
+    pos uni120D uni12B8 -185;
+    pos uni120D uni12B9 -185;
+    pos uni120D uni12BA -185;
+    pos uni120D uni12BB -185;
+    pos uni120D uni12BD -185;
+    pos uni120D uni12BE -185;
+    pos uni120D uni121A -113;
+    pos uni120D uni121B -125;
+    pos uni120D uni1295 -156;
+    pos uni120D uni12D2 -125;
+    pos uni120D uni12D4 -85;
+    pos uni120D uni123D -85;
+    pos uni120D uni1285 -119;
+    pos uni120D uni12E9 -85;
+    pos uni1212 uni134B -150;
+    pos uni1212 uni1308 -150;
+    pos uni1212 uni130A -160;
+    pos uni1212 uni130D -155;
+    pos uni1212 uni1202 -125;
+    pos uni1212 uni12B8 -185;
+    pos uni1212 uni12B9 -185;
+    pos uni1212 uni12BA -185;
+    pos uni1212 uni12BB -250;
+    pos uni1212 uni12BD -185;
+    pos uni1212 uni12BE -185;
+    pos uni1212 uni121E -150;
+    pos uni1212 uni1293 -155;
+    pos uni1212 uni1295 -150;
+    pos uni1212 uni1296 -165;
+    pos uni1212 uni12D2 -150;
+    pos uni1212 uni12D4 -150;
+    pos uni1212 uni1233 -85;
+    pos uni1212 uni123D -155;
+    pos uni1212 uni1285 -125;
+    pos uni1218 uni1295 -85;
+    pos uni1218 uni12F5 -85;
+    pos uni1218 uni130B -163;
+    pos uni1218 uni1212 -125;
+    pos uni1218 uni1243 -125;
+    pos uni1218 uni1228 -82;
+    pos uni1218 uni1225 -144;
+    pos uni121A uni1275 -113;
+    pos uni121A uni12DB -85;
+    pos uni121B uni120D -25;
+    pos uni121B uni1225 -155;
+    pos uni121C uni1295 -85;
+    pos uni121D uni2D85 -85;
+    pos uni121D uni12F0 -85;
+    pos uni121D uni12F5 -85;
+    pos uni121D uni12F6 -100;
+    pos uni121D uni1348 -180;
+    pos uni121D uni130B -185;
+    pos uni121D uni1212 -250;
+    pos uni121D uni1213 -156;
+    pos uni121D uni1208 -57;
+    pos uni121D uni120D -85;
+    pos uni121D uni1243 -125;
+    pos uni121D uni1228 -184;
+    pos uni121D uni122A -135;
+    pos uni121D uni122B -185;
+    pos uni121D uni1225 -213;
+    pos uni121D uni1273 -143;
+    pos uni121D uni1320 -113;
+    pos uni121D uni2D8F -185;
+    pos uni121D uni12EB -127;
+    pos uni121D uni2D8B -65;
+    pos uni121E uni1273 -100;
+    pos uni1224 uni12D4 -160;
+    pos uni1225 uni1348 -146;
+    pos uni1225 uni130B -150;
+    pos uni1225 uni1218 -50;
+    pos uni1225 uni1228 -168;
+    pos uni1225 uni122B -133;
+    pos uni1225 uni1322 -67;
+    pos uni1228 uni1203 -25;
+    pos uni1228 uni1218 -44;
+    pos uni1229 uni130A -67;
+    pos uni122B uni12BD -167;
+    pos uni122B uni1295 -113;
+    pos uni122B uni12ED -85;
+    pos uni1232 uni134D -11;
+    pos uni1232 uni12B9 -200;
+    pos uni1232 uni1293 -135;
+    pos uni1232 uni12D2 -21;
+    pos uni1232 uni12D4 -23;
+    pos uni1232 uni1245 -11;
+    pos uni1232 uni1275 -11;
+    pos uni1232 uni1325 -11;
+    pos uni1238 uni1218 -113;
+    pos uni123A uni134D -113;
+    pos uni123A uni1293 -113;
+    pos uni123A uni12D2 -167;
+    pos uni123A uni1245 -85;
+    pos uni123A uni1275 -113;
+    pos uni123A uni1325 -113;
+    pos uni1240 uni1228 -85;
+    pos uni1243 uni12EB -125;
+    pos uni125A uni12B9 -107;
+    pos uni1261 uni1243 -150;
+    pos uni1262 uni134D -113;
+    pos uni1262 uni12D2 -227;
+    pos uni1262 uni1270 -113;
+    pos uni1262 uni1271 -113;
+    pos uni1262 uni1272 -113;
+    pos uni1262 uni1274 -113;
+    pos uni1262 uni1275 -184;
+    pos uni1262 uni1276 -113;
+    pos uni1262 uni1325 -113;
+    pos uni1264 uni12D4 -140;
+    pos uni1264 uni1275 -85;
+    pos uni126A uni1293 -113;
+    pos uni126A uni1245 -113;
+    pos uni126A uni1275 -113;
+    pos uni126A uni1325 -113;
+    pos uni1273 uni12F0 -73;
+    pos uni1273 uni12A1 -40;
+    pos uni1273 uni1225 -114;
+    pos uni1275 uni12B9 -127;
+    pos uni1287.alt3 uni2D8F -59;
+    pos uni128B uni120B -25;
+    pos uni1292 uni123B -85;
+    pos uni1292 uni1275 -85;
+    pos uni1293 uni12A2 -27;
+    pos uni1295 uni12A1 -47;
+    pos uni1295 uni122B -33;
+    pos uni1296 uni12A2 -36;
+    pos uni1296 uni120A -106;
+    pos uni129B uni1273 -113;
+    pos uni12A1 uni12B8 -200;
+    pos uni12A1 uni12BB -200;
+    pos uni12A1 uni12BD -213;
+    pos uni12A1 uni1295 -160;
+    pos uni12A2 uni12B8 -193;
+    pos uni12A2 uni12B9 -180;
+    pos uni12A2 uni12BD -213;
+    pos uni12A2 uni12BE -220;
+    pos uni12A2 uni1293 -187;
+    pos uni12A2 uni1296 -187;
+    pos uni12A2 uni12D2 -247;
+    pos uni12A2 uni12D4 -247;
+    pos uni12A3 uni12B8 -173;
+    pos uni12A3 uni12B9 -153;
+    pos uni12A3 uni12BA -147;
+    pos uni12A3 uni12BB -200;
+    pos uni12A3 uni12BD -187;
+    pos uni12A3 uni12BE -147;
+    pos uni12A5 uni130D -124;
+    pos uni12A5 uni12BD -173;
+    pos uni12A5 uni1295 -85;
+    pos uni12A5 uni123D -153;
+    pos uni12A9 uni12B9 -150;
+    pos uni12AA uni127D -113;
+    pos uni12AA uni132D -135;
+    pos uni12AA uni1293 -135;
+    pos uni12AA uni1295 -160;
+    pos uni12AA uni1270 -113;
+    pos uni12AA uni1271 -113;
+    pos uni12AA uni1272 -113;
+    pos uni12AA uni1274 -113;
+    pos uni12AA uni1275 -113;
+    pos uni12AA uni1276 -113;
+    pos uni12AA uni1325 -113;
+    pos uni12AA uni12CA -113;
+    pos uni12B9 uni12F0 -113;
+    pos uni12B9 uni12A2 -33;
+    pos uni12B9 uni12A3 -26;
+    pos uni12BA uni1275 -113;
+    pos uni12BE uni12A2 -20;
+    pos uni12C9 uni12BB -146;
+    pos uni12C9 uni1295 -143;
+    pos uni12CB uni12EB -85;
+    pos uni12CD uni1243 -94;
+    pos uni12CD uni12EB -107;
+    pos uni12D2 uni123D -106;
+    pos uni12DA uni12B8 -150;
+    pos uni12E8 uni1348 -120;
+    pos uni12EB uni12F6 -93;
+    pos uni12F0 uni1275 -85;
+    pos uni12F5 uni1212 -163;
+    pos uni1309 uni1225 -85;
+    pos uni130A uni12D2 -207;
+    pos uni130A uni1229 -113;
+    pos uni130A uni1275 -113;
+    pos uni130B uni121D 31;
+    pos uni130B uni1225 -73;
+    pos uni1322 uni134B -205;
+    pos uni1322 uni1295 -205;
+    pos uni1322 uni12D2 -250;
+    pos uni1322 uni1275 -143;
+    pos uni1328 uni1252 -47;
+    pos uni132A uni1275 -143;
+    pos uni133D uni1213 -143;
+    pos uni1348 uni121E -93;
+    pos uni1356 uni1328 -193;
+    pos uni1356 uni1228 -193;
+    pos uni2D84 uni1247 -39;
+    pos uniAB02 uni12B9 -250;
+    pos uniAB02 uni12D2 -233;
+    pos uniAB02 uni12D4 -233;
+    pos uniAB04 uni12D4 -180;
+    pos uniAB12 uni12B8 -205;
+    pos uni1228 u1E7F1 -150;
+    pos uni1270 u1E7EB -150;
+    pos uni1270 u1E7FC -150;
+    pos uni1273 u1E7E1 -180;
+    pos uni1275 uni1214 -113;
+    pos uni1348 u1E7F6 -150;
+    pos u1E7E5 uni1295 -180;
+    pos u1E7F9 uni1273 -150;
+    pos u1E7EB uni1293 -113;
+} PairKerning;
+
+lookup AttachMarks {
+    lookupflag 0;
+    pos base Zcaron <anchor 610 1900> mark @_U;
+    pos base breve <anchor 305 1500> mark @_U;
+    pos base caron <anchor 335 1500> mark @_U;
+    pos base dotlessi <anchor 310 1100> mark @_U;
+    pos base fi <anchor 978 1480> mark @_U;
+    pos base fl <anchor 974 1580> mark @_U;
+    pos base pi <anchor 608 1100> mark @_U;
+    pos base [u1E7E0 u1E7E1 u1E7E2 u1E7E4 u1E7E6] <anchor 920 1423> mark @_U;
+    pos base u1E7E3 <anchor 870 1423> mark @_U;
+    pos base u1E7E5 <anchor 660 1508> mark @_U;
+    pos base [u1E7E8 u1E7E9 u1E7EA uni1210 uni1211 uni1212 uni1214] <anchor 900 1273> mark @_U;
+    pos base u1E7EB <anchor 910 1360> mark @_U;
+    pos base [u1E7ED u1E7EE uni121A uni121C] <anchor 884 1303> mark @_U;
+    pos base [u1E7F0 uni1242 uni1244] <anchor 725 1390> mark @_U;
+    pos base u1E7F1 <anchor 755 1390> mark @_U;
+    pos base [u1E7F2 uni1245] <anchor 722 1588> mark @_U;
+    pos base [u1E7F3 u1E7F4 uni1262 uni1264] <anchor 568 1328> mark @_U;
+    pos base [u1E7F5 u1E7F6 u1E7F7 uni12AA uni12AC uni12AD uni12B0] <anchor 566 1442> mark @_U;
+    pos base [u1E7F8 u1E7F9 uni1310] <anchor 570 1322> mark @_U;
+    pos base [u1E7FA uni130D] <anchor 620 1215> mark @_U;
+    pos base [u1E7FB u1E7FC uni134A uni134C] <anchor 780 1280> mark @_U;
+    pos base [u1E7FD uni1352] <anchor 735 1215> mark @_U;
+    pos base [u1E7FE uni1354] <anchor 735 1205> mark @_U;
+    pos base uni02C9 <anchor 343 1470> mark @_U;
+    pos base uni02D0 <anchor 261 1100> mark @_U;
+    pos base uni1200 <anchor 587 1241> mark @_U;
+    pos base uni1201 <anchor 610 1236> mark @_U;
+    pos base uni1202 <anchor 577 1383> mark @_U;
+    pos base uni1203 <anchor 545 1333> mark @_U;
+    pos base uni1204 <anchor 525 1405> mark @_U;
+    pos base uni1205 <anchor 565 1303> mark @_U;
+    pos base [uni1206 uni1313.seb0] <anchor 564 1329> mark @_U;
+    pos base uni1207 <anchor 917 1350> mark @_U;
+    pos base uni1208 <anchor 540 1396> mark @_U;
+    pos base uni1209 <anchor 578 1334> mark @_U;
+    pos base uni120A <anchor 548 1350> mark @_U;
+    pos base uni120B <anchor 524 1350> mark @_U;
+    pos base uni120C <anchor 540 1342> mark @_U;
+    pos base uni120D <anchor 594 1311> mark @_U;
+    pos base uni120E <anchor 555 1327> mark @_U;
+    pos base uni120F <anchor 490 1413> mark @_U;
+    pos base uni1213 <anchor 840 1273> mark @_U;
+    pos base uni1215 <anchor 900 1360> mark @_U;
+    pos base uni1216 <anchor 920 1273> mark @_U;
+    pos base uni1217 <anchor 859 1413> mark @_U;
+    pos base uni1218 <anchor 1121 1200> mark @_U;
+    pos base uni1219 <anchor 1114 1178> mark @_U;
+    pos base uni121B <anchor 877 1274> mark @_U;
+    pos base uni121D <anchor 901 1295> mark @_U;
+    pos base [uni121E uni121F.cohen2] <anchor 923 1302> mark @_U;
+    pos base uni121F <anchor 847 1307> mark @_U;
+    pos base [uni121F.cohen1 uni1359 uni1359.ala2] <anchor 834 1574> mark @_U;
+    pos base uni1220 <anchor 862 1143> mark @_U;
+    pos base uni1221 <anchor 855 1179> mark @_U;
+    pos base uni1222 <anchor 763 1295> mark @_U;
+    pos base [uni1223 uni1224] <anchor 763 1272> mark @_U;
+    pos base uni1225 <anchor 1272 1295> mark @_U;
+    pos base uni1226 <anchor 740 1225> mark @_U;
+    pos base uni1227 <anchor 767 1342> mark @_U;
+    pos base uni1228 <anchor 852 1249> mark @_U;
+    pos base [uni1229 uni122F.cohen3] <anchor 678 1263> mark @_U;
+    pos base uni122A <anchor 870 1263> mark @_U;
+    pos base uni122B <anchor 855 1267> mark @_U;
+    pos base uni122C <anchor 852 1267> mark @_U;
+    pos base uni122D <anchor 717 1239> mark @_U;
+    pos base uni122E <anchor 781 1271> mark @_U;
+    pos base [uni122F uni1358.ala1] <anchor 873 1373> mark @_U;
+    pos base uni1230 <anchor 571 1381> mark @_U;
+    pos base uni1231 <anchor 593 1381> mark @_U;
+    pos base uni1232 <anchor 600 1384> mark @_U;
+    pos base uni1233 <anchor 582 1373> mark @_U;
+    pos base uni1234 <anchor 586 1363> mark @_U;
+    pos base uni1235 <anchor 444 1391> mark @_U;
+    pos base uni1236 <anchor 593 1377> mark @_U;
+    pos base uni1237 <anchor 561 1405> mark @_U;
+    pos base uni1238 <anchor 625 1480> mark @_U;
+    pos base uni1239 <anchor 685 1508> mark @_U;
+    pos base uni123A <anchor 678 1505> mark @_U;
+    pos base uni123B <anchor 685 1501> mark @_U;
+    pos base uni123C <anchor 692 1508> mark @_U;
+    pos base uni123D <anchor 582 1501> mark @_U;
+    pos base uni123E <anchor 689 1519> mark @_U;
+    pos base uni123F <anchor 635 1480> mark @_U;
+    pos base uni1240 <anchor 752 1384> mark @_U;
+    pos base uni1241 <anchor 752 1381> mark @_U;
+    pos base uni1243 <anchor 962 1340> mark @_U;
+    pos base uni1246 <anchor 781 1448> mark @_U;
+    pos base uni1247 <anchor 805 1425> mark @_U;
+    pos base uni1248 <anchor 684 1428> mark @_U;
+    pos base uni124A <anchor 757 1448> mark @_U;
+    pos base uni124A.seb3 <anchor 752 1408> mark @_U;
+    pos base uni124B <anchor 724 1525> mark @_U;
+    pos base uni124C <anchor 833 1396> mark @_U;
+    pos base uni124D <anchor 700 1436> mark @_U;
+    pos base uni124D.seb2 <anchor 800 1587> mark @_U;
+    pos base uni1250 <anchor 762 1543> mark @_U;
+    pos base uni1251 <anchor 743 1571> mark @_U;
+    pos base uni1252 <anchor 781 1539> mark @_U;
+    pos base uni1253 <anchor 953 1496> mark @_U;
+    pos base uni1254 <anchor 768 1536> mark @_U;
+    pos base uni1255 <anchor 633 1612> mark @_U;
+    pos base uni1256 <anchor 825 1558> mark @_U;
+    pos base uni1258 <anchor 671 1558> mark @_U;
+    pos base uni125A <anchor 784 1558> mark @_U;
+    pos base uni125B <anchor 743 1618> mark @_U;
+    pos base uni125C <anchor 878 1587> mark @_U;
+    pos base uni125D <anchor 668 1527> mark @_U;
+    pos base uni1260 <anchor 554 1334> mark @_U;
+    pos base uni1261 <anchor 564 1331> mark @_U;
+    pos base uni1263 <anchor 578 1317> mark @_U;
+    pos base uni1265 <anchor 1001 1320> mark @_U;
+    pos base uni1266 <anchor 564 1327> mark @_U;
+    pos base uni1267 <anchor 602 1286> mark @_U;
+    pos base uni1268 <anchor 624 1449> mark @_U;
+    pos base uni1269 <anchor 630 1430> mark @_U;
+    pos base uni126A <anchor 621 1427> mark @_U;
+    pos base uni126B <anchor 636 1408> mark @_U;
+    pos base uni126C <anchor 640 1442> mark @_U;
+    pos base uni126D <anchor 1010 1439> mark @_U;
+    pos base uni126E <anchor 615 1445> mark @_U;
+    pos base uni126F <anchor 628 1473> mark @_U;
+    pos base uni1270 <anchor 828 1336> mark @_U;
+    pos base uni1271 <anchor 825 1333> mark @_U;
+    pos base uni1272 <anchor 821 1329> mark @_U;
+    pos base uni1273 <anchor 944 1383> mark @_U;
+    pos base uni1274 <anchor 815 1326> mark @_U;
+    pos base uni1275 <anchor 787 1524> mark @_U;
+    pos base uni1276 <anchor 843 1376> mark @_U;
+    pos base uni1277 <anchor 870 1281> mark @_U;
+    pos base uni1278 <anchor 781 1452> mark @_U;
+    pos base uni1279 <anchor 781 1439> mark @_U;
+    pos base uni127A <anchor 793 1433> mark @_U;
+    pos base uni127B <anchor 887 1420> mark @_U;
+    pos base uni127C <anchor 806 1442> mark @_U;
+    pos base uni127D <anchor 596 1643> mark @_U;
+    pos base uni127E <anchor 903 1583> mark @_U;
+    pos base uni127F <anchor 955 1324> mark @_U;
+    pos base uni1280 <anchor 813 1350> mark @_U;
+    pos base uni1281 <anchor 834 1356> mark @_U;
+    pos base uni1282 <anchor 818 1363> mark @_U;
+    pos base uni1283 <anchor 866 1394> mark @_U;
+    pos base uni1284 <anchor 817 1347> mark @_U;
+    pos base uni1285 <anchor 703 1345> mark @_U;
+    pos base uni1286 <anchor 1165 1367> mark @_U;
+    pos base uni1287 <anchor 1065 1375> mark @_U;
+    pos base uni1287.alt3 <anchor 607 1425> mark @_U;
+    pos base uni1288 <anchor 784 1286> mark @_U;
+    pos base uni1288.handwriting <anchor 589 1176> mark @_U;
+    pos base [uni128A uni12CA] <anchor 718 1295> mark @_U;
+    pos base uni128A.handwriting <anchor 593 1132> mark @_U;
+    pos base uni128B <anchor 680 1461> mark @_U;
+    pos base uni128B.handwriting <anchor 897 1242> mark @_U;
+    pos base uni128C <anchor 727 1433> mark @_U;
+    pos base uni128C.handwriting <anchor 693 1279> mark @_U;
+    pos base uni128D <anchor 696 1298> mark @_U;
+    pos base uni128D.handwriting <anchor 552 1132> mark @_U;
+    pos base uni1290 <anchor 252 1352> mark @_U;
+    pos base uni1291 <anchor 231 1370> mark @_U;
+    pos base uni1292 <anchor 298 1327> mark @_U;
+    pos base uni1293 <anchor 674 1334> mark @_U;
+    pos base uni1294 <anchor 291 1324> mark @_U;
+    pos base uni1295 <anchor 490 1352> mark @_U;
+    pos base uni1296 <anchor 660 1363> mark @_U;
+    pos base uni1297 <anchor 724 1292> mark @_U;
+    pos base [uni1297.cohen0 uni1297.oldstyle] <anchor 444 1288> mark @_U;
+    pos base [uni1298 uni129F.cohen8] <anchor 692 1446> mark @_U;
+    pos base uni1298.gumuz <anchor 619 1648> mark @_U;
+    pos base uni1299 <anchor 664 1420> mark @_U;
+    pos base uni1299.gumuz <anchor 644 1648> mark @_U;
+    pos base uni129A <anchor 664 1409> mark @_U;
+    pos base uni129A.gumuz <anchor 607 1611> mark @_U;
+    pos base uni129B <anchor 678 1544> mark @_U;
+    pos base uni129B.gumuz <anchor 657 1648> mark @_U;
+    pos base uni129C <anchor 689 1416> mark @_U;
+    pos base uni129C.gumuz <anchor 619 1611> mark @_U;
+    pos base uni129D <anchor 642 1590> mark @_U;
+    pos base uni129D.gumuz <anchor 607 1648> mark @_U;
+    pos base uni129E <anchor 657 1540> mark @_U;
+    pos base uni129E.gumuz <anchor 694 1722> mark @_U;
+    pos base uni129F <anchor 668 1494> mark @_U;
+    pos base [uni129F.gumuz uni129F.gumuz1] <anchor 669 1586> mark @_U;
+    pos base uni12A0 <anchor 393 1427> mark @_U;
+    pos base uni12A1 <anchor 393 1404> mark @_U;
+    pos base uni12A2 <anchor 401 1427> mark @_U;
+    pos base uni12A3 <anchor 416 1381> mark @_U;
+    pos base uni12A4 <anchor 347 1334> mark @_U;
+    pos base uni12A5 <anchor 255 1427> mark @_U;
+    pos base uni12A6 <anchor 470 1357> mark @_U;
+    pos base uni12A7 <anchor 607 1725> mark @_U;
+    pos base uni12A8 <anchor 542 1452> mark @_U;
+    pos base uni12A9 <anchor 524 1436> mark @_U;
+    pos base uni12AB <anchor 555 1458> mark @_U;
+    pos base uni12AE <anchor 533 1442> mark @_U;
+    pos base uni12AF <anchor 904 1450> mark @_U;
+    pos base uni12B2 <anchor 480 1423> mark @_U;
+    pos base uni12B2.seb3 <anchor 499 1314> mark @_U;
+    pos base [uni12B3 uniE2A9] <anchor 486 1455> mark @_U;
+    pos base uni12B4 <anchor 511 1455> mark @_U;
+    pos base uni12B5 <anchor 489 1445> mark @_U;
+    pos base uni12B5.seb2 <anchor 508 1430> mark @_U;
+    pos base [uni12B8 uni12BB] <anchor 656 1574> mark @_U;
+    pos base [uni12B9 uni12BE] <anchor 656 1555> mark @_U;
+    pos base [uni12BA uni12BD] <anchor 637 1518> mark @_U;
+    pos base uni12BC <anchor 675 1518> mark @_U;
+    pos base uni12C0 <anchor 649 1467> mark @_U;
+    pos base uni12C2 <anchor 646 1486> mark @_U;
+    pos base uni12C2.seb3 <anchor 630 1477> mark @_U;
+    pos base uni12C3 <anchor 574 1524> mark @_U;
+    pos base [uni12C3.cohen7 uni12C3.oldstyle] <anchor 652 1483> mark @_U;
+    pos base uni12C4 <anchor 633 1492> mark @_U;
+    pos base uni12C5 <anchor 633 1486> mark @_U;
+    pos base uni12C5.seb2 <anchor 646 1474> mark @_U;
+    pos base uni12C8 <anchor 828 1223> mark @_U;
+    pos base uni12C9 <anchor 825 1213> mark @_U;
+    pos base uni12CB <anchor 712 1292> mark @_U;
+    pos base uni12CC <anchor 709 1292> mark @_U;
+    pos base uni12CD <anchor 812 1226> mark @_U;
+    pos base uni12CE <anchor 821 1367> mark @_U;
+    pos base uni12CF <anchor 1189 1425> mark @_U;
+    pos base uni12D0 <anchor 578 1364> mark @_U;
+    pos base uni12D1 <anchor 647 1341> mark @_U;
+    pos base uni12D2 <anchor 578 1387> mark @_U;
+    pos base uni12D3 <anchor 555 1387> mark @_U;
+    pos base uni12D4 <anchor 509 1387> mark @_U;
+    pos base uni12D5 <anchor 582 1397> mark @_U;
+    pos base uni12D6 <anchor 815 1416> mark @_U;
+    pos base uni12D8 <anchor 563 1249> mark @_U;
+    pos base uni12D9 <anchor 571 1249> mark @_U;
+    pos base uni12DA <anchor 555 1242> mark @_U;
+    pos base uni12DB <anchor 509 1226> mark @_U;
+    pos base uni12DC <anchor 594 1257> mark @_U;
+    pos base uni12DD <anchor 802 1265> mark @_U;
+    pos base uni12DE <anchor 563 1265> mark @_U;
+    pos base uni12DF <anchor 593 1228> mark @_U;
+    pos base [uni12E0 uni12E0.chaine uni12E0.cohen6 uni12E4 uni12E4.chaine uni12E4.cohen6 uni12E5.chaine] <anchor 964 1211> mark @_U;
+    pos base [uni12E1 uni12E1.chaine uni12E1.cohen6] <anchor 949 1211> mark @_U;
+    pos base uni12E2 <anchor 996 1227> mark @_U;
+    pos base [uni12E3 uni12E3.chaine uni12E3.cohen6] <anchor 941 1219> mark @_U;
+    pos base uni12E5 <anchor 595 1713> mark @_U;
+    pos base [uni12E5.cohen6 uni12E5.oldstyle] <anchor 1066 1176> mark @_U;
+    pos base [uni12E6 uni12E6.chaine uni12E6.cohen6] <anchor 972 1226> mark @_U;
+    pos base uni12E7 <anchor 990 1214> mark @_U;
+    pos base uni12E8 <anchor 524 1314> mark @_U;
+    pos base uni12E9 <anchor 574 1354> mark @_U;
+    pos base uni12EA <anchor 571 1345> mark @_U;
+    pos base uni12EB <anchor 853 1348> mark @_U;
+    pos base uni12EC <anchor 527 1326> mark @_U;
+    pos base uni12ED <anchor 765 1270> mark @_U;
+    pos base uni12EE <anchor 520 1314> mark @_U;
+    pos base uni12EF <anchor 904 1412> mark @_U;
+    pos base uni12F0 <anchor 802 1396> mark @_U;
+    pos base [uni12F1 uni12F2] <anchor 810 1396> mark @_U;
+    pos base uni12F3 <anchor 779 1396> mark @_U;
+    pos base uni12F4 <anchor 787 1388> mark @_U;
+    pos base uni12F5 <anchor 810 1357> mark @_U;
+    pos base uni12F6 <anchor 779 1342> mark @_U;
+    pos base uni12F7 <anchor 796 1314> mark @_U;
+    pos base uni12F8 <anchor 818 1612> mark @_U;
+    pos base uni12F8.oromo <anchor 781 1329> mark @_U;
+    pos base [uni12F9 uni12FB] <anchor 825 1593> mark @_U;
+    pos base uni12F9.oromo <anchor 806 1376> mark @_U;
+    pos base [uni12FA uni12FD] <anchor 825 1596> mark @_U;
+    pos base uni12FA.oromo <anchor 790 1361> mark @_U;
+    pos base uni12FB.oromo <anchor 800 1339> mark @_U;
+    pos base uni12FC <anchor 800 1596> mark @_U;
+    pos base uni12FC.oromo <anchor 778 1345> mark @_U;
+    pos base uni12FD.oromo <anchor 818 1348> mark @_U;
+    pos base uni12FE <anchor 705 1599> mark @_U;
+    pos base uni12FE.oromo <anchor 756 1345> mark @_U;
+    pos base uni12FF <anchor 816 1597> mark @_U;
+    pos base uni1300 <anchor 787 1465> mark @_U;
+    pos base uni1301 <anchor 686 1504> mark @_U;
+    pos base uni1302 <anchor 710 1481> mark @_U;
+    pos base uni1303 <anchor 694 1488> mark @_U;
+    pos base uni1304 <anchor 663 1473> mark @_U;
+    pos base uni1305 <anchor 779 1458> mark @_U;
+    pos base uni1306 <anchor 872 1488> mark @_U;
+    pos base uni1307 <anchor 790 1637> mark @_U;
+    pos base uni1308 <anchor 542 1226> mark @_U;
+    pos base uni1309 <anchor 552 1126> mark @_U;
+    pos base uni130A <anchor 558 1150> mark @_U;
+    pos base uni130B <anchor 922 1170> mark @_U;
+    pos base uni130C <anchor 558 1244> mark @_U;
+    pos base uni130E <anchor 571 1358> mark @_U;
+    pos base uni130F <anchor 669 1450> mark @_U;
+    pos base uni1312 <anchor 571 1279> mark @_U;
+    pos base uni1312.seb3 <anchor 536 1279> mark @_U;
+    pos base uni1313 <anchor 552 1298> mark @_U;
+    pos base [uni1313.alonestokes uni1313.oldstyle] <anchor 825 1242> mark @_U;
+    pos base uni1314 <anchor 759 1392> mark @_U;
+    pos base uni1315 <anchor 546 1286> mark @_U;
+    pos base uni1315.seb2 <anchor 589 1220> mark @_U;
+    pos base uni1318 <anchor 619 1524> mark @_U;
+    pos base uni1318.alt1 <anchor 665 1496> mark @_U;
+    pos base uni1319 <anchor 644 1450> mark @_U;
+    pos base uni1319.alt1 <anchor 680 1439> mark @_U;
+    pos base uni131A <anchor 669 1437> mark @_U;
+    pos base uni131A.alt1 <anchor 640 1439> mark @_U;
+    pos base uni131B <anchor 719 1474> mark @_U;
+    pos base uni131B.alt1 <anchor 734 1405> mark @_U;
+    pos base uni131C <anchor 632 1524> mark @_U;
+    pos base uni131C.alt1 <anchor 630 1499> mark @_U;
+    pos base uni131D <anchor 681 1549> mark @_U;
+    pos base uni131D.alt1 <anchor 674 1496> mark @_U;
+    pos base uni131E <anchor 632 1437> mark @_U;
+    pos base uni131E.alt1 <anchor 624 1392> mark @_U;
+    pos base uni131F <anchor 620 1424> mark @_U;
+    pos base uni131F.type <anchor 605 1627> mark @_U;
+    pos base [uni1320 uni1321] <anchor 825 1049> mark @_U;
+    pos base uni1322 <anchor 818 1041> mark @_U;
+    pos base uni1323 <anchor 902 1311> mark @_U;
+    pos base uni1324 <anchor 833 1087> mark @_U;
+    pos base uni1325 <anchor 733 1165> mark @_U;
+    pos base uni1326 <anchor 818 1180> mark @_U;
+    pos base uni1327 <anchor 972 1085> mark @_U;
+    pos base uni1328 <anchor 995 1126> mark @_U;
+    pos base [uni1329 uni132A] <anchor 995 1103> mark @_U;
+    pos base uni132B <anchor 1018 1257> mark @_U;
+    pos base uni132C <anchor 979 1141> mark @_U;
+    pos base uni132D <anchor 1055 1276> mark @_U;
+    pos base uni132E <anchor 1072 1249> mark @_U;
+    pos base uni132F <anchor 1000 1176> mark @_U;
+    pos base uni1330 <anchor 542 1483> mark @_U;
+    pos base uni1331 <anchor 580 1477> mark @_U;
+    pos base uni1332 <anchor 549 1483> mark @_U;
+    pos base uni1333 <anchor 542 1474> mark @_U;
+    pos base uni1334 <anchor 586 1480> mark @_U;
+    pos base uni1335 <anchor 546 1489> mark @_U;
+    pos base uni1335.praetorius <anchor 559 1683> mark @_U;
+    pos base uni1336 <anchor 549 1486> mark @_U;
+    pos base uni1337 <anchor 448 1483> mark @_U;
+    pos base uni1338 <anchor 571 1217> mark @_U;
+    pos base uni1339 <anchor 564 1207> mark @_U;
+    pos base uni133A <anchor 536 1248> mark @_U;
+    pos base uni133B <anchor 492 1238> mark @_U;
+    pos base uni133C <anchor 524 1235> mark @_U;
+    pos base uni133D <anchor 574 1204> mark @_U;
+    pos base uni133E <anchor 502 1238> mark @_U;
+    pos base uni133F <anchor 602 1320> mark @_U;
+    pos base [uni133F.alt4 uni133F.oldstyle uni2D88] <anchor 731 1400> mark @_U;
+    pos base uni1340 <anchor 543 1300> mark @_U;
+    pos base uni1341 <anchor 611 1300> mark @_U;
+    pos base uni1342 <anchor 485 1368> mark @_U;
+    pos base uni1343 <anchor 495 1368> mark @_U;
+    pos base uni1344 <anchor 504 1416> mark @_U;
+    pos base uni1345 <anchor 572 1368> mark @_U;
+    pos base uni1346 <anchor 805 1407> mark @_U;
+    pos base uni1347 <anchor 929 1425> mark @_U;
+    pos base uni1348 <anchor 793 1270> mark @_U;
+    pos base uni1349 <anchor 687 1492> mark @_U;
+    pos base uni134B <anchor 696 1467> mark @_U;
+    pos base uni134D <anchor 740 1242> mark @_U;
+    pos base uni134E <anchor 793 1238> mark @_U;
+    pos base uni134F <anchor 796 1511> mark @_U;
+    pos base uni134F.cohen4 <anchor 780 1242> mark @_U;
+    pos base [uni134F.cohen5 uni134F.oldstyle] <anchor 705 1587> mark @_U;
+    pos base uni1350 <anchor 721 1173> mark @_U;
+    pos base uni1351 <anchor 734 1163> mark @_U;
+    pos base uni1353 <anchor 1101 1163> mark @_U;
+    pos base uni1355 <anchor 712 1166> mark @_U;
+    pos base uni1356 <anchor 1079 1226> mark @_U;
+    pos base uni1357 <anchor 800 1223> mark @_U;
+    pos base uni1358 <anchor 759 1489> mark @_U;
+    pos base uni135A <anchor 712 1458> mark @_U;
+    pos base uni1380 <anchor 1088 1126> mark @_U;
+    pos base uni1381 <anchor 884 1264> mark @_U;
+    pos base [uni1381.seb3 uni1381.seb5] <anchor 884 1254> mark @_U;
+    pos base [uni1381.sebLes uni1381.sebLes1] <anchor 1053 1116> mark @_U;
+    pos base uni1382 <anchor 906 1370> mark @_U;
+    pos base uni1383 <anchor 909 1286> mark @_U;
+    pos base uni1383.seb4 <anchor 912 1292> mark @_U;
+    pos base [uni1383.sebLes uni1383.sebLes4] <anchor 1092 1210> mark @_U;
+    pos base uni1384 <anchor 580 1314> mark @_U;
+    pos base uni1385 <anchor 596 1307> mark @_U;
+    pos base uni1385.seb3 <anchor 602 1323> mark @_U;
+    pos base uni1386 <anchor 589 1317> mark @_U;
+    pos base uni1387 <anchor 988 1307> mark @_U;
+    pos base [uni1387.sebLes uni1387.sebLes2] <anchor 593 1311> mark @_U;
+    pos base uni1388 <anchor 781 1254> mark @_U;
+    pos base uni1389 <anchor 774 1257> mark @_U;
+    pos base uni138A <anchor 702 1483> mark @_U;
+    pos base uni138A.trad <anchor 862 1511> mark @_U;
+    pos base uni138B <anchor 765 1245> mark @_U;
+    pos base [uni138B.sebLes uni138B.sebLes3] <anchor 793 1264> mark @_U;
+    pos base uni138C <anchor 715 1176> mark @_U;
+    pos base uni138D <anchor 721 1182> mark @_U;
+    pos base uni138D.seb3 <anchor 712 1182> mark @_U;
+    pos base uni138E <anchor 809 1342> mark @_U;
+    pos base uni138F <anchor 737 1163> mark @_U;
+    pos base [uni138F.sebLes uni138F.sebLes5] <anchor 727 1176> mark @_U;
+    pos base uni2000 <anchor 492 1500> mark @_U;
+    pos base uni2001 <anchor 985 1500> mark @_U;
+    pos base uni2002 <anchor 512 1500> mark @_U;
+    pos base uni2003 <anchor 1024 1500> mark @_U;
+    pos base uni2004 <anchor 328 1500> mark @_U;
+    pos base [uni2005 uni202F] <anchor 246 1500> mark @_U;
+    pos base uni2006 <anchor 164 1500> mark @_U;
+    pos base uni2D80 <anchor 942 1425> mark @_U;
+    pos base uni2D81 <anchor 979 1425> mark @_U;
+    pos base uni2D82 <anchor 1177 1338> mark @_U;
+    pos base uni2D83 <anchor 991 1462> mark @_U;
+    pos base uni2D84 <anchor 1053 1561> mark @_U;
+    pos base uni2D85 <anchor 972 1327> mark @_U;
+    pos base uni2D86 <anchor 855 1462> mark @_U;
+    pos base uni2D87 <anchor 855 1611> mark @_U;
+    pos base uni2D89 <anchor 694 1536> mark @_U;
+    pos base uni2D8A <anchor 805 1363> mark @_U;
+    pos base uni2D8B <anchor 929 1301> mark @_U;
+    pos base uni2D8C <anchor 929 1363> mark @_U;
+    pos base uni2D8D <anchor 917 1685> mark @_U;
+    pos base uni2D8E <anchor 917 1524> mark @_U;
+    pos base uni2D8F <anchor 1276 1227> mark @_U;
+    pos base uni2D90 <anchor 1499 1388> mark @_U;
+    pos base uni2D91 <anchor 904 1561> mark @_U;
+    pos base uni2D92 <anchor 1512 1313> mark @_U;
+    pos base [uni2D93 uni2D93.blin] <anchor 643 1373> mark @_U;
+    pos base [uni2D94 uni2D94.blin] <anchor 630 1380> mark @_U;
+    pos base [uni2D95 uni2D95.blin] <anchor 712 1398> mark @_U;
+    pos base [uni2D96 uni2D96.blin] <anchor 618 1392> mark @_U;
+    pos base uni2DA0 <anchor 1035 1508> mark @_U;
+    pos base uni2DA1 <anchor 991 1511> mark @_U;
+    pos base uni2DA2 <anchor 1032 1499> mark @_U;
+    pos base uni2DA3 <anchor 1025 1533> mark @_U;
+    pos base uni2DA4 <anchor 1003 1521> mark @_U;
+    pos base uni2DA5 <anchor 727 1452> mark @_U;
+    pos base uni2DA6 <anchor 1047 1521> mark @_U;
+    pos base uni2DA8 <anchor 890 1423> mark @_U;
+    pos base uni2DA9 <anchor 850 1433> mark @_U;
+    pos base uni2DAA <anchor 856 1423> mark @_U;
+    pos base uni2DAB <anchor 900 1408> mark @_U;
+    pos base uni2DAC <anchor 847 1433> mark @_U;
+    pos base uni2DAD <anchor 643 1571> mark @_U;
+    pos base uni2DAE <anchor 925 1565> mark @_U;
+    pos base uni2DB0 <anchor 997 1204> mark @_U;
+    pos base uni2DB1 <anchor 988 1210> mark @_U;
+    pos base uni2DB2 <anchor 972 1182> mark @_U;
+    pos base [uni2DB3 uni2DB4] <anchor 969 1173> mark @_U;
+    pos base uni2DB5 <anchor 586 1649> mark @_U;
+    pos base uni2DB6 <anchor 953 1210> mark @_U;
+    pos base uni2DB8 <anchor 1370 1088> mark @_U;
+    pos base uni2DB9 <anchor 1392 1094> mark @_U;
+    pos base uni2DBA <anchor 1376 1091> mark @_U;
+    pos base uni2DBB <anchor 1496 1229> mark @_U;
+    pos base uni2DBC <anchor 1380 1116> mark @_U;
+    pos base uni2DBD <anchor 1499 1264> mark @_U;
+    pos base uni2DBE <anchor 1480 1245> mark @_U;
+    pos base uni2DC0 <anchor 796 1731> mark @_U;
+    pos base uni2DC1 <anchor 790 1687> mark @_U;
+    pos base uni2DC2 <anchor 796 1721> mark @_U;
+    pos base uni2DC3 <anchor 1000 1646> mark @_U;
+    pos base uni2DC4 <anchor 809 1674> mark @_U;
+    pos base uni2DC5 <anchor 517 1740> mark @_U;
+    pos base uni2DC6 <anchor 856 1674> mark @_U;
+    pos base uni2DC8 <anchor 564 1458> mark @_U;
+    pos base uni2DC9 <anchor 480 1489> mark @_U;
+    pos base uni2DCA <anchor 483 1474> mark @_U;
+    pos base uni2DCB <anchor 508 1477> mark @_U;
+    pos base uni2DCC <anchor 477 1471> mark @_U;
+    pos base uni2DCD <anchor 536 1405> mark @_U;
+    pos base uni2DCE <anchor 508 1411> mark @_U;
+    pos base uni2DD0 <anchor 596 1712> mark @_U;
+    pos base uni2DD1 <anchor 599 1693> mark @_U;
+    pos base uni2DD2 <anchor 611 1674> mark @_U;
+    pos base uni2DD3 <anchor 605 1696> mark @_U;
+    pos base uni2DD4 <anchor 608 1693> mark @_U;
+    pos base uni2DD5 <anchor 640 1681> mark @_U;
+    pos base uni2DD6 <anchor 608 1696> mark @_U;
+    pos base uni2DD8 <anchor 514 1467> mark @_U;
+    pos base uni2DD9 <anchor 577 1502> mark @_U;
+    pos base uni2DDA <anchor 524 1405> mark @_U;
+    pos base uni2DDB <anchor 834 1511> mark @_U;
+    pos base uni2DDC <anchor 542 1521> mark @_U;
+    pos base uni2DDD <anchor 825 1552> mark @_U;
+    pos base uni2DDE <anchor 533 1671> mark @_U;
+    pos base uniAB01 <anchor 593 1373> mark @_U;
+    pos base uniAB02 <anchor 599 1380> mark @_U;
+    pos base uniAB03 <anchor 586 1370> mark @_U;
+    pos base uniAB04 <anchor 586 1361> mark @_U;
+    pos base uniAB05 <anchor 477 1386> mark @_U;
+    pos base uniAB06 <anchor 593 1367> mark @_U;
+    pos base uniAB09 <anchor 825 1574> mark @_U;
+    pos base uniAB0A <anchor 821 1596> mark @_U;
+    pos base uniAB0B <anchor 831 1602> mark @_U;
+    pos base uniAB0C <anchor 809 1602> mark @_U;
+    pos base uniAB0D <anchor 828 1587> mark @_U;
+    pos base uniAB0E <anchor 699 1571> mark @_U;
+    pos base uniAB11 <anchor 593 1590> mark @_U;
+    pos base uniAB12 <anchor 599 1574> mark @_U;
+    pos base uniAB13 <anchor 618 1539> mark @_U;
+    pos base uniAB14 <anchor 599 1568> mark @_U;
+    pos base uniAB15 <anchor 602 1571> mark @_U;
+    pos base uniAB16 <anchor 605 1596> mark @_U;
+    pos base uniAB20 <anchor 954 1512> mark @_U;
+    pos base uniAB21 <anchor 966 1487> mark @_U;
+    pos base [uniAB22 uniAB24] <anchor 979 1462> mark @_U;
+    pos base uniAB23 <anchor 1004 1635> mark @_U;
+    pos base uniAB25 <anchor 954 1685> mark @_U;
+    pos base uniAB26 <anchor 1053 1685> mark @_U;
+    pos base uniAB28 <anchor 632 1499> mark @_U;
+    pos base [uniAB29 uniAB2E] <anchor 644 1549> mark @_U;
+    pos base uniAB2A <anchor 619 1573> mark @_U;
+    pos base uniAB2B <anchor 632 1561> mark @_U;
+    pos base uniAB2C <anchor 582 1573> mark @_U;
+    pos base uniAB2D <anchor 619 1512> mark @_U;
+    pos base uniE068 <anchor 605 1740> mark @_U;
+    pos base uniE069 <anchor 624 1709> mark @_U;
+    pos base uniE06A <anchor 636 1709> mark @_U;
+    pos base uniE06B <anchor 640 1706> mark @_U;
+    pos base uniE06C <anchor 580 1709> mark @_U;
+    pos base uniE06D <anchor 589 1787> mark @_U;
+    pos base uniE06E <anchor 624 1721> mark @_U;
+    pos base uniE070 <anchor 423 1361> mark @_U;
+    pos base uniE071 <anchor 828 1289> mark @_U;
+    pos base uniE072 <anchor 549 1320> mark @_U;
+    pos base uniE217 <anchor 1363 1363> mark @_U;
+    pos base uniE227 <anchor 1239 1239> mark @_U;
+    pos base uniE230 <anchor 605 1376> mark @_U;
+    pos base uniE24F <anchor 571 1552> mark @_U;
+    pos base uniE257 <anchor 793 1635> mark @_U;
+    pos base uniE25F <anchor 837 1580> mark @_U;
+    pos base uniE26F <anchor 917 1462> mark @_U;
+    pos base uniE2A8 <anchor 524 1452> mark @_U;
+    pos base uniE2AA <anchor 502 1439> mark @_U;
+    pos base uniE2AB <anchor 480 1439> mark @_U;
+    pos base uniE2AC <anchor 505 1442> mark @_U;
+    pos base uniE2AD <anchor 486 1433> mark @_U;
+    pos base uniE2AE <anchor 477 1452> mark @_U;
+    pos base uniE2B7 <anchor 589 1364> mark @_U;
+    pos base uniE2BF <anchor 681 1561> mark @_U;
+    pos base uniE2D7 <anchor 966 1363> mark @_U;
+    pos base uniE2D8 <anchor 589 1571> mark @_U;
+    pos base uniE2E7 <anchor 954 1214> mark @_U;
+    pos base uniE2F8 <anchor 831 1580> mark @_U;
+    pos base uniE33F <anchor 892 1326> mark @_U;
+    pos base uniE34F <anchor 1189 1289> mark @_U;
+    pos base uniE406 <anchor 903 1398> mark @_U;
+    pos base uniE491 <anchor 793 1709> mark @_U;
+    pos base uniE493 <anchor 630 1612> mark @_U;
+    pos base uniE49A <anchor 925 1295> mark @_U;
+    pos base zcaron <anchor 483 1500> mark @_U;
+    #pos base uni121A <anchor 891 1271> mark @_U ;
+} AttachMarks;
+
+#********************
+# GSUB features     *
+#********************
+feature locl {
+    # Localized forms
+    script ethi;
+    language CHG;
+    # sgw - Sebat Bet Gurage
+    lookup Cv40_gwaa_1;
+    lookup Cv60_mwi_1;
+    lookup Cv80_3rd;
+    lookup Cv85_6th;
+    ##		language BIL ;         # byn - Bilin
+    ##		  lookup Cv41_gga ;
+    ##		  lookup Cv42_ggwaa ;
+    ##		  lookup Cv70_ggwa ;
+    language GMZ;
+    # guk = Gumuz
+    lookup Cv20_nya;
+    lookup Cv21_nywa_1;
+} locl;
+
+feature ccmp {
+    # Glyph Composition/Decomposition
+    lookup FontCheck;
+} ccmp;
+
+feature cv01 {
+    # Punctuation
+        cvParameters {
+                FeatUILabelNameID {
+            name "Punctuation";
+        };
+
+                ParamUILabelNameID {
+            name "Latin style";
+        };
+
+    };
+
+    sub @cno_punct by @c_punct;
+} cv01;
+
+feature cv02 {
+    # Ethiopic digits
+        cvParameters {
+                FeatUILabelNameID {
+            name "Ethiopic digits";
+        };
+
+                ParamUILabelNameID {
+            name "Connected";
+        };
+
+    };
+
+    lookup DigitAlternates;
+} cv02;
+
+feature cv04 {
+    # Mwa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Mwa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate-1";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate-2";
+        };
+
+    };
+
+    sub uni121F from [uni121F.cohen1 uni121F.cohen2];
+} cv04;
+
+feature cv05 {
+    # Rwa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Rwa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_cohen3 by @c_cohen3;
+} cv05;
+
+feature cv17 {
+    # Xoa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Xoa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_alt3 by @c_alt3;
+} cv17;
+
+feature cv18 {
+    # Xwa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Xwa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Handwriting";
+        };
+
+    };
+
+    sub @cno_handwriting by @c_handwriting;
+} cv18;
+
+feature cv19 {
+    # Nwa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Nwa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_cohen0 by @c_cohen0;
+} cv19;
+
+feature cv20 {
+    # Nya alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Nya alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Disconnected";
+        };
+
+    };
+
+    lookup Cv20_nya;
+    # default for guk/GMZ
+} cv20;
+
+feature cv21 {
+    # Nywa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Nywa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Disconnected";
+        };
+
+                ParamUILabelNameID {
+            name "Cohen";
+        };
+
+    };
+
+    sub uni129F from [uni129F.gumuz1 uni129F.cohen8];
+} cv21;
+
+feature cv26 {
+    # Kxwaa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Kxwaa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_cohen7 by @c_cohen7;
+} cv26;
+
+@c_cv31 = [uni12E0 uni12E1 uni12E3 uni12E4 uni12E5 uni12E6];
+@c_cv31_cohen6 = [uni12E0.cohen6 uni12E1.cohen6 uni12E3.cohen6 uni12E4.cohen6 uni12E5.cohen6 uni12E6.cohen6];
+@c_cv31_chaine = [uni12E0.chaine uni12E1.chaine uni12E3.chaine uni12E4.chaine uni12E5.chaine uni12E6.chaine];
+feature cv31 {
+    # Zha alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Zha alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Cohen";
+        };
+
+                ParamUILabelNameID {
+            name "Chaine";
+        };
+
+    };
+
+    sub uni12E0 from [uni12E0.cohen6 uni12E0.chaine];
+    sub uni12E1 from [uni12E1.cohen6 uni12E1.chaine];
+    sub uni12E3 from [uni12E3.cohen6 uni12E3.chaine];
+    sub uni12E4 from [uni12E4.cohen6 uni12E4.chaine];
+    sub uni12E5 from [uni12E5.cohen6 uni12E5.chaine];
+    sub uni12E6 from [uni12E6.cohen6 uni12E6.chaine];
+} cv31;
+
+feature cv32 {
+    # Dda alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Dda alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_oromo by @c_oromo;
+} cv32;
+
+feature cv40 {
+    # Gwaa alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Gwaa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Sebat Bet";
+        };
+
+                ParamUILabelNameID {
+            name "Alone Stokes";
+        };
+
+    };
+
+    sub uni1313 from [uni1313.seb0 uni1313.alonestokes];
+} cv40;
+
+feature cv41 {
+    # Gga alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Gga alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Disconnected";
+        };
+
+    };
+
+    lookup Cv41_gga;
+    # default for BIL
+} cv41;
+
+feature cv42 {
+    # Ggwaa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Ggwaa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Disconnected";
+        };
+
+    };
+
+    lookup Cv42_ggwaa;
+} cv42;
+
+feature cv45 {
+    # Phe alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Phe alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_praetorius by @c_praetorius;
+} cv45;
+
+feature cv46 {
+    # Tswa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Tswa alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_oldstyle by @c_oldstyle;
+} cv46;
+
+feature cv48 {
+    # Fwa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Fwa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Cohen-1";
+        };
+
+                ParamUILabelNameID {
+            name "Cohen-2";
+        };
+
+    };
+
+    sub uni134F from [uni134F.cohen4 uni134F.cohen5];
+} cv48;
+
+feature cv49 {
+    # Rya alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Rya alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_ala1 by @c_ala1;
+} cv49;
+
+feature cv50 {
+    # Mya alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Mya alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_ala2 by @c_ala2;
+} cv50;
+
+feature cv60 {
+    # Mwi alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Mwi alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Sebat Bet";
+        };
+
+                ParamUILabelNameID {
+            name "Leslau";
+        };
+
+    };
+
+    sub uni1381 from [uni1381.seb5 uni1381.sebLes1];
+} cv60;
+
+feature cv61 {
+    # Mwe alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "Mwe alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Sebat Bet";
+        };
+
+                ParamUILabelNameID {
+            name "Leslau";
+        };
+
+    };
+
+    sub uni1383 from [uni1383.seb4 uni1383.sebLes4];
+} cv61;
+
+feature cv62 {
+    # Bwe alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Bwe alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_sebLes2 by @c_sebLes2;
+} cv62;
+
+feature cv63 {
+    # Fwee alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Fwee alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_trad by @c_trad;
+} cv63;
+
+feature cv64 {
+    # Fwe alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Fwe alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_sebLes3 by @c_sebLes3;
+} cv64;
+
+feature cv65 {
+    # Pwe alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Pwe alternate";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    sub @cno_sebLes5 by @c_sebLes5;
+} cv65;
+
+feature cv70 {
+    # Ggwa alternate
+        cvParameters {
+                FeatUILabelNameID {
+            name "Ggwa alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    lookup Cv70_ggwa;
+} cv70;
+
+feature cv80 {
+    # 3rd-form alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "3rd-form alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    lookup Cv80_3rd;
+} cv80;
+
+feature cv85 {
+    # 6th-form alternates
+        cvParameters {
+                FeatUILabelNameID {
+            name "6th-form alternates";
+        };
+
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
+    lookup Cv85_6th;
+} cv85;
+
+#********************
+# GPOS features     *
+#********************
+feature kern {
+    lookup PairKerning;
+} kern;
+
+feature mark {
+    lookup AttachMarks;
+} mark;

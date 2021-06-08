@@ -20,7 +20,6 @@ ZIPDIR = "releases"
 TESTDIR = "tests"
 
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
-# BUILDLABEL = "alpha"
 
 ftmlTest('tests/ftml-smith.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
 

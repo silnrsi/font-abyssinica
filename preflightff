@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "-----Fixing FontForge debris..."
+psffixffglifs source/AbyssinicaSIL-Regular.ufo -p checkfix=fix
+
+./preflight
