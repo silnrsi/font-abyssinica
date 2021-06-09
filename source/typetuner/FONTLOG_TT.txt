@@ -62,8 +62,7 @@ ChangeLog
 - See included xml file for details of feature changes.
 
 9 June 2021 (WSTech Team) Abyssinica SIL version 2.100
-- Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE,
-  U+1E7F0..U+1E7FE
+- Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE, U+1E7F0..U+1E7FE
 - Modified a few kerning pairs and added kerning pairs for some of the new characters
 - Changed Latin digits (for use in Ethiopic) to use a serif style
 - Modified Ethiopic digits to have a more consistent size
