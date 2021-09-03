@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Abyssinica SIL - Frequently Asked Questions</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Abyssinica SIL - Frequently Asked Questions</h1>
+    </header>
+    <p>Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:</p>
+    <ul>
+    <li><a href="http://software.sil.org/fonts/faq">SIL fonts in general</a>
+    <ul>
+    <li><em>How can I type...?</em></li>
+    <li><em>How can I use font features?</em></li>
+    <li><em>Will you add support for character...?</em></li>
+    <li><em>Will you add support for script...?</em></li>
+    <li><em>WIll you help me...?</em></li>
+    </ul></li>
+    <li><a href="https://scripts.sil.org/OFL-FAQ_web">The SIL Open Font License (OFL-FAQ)</a>
+    <ul>
+    <li><em>Can I use this font for...?</em></li>
+    <li><em>Can I modify the font and then include it in...</em></li>
+    <li><em>If I use the font on a web page do I have to include an acknowledgement?</em></li>
+    <li>The full OFL-FAQ.txt is also included in the font package.</li>
+    </ul></li>
+    </ul>
+    <p>Here are a few of the most frequently asked questions specifically regarding Abyssinica SIL:</p>
+    <h4 id="what-is-so-special-about-abyssinica-sil"><em>What is so special about Abyssinica SIL?</em></h4>
+    <p>This font is designed to work with two advanced font technologies, Graphite and OpenType. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType. These advanced capabilities provide access to the variant character forms used in some languages.</p>
+    <h4 id="do-you-supply-a-keyboard-to-use-with-abyssinica-sil"><em>Do you supply a keyboard to use with Abyssinica SIL?</em></h4>
+    <p><a href="https://keyman.com/">Keyman</a> is a cross-platform keyboarding system and a number of Ethiopic keyboards are available:</p>
+    <ul>
+    <li><a href="https://keyman.com/keyboards/sil_ethiopic_power_g">SIL Power-G Ethiopic keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/sil_ethiopic">SIL Ethiopic keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/gff_blin">GFF Blin Keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/gff_geez">GFF Ge'ez Keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/gff_amharic">Amharic keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/gff_tigrinya_ethiopia">GFF Tigrinya-Ethiopia Keyboard</a></li>
+    <li><a href="https://keyman.com/keyboards/gff_tigrinya_eritrea">GFF Tigrinya-Eritrean Keyboard</a></li>
+    </ul>
+    <p>Various other means may be available for different operating-system platforms to create additional input methods. For instance, Windows (Vista and above) provides an Ethiopic IME.</p>
+    <h4 id="my-language-uses-variant-forms-of-some-ethiopic-characters.-how-do-i-type-these-using-the-abyssinica-sil-font-how-do-i-use-features"><em>My language uses variant forms of some Ethiopic characters. How do I type these using the Abyssinica SIL font? How do I use features?</em></h4>
+    <p>You should type the character the same way you would type the standard form of the character. Then, you need to select the variants to be displayed. If your application supports Graphite or the OpenType Character Variant features, you can use these to access the font features built into the font. See <em>Abyssinica SIL Font Features</em> on the Abyssinica SIL <a href="features.html">Smart Font Features</a> page for more details.</p>
+    <p>If your application does not support Graphite features or the OpenType Character Variants, you can use TypeTunerWeb to customize the font with the variants you require. See <em>Abyssinica SIL Font Features</em> on the <a href="features.html">Smart Font Features</a> page for more details.</p>
+    <h4 id="why-did-you-remove-the-stylistic-sets-from-ver.-2.000-of-the-abyssinica-sil-font"><em>Why did you remove the Stylistic Sets from ver. 2.000 of the Abyssinica SIL font?</em></h4>
+    <p>Originally we added the Stylistic Sets because there was not a good solution for accessing the glyph variants in the font. At one point we also tried encoding them in the Private Use Area (PUA). PUA characters have now almost all been unencoded since the characters are now either encoded in Unicode or the variants are available through <strong>Character Variants</strong>. The Stylistic Sets were implemented inconsistently, and because of that we chose to remove them rather than attempt to fix them. If you still wish to use a font with Stylistic Sets, ver. 1.500 is still available on the <a href="versions.html">Previous Versions</a> page.</p>
+    <h4 id="i-have-a-copy-of-the-sil-abyssinica-font.-can-you-tell-me-how-this-differs-from-abyssinica-sil"><em>I have a copy of the <strong>SIL Abyssinica</strong> font. Can you tell me how this differs from <strong>Abyssinica SIL</strong>?</em></h4>
+    <p>It is best to upgrade to <strong>Abyssinica SIL</strong>. <strong>SIL Abyssinica</strong> (and <strong>SIL Abyssinica U</strong> and <strong>SIL Abyssinica G</strong>) was an early, unreleased version of <strong>Abyssinica SIL</strong>. Although a Unicode font, it only supported Unicode 3.0 and thus had a number of PUA characters in it which have since been added to Unicode 4.1 and 6.0. You should convert your data to Unicode 6.0 and use <strong>Abyssinica SIL</strong>. A mapping file to convert your data from PUA to Unicode 6.0 is available here: <a href="https://github.com/silnrsi/wsresources/tree/master/scripts/Ethi/mappings/sil-pua-unicode">sil-pua-unicode</a>. If you do not convert your data to official Unicode codepoints you will never be able to use another Ethiopic font because those are <strong>Private</strong> codepoints and other fonts do not support them.</p>
+    <h4 id="you-have-characters-which-are-encoded-in-the-pua-area.-is-there-any-likelihood-that-these-will-ever-be-in-unicode-if-so-will-you-update-abyssinica-sil"><em>You have characters which are encoded in the PUA area. Is there any likelihood that these will ever be in Unicode? If so, will you update Abyssinica SIL?</em></h4>
+    <p>Version 1.500 incorporated all characters that are in Unicode 6.0.</p>
+    <p>With version 2.000 we removed almost all of the PUA characters in the font because they are either available through their official Unicode codepoints or through the Character Variants.</p>
+    <h4 id="i-would-like-to-bundle-abyssinica-sil-with-my-application---can-i"><em>I would like to bundle Abyssinica SIL with my application - can I?</em></h4>
+    <p>The <a href="http://scripts.sil.org/OFL">SIL Open Font License</a> allows bundling with applications, even commercial ones, with some restrictions.</p>
+    <footer class="footer">
+        <p>This guide is from the <a href="https://software.sil.org/abyssinica/" title="" class="active">Abyssinica SIL project</a> version 2.100 and is copyright © 2000-2021 SIL International.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>

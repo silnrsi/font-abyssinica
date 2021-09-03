@@ -1,0 +1,23 @@
+---
+title: Abyssinica SIL - Design
+fontversion: 2.100
+---
+
+Abyssinica SIL is based on Ethiopic calligraphic traditions. 
+
+One font from this typeface family is included in the *Abyssinica SIL* release (no bold or italic version available or planned):
+
+* Abyssinica SIL Regular
+
+
+## Type Samples
+
+Type samples showing some of the inventory of glyphs can be downloaded here: 
+[Abyssinica SIL Type Sample](http://software.sil.org/abyssinica/wp-content/uploads/sites/26/2021/06/AbyssinicaSILTypeSample.pdf). 
+
+A sample from one page is shown below. 
+
+![Abyssinica SIL Sample - Ethiopic syllables](assets/images/AbyssinicaTypeSamplev2.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/abyssinica/wp-content/uploads/sites/26/2019/09/AbyssinicaTypeSamplev2.png -->
+<figcaption>Abyssinica SIL Sample - Ethiopic syllables</figcaption>
+
