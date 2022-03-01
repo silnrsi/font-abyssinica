@@ -21,7 +21,7 @@ TESTDIR = "tests"
 
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 
-ftmlTest('tests/ftml-smith.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tools/ftml-smith.xsl', fonts = ['reference/AbyssinicaSIL-Regular.ttf'], addfontindex = 1, fontmode = 'collect')
 
 designspace('source/' + FAMILY + '.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
