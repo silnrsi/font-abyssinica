@@ -33,7 +33,7 @@
     <p>This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Abyssinica SIL as a web font see <a href="../web/AbyssinicaSIL-webfont-example.html">Abyssinica SIL Webfont Example</a>. For detailed information see <a href="http://software.sil.org/fonts/webfonts">Using SIL Fonts on Web Pages</a>.</p>
     <p><em>If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.</em></p>
     <h2 id="customizing-with-typetuner">Customizing with TypeTuner</h2>
-    <p>For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the <a href="/abyssinica/wp-content/uploads/sites/26/2021/06/AbyssinicaSILFontFeatures.pdf">Abyssinica SIL Font Features</a>, visit <a href="http://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then to choose the variants and download your font.</p>
+    <p>For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the <a href="features.html">Font Features</a> page, visit <a href="http://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then to choose the variants and download your font.</p>
     <h2 id="complete-feature-list">Complete feature list</h2>
     <p>There are some Ethiopic character shape differences in different Ethiopian languages. These can be accessed by using Graphite features, OpenType Character Variants, or language support for Sebat Bet Gurage and Gumuz languages. The documents below can be downloaded in order to see all the user-selectable font features that are available in the font. The feature names, feature ids, settings and examples are provided.</p>
     <h3 id="test-rendering-engine-choice">Test rendering engine choice</h3>
@@ -336,12 +336,12 @@
     </tr>
     <tr class="even">
     <td>Cohen</td>
-    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv31&quot; 1">ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁴</span></td>
+    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv31&quot; 1">ዠ ዡ ዢ ዣ ዤ <font color="red">ዥ</font> ዦ⁴</span></td>
     <td><code>cv31=1</code></td>
     </tr>
     <tr class="odd">
     <td>Chaine</td>
-    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv31&quot; 2">ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁵</span></td>
+    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv31&quot; 2"><font color="red">ዠ ዡ</font> ዢ <font color="red">ዣ ዤ ዥ ዦ</font>⁵</span></td>
     <td><code>cv31=2</code></td>
     </tr>
     </tbody>
@@ -438,7 +438,7 @@
     </tr>
     <tr class="even">
     <td>Disconnected</td>
-    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv22&quot; 1">ጟ⁹</span></td>
+    <td><span class="abyssinica-R normal" style="font-feature-settings: &quot;cv42&quot; 1">ጟ⁹</span></td>
     <td><code>cv42=1</code></td>
     </tr>
     </tbody>
@@ -788,10 +788,10 @@
     <p>Praetorius, Franz. 1955. <em>Aethiopische Grammatik mit Paradigmen, Litteratur, Chrestomathie und Glossar.</em> Frederick Ungar Publishing Co. New York.</p>
     <p>¹Chaîne (p 3), Cohen (table 2) ²Cohen (table 2) ³Gumuz language preference ⁴Alone-Stokes, Chaîne (p 3), Cohen (table 1) ⁵Chaîne (p 3) ⁶Archaic Oromo language preference ⁷Sebat Bet language preference ⁸Alone-Stokes (inside back cover) ⁹Bilen language preference ¹⁰Praetorius (p 6) ¹¹Leslau</p>
     <!-- PRODUCT SITE ONLY
-    [font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
+    [font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
     -->
     <footer class="footer">
-        <p>This guide is from the <a href="https://software.sil.org/abyssinica/" title="" class="active">Abyssinica SIL project</a> version 2.100 and is copyright © 2000-2021 SIL International.</p>
+        <p>This guide is from the <a href="https://software.sil.org/abyssinica/" title="" class="active">Abyssinica SIL project</a> version 2.101 and is copyright © 2000-2022 SIL International.</p>
     </footer>
 </article>
 </div>

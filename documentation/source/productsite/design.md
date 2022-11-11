@@ -8,8 +8,8 @@ One font from this typeface family is included in the *Abyssinica SIL* release (
 
 ## Type Samples
 
-Type samples showing some of the inventory of glyphs can be downloaded here: 
-[Abyssinica SIL Type Sample](http://software.sil.org/abyssinica/wp-content/uploads/sites/26/2021/06/AbyssinicaSILTypeSample.pdf). 
+Type samples showing some of the inventory of glyphs can be found here: 
+[Abyssinica SIL Type Sample](sample).
 
 A sample from one page is shown below. 
 

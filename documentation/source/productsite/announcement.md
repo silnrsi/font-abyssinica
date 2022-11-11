@@ -1,7 +1,3 @@
----
-title: Abyssinica SIL - Announcement
-fontversion: 2.101
----
 
 This is a minor release. Changes for this version include the following:
 

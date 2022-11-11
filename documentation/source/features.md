@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Font Features
-fontversion: 2.100
+fontversion: 2.101
 ---
 
 Abyssinica SIL is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
@@ -32,7 +32,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Customizing with TypeTuner
 
-For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Abyssinica SIL Font Features](/abyssinica/wp-content/uploads/sites/26/2021/06/AbyssinicaSILFontFeatures.pdf), visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
+For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features.md) page, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
 
 
 ## Complete feature list
@@ -156,8 +156,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv2
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ</span> | `cv31=0`
-Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 1'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁴</span> | `cv31=1`
-Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 2'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁵</span> | `cv31=2`
+Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 1'>ዠ ዡ ዢ ዣ ዤ <font color="red">ዥ</font> ዦ⁴</span> | `cv31=1`
+Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 2'><font color="red">ዠ ዡ</font> ዢ <font color="red">ዣ ዤ ዥ ዦ</font>⁵</span> | `cv31=2`
 
 #### dda alternates 
 
@@ -194,7 +194,7 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጟ</span> | `cv42=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv22" 1'>ጟ⁹</span> | `cv42=1`
+Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv42" 1'>ጟ⁹</span> | `cv42=1`
 
 #### phe alternate 
 
@@ -353,5 +353,5 @@ Praetorius, Franz. 1955. *Aethiopische Grammatik mit Paradigmen, Litteratur, Chr
 
 
 <!-- PRODUCT SITE ONLY
-[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
 -->

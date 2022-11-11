@@ -1,5 +1,5 @@
 
-This font contains complete coverage of all the characters defined in Unicode for Ethiopic. The Ethiopic script is used for writing many of the languages of Ethiopia and Eritrea. [Ethiopic (U+1200..U+137F)](http://www.unicode.org/charts/PDF/U1200.pdf) was added to Unicode 3.0. [Ethiopic Supplement (U+1380..U+139F)](http://www.unicode.org/charts/PDF/U1380.pdf) and [Ethiopic Extended (U+2D80..U+2DDF)](http://www.unicode.org/charts/PDF/U2D80.pdf) were added to Unicode 4.1. [Ethiopic Extended-A (U+AB00..U+AB2F)](http://www.unicode.org/charts/PDF/UAB00.pdf) was added to Unicode 6.0. *Abyssinica SIL* supports all Ethiopic characters which are in Unicode including the upcoming Unicode 14.0 additions (Ethiopic Extended-B U+1E7E0..U+1E7FF). As far as we are aware, all languages using the Ethiopic script are now fully represented in Unicode. 
+This font contains complete coverage of all the characters defined in Unicode for Ethiopic. The Ethiopic script is used for writing many of the languages of Ethiopia and Eritrea. [Ethiopic (U+1200..U+137F)](http://www.unicode.org/charts/PDF/U1200.pdf) was added to Unicode 3.0. [Ethiopic Supplement (U+1380..U+139F)](http://www.unicode.org/charts/PDF/U1380.pdf) and [Ethiopic Extended (U+2D80..U+2DDF)](http://www.unicode.org/charts/PDF/U2D80.pdf) were added to Unicode 4.1. [Ethiopic Extended-A (U+AB00..U+AB2F)](http://www.unicode.org/charts/PDF/UAB00.pdf) was added to Unicode 6.0. [Ethiopic Extended-B U+1E7E0..U+1E7FF)](https://www.unicode.org/charts/PDF/U1E7E0.pdf)  was added to Unicode 14.0. *Abyssinica SIL* supports all Ethiopic characters which are in Unicode. As far as we are aware, all languages using the Ethiopic script are now fully represented in Unicode. 
 
 
 ## Supported characters
@@ -34,9 +34,10 @@ Ethiopic Extended-B|U+1E7E0..U+1E7FF
 
 ## Private-use (PUA) characters
 
-Because the majority of the PUA characters have now been encoded into Unicode, or they were considered glyph variants, all PUA characters in the font have been removed with the exception of U+E494 (<span class='abyssinica-R normal'></span>) and U+E496 (<span class='abyssinica-R normal'></span>). Some of the PUA codepoints were actually glyph variants of characters already encoded in Unicode. These are now available through OpenType Character Variants, Graphite features, or TypeTuned fonts. See [Smart Font Features](features).
+Because the majority of the PUA characters have now been encoded into Unicode, or they were considered glyph variants, all PUA characters in the font have been removed with the exception of U+E494 (<span class='abyssinica-R normal'></span>) and U+E496 (<span class='abyssinica-R normal'></span>). Some of the PUA codepoints were actually glyph variants of characters already encoded in Unicode. These are now available through OpenType Character Variants, Graphite features, or TypeTuned fonts. See [Font Features](features).
 
 PUA characters that were previously in the font are documented here:
 
 [SIL Ethiopic Private Use Area Block](https://software.sil.org/abyssinica/wp-content/uploads/sites/26/2016/02/AbyssinicaSIL_PUA.pdf)
 
+[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']

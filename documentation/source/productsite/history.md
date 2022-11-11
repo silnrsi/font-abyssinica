@@ -1,4 +1,9 @@
 
+### 18 November 2022 (WSTech Team) Abyssinica SIL version 2.101
+- Adjusted width of U+2008 to match full stop
+- Adjusted design of U+1395
+- Fixed inconsistency between Graphite and OpenType support for cv46
+
 ### 9 June 2021 (WSTech Team) Abyssinica SIL version 2.100
 - Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE, U+1E7F0..U+1E7FE
 - Modified a few kerning pairs and added kerning pairs for some of the new characters

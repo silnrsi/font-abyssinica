@@ -35,9 +35,9 @@ Various other means may be available for different operating-system platforms to
 
 #### *My language uses variant forms of some Ethiopic characters. How do I type these using the Abyssinica SIL font? How do I use features?*
 
-You should type the character the same way you would type the standard form of the character. Then, you need to select the variants to be displayed. If your application supports Graphite or the OpenType Character Variant features, you can use these to access the font features built into the font. See *Abyssinica SIL Font Features* on the Abyssinica SIL [Smart Font Features](features) page for more details.
+You should type the character the same way you would type the standard form of the character. Then, you need to select the variants to be displayed. If your application supports Graphite or the OpenType Character Variant features, you can use these to access the font features built into the font. See [Font Features](features) page for more details.
 
-If your application does not support Graphite features or the OpenType Character Variants, you can use TypeTunerWeb to customize the font with the variants you require. See *Abyssinica SIL Font Features* on the [Smart Font Features](features) page for more details. 
+If your application does not support Graphite features or the OpenType Character Variants, you can use TypeTunerWeb to customize the font with the variants you require. See [Font Features](features) page for more details. 
 
 #### *Why did you remove the Stylistic Sets from ver. 2.000 of the Abyssinica SIL font?*
 

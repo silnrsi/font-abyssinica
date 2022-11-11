@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Support
-fontversion: 2.100
+fontversion: 2.101
 ---
 
 ## Support options

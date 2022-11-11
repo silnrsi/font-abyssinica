@@ -27,7 +27,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Customizing with TypeTuner
 
-For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Abyssinica SIL Font Features](/abyssinica/wp-content/uploads/sites/26/2021/06/AbyssinicaSILFontFeatures.pdf), visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
+For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features) page, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
 
 
 ## Complete feature list
@@ -151,8 +151,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv2
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ</span> | `cv31=0`
-Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 1'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁴</span> | `cv31=1`
-Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 2'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ⁵</span> | `cv31=2`
+Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 1'>ዠ ዡ ዢ ዣ ዤ <font color="red">ዥ</font> ዦ⁴</span> | `cv31=1`
+Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 2'><font color="red">ዠ ዡ</font> ዢ <font color="red">ዣ ዤ ዥ ዦ</font>⁵</span> | `cv31=2`
 
 #### dda alternates 
 
@@ -189,7 +189,7 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጟ</span> | `cv42=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv22" 1'>ጟ⁹</span> | `cv42=1`
+Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv42" 1'>ጟ⁹</span> | `cv42=1`
 
 #### phe alternate 
 
@@ -347,4 +347,4 @@ Praetorius, Franz. 1955. *Aethiopische Grammatik mit Paradigmen, Litteratur, Chr
 ¹¹Leslau
 
 
-[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']

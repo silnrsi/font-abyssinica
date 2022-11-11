@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Resources
-fontversion: 2.100
+fontversion: 2.101
 ---
 
 ## Requirements
