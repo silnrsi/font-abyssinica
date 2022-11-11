@@ -966,8 +966,6 @@
   <string>uni1297.glif</string>
   <key>uni1297.cohen0</key>
   <string>uni1297.cohen0.glif</string>
-  <key>uni1297.oldstyle</key>
-  <string>uni1297.oldstyle.glif</string>
   <key>uni1298</key>
   <string>uni1298.glif</string>
   <key>uni1298.gumuz</key>
@@ -1074,8 +1072,6 @@
   <string>uni12C_3.glif</string>
   <key>uni12C3.cohen7</key>
   <string>uni12C_3.cohen7.glif</string>
-  <key>uni12C3.oldstyle</key>
-  <string>uni12C_3.oldstyle.glif</string>
   <key>uni12C4</key>
   <string>uni12C_4.glif</string>
   <key>uni12C5</key>
@@ -1160,8 +1156,6 @@
   <string>uni12E_5.chaine.glif</string>
   <key>uni12E5.cohen6</key>
   <string>uni12E_5.cohen6.glif</string>
-  <key>uni12E5.oldstyle</key>
-  <string>uni12E_5.oldstyle.glif</string>
   <key>uni12E6</key>
   <string>uni12E_6.glif</string>
   <key>uni12E6.chaine</key>
@@ -1274,8 +1268,6 @@
   <string>uni1313.glif</string>
   <key>uni1313.alonestokes</key>
   <string>uni1313.alonestokes.glif</string>
-  <key>uni1313.oldstyle</key>
-  <string>uni1313.oldstyle.glif</string>
   <key>uni1313.seb0</key>
   <string>uni1313.seb0.glif</string>
   <key>uni1314</key>
@@ -1382,8 +1374,6 @@
   <string>uni133E_.glif</string>
   <key>uni133F</key>
   <string>uni133F_.glif</string>
-  <key>uni133F.alt4</key>
-  <string>uni133F_.alt4.glif</string>
   <key>uni133F.oldstyle</key>
   <string>uni133F_.oldstyle.glif</string>
   <key>uni1340</key>
@@ -1422,8 +1412,6 @@
   <string>uni134F_.cohen4.glif</string>
   <key>uni134F.cohen5</key>
   <string>uni134F_.cohen5.glif</string>
-  <key>uni134F.oldstyle</key>
-  <string>uni134F_.oldstyle.glif</string>
   <key>uni1350</key>
   <string>uni1350.glif</string>
   <key>uni1351</key>
@@ -2102,8 +2090,6 @@
   <string>uniE_071.glif</string>
   <key>uniE072</key>
   <string>uniE_072.glif</string>
-  <key>uniE406</key>
-  <string>uniE_406.glif</string>
   <key>uniE493</key>
   <string>uniE_493.glif</string>
   <key>uniE494</key>

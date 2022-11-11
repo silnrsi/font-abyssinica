@@ -1104,86 +1104,10 @@
     <string>uni137A.nobar</string>
     <string>uni137B.nobar</string>
     <string>uni137C.nobar</string>
-    <string>uniE068</string>
-    <string>uniE069</string>
-    <string>uniE06A</string>
-    <string>uniE06B</string>
-    <string>uniE06C</string>
-    <string>uniE06D</string>
-    <string>uniE06E</string>
     <string>uniE070</string>
     <string>uniE071</string>
     <string>uniE072</string>
-    <string>uniE217</string>
-    <string>uniE227</string>
-    <string>uniE230</string>
-    <string>uniE24F</string>
-    <string>uniE257</string>
-    <string>uniE25F</string>
-    <string>uniE26F</string>
-    <string>uniE2A8</string>
-    <string>uniE2A9</string>
-    <string>uniE2AA</string>
-    <string>uniE2AB</string>
-    <string>uniE2AC</string>
-    <string>uniE2AD</string>
-    <string>uniE2AE</string>
-    <string>uniE2B7</string>
-    <string>uniE2BF</string>
-    <string>uniE2D7</string>
-    <string>uniE2D8</string>
-    <string>uniE2E7</string>
-    <string>uniE2F8</string>
-    <string>uniE33F</string>
-    <string>uniE34F</string>
-    <string>uniE370</string>
-    <string>uniE371</string>
-    <string>uniE372</string>
-    <string>uniE373</string>
-    <string>uniE374</string>
-    <string>uniE375</string>
-    <string>uniE376</string>
-    <string>uniE37A</string>
-    <string>uniE37B</string>
-    <string>uniE37C</string>
-    <string>uniE37D</string>
-    <string>uniE37E</string>
-    <string>uniE37F</string>
-    <string>uniE406</string>
-    <string>uniE491</string>
     <string>uniE493</string>
-    <string>uniE49A</string>
-    <string>uniE49C</string>
-    <string>uniE49D</string>
-    <string>uniE49E</string>
-    <string>uniE500</string>
-    <string>uniE501</string>
-    <string>uniE502</string>
-    <string>uniE508</string>
-    <string>uniE509</string>
-    <string>uniE50A</string>
-    <string>uniE50F</string>
-    <string>uniE510</string>
-    <string>uniE511</string>
-    <string>uniE512</string>
-    <string>uniE513</string>
-    <string>uniE514</string>
-    <string>uniE515</string>
-    <string>uniE516</string>
-    <string>uniE517</string>
-    <string>uniE518</string>
-    <string>uniE519</string>
-    <string>uniE51A</string>
-    <string>uniE51B</string>
-    <string>uniE51C</string>
-    <string>uniE51D</string>
-    <string>uniE51E</string>
-    <string>uniE51F</string>
-    <string>uniE520</string>
-    <string>uniE521</string>
-    <string>uniE522</string>
-    <string>uniE528</string>
-    <string>uniE529</string>
     <string>numeral</string>
     <string>numeralnarrow</string>
     <string>numeralinit</string>
@@ -2273,86 +2197,10 @@
     <string>uni137A.nobar</string>
     <string>uni137B.nobar</string>
     <string>uni137C.nobar</string>
-    <string>uniE068</string>
-    <string>uniE069</string>
-    <string>uniE06A</string>
-    <string>uniE06B</string>
-    <string>uniE06C</string>
-    <string>uniE06D</string>
-    <string>uniE06E</string>
     <string>uniE070</string>
     <string>uniE071</string>
     <string>uniE072</string>
-    <string>uniE217</string>
-    <string>uniE227</string>
-    <string>uniE230</string>
-    <string>uniE24F</string>
-    <string>uniE257</string>
-    <string>uniE25F</string>
-    <string>uniE26F</string>
-    <string>uniE2A8</string>
-    <string>uniE2A9</string>
-    <string>uniE2AA</string>
-    <string>uniE2AB</string>
-    <string>uniE2AC</string>
-    <string>uniE2AD</string>
-    <string>uniE2AE</string>
-    <string>uniE2B7</string>
-    <string>uniE2BF</string>
-    <string>uniE2D7</string>
-    <string>uniE2D8</string>
-    <string>uniE2E7</string>
-    <string>uniE2F8</string>
-    <string>uniE33F</string>
-    <string>uniE34F</string>
-    <string>uniE370</string>
-    <string>uniE371</string>
-    <string>uniE372</string>
-    <string>uniE373</string>
-    <string>uniE374</string>
-    <string>uniE375</string>
-    <string>uniE376</string>
-    <string>uniE37A</string>
-    <string>uniE37B</string>
-    <string>uniE37C</string>
-    <string>uniE37D</string>
-    <string>uniE37E</string>
-    <string>uniE37F</string>
-    <string>uniE406</string>
-    <string>uniE491</string>
     <string>uniE493</string>
-    <string>uniE49A</string>
-    <string>uniE49C</string>
-    <string>uniE49D</string>
-    <string>uniE49E</string>
-    <string>uniE500</string>
-    <string>uniE501</string>
-    <string>uniE502</string>
-    <string>uniE508</string>
-    <string>uniE509</string>
-    <string>uniE50A</string>
-    <string>uniE50F</string>
-    <string>uniE510</string>
-    <string>uniE511</string>
-    <string>uniE512</string>
-    <string>uniE513</string>
-    <string>uniE514</string>
-    <string>uniE515</string>
-    <string>uniE516</string>
-    <string>uniE517</string>
-    <string>uniE518</string>
-    <string>uniE519</string>
-    <string>uniE51A</string>
-    <string>uniE51B</string>
-    <string>uniE51C</string>
-    <string>uniE51D</string>
-    <string>uniE51E</string>
-    <string>uniE51F</string>
-    <string>uniE520</string>
-    <string>uniE521</string>
-    <string>uniE522</string>
-    <string>uniE528</string>
-    <string>uniE529</string>
     <string>numeral</string>
     <string>numeralnarrow</string>
     <string>numeralinit</string>
