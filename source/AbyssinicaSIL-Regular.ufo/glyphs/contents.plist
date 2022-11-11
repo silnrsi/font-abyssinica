@@ -1468,8 +1468,6 @@
   <string>uni1369.fina.glif</string>
   <key>uni1369.init</key>
   <string>uni1369.init.glif</string>
-  <key>uni1369.isol</key>
-  <string>uni1369.isol.glif</string>
   <key>uni1369.medi</key>
   <string>uni1369.medi.glif</string>
   <key>uni1369.nobar</key>
@@ -1480,8 +1478,6 @@
   <string>uni136A_.fina.glif</string>
   <key>uni136A.init</key>
   <string>uni136A_.init.glif</string>
-  <key>uni136A.isol</key>
-  <string>uni136A_.isol.glif</string>
   <key>uni136A.medi</key>
   <string>uni136A_.medi.glif</string>
   <key>uni136A.nobar</key>
@@ -1492,8 +1488,6 @@
   <string>uni136B_.fina.glif</string>
   <key>uni136B.init</key>
   <string>uni136B_.init.glif</string>
-  <key>uni136B.isol</key>
-  <string>uni136B_.isol.glif</string>
   <key>uni136B.medi</key>
   <string>uni136B_.medi.glif</string>
   <key>uni136B.nobar</key>
@@ -1504,8 +1498,6 @@
   <string>uni136C_.fina.glif</string>
   <key>uni136C.init</key>
   <string>uni136C_.init.glif</string>
-  <key>uni136C.isol</key>
-  <string>uni136C_.isol.glif</string>
   <key>uni136C.medi</key>
   <string>uni136C_.medi.glif</string>
   <key>uni136C.nobar</key>
@@ -1516,8 +1508,6 @@
   <string>uni136D_.fina.glif</string>
   <key>uni136D.init</key>
   <string>uni136D_.init.glif</string>
-  <key>uni136D.isol</key>
-  <string>uni136D_.isol.glif</string>
   <key>uni136D.medi</key>
   <string>uni136D_.medi.glif</string>
   <key>uni136D.nobar</key>
@@ -1528,8 +1518,6 @@
   <string>uni136E_.fina.glif</string>
   <key>uni136E.init</key>
   <string>uni136E_.init.glif</string>
-  <key>uni136E.isol</key>
-  <string>uni136E_.isol.glif</string>
   <key>uni136E.medi</key>
   <string>uni136E_.medi.glif</string>
   <key>uni136E.nobar</key>
@@ -1540,8 +1528,6 @@
   <string>uni136F_.fina.glif</string>
   <key>uni136F.init</key>
   <string>uni136F_.init.glif</string>
-  <key>uni136F.isol</key>
-  <string>uni136F_.isol.glif</string>
   <key>uni136F.medi</key>
   <string>uni136F_.medi.glif</string>
   <key>uni136F.nobar</key>
@@ -1552,8 +1538,6 @@
   <string>uni1370.fina.glif</string>
   <key>uni1370.init</key>
   <string>uni1370.init.glif</string>
-  <key>uni1370.isol</key>
-  <string>uni1370.isol.glif</string>
   <key>uni1370.medi</key>
   <string>uni1370.medi.glif</string>
   <key>uni1370.nobar</key>
@@ -1564,8 +1548,6 @@
   <string>uni1371.fina.glif</string>
   <key>uni1371.init</key>
   <string>uni1371.init.glif</string>
-  <key>uni1371.isol</key>
-  <string>uni1371.isol.glif</string>
   <key>uni1371.medi</key>
   <string>uni1371.medi.glif</string>
   <key>uni1371.nobar</key>
@@ -1576,8 +1558,6 @@
   <string>uni1372.fina.glif</string>
   <key>uni1372.init</key>
   <string>uni1372.init.glif</string>
-  <key>uni1372.isol</key>
-  <string>uni1372.isol.glif</string>
   <key>uni1372.medi</key>
   <string>uni1372.medi.glif</string>
   <key>uni1372.nobar</key>
@@ -1588,8 +1568,6 @@
   <string>uni1373.fina.glif</string>
   <key>uni1373.init</key>
   <string>uni1373.init.glif</string>
-  <key>uni1373.isol</key>
-  <string>uni1373.isol.glif</string>
   <key>uni1373.medi</key>
   <string>uni1373.medi.glif</string>
   <key>uni1373.nobar</key>
@@ -1600,8 +1578,6 @@
   <string>uni1374.fina.glif</string>
   <key>uni1374.init</key>
   <string>uni1374.init.glif</string>
-  <key>uni1374.isol</key>
-  <string>uni1374.isol.glif</string>
   <key>uni1374.medi</key>
   <string>uni1374.medi.glif</string>
   <key>uni1374.nobar</key>
@@ -1612,8 +1588,6 @@
   <string>uni1375.fina.glif</string>
   <key>uni1375.init</key>
   <string>uni1375.init.glif</string>
-  <key>uni1375.isol</key>
-  <string>uni1375.isol.glif</string>
   <key>uni1375.medi</key>
   <string>uni1375.medi.glif</string>
   <key>uni1375.nobar</key>
@@ -1624,8 +1598,6 @@
   <string>uni1376.fina.glif</string>
   <key>uni1376.init</key>
   <string>uni1376.init.glif</string>
-  <key>uni1376.isol</key>
-  <string>uni1376.isol.glif</string>
   <key>uni1376.medi</key>
   <string>uni1376.medi.glif</string>
   <key>uni1376.nobar</key>
@@ -1636,8 +1608,6 @@
   <string>uni1377.fina.glif</string>
   <key>uni1377.init</key>
   <string>uni1377.init.glif</string>
-  <key>uni1377.isol</key>
-  <string>uni1377.isol.glif</string>
   <key>uni1377.medi</key>
   <string>uni1377.medi.glif</string>
   <key>uni1377.nobar</key>
@@ -1648,8 +1618,6 @@
   <string>uni1378.fina.glif</string>
   <key>uni1378.init</key>
   <string>uni1378.init.glif</string>
-  <key>uni1378.isol</key>
-  <string>uni1378.isol.glif</string>
   <key>uni1378.medi</key>
   <string>uni1378.medi.glif</string>
   <key>uni1378.nobar</key>
@@ -1660,8 +1628,6 @@
   <string>uni1379.fina.glif</string>
   <key>uni1379.init</key>
   <string>uni1379.init.glif</string>
-  <key>uni1379.isol</key>
-  <string>uni1379.isol.glif</string>
   <key>uni1379.medi</key>
   <string>uni1379.medi.glif</string>
   <key>uni1379.nobar</key>
@@ -1672,8 +1638,6 @@
   <string>uni137A_.fina.glif</string>
   <key>uni137A.init</key>
   <string>uni137A_.init.glif</string>
-  <key>uni137A.isol</key>
-  <string>uni137A_.isol.glif</string>
   <key>uni137A.medi</key>
   <string>uni137A_.medi.glif</string>
   <key>uni137A.nobar</key>
@@ -1684,8 +1648,6 @@
   <string>uni137B_.fina.glif</string>
   <key>uni137B.init</key>
   <string>uni137B_.init.glif</string>
-  <key>uni137B.isol</key>
-  <string>uni137B_.isol.glif</string>
   <key>uni137B.medi</key>
   <string>uni137B_.medi.glif</string>
   <key>uni137B.nobar</key>
@@ -1696,8 +1658,6 @@
   <string>uni137C_.fina.glif</string>
   <key>uni137C.init</key>
   <string>uni137C_.init.glif</string>
-  <key>uni137C.isol</key>
-  <string>uni137C_.isol.glif</string>
   <key>uni137C.medi</key>
   <string>uni137C_.medi.glif</string>
   <key>uni137C.nobar</key>
