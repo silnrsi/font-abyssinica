@@ -3,7 +3,7 @@
     Author: Lorna Priest Evans
    	This file is part of the Abyssinica SIL font family 
 	(http://software.sil.org/abyssinica) and is 
-	Copyright (c) 2000-2021, SIL International (http://scripts.sil.org/)
+	Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/)
 	with Reserved Font Names "Abyssinica" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License,
@@ -452,8 +452,8 @@ if (phecv == praetorius)
 endif;
 
 // cv46
-if (tswacv == alt4)
-	cno_alt4  >  calt4;
+if (tswacv == oldstyle)
+	cno_oldstyle  >  coldstyle;
 endif;
 
 // cv48

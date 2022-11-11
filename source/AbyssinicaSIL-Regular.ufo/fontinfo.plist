@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1108</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2000-2021 by SIL International</string>
+  <string>Copyright (c) 2000-2022 by SIL International</string>
   <key>descender</key>
   <integer>-682</integer>
   <key>familyName</key>
@@ -26,7 +26,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/09/03 13:28:53</string>
+  <string>2022/11/11 09:10:21</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -40,9 +40,9 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2000-2021, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
+  <string>This Font Software is Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
 
-Modern Gurage glyphs Copyright (c) 2021 The Ge'ez Frontier Foundation.
+Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
@@ -96,7 +96,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Abyssinica SIL Regular: 2021</string>
+  <string>SIL International: Abyssinica SIL Regular: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.101</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -221,6 +221,78 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>2</integer>
   <key>versionMinor</key>
   <integer>101</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Walt Agee</string>
+        <key>role</key>
+        <string>Designer</string>
+        <key>url</key>
+        <string>http://scripts.sil.org/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sharon Correll</string>
+        <key>role</key>
+        <string>OpenType and Graphite support</string>
+        <key>url</key>
+        <string>http://scripts.sil.org/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Lorna Evans</string>
+        <key>role</key>
+        <string>Contributed some extended Ethiopic glyphs and OpenType and Graphite work</string>
+        <key>url</key>
+        <string>http://scripts.sil.org/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Victor Gaultney</string>
+        <key>role</key>
+        <string>Designer</string>
+        <key>url</key>
+        <string>http://scripts.sil.org/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Annie Olsen</string>
+        <key>role</key>
+        <string>Designer</string>
+        <key>url</key>
+        <string>http://scripts.sil.org/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Daniel Yacob</string>
+        <key>role</key>
+        <string>Font designer, contributed significant input on the design of extended Ethiopic</string>
+        <key>url</key>
+        <string>http://www.geez.org/, https://github.com/geezorg</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Kjell Magne Yri</string>
+        <key>role</key>
+        <string>Font based on his original calligraphic design</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Abyssinica SIL is based on Ethiopic calligraphic traditions. The Ethiopic script is used for writing many of the languages of Ethiopia and Eritrea. This project is intended to provide a free and open font for all current languages and writing systems that use the Ethiopic script. It supports the complete range of Unicode characters for Ethiopic.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/abyssinica/history/</string>
+  </dict>
   <key>xHeight</key>
   <integer>983</integer>
 </dict>

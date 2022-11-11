@@ -313,7 +313,7 @@ tswacv {
             value = 0;
             name.1033 = string("Standard");
         }
-        alt4 {
+        oldstyle {
             value = 1;
             name.1033 = string("Alternate");
         }

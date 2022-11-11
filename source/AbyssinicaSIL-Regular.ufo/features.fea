@@ -739,7 +739,6 @@ lookup DigitAlternates {
     sub [@c_init @c_medi] @cno_init' @cno_init by @c_medi;
     sub [@c_init @c_medi] @cno_init' by @c_fina;
     sub @cno_init' @cno_init by @c_init;
-    #    sub @cno_isol' by @c_isol;
 } DigitAlternates;
 
 #**********************

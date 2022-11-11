@@ -38,96 +38,16 @@
       role="Font based on his original calligraphic design"
     />
   </credits>
-  <description>
+  <description url="https://software.sil.org/abyssinica/history/">
     <text lang="en">
-      Abyssinica SIL has a single face - regular.
-      
-      The goal for this product was to provide a single Unicode-based font
-      that would contain a comprehensive inventory of glyphs needed for almost any
-      Ethiopic-based writing system. In addition, there is provision for other
-      Latin characters and symbols. This font makes use of state-of-the-art font
-      technologies to support the need to position arbitrary combinations of
-      *Ethiopic* base glyphs and combining marks optimally. It also supports
-      almost 200 kerning pairs. This version of the font also supports Character
-      Variants (OpenType) or Features (Graphite) which make glyph alternates
-      available for a number of Ethiopic and punctuation characters. See the
-      AbyssinicaSILFontFeatures.pdf, for details on applications which support
-      Character Variants and how to access them.
-      
-      One font from this typeface family is included in this release:
-      
-      * Abyssinica SIL Regular
-      
-      
-      A Note Regarding the Open Font License and TypeTuner
-      ----------------------------------------------------
-      
-      The OFL prohibits the use of Reserved Font Names "Abyssinica" and "SIL" in
-      the name of any font that is derived from the Original Version of
-      Abyssinica SIL. However, SIL International (the Copyright Holder) grants
-      through this separate written agreement the right to use the Reserved Font
-      Names in any Modified Version of this font created by using TypeTuner as
-      long as the feature information contained in the Original Version is used,
-      unmodified, as the source for TypeTuner feature information, and
-      "Abyssinica" is not the resulting font family name.
-      
-      TypeTuner-produced fonts created in this manner are still bound by the
-      terms of the OFL. Specifically, the use of Reserved Font Names is
-      prohibited when making derivatives of a TypeTuner-produced font. Anyone
-      making a derivative of a TypeTuner font will need to find a different
-      name. For example a TypeTuner-produced font may be named
-      "Abyssinica SIL SomeFarAwayPlace" but a derivative of that font made
-      with other tools would not be allowed to use the "Abyssinica" and "SIL"
-      Reserved Font Names and would have to be named something like "Nations Ethiopic".
-      
-      
-      ChangeLog
-      ---------
-      (This should list both major and minor changes, most recent first.)
-      
-      9 June 2021 (WSTech Team) Abyssinica SIL version 2.100
-      - Added U+1E7E0..U+1E7E6, U+1E7E8..U+1E7EB, U+1E7ED..U+1E7EE, U+1E7F0..U+1E7FE
-      - Modified a few kerning pairs and added kerning pairs for some of the new characters
-      - Changed Latin digits (for use in Ethiopic) to use a serif style
-      - Modified Ethiopic digits to have a more consistent size
-      - Added cv02 to support digits with connecting above and below lines
-      
-      11 September 2019 (Sharon Correll) Abyssinica SIL version 2.000
-      - Added U+02D0, U+034F, U+2423, U+25CA
-      - Improved design of U+1256 so the top flag touches
-      - Improved design of U+1368 to fit the design of the font better
-      - Improved design of U+1362 (extra space to the right)
-      - Added language support for Sebat Bet Gurage and Gumuz variants
-      - Added UI name strings for Graphite and OpenType features
-      - Removed Stylistic Sets
-      - Slight change to line spacing to make it consistent across applications
-      - Unencoded most PUA characters as they are supported through Character Variants
-      
-      13 December 2013 (Lorna Priest Evans) Abyssinica SIL version 1.500
-      - Improved design of U+1396 and U+1399 (metrics changed for these characters)
-      - Added character variants
-      - Added variant glyphs for U+2D93..U+2D96 (for Blin)
-      - Added variant glyphs for U+12E0..U+12E6 and U+1335 (historical usage)
-      - Changed Graphite feature identifiers from integers to 4-character
-      alphanumeric tags
-      
-      13 December 2010 (Lorna Priest) Abyssinica SIL version 1.200
-      - Updated for Unicode 6.0 (U+AB00..U+AB2F)
-      - Added Stylistic Sets and Graphite Features
-      - Removed AAT support
-      
-      1 June 2006 (Jonathan Kew)
-      - AAT source added
-      
-      25 May 2006 (SIL NRSI team)  Abyssinica SIL version 1.0
-      - First version released under the SIL Open Font License
+      Abyssinica SIL is based on Ethiopic calligraphic traditions. The Ethiopic script is used for writing many of the languages of Ethiopia and Eritrea. This project is intended to provide a free and open font for all current languages and writing systems that use the Ethiopic script. It supports the complete range of Unicode characters for Ethiopic.
     </text>
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      This Font Software is Copyright (c) 2000-2021, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
+      This Font Software is Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
       
-      Modern Gurage glyphs Copyright (c) 2021 The Ge'ez Frontier Foundation.
+      Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
       
@@ -174,7 +94,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2000-2021 by SIL International
+      Copyright (c) 2000-2022 by SIL International
     </text>
   </copyright>
   <trademark>

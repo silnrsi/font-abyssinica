@@ -466,7 +466,6 @@
     <string>uni1296</string>
     <string>uni1297</string>
     <string>uni1297.cohen0</string>
-    <string>uni1297.oldstyle</string>
     <string>uni1298</string>
     <string>uni1298.gumuz</string>
     <string>uni1299</string>
@@ -520,7 +519,6 @@
     <string>uni12C2.seb3</string>
     <string>uni12C3</string>
     <string>uni12C3.cohen7</string>
-    <string>uni12C3.oldstyle</string>
     <string>uni12C4</string>
     <string>uni12C5</string>
     <string>uni12C5.seb2</string>
@@ -563,7 +561,6 @@
     <string>uni12E5</string>
     <string>uni12E5.cohen6</string>
     <string>uni12E5.chaine</string>
-    <string>uni12E5.oldstyle</string>
     <string>uni12E6</string>
     <string>uni12E6.cohen6</string>
     <string>uni12E6.chaine</string>
@@ -621,7 +618,6 @@
     <string>uni1313</string>
     <string>uni1313.seb0</string>
     <string>uni1313.alonestokes</string>
-    <string>uni1313.oldstyle</string>
     <string>uni1314</string>
     <string>uni1315</string>
     <string>uni1315.seb2</string>
@@ -674,7 +670,6 @@
     <string>uni133D</string>
     <string>uni133E</string>
     <string>uni133F</string>
-    <string>uni133F.alt4</string>
     <string>uni133F.oldstyle</string>
     <string>uni1340</string>
     <string>uni1341</string>
@@ -694,7 +689,6 @@
     <string>uni134F</string>
     <string>uni134F.cohen4</string>
     <string>uni134F.cohen5</string>
-    <string>uni134F.oldstyle</string>
     <string>uni1350</string>
     <string>uni1351</string>
     <string>uni1352</string>
@@ -1641,7 +1635,6 @@
     <string>uni1296</string>
     <string>uni1297</string>
     <string>uni1297.cohen0</string>
-    <string>uni1297.oldstyle</string>
     <string>uni1298</string>
     <string>uni1298.gumuz</string>
     <string>uni1299</string>
@@ -1695,7 +1688,6 @@
     <string>uni12C2.seb3</string>
     <string>uni12C3</string>
     <string>uni12C3.cohen7</string>
-    <string>uni12C3.oldstyle</string>
     <string>uni12C4</string>
     <string>uni12C5</string>
     <string>uni12C5.seb2</string>
@@ -1738,7 +1730,6 @@
     <string>uni12E5</string>
     <string>uni12E5.cohen6</string>
     <string>uni12E5.chaine</string>
-    <string>uni12E5.oldstyle</string>
     <string>uni12E6</string>
     <string>uni12E6.cohen6</string>
     <string>uni12E6.chaine</string>
@@ -1796,7 +1787,6 @@
     <string>uni1313</string>
     <string>uni1313.seb0</string>
     <string>uni1313.alonestokes</string>
-    <string>uni1313.oldstyle</string>
     <string>uni1314</string>
     <string>uni1315</string>
     <string>uni1315.seb2</string>
@@ -1849,7 +1839,6 @@
     <string>uni133D</string>
     <string>uni133E</string>
     <string>uni133F</string>
-    <string>uni133F.alt4</string>
     <string>uni133F.oldstyle</string>
     <string>uni1340</string>
     <string>uni1341</string>
@@ -1869,7 +1858,6 @@
     <string>uni134F</string>
     <string>uni134F.cohen4</string>
     <string>uni134F.cohen5</string>
-    <string>uni134F.oldstyle</string>
     <string>uni1350</string>
     <string>uni1351</string>
     <string>uni1352</string>
