@@ -1710,8 +1710,6 @@
   <string>uni1381.seb3.glif</string>
   <key>uni1381.seb5</key>
   <string>uni1381.seb5.glif</string>
-  <key>uni1381.sebLes</key>
-  <string>uni1381.sebL_es.glif</string>
   <key>uni1381.sebLes1</key>
   <string>uni1381.sebL_es1.glif</string>
   <key>uni1382</key>
@@ -1720,8 +1718,6 @@
   <string>uni1383.glif</string>
   <key>uni1383.seb4</key>
   <string>uni1383.seb4.glif</string>
-  <key>uni1383.sebLes</key>
-  <string>uni1383.sebL_es.glif</string>
   <key>uni1383.sebLes4</key>
   <string>uni1383.sebL_es4.glif</string>
   <key>uni1384</key>
@@ -1734,8 +1730,6 @@
   <string>uni1386.glif</string>
   <key>uni1387</key>
   <string>uni1387.glif</string>
-  <key>uni1387.sebLes</key>
-  <string>uni1387.sebL_es.glif</string>
   <key>uni1387.sebLes2</key>
   <string>uni1387.sebL_es2.glif</string>
   <key>uni1388</key>
@@ -1748,8 +1742,6 @@
   <string>uni138A_.trad.glif</string>
   <key>uni138B</key>
   <string>uni138B_.glif</string>
-  <key>uni138B.sebLes</key>
-  <string>uni138B_.sebL_es.glif</string>
   <key>uni138B.sebLes3</key>
   <string>uni138B_.sebL_es3.glif</string>
   <key>uni138C</key>
@@ -1762,8 +1754,6 @@
   <string>uni138E_.glif</string>
   <key>uni138F</key>
   <string>uni138F_.glif</string>
-  <key>uni138F.sebLes</key>
-  <string>uni138F_.sebL_es.glif</string>
   <key>uni138F.sebLes5</key>
   <string>uni138F_.sebL_es5.glif</string>
   <key>uni1390</key>
