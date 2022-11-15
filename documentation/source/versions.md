@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Versions and Changes
-fontversion: 2.101
+fontversion: 2.200
 ---
 
 ## Announcement list

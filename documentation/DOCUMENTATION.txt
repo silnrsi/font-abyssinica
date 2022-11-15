@@ -1,5 +1,5 @@
 DOCUMENTATION
-Abyssinica SIL v2.100
+Abyssinica SIL v2.200
 ========================
 
 The documentation for this project is listed in index.html.
@@ -9,11 +9,4 @@ There are also PDF versions in the `pdf` folder.
 These are produced from markdown sources (in `source`) using pandoc,
 weasyprint, and custom python scripts. See the `makedocs` shell script
 in the main project folder.
-
-Old documentation that will be removed:
-
-AbyssinicaSILTypeSample.doc/pdf - illustrates the character set in Abyssinica SIL.
-AbyssinicaSILFontFeatures.odt/pdf - documents the OpenType and Graphite
-     features in the font. It serves to illustrate the use of Graphite features
-     in LibreOffice 3.4+.
 

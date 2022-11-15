@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Frequently Asked Questions
-fontversion: 2.101
+fontversion: 2.200
 ---
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:

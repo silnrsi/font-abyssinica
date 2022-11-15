@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Documentation
-fontversion: 2.101
+fontversion: 2.200
 ---
 
 Thank you for your interest in the Abyssinica SIL font. This font supports the broad variety of writing systems that use the Ethiopic script.

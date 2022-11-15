@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Developer information
-fontversion: 2.101
+fontversion: 2.200
 ---
 
 Abyssinica SIL is a mature product with no major changes anticipated. We will be releasing maintenance updates to fix bugs. 

@@ -1,9 +1,9 @@
 ---
 title: Abyssinica SIL - Version History
-fontversion: 2.101
+fontversion: 2.200
 ---
 
-### 18 November 2022 (WSTech Team) Abyssinica SIL version 2.101
+### 16 November 2022 (WSTech Team) Abyssinica SIL version 2.200
 - Adjusted width of U+2008 PUNCTUATION SPACE to match full stop
 - Adjusted design of U+1395 ETHIOPIC TONAL MARK KENAT
 - Fixed inconsistency between Graphite and OpenType support for cv46 tswa alternate

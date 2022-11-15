@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - About
-fontversion: 2.101
+fontversion: 2.200
 ---
 
 ## About this project
