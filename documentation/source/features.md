@@ -353,5 +353,5 @@ Praetorius, Franz. 1955. *Aethiopische Grammatik mit Paradigmen, Litteratur, Chr
 
 
 <!-- PRODUCT SITE ONLY
-[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
 -->

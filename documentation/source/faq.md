@@ -45,7 +45,7 @@ If your application does not support Graphite features or the OpenType Character
 
 #### *Why did you remove the Stylistic Sets from ver. 2.000 of the Abyssinica SIL font?*
 
-Originally we added the Stylistic Sets because there was not a good solution for accessing the glyph variants in the font. At one point we also tried encoding them in the Private Use Area (PUA). PUA characters have now almost all been unencoded since the characters are now either encoded in Unicode or the variants are available through **Character Variants**. The Stylistic Sets were implemented inconsistently, and because of that we chose to remove them rather than attempt to fix them. If you still wish to use a font with Stylistic Sets, ver. 1.500 is still available on the [Previous Versions](versions.md) page.
+Originally we added the Stylistic Sets because there was not a good solution for accessing the glyph variants in the font. At one point we also tried encoding them in the Private Use Area (PUA). PUA characters have now almost all been unencoded since the characters are now either encoded in Unicode or the variants are available through **Character Variants**. The Stylistic Sets were implemented inconsistently, and because of that we chose to remove them rather than attempt to fix them. If you still wish to use a font with Stylistic Sets, ver. 1.500 is still available on the [Previous Versions](previous-versions.md) page.
 
 #### *I have a copy of the **SIL Abyssinica** font. Can you tell me how this differs from **Abyssinica SIL**?*
 

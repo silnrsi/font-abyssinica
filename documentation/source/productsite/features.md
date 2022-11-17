@@ -61,14 +61,14 @@ Gumuz (guk) |<span class='abyssinica-R normal' lang='guk'>ቊ ቍ<font color="re
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Ethiopic-style | <span class='abyssinica-R normal'>! $ % * + / 0 1 2 3 4 5 6 7 8 9 = ? ¡ © « ² ³ ¹ » × ‘ ’ “ ” ‹ › ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ €</span> | `cv01=0`
-Latin-style | <span class='abyssinica-R normal' style='font-feature-settings: "cv01" 1'>! $ % * + / 0 1 2 3 4 5 6 7 8 9 = ? ¡ © « ² ³ ¹ » × ‘ ’ “ ” ‹ › ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ €</span> | `cv01=1`
+Latin-style | <span class='abyssinica-cv01-1-R normal'>! $ % * + / 0 1 2 3 4 5 6 7 8 9 = ? ¡ © « ² ³ ¹ » × ‘ ’ “ ” ‹ › ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ €</span> | `cv01=1`
 
 #### Ethiopic digits
 
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>፩ ፪፫ ፫፬፭ ፺፻፼፻፼፩፼፩፪</span> | `cv02=0`
-Connected | <span class='abyssinica-R normal' style='font-feature-settings: "cv02" 1'>፩ ፪፫ ፫፬፭ ፺፻፼፻፼፩፼፩፪</span> | `cv02=1`
+Connected | <span class='abyssinica-cv02-1-R normal'>፩ ፪፫ ፫፬፭ ፺፻፼፻፼፩፼፩፪</span> | `cv02=1`
 
 #### mwa alternates
 
@@ -77,8 +77,8 @@ Connected | <span class='abyssinica-R normal' style='font-feature-settings: "cv0
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ሟ</span> | `cv04=0`
-Alternate-1 | <span class='abyssinica-R normal' style='font-feature-settings: "cv04" 1'>ሟ¹</span> | `cv04=1`
-Alternate-2 | <span class='abyssinica-R normal' style='font-feature-settings: "cv04" 2'>ሟ²</span> | `cv04=2`
+Alternate-1 | <span class='abyssinica-cv04-1-R normal'>ሟ¹</span> | `cv04=1`
+Alternate-2 | <span class='abyssinica-cv04-2-R normal'>ሟ²</span> | `cv04=2`
 
 #### rwa alternate 
 
@@ -87,7 +87,7 @@ Alternate-2 | <span class='abyssinica-R normal' style='font-feature-settings: "c
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ሯ</span> | `cv05=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv05" 1'>ሯ²</span> | `cv05=1`
+Alternate | <span class='abyssinica-cv05-1-R normal'>ሯ²</span> | `cv05=1`
 
 #### xoa alternate 
 
@@ -96,7 +96,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv0
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ኇ</span> | `cv17=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv17" 1'>ኇ</span> | `cv17=1`
+Alternate | <span class='abyssinica-cv17-1-R normal'>ኇ</span> | `cv17=1`
 
 #### xwa alternates 
 
@@ -105,7 +105,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv1
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ኈ   ኊ ኋ ኌ ኍ</span> | `cv18=0`
-Handwriting | <span class='abyssinica-R normal' style='font-feature-settings: "cv18" 1'>ኈ   ኊ ኋ ኌ ኍ</span> | `cv18=1`
+Handwriting | <span class='abyssinica-cv18-1-R normal'>ኈ   ኊ ኋ ኌ ኍ</span> | `cv18=1`
 
 #### nwa alternate 
 
@@ -114,7 +114,7 @@ Handwriting | <span class='abyssinica-R normal' style='font-feature-settings: "c
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ኗ</span> | `cv19=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv19" 1'>ኗ¹</span> | `cv19=1`
+Alternate | <span class='abyssinica-cv19-1-R normal'>ኗ¹</span> | `cv19=1`
 
 #### nya alternates 
 
@@ -123,7 +123,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv1
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ኘ ኙ ኚ ኛ ኜ ኝ ኞ</span> | `cv20=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv20" 1'>ኘ ኙ ኚ ኛ ኜ ኝ ኞ³</span> | `cv20=1`
+Disconnected | <span class='abyssinica-cv20-1-R normal'>ኘ ኙ ኚ ኛ ኜ ኝ ኞ³</span> | `cv20=1`
 
 #### nywa alternates 
 
@@ -132,8 +132,8 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ኟ</span> | `cv21=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv21" 1'>ኟ³</span> | `cv21=1`
-Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv21" 2'>ኟ²</span> | `cv21=2`
+Disconnected | <span class='abyssinica-cv21-1-R normal'>ኟ³</span> | `cv21=1`
+Cohen | <span class='abyssinica-cv21-2-R normal'>ኟ²</span> | `cv21=2`
 
 #### kxwaa alternate 
 
@@ -142,7 +142,7 @@ Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv21" 2
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ዃ</span> | `cv26=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv26" 1'>ዃ²</span> | `cv26=1`
+Alternate | <span class='abyssinica-cv26-1-R normal'>ዃ²</span> | `cv26=1`
 
 #### zha alternates 
 
@@ -151,8 +151,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv2
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ዠ ዡ ዢ ዣ ዤ ዥ ዦ</span> | `cv31=0`
-Cohen | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 1'>ዠ ዡ ዢ ዣ ዤ <font color="red">ዥ</font> ዦ⁴</span> | `cv31=1`
-Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 2'><font color="red">ዠ ዡ</font> ዢ <font color="red">ዣ ዤ ዥ ዦ</font>⁵</span> | `cv31=2`
+Cohen | <span class='abyssinica-cv31-1-R normal'>ዠ ዡ ዢ ዣ ዤ <font color="red">ዥ</font> ዦ⁴</span> | `cv31=1`
+Chaine | <span class='abyssinica-cv31-2-R normal'><font color="red">ዠ ዡ</font> ዢ <font color="red">ዣ ዤ ዥ ዦ</font>⁵</span> | `cv31=2`
 
 #### dda alternates 
 
@@ -161,7 +161,7 @@ Chaine | <span class='abyssinica-R normal' style='font-feature-settings: "cv31" 
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ዸ ዹ ዺ ዻ ዼ ዽ ዾ</span> | `cv32=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv32" 1'>ዸ ዹ ዺ ዻ ዼ ዽ ዾ⁶</span> | `cv32=1`
+Alternate | <span class='abyssinica-cv32-1-R normal'>ዸ ዹ ዺ ዻ ዼ ዽ ዾ⁶</span> | `cv32=1`
 
 #### gwaa alternates 
 
@@ -170,8 +170,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv3
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጓ</span> | `cv40=0`
-Sebat Bet | <span class='abyssinica-R normal' style='font-feature-settings: "cv40" 1'>ጓ⁷</span> | `cv40=1`
-Alone Stokes | <span class='abyssinica-R normal' style='font-feature-settings: "cv40" 2'>ጓ⁸</span> | `cv40=2`
+Sebat Bet | <span class='abyssinica-cv40-1-R normal'>ጓ⁷</span> | `cv40=1`
+Alone Stokes | <span class='abyssinica-cv40-2-R normal'>ጓ⁸</span> | `cv40=2`
 
 #### gga alternates 
 
@@ -180,7 +180,7 @@ Alone Stokes | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጘ ጙ ጚ ጛ ጜ ጝ ጞ</span> | `cv41=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv41" 1'>ጘ ጙ ጚ ጛ ጜ ጝ ጞ⁹</span> | `cv41=1`
+Disconnected | <span class='abyssinica-cv41-1-R normal'>ጘ ጙ ጚ ጛ ጜ ጝ ጞ⁹</span> | `cv41=1`
 
 #### ggwaa alternate 
 
@@ -189,7 +189,7 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጟ</span> | `cv42=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv42" 1'>ጟ⁹</span> | `cv42=1`
+Disconnected | <span class='abyssinica-cv42-1-R normal'>ጟ⁹</span> | `cv42=1`
 
 #### phe alternate 
 
@@ -198,7 +198,7 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጵ</span> | `cv45=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv45" 1'>ጵ¹⁰</span> | `cv45=1`
+Alternate | <span class='abyssinica-cv45-1-R normal'>ጵ¹⁰</span> | `cv45=1`
 
 #### tswa alternate 
 
@@ -207,7 +207,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv4
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ጿ</span> | `cv46=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv46" 1'>ጿ</span> | `cv46=1`
+Alternate | <span class='abyssinica-cv46-1-R normal'>ጿ</span> | `cv46=1`
 
 #### fwa alternates 
 
@@ -216,8 +216,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv4
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ፏ</span> | `cv48=0`
-Cohen-1 | <span class='abyssinica-R normal' style='font-feature-settings: "cv48" 1'>ፏ¹</span> | `cv48=1`
-Cohen-2 | <span class='abyssinica-R normal' style='font-feature-settings: "cv48" 2'>ፏ¹</span> | `cv48=2`
+Cohen-1 | <span class='abyssinica-cv48-1-R normal'>ፏ¹</span> | `cv48=1`
+Cohen-2 | <span class='abyssinica-cv48-2-R normal'>ፏ¹</span> | `cv48=2`
 
 #### rya alternate 
 
@@ -226,7 +226,7 @@ Cohen-2 | <span class='abyssinica-R normal' style='font-feature-settings: "cv48"
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ፘ</span> | `cv49=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv49" 1'>ፘ²</span> | `cv49=1`
+Alternate | <span class='abyssinica-cv49-1-R normal'>ፘ²</span> | `cv49=1`
 
 #### mya alternate 
 
@@ -235,7 +235,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv4
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ፙ</span> | `cv50=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv50" 1'>ፙ²</span> | `cv50=1`
+Alternate | <span class='abyssinica-cv50-1-R normal'>ፙ²</span> | `cv50=1`
 
 #### mwi alternates 
 
@@ -244,8 +244,8 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv5
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎁ</span> | `cv60=0`
-Sebat Bet | <span class='abyssinica-R normal' style='font-feature-settings: "cv60" 1'>ᎁ⁷</span> | `cv60=1`
-Leslau | <span class='abyssinica-R normal' style='font-feature-settings: "cv60" 2'>ᎁ¹¹</span> | `cv60=2`
+Sebat Bet | <span class='abyssinica-cv60-1-R normal'>ᎁ⁷</span> | `cv60=1`
+Leslau | <span class='abyssinica-cv60-2-R normal'>ᎁ¹¹</span> | `cv60=2`
 
 #### mwe alternates 
 
@@ -254,8 +254,8 @@ Leslau | <span class='abyssinica-R normal' style='font-feature-settings: "cv60" 
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎃ</span> | `cv61=0`
-Sebat Bet | <span class='abyssinica-R normal' style='font-feature-settings: "cv61" 1'>ᎃ⁷</span> | `cv61=1`
-Leslau | <span class='abyssinica-R normal' style='font-feature-settings: "cv61" 2'>ᎃ¹¹</span> | `cv61=2`
+Sebat Bet | <span class='abyssinica-cv61-1-R normal'>ᎃ⁷</span> | `cv61=1`
+Leslau | <span class='abyssinica-cv61-2-R normal'>ᎃ¹¹</span> | `cv61=2`
 
 #### bwe alternate 
 
@@ -264,7 +264,7 @@ Leslau | <span class='abyssinica-R normal' style='font-feature-settings: "cv61" 
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎇ</span> | `cv62=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv62" 1'>ᎇ¹¹</span> | `cv62=1`
+Alternate | <span class='abyssinica-cv62-1-R normal'>ᎇ¹¹</span> | `cv62=1`
 
 #### fwee alternate 
 
@@ -273,7 +273,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv6
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎊ</span> | `cv63=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv63" 1'>ᎊ¹¹</span> | `cv63=1`
+Alternate | <span class='abyssinica-cv63-1-R normal'>ᎊ¹¹</span> | `cv63=1`
 
 #### fwe alternate 
 
@@ -282,7 +282,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv6
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎋ</span> | `cv64=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv64" 1'>ᎋ¹¹</span> | `cv64=1`
+Alternate | <span class='abyssinica-cv64-1-R normal'>ᎋ¹¹</span> | `cv64=1`
 
 #### pwe alternate 
 
@@ -291,7 +291,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv6
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ᎏ</span> | `cv65=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv65" 1'>ᎏ¹¹</span> | `cv65=1`
+Alternate | <span class='abyssinica-cv65-1-R normal'>ᎏ¹¹</span> | `cv65=1`
 
 #### ggwa alternates 
 
@@ -300,7 +300,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv6
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ⶓ ⶔ ⶕ ⶖ</span> | `cv70=0`
-Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "cv70" 1'>ⶓ ⶔ ⶕ ⶖ⁹</span> | `cv70=1`
+Disconnected | <span class='abyssinica-cv70-1-R normal'>ⶓ ⶔ ⶕ ⶖ⁹</span> | `cv70=1`
 
 #### 3rd form alternates
 
@@ -309,7 +309,7 @@ Disconnected | <span class='abyssinica-R normal' style='font-feature-settings: "
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ቊ ኲ ዂ ጒ ᎅ ᎍ</span> | `cv80=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv80" 1'>ቊ ኲ ዂ ጒ ᎅ ᎍ⁷</span> | `cv80=1`
+Alternate | <span class='abyssinica-cv80-1-R normal'>ቊ ኲ ዂ ጒ ᎅ ᎍ⁷</span> | `cv80=1`
 
 #### 6th form alternates
 
@@ -318,7 +318,7 @@ Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv8
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span class='abyssinica-R normal'>ቍ ኵ ዅ ጕ</span> | `cv85=0`
-Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv85" 1'>ቍ ኵ ዅ ጕ⁷</span> | `cv85=1`
+Alternate | <span class='abyssinica-cv85-1-R normal'>ቍ ኵ ዅ ጕ⁷</span> | `cv85=1`
 
 
 
@@ -347,4 +347,40 @@ Praetorius, Franz. 1955. *Aethiopische Grammatik mit Paradigmen, Litteratur, Chr
 ¹¹Leslau
 
 
-[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica-cv01-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv01 1']
+[font id='abyssinica-cv02-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv02 1']
+[font id='abyssinica-cv04-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv04 1']
+[font id='abyssinica-cv04-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv04 2']
+[font id='abyssinica-cv05-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv05 1']
+[font id='abyssinica-cv17-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv17 1']
+[font id='abyssinica-cv18-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv18 1']
+[font id='abyssinica-cv19-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv19 1']
+[font id='abyssinica-cv20-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv20 1']
+[font id='abyssinica-cv21-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv21 1']
+[font id='abyssinica-cv21-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv21 2']
+[font id='abyssinica-cv26-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv26 1']
+[font id='abyssinica-cv31-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv31 1']
+[font id='abyssinica-cv31-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv31 2']
+[font id='abyssinica-cv32-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv32 1']
+[font id='abyssinica-cv40-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv40 1']
+[font id='abyssinica-cv40-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv40 2']
+[font id='abyssinica-cv41-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv41 1']
+[font id='abyssinica-cv42-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv42 1']
+[font id='abyssinica-cv45-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv45 1']
+[font id='abyssinica-cv46-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv46 1']
+[font id='abyssinica-cv48-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv48 1']
+[font id='abyssinica-cv48-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv48 2']
+[font id='abyssinica-cv49-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv49 1']
+[font id='abyssinica-cv50-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv50 1']
+[font id='abyssinica-cv60-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv60 1']
+[font id='abyssinica-cv60-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv60 2']
+[font id='abyssinica-cv61-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv61 1']
+[font id='abyssinica-cv61-2' face='AbyssinicaSIL-Regular' size='150%' feats='cv61 2']
+[font id='abyssinica-cv62-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv62 1']
+[font id='abyssinica-cv63-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv63 1']
+[font id='abyssinica-cv64-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv64 1']
+[font id='abyssinica-cv65-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv65 1']
+[font id='abyssinica-cv70-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv70 1']
+[font id='abyssinica-cv80-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv80 1']
+[font id='abyssinica-cv85-1' face='AbyssinicaSIL-Regular' size='150%' feats='cv85 1']

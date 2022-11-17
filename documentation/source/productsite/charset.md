@@ -40,4 +40,4 @@ PUA characters that were previously in the font are documented here:
 
 [SIL Ethiopic Private Use Area Block](https://software.sil.org/abyssinica/wp-content/uploads/sites/26/2016/02/AbyssinicaSIL_PUA.pdf)
 
-[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']

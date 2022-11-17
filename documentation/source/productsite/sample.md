@@ -118,4 +118,4 @@ This document demonstrates all of the characters in the font. It is organized by
 
 
 
-[font id='abyssinica-R' face='AbyssinicaSIL-Regular' size='150%']
+[font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
