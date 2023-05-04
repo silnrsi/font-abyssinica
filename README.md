@@ -3,7 +3,7 @@
 The Abyssinica SIL font supports the Ethiopic script. 
 
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Abyssinica/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Abyssinica&guest=1)  
+## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Abyssinica/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Abyssinica&guest=1)  
 
 Abyssinica SIL v2.200 has been released. 
 
@@ -19,7 +19,7 @@ For practical information about modifying and redistributing this font see [OFL-
 
 For more details about this project, including changelog and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 
-For further information about this font, including Unicode ranges, supported OpenType and Graphite font features and how to use them, and licensing, please see the documentation on [the website](http://software.sil.org/abyssinica/) or in the documentation subfolder of this font package.
+For further information about this font, including Unicode ranges, supported OpenType and Graphite font features and how to use them, and licensing, please see the documentation on [the website](https://software.sil.org/abyssinica/) or in the documentation subfolder of this font package.
 
 # Developer notes
 

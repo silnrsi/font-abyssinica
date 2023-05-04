@@ -3,7 +3,7 @@ title: Abyssinica SIL - Font Features
 fontversion: 2.200
 ---
 
-Abyssinica SIL is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
+Abyssinica SIL is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
 
 See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Ethiopic support, it does provide a comprehensive list of applications that make full use of the OpenType and Graphite font technologies.
 
@@ -21,18 +21,18 @@ These capabilities are available in any application that supports the Graphite t
 A sample of diacritic placement and kerning is shown below:
 
 ![Abyssinica SIL Sample - Diacritic placement and Kerning](assets/images/Abyssinica_SampleDiacKern.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC http://software.sil.org/abyssinica/wp-content/uploads/sites/26/2016/02/Abyssinica_SampleDiacKern.png -->
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/abyssinica/wp-content/uploads/sites/26/2016/02/Abyssinica_SampleDiacKern.png -->
 <figcaption>Abyssinica SIL Sample - Diacritic placement and Kerning</figcaption>
 
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Abyssinica SIL as a web font see [Abyssinica SIL Webfont Example](../web/AbyssinicaSIL-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Abyssinica SIL as a web font see [Abyssinica SIL Webfont Example](../web/AbyssinicaSIL-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
 
 ## Customizing with TypeTuner
 
-For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features.md) page, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
+For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features.md) page, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
 
 
 ## Complete feature list
@@ -42,7 +42,7 @@ There are some Ethiopic character shape differences in different Ethiopian langu
 
 ### Test rendering engine choice 
 
-Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](http://scripts.sil.org/cms/scripts/page.php?site_id=projects&amp;item_id=graphite_firefox#switchon).
+Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&amp;item_id=graphite_firefox#switchon).
 
 | | 
 ------------- | --------------- 

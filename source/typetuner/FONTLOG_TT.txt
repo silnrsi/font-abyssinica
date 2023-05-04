@@ -56,7 +56,7 @@ ChangeLog
 
 %DATE% (SIL TypeTuner) Tuned version of Abyssinica SIL Version 2.200
 - Tuned and delivered by SIL TypeTuner 
-(http://scripts.sil.org/ttw/fonts2go.cgi).
+(https://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
 ### 16 November 2022 (WSTech Team) Abyssinica SIL version 2.200
@@ -149,32 +149,32 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Walt Agee
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: Designer
 
 N: Sharon Correll
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: OpenType and Graphite support
 
 N: Lorna Evans
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: Contributed some extended Ethiopic glyphs and OpenType and Graphite work
 
 N: Victor Gaultney
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: Designer
 
 N: Annie Olsen
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: Designer
 
 N: Daniel Yacob
 E: yacob@geez.org
-W: http://www.geez.org/, https://github.com/geezorg
+W: https://www.geez.org/, https://github.com/geezorg
 D: Font designer, contributed significant input on the design of extended Ethiopic
 
 N: Kjell Magne Yri
@@ -184,6 +184,6 @@ The Abyssinica SIL project is maintained by SIL International.
 
 For more information please visit the Abyssinica SIL page on SIL International's
 Computers and Writing systems website:
-http://software.sil.org/abyssinica
+https://software.sil.org/abyssinica
 
 Or send an email to <fonts AT sil DOT org>

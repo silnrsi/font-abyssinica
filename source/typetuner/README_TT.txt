@@ -17,7 +17,7 @@ See the FONTLOG for information on this and previous releases.
 For further information about this font, including Unicode ranges
 supported, OpenType font features and how to use them, 
 and licensing, please see the documentation on the website 
-(http://software.sil.org/abyssinica/) or in the documentation 
+(https://software.sil.org/abyssinica/) or in the documentation 
 subfolder of this font package.
 
 

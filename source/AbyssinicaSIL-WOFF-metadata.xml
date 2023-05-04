@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.AbyssinicaSIL.2.200" />
-  <vendor name="SIL International" url="http://scripts.sil.org" />
+  <uniqueid id="org.sil.fonts.AbyssinicaSIL.2.201" />
+  <vendor name="SIL International" url="https://scripts.sil.org" />
   <credits>
     <credit
       name="Walt Agee"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
       name="Sharon Correll"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="OpenType and Graphite support"
     />
     <credit
       name="Lorna Evans"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Contributed some extended Ethiopic glyphs and OpenType and Graphite work"
     />
     <credit
       name="Victor Gaultney"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
       name="Annie Olsen"
-      url="http://scripts.sil.org/"
+      url="https://scripts.sil.org/"
       role="Designer"
     />
     <credit
@@ -45,11 +45,11 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      This Font Software is Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
+      This Font Software is Copyright (c) 2000-2022, SIL International (https://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
       
       Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
       
-      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
       
       
       -----------------------------------------------------------

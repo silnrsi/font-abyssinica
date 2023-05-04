@@ -1,8 +1,6 @@
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features) document. At the end is a sample demonstrating an example of running text.
 
-## Type Sample
-
 ### Basic Latin:
 
 <span class='abyssinica-R normal'>!"#$%&'()*+,./0123456789:;=>?@ ABCDEFGHIJKLMNOPQRSTUVWWYZ[\]^` abcdefghijklmnopqrstuvwxyz{|}~</span>

@@ -39,7 +39,7 @@ Other suggestions are listed here: [Using Font Features](https://software.sil.or
 
 ## Web fonts
 
-Web font versions of this font (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+Web font versions of this font (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 ## Text conversion
 

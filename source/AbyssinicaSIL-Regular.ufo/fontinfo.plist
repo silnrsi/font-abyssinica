@@ -26,7 +26,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/11/15 08:36:56</string>
+  <string>2023/05/04 16:32:20</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -38,13 +38,13 @@
   <key>openTypeNameDesigner</key>
   <string>Victor Gaultney and Lorna Evans</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2000-2022, SIL International (http://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
+  <string>This Font Software is Copyright (c) 2000-2022, SIL International (https://scripts.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
 
 Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -86,17 +86,17 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org</string>
+  <string>https://scripts.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Abyssinica SIL</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Abyssinica SIL Regular: 2022</string>
+  <string>SIL International: Abyssinica SIL Regular: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.201</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -231,7 +231,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Designer</string>
         <key>url</key>
-        <string>http://scripts.sil.org/</string>
+        <string>https://scripts.sil.org/</string>
       </dict>
       <dict>
         <key>name</key>
@@ -239,7 +239,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>OpenType and Graphite support</string>
         <key>url</key>
-        <string>http://scripts.sil.org/</string>
+        <string>https://scripts.sil.org/</string>
       </dict>
       <dict>
         <key>name</key>
@@ -247,7 +247,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Contributed some extended Ethiopic glyphs and OpenType and Graphite work</string>
         <key>url</key>
-        <string>http://scripts.sil.org/</string>
+        <string>https://scripts.sil.org/</string>
       </dict>
       <dict>
         <key>name</key>
@@ -255,7 +255,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Designer</string>
         <key>url</key>
-        <string>http://scripts.sil.org/</string>
+        <string>https://scripts.sil.org/</string>
       </dict>
       <dict>
         <key>name</key>
@@ -263,7 +263,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>Designer</string>
         <key>url</key>
-        <string>http://scripts.sil.org/</string>
+        <string>https://scripts.sil.org/</string>
       </dict>
       <dict>
         <key>name</key>

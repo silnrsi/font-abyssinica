@@ -5,7 +5,7 @@ fontversion: 2.200
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
 
-- [SIL fonts in general](http://software.sil.org/fonts/faq)
+- [SIL fonts in general](https://software.sil.org/fonts/faq)
     - *How can I type...?*
     - *How can I use font features?*
     - *Will you add support for character...?*
@@ -59,5 +59,5 @@ With version 2.000 we removed almost all of the PUA characters in the font becau
 
 #### *I would like to bundle Abyssinica SIL with my application - can I?*
 
-The [SIL Open Font License](http://scripts.sil.org/OFL) allows bundling with applications, even commercial ones, with some restrictions.
+The [SIL Open Font License](https://scripts.sil.org/OFL) allows bundling with applications, even commercial ones, with some restrictions.
 
