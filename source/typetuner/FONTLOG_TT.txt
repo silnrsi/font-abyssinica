@@ -54,10 +54,13 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%DATE% (SIL TypeTuner) Tuned version of Abyssinica SIL Version 2.200
+%DATE% (SIL TypeTuner) Tuned version of Abyssinica SIL Version 2.201
 - Tuned and delivered by SIL TypeTuner 
 (https://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
+
+### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201
+- Fixed bug in TypeTuner support for cv46 tswa alternate
 
 ### 16 November 2022 (WSTech Team) Abyssinica SIL version 2.200
 - Adjusted width of U+2008 PUNCTUATION SPACE to match full stop

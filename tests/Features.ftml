@@ -3,9 +3,9 @@
 <ftml version='1.0'>
   <head>
   <fontscale>300</fontscale>
-  <fontsrc label="v2.0">url(../references/v2.000/AbyssinicaSIL-Regular.ttf)</fontsrc>
-  <fontsrc label="v2.1">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
-  <fontsrc label="v2.101">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.1">url(../references/v2.100/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.2">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
+  <fontsrc label="v2.201">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
   		<style feats="'cv01' 1" name="cv01_1"/>    <!-- punctuation: Latin -->
   		<style feats="'cv02' 1" name="cv02_1"/>    <!-- ethiopic digits: isol -->

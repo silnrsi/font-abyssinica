@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Font Features
-fontversion: 2.200
+fontversion: 2.201
 ---
 
 Abyssinica SIL is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
