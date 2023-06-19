@@ -33,7 +33,7 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 This font will work normally like any other font in most applications. If the writing system requires special diacritic positioning the application/OS will need to support OpenType.
 
-Abyssinica SIL is designed to work with two advanced font technologies, [Graphite](http://graphite.sil.org/) and OpenType. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType.
+Abyssinica SIL is designed to work with two advanced font technologies, [Graphite](https://graphite.sil.org/) and OpenType. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType.
 
 Other suggestions are listed here: [Using Font Features](https://software.sil.org/fonts/features/). 
 
@@ -43,7 +43,7 @@ Web font versions of this font (in WOFF and WOFF2 formats) are available in the 
 
 ## Text conversion
 
-This font is encoded according to [The Unicode Standard](http://unicode.org). If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
+This font is encoded according to [The Unicode Standard](https://unicode.org). If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
 
 In order to use this font with existing data that was created for use with fonts developed using custom-encoded fonts, it is necessary to re-type or convert data to produce data that is encoded in conformance with the Unicode Standard. [SIL Converters](https://software.sil.org/silconverters/) and/or [TECkit](https://software.sil.org/teckit/) can be used for character encoding conversion. TECkit allows users to write their own custom conversion mappings.
 

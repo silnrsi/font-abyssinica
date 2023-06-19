@@ -149,27 +149,27 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Walt Agee
 E: fonts@sil.org
-W: https://scripts.sil.org/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Sharon Correll
 E: fonts@sil.org
-W: https://scripts.sil.org/
+W: https://software.sil.org/wstech/
 D: OpenType and Graphite support
 
 N: Lorna Evans
 E: fonts@sil.org
-W: https://scripts.sil.org/
+W: https://software.sil.org/wstech/
 D: Contributed some extended Ethiopic glyphs and OpenType and Graphite work
 
 N: Victor Gaultney
 E: fonts@sil.org
-W: https://scripts.sil.org/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Annie Olsen
 E: fonts@sil.org
-W: https://scripts.sil.org/
+W: https://software.sil.org/wstech/
 D: Designer
 
 N: Daniel Yacob

@@ -285,7 +285,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Alternate" tag="Alt">
-			<cmd name="encode" args="133F uni133F.alt4"/>
+			<cmd name="encode" args="133F uni133F.oldstyle"/>
 		</value>
 	</feature>
 

@@ -1,4 +1,4 @@
-This Font Software is Copyright (c) 2000-2022, SIL International (https://scripts.sil.org/)
+This Font Software is Copyright (c) 2000-2023, SIL International (https://www.sil.org/)
 with Reserved Font Names "Abyssinica" and "SIL".
 
 Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.

@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
   <fontscale>300</fontscale>
-  <fontsrc label="v2.0">url(../references/AbyssinicaSIL-Regular-v2.0.ttf)</fontsrc>
+   <fontsrc label="v2.0">url(../references/v2.000/AbyssinicaSIL-Regular.ttf)</fontsrc>
   <fontsrc label="v2.1">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
   <fontsrc label="v2.101">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>

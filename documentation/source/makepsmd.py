@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 '''Process font documentation .md files for use on product sites '''
-__url__ = 'http://github.com/silnrsi/fontdocs'
+__url__ = 'https://github.com/silnrsi/fontdocs'
 __copyright__ = 'Copyright (c) 2021-2023 SIL International (https://www.sil.org)'
-__license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
+__license__ = 'Released under the MIT License (https://opensource.org/license/mit/)'
 __author__ = 'Victor Gaultney'
 
 import re
