@@ -1,4 +1,7 @@
 
+### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201
+- Fixed bug in TypeTuner support for cv46 tswa alternate
+
 ### 16 November 2022 (WSTech Team) Abyssinica SIL version 2.200
 - Adjusted width of U+2008 PUNCTUATION SPACE to match full stop
 - Adjusted design of U+1395 ETHIOPIC TONAL MARK KENAT

@@ -21,17 +21,7 @@ This font is designed to work with two advanced font technologies, Graphite and 
 
 #### *Do you supply a keyboard to use with Abyssinica SIL?*
 
-[Keyman](https://keyman.com/) is a cross-platform keyboarding system and a number of Ethiopic keyboards are available:
-
-- [SIL Power-G Ethiopic keyboard](https://keyman.com/keyboards/sil_ethiopic_power_g)
-- [SIL Ethiopic keyboard](https://keyman.com/keyboards/sil_ethiopic)
-- [GFF Blin Keyboard](https://keyman.com/keyboards/gff_blin)
-- [GFF Ge'ez Keyboard](https://keyman.com/keyboards/gff_geez)
-- [Amharic keyboard](https://keyman.com/keyboards/gff_amharic)
-- [GFF Tigrinya-Ethiopia Keyboard](https://keyman.com/keyboards/gff_tigrinya_ethiopia)
-- [GFF Tigrinya-Eritrean Keyboard](https://keyman.com/keyboards/gff_tigrinya_eritrea)
-
-Various other means may be available for different operating-system platforms to create additional input methods. For instance, Windows (Vista and above) provides an Ethiopic IME. 
+No keyboards are supplied with the font. However, there are suggested keyboards listed in [Resources](resources).
 
 #### *My language uses variant forms of some Ethiopic characters. How do I type these using the Abyssinica SIL font? How do I use features?*
 
