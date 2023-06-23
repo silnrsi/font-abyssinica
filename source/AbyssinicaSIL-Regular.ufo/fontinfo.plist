@@ -26,7 +26,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/05/04 16:32:20</string>
+  <string>2023/06/23 15:13:26</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -98,7 +98,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Abyssinica SIL Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.201</string>
+  <string>Version 2.202</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -220,7 +220,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>201</integer>
+  <integer>202</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
