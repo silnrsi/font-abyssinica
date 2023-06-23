@@ -17,11 +17,20 @@ This font does not include keyboards or other software for entering text. To typ
 
 - [SIL Power-G Ethiopic keyboard](https://keyman.com/keyboards/sil_ethiopic_power_g)
 - [SIL Ethiopic keyboard](https://keyman.com/keyboards/sil_ethiopic)
+- [GFF Amharic keyboard](https://keyman.com/keyboards/gff_amharic)
+- [GFF Amharic Classic keyboard](https://keyman.com/keyboards/gff_amharic_classic)
+- [GFF Awngi & Xamtanga](https://keyman.com/keyboards/gff_awngi_xamtanga)
 - [GFF Blin Keyboard](https://keyman.com/keyboards/gff_blin)
 - [GFF Ge'ez Keyboard](https://keyman.com/keyboards/gff_geez)
-- [Amharic keyboard](https://keyman.com/keyboards/gff_amharic)
+- [GFF Gurage](https://keyman.com/keyboards/gff_gurage)
+- [GFF Gurage Legacy](https://keyman.com/keyboards/gff_gurage_legacy)
+- [GFF Tigre](https://keyman.com/keyboards/gff_tigre)
 - [GFF Tigrinya-Ethiopia Keyboard](https://keyman.com/keyboards/gff_tigrinya_ethiopia)
 - [GFF Tigrinya-Eritrean Keyboard](https://keyman.com/keyboards/gff_tigrinya_eritrea)
+- [GFF Harege Fidelat](https://keyman.com/keyboards/gff_harege_fidelat)
+- [GFF Mesobe Fidelat](https://keyman.com/keyboards/gff_mesobe_fidelat)
+- [GFF Harari](https://keyman.com/keyboards/gff_harari)
+- [Ge'ez Berhan](https://keyman.com/keyboards/geezbrhan)
 
 Various other means may be available for different operating-system platforms to create additional input methods. For instance, Windows (Vista and above) provides an Ethiopic IME. 
 
