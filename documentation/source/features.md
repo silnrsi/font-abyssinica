@@ -42,7 +42,7 @@ There are some Ethiopic character shape differences in different Ethiopian langu
 
 ### Test rendering engine choice 
 
-Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&amp;item_id=graphite_firefox#switchon).
+Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](https://graphite.sil.org/graphite_firefox).
 
 | | 
 ------------- | --------------- 

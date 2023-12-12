@@ -12,7 +12,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *Will you add support for script...?*
     - *WIll you help me...?*
 
-- [The SIL Open Font License (OFL-FAQ)](https://scripts.sil.org/OFL-FAQ_web)
+- [The SIL Open Font License (OFL-FAQ)](https://openfontlicense.org/ofl-faq/)
     - *Can I use this font for...?*
     - *Can I modify the font and then include it in...*
     - *If I use the font on a web page do I have to include an acknowledgement?*
@@ -49,5 +49,5 @@ With version 2.000 we removed almost all of the PUA characters in the font becau
 
 #### *I would like to bundle Abyssinica SIL with my application - can I?*
 
-The [SIL Open Font License](https://scripts.sil.org/OFL) allows bundling with applications, even commercial ones, with some restrictions.
+The [SIL Open Font License](https://openfontlicense.org/) allows bundling with applications, even commercial ones, with some restrictions.
 
