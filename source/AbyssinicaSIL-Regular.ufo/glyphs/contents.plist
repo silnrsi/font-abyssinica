@@ -244,8 +244,12 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.inferior</key>
+  <string>eight.inferior.glif</string>
   <key>eight.punct</key>
   <string>eight.punct.glif</string>
+  <key>eightcircle</key>
+  <string>eightcircle.glif</string>
   <key>eightsuperior</key>
   <string>eightsuperior.glif</string>
   <key>eightsuperior.punct</key>
@@ -280,8 +284,12 @@
   <string>figuredash.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.inferior</key>
+  <string>five.inferior.glif</string>
   <key>five.punct</key>
   <string>five.punct.glif</string>
+  <key>fivecircle</key>
+  <string>fivecircle.glif</string>
   <key>fivesuperior</key>
   <string>fivesuperior.glif</string>
   <key>fivesuperior.punct</key>
@@ -292,8 +300,12 @@
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four.inferior</key>
+  <string>four.inferior.glif</string>
   <key>four.punct</key>
   <string>four.punct.glif</string>
+  <key>fourcircle</key>
+  <string>fourcircle.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
   <key>foursuperior.punct</key>
@@ -378,8 +390,12 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.inferior</key>
+  <string>nine.inferior.glif</string>
   <key>nine.punct</key>
   <string>nine.punct.glif</string>
+  <key>ninecircle</key>
+  <string>ninecircle.glif</string>
   <key>ninesuperior</key>
   <string>ninesuperior.glif</string>
   <key>ninesuperior.punct</key>
@@ -418,8 +434,12 @@
   <string>ograve.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.inferior</key>
+  <string>one.inferior.glif</string>
   <key>one.punct</key>
   <string>one.punct.glif</string>
+  <key>onecircle</key>
+  <string>onecircle.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
   <key>onequarter</key>
@@ -516,16 +536,24 @@
   <string>semicolon.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.inferior</key>
+  <string>seven.inferior.glif</string>
   <key>seven.punct</key>
   <string>seven.punct.glif</string>
+  <key>sevencircle</key>
+  <string>sevencircle.glif</string>
   <key>sevensuperior</key>
   <string>sevensuperior.glif</string>
   <key>sevensuperior.punct</key>
   <string>sevensuperior.punct.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>six.inferior</key>
+  <string>six.inferior.glif</string>
   <key>six.punct</key>
   <string>six.punct.glif</string>
+  <key>sixcircle</key>
+  <string>sixcircle.glif</string>
   <key>sixsuperior</key>
   <string>sixsuperior.glif</string>
   <key>sixsuperior.punct</key>
@@ -546,8 +574,12 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.inferior</key>
+  <string>three.inferior.glif</string>
   <key>three.punct</key>
   <string>three.punct.glif</string>
+  <key>threecircle</key>
+  <string>threecircle.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
   <key>threesuperior</key>
@@ -560,8 +592,12 @@
   <string>tildecomb.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.inferior</key>
+  <string>two.inferior.glif</string>
   <key>two.punct</key>
   <string>two.punct.glif</string>
+  <key>twocircle</key>
+  <string>twocircle.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>twosuperior.punct</key>
@@ -2104,6 +2140,8 @@
   <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.inferior</key>
+  <string>zero.inferior.glif</string>
   <key>zero.punct</key>
   <string>zero.punct.glif</string>
   <key>zerosuperior</key>

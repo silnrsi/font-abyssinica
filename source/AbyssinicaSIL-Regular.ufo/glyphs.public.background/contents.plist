@@ -4,38 +4,56 @@
 <dict>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.inferior</key>
+  <string>eight.inferior.glif</string>
   <key>eightsuperior</key>
   <string>eightsuperior.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.inferior</key>
+  <string>five.inferior.glif</string>
   <key>fivesuperior</key>
   <string>fivesuperior.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four.inferior</key>
+  <string>four.inferior.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.inferior</key>
+  <string>nine.inferior.glif</string>
   <key>ninesuperior</key>
   <string>ninesuperior.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.inferior</key>
+  <string>one.inferior.glif</string>
   <key>onesuperior</key>
   <string>onesuperior.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.inferior</key>
+  <string>seven.inferior.glif</string>
   <key>sevensuperior</key>
   <string>sevensuperior.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>six.inferior</key>
+  <string>six.inferior.glif</string>
   <key>sixsuperior</key>
   <string>sixsuperior.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.inferior</key>
+  <string>three.inferior.glif</string>
   <key>threesuperior</key>
   <string>threesuperior.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.inferior</key>
+  <string>two.inferior.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u1E7E0</key>
@@ -192,6 +210,8 @@
   <string>uni137C_.nobar.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.inferior</key>
+  <string>zero.inferior.glif</string>
   <key>zerosuperior</key>
   <string>zerosuperior.glif</string>
 </dict>
