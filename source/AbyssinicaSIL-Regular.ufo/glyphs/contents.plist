@@ -328,6 +328,8 @@
   <string>guilsinglright.glif</string>
   <key>guilsinglright.punct</key>
   <string>guilsinglright.punct.glif</string>
+  <key>gzi_ligature</key>
+  <string>gzi_ligature.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>hungarumlaut</key>
