@@ -18,5 +18,5 @@ psfsetglyphorder -q -p checkfix=none -p backup=False --header DesignerOrder,Desi
 # psfsetglyphorder --header sort_final -i source/glyph_data.csv source/AbyssinicaSIL-Regular.ufo -l source/logs/sortorder.log
 
 echo "Building internal fea..."
-psfmakefea -q -o source/AbyssinicaSIL-Regular.ufo/features.fea -l AbyssinicaSIL-Regular-psfmakefea.log -i source/opentype/master.feax source/*-Regular.ufo &
+makefea -q -o source/AbyssinicaSIL-Regular.ufo/features.fea -l AbyssinicaSIL-Regular-makefea.log -i source/opentype/master.feax source/*-Regular.ufo &
 wait
