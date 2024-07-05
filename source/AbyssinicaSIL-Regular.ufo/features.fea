@@ -703,6 +703,11 @@ lookup DigitAlternates {
     sub @cno_init' @cno_init by @c_init;
 } DigitAlternates;
 
+feature rlig {
+   # The g-zi ligature
+   sub uni130D uni200D uni12DA by gzi_ligature;
+} rlig;
+
 #**********************
 # Positioning lookups
 #
