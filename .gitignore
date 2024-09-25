@@ -12,6 +12,11 @@ bin/**
 source/temp/*
 source/backups/*
 
+# temporary fontdocs files
+documentation/source/pdftemp/
+# documentation/source/productsite/
+web/*.woff*
+
 # general backup files
 *~
 *.swp

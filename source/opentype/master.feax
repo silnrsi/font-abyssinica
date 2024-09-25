@@ -737,6 +737,10 @@ feature cv85 {  # 6th-form alternates
 		lookup Cv85_6th ;
 } cv85 ;
 
+feature rlig {
+   # The gzi ligature
+   sub uni130D uni200D uni12DA by gzi.ligature;
+} rlig;
 
 #********************
 # GPOS features     *

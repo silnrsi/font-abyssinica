@@ -325,6 +325,16 @@ Feature | Sample | Feature setting
 Standard | <span class='abyssinica-R normal'>ቍ ኵ ዅ ጕ</span> | `cv85=0`
 Alternate | <span class='abyssinica-R normal' style='font-feature-settings: "cv85" 1'>ቍ ኵ ዅ ጕ⁷</span> | `cv85=1`
 
+### Ligatures
+
+#### gzi ligature
+
+<span class='affects'>Affects: U+130D U+200D U+12DA</span>
+
+Feature | Sample | Feature setting
+------------- | --------------- | ------------- 
+No Joiner | <span class='abyssinica-R normal'>&#x130D;&#x12DA;</span> | U+130D U+12DA
+Using ZWJ | <span class='abyssinica-R normal'>&#x130D;&#x200D;&#x12DA;</span></span> | U+130D U+200D U+12DA
 
 
 ## References

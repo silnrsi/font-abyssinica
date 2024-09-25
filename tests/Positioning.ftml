@@ -45,7 +45,7 @@
   		<style feats="'cv85' 1" name="cv85_1"/>    <!-- 6th form alternates: seb2 -->
       <style lang="sgw" name="lang_sgw"/>               <!-- Sebat Bet -->
       <style lang="guk" name="lang_guk"/>               <!-- Gumuz -->
-  	</styles>
+   	</styles>
   	<title>Positioning tests</title>
   </head>
 
@@ -138,4 +138,9 @@
   	<test label="U+1E7F9..."><string>\u1E7F9\u1273</string></test>
   	<test label="U+1E7EB..."><string>\u1E7EB\u1293</string></test>
   </testgroup>
+  	<testgroup label="gzi ligature">		
+  	<test label="130D 12DA"><string>\u130D\u12DA</string></test>
+  	<test label="130D 200D 12DA"><string>\u130D\u200D\u12DA</string></test>
+  </testgroup>
+
 </ftml>

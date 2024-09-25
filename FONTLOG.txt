@@ -54,6 +54,12 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+### xx 2024 (WSTech Team) Abyssinica SIL version 2.300
+- Adjusted glyph shape for U+1214 ETHIOPIC SYLLABLE HHEE, 
+  U+1E7E4 ETHIOPIC SYLLABLE HHYEEm and U+1E7EA ETHIOPIC SYLLABLE HHWEE
+- Added gzi Ligature (to OpenType only)
+- Remove Graphite (not done yet)
+
 ### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201
 - Fixed bug in TypeTuner support for cv46 tswa alternate
 

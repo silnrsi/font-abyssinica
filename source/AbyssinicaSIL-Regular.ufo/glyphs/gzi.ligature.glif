@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gzi_ligature" format="2">
+<glyph name="gzi.ligature" format="2">
   <advance width="2223"/>
   <outline>
     <contour>
@@ -136,9 +136,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>note</key>
-  <real>0</real>
-  </dict>
+    <dict>
+      <key>note</key>
+      <integer>0</integer>
+    </dict>
   </lib>
 </glyph>

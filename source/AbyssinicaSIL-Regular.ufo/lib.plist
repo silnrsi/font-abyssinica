@@ -610,6 +610,7 @@
     <string>uni130B</string>
     <string>uni130C</string>
     <string>uni130D</string>
+    <string>gzi.ligature</string>
     <string>uni130E</string>
     <string>uni130F</string>
     <string>uni1310</string>
@@ -1678,6 +1679,7 @@
     <string>uni130B</string>
     <string>uni130C</string>
     <string>uni130D</string>
+    <string>gzi.ligature</string>
     <string>uni130E</string>
     <string>uni130F</string>
     <string>uni1310</string>
@@ -2184,7 +2186,6 @@
     <string>u1E7FC</string>
     <string>u1E7FD</string>
     <string>u1E7FE</string>
-    <string>gzi_ligature</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
