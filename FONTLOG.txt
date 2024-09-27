@@ -56,8 +56,9 @@ ChangeLog
 
 ### xx 2024 (WSTech Team) Abyssinica SIL version 2.300
 - Adjusted glyph shape for U+1214 ETHIOPIC SYLLABLE HHEE, 
-  U+1E7E4 ETHIOPIC SYLLABLE HHYEEm and U+1E7EA ETHIOPIC SYLLABLE HHWEE
+  U+1E7E4 ETHIOPIC SYLLABLE HHYEE and U+1E7EA ETHIOPIC SYLLABLE HHWEE
 - Added gzi Ligature (to OpenType only)
+- Add support for multiple above diacritics
 - Remove Graphite (not done yet)
 
 ### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201

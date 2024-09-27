@@ -466,6 +466,23 @@ lookup AttachMarks {
 	#pos base uni121A <anchor 891 1271> mark @_U ;
 } AttachMarks ;
 
+@cMarkFilter_U = [@U_MarkBase @_U];
+
+lookup mark_mark_U {
+  lookupflag UseMarkFilteringSet @cMarkFilter_U;
+    pos mark @U_MarkBase mark @_U;
+} mark_mark_U;
+
+
+#********************
+# Mark-to-mark attachment
+
+@MarkFilter_U = [@U_MarkBase @_U];
+lookup MarkToMarkAbove {
+  lookupflag UseMarkFilteringSet @MarkFilter_U;
+    pos mark @U_MarkBase mark @_U;
+} MarkToMarkAbove;
+
 
 #********************
 # GSUB features     *
@@ -753,4 +770,8 @@ feature kern {
 feature mark {
 	lookup AttachMarks ;
 } mark ;
+
+feature mkmk {
+  lookup mark_mark_U;
+} mkmk;
 

@@ -3,7 +3,6 @@
 <ftml version="1.0">
 <head>
   <fontscale>300</fontscale>
-  <fontsrc label="v2.2">url(../references/v2.200/AbyssinicaSIL-Regular.ttf)</fontsrc>
   <fontsrc label="v2.201">url(../references/AbyssinicaSIL-Regular.ttf)</fontsrc>
   <fontsrc label="v2.202">url(../results/AbyssinicaSIL-Regular.ttf)</fontsrc>
   	<styles>
@@ -54,7 +53,9 @@
   	</testgroup>
   	<testgroup label="Attachment">		
   	<test label="Latin diacritics"><string>\u12F0\u0300 \u12A2\u0301 \u2d8e\u0302 \u12EB\u0303 \u12B8\u0304 \u12CB\u0307 \u2d8e\u0308 \u1281\u030B \u12B8\u030C \u12BB\u030F</string></test>
+  	<test label="Latin diacritics"><string>\u12F0\u0300\u0301 \u12A2\u0301\u0300 \u2d8e\u0302\u0303 \u12EB\u0303\u0302 \u12B8\u0304\u0307 \u12CB\u0307\u0304 \u2d8e\u0308\u030B \u1281\u030B\u0308 \u12B8\u030C\u030F \u12BB\u030F\u030C</string></test>
   	<test label="Ethiopic diacritics"><string>\u1203\u135F \u1275\u135D \u12B9\u135E</string></test>
+  	<test label="Ethiopic diacritics"><string>\u1203\u135F\u135E \u1275\u135D\u135F \u12B9\u135E\u135F</string></test>
   </testgroup>
   	
   <testgroup label="Kerning">

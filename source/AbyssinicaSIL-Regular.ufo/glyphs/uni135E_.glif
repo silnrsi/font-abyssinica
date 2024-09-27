@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni135E" format="2">
   <unicode hex="135E"/>
-  <anchor x="-547" y="1464" name="_U"/>
   <anchor x="-547" y="1875" name="U"/>
+  <anchor x="-547" y="1464" name="_U"/>
   <outline>
     <contour>
       <point x="-415" y="1825" type="line"/>
