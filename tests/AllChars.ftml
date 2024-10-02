@@ -78,11 +78,17 @@
 		<string> \u0026 \u0027 \u0028 \u0029 </string>
 	</test>
 	<test label="U+002A">
-		<string> \u00002A \u00002B \u00002F \u000030 \u000031 \u000032 \u000033 \u000034 \u000035 \u000036 \u000037 \u000038 \u000039 \u00003D \u00003F </string>
+		<string>\u002A \u002B \u002c \u002d \u002e \u002F \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u003a \u003b \u003D \u003F </string>
 	</test>
 	<test label="U+002A" stylename="cv01_1">
 		<comment>Punctuation</comment>
-		<string> \u00002A \u00002B \u00002F \u000030 \u000031 \u000032 \u000033 \u000034 \u000035 \u000036 \u000037 \u000038 \u000039 \u00003D \u00003F </string>
+		<string>\u002A \u002B \u002c \u002d \u002e \u002F \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u003a \u003b \u003D \u003F</string>
+	</test>
+	<test label="U+2080">
+		<string> \u002080 \u002081 \u002082 \u002083 \u002084 \u002085 \u002086 \u002087 \u002088 \u002089</string>
+	</test>
+	<test label="U+2460">
+		<string> \u002460 \u002461 \u002462 \u002463 \u002464 \u002465 \u002466 \u002467 \u002468</string>
 	</test>
 	<test label="U+00A1">
 		<string> \u0000A1 \u0000A9 \u0000AB \u0000B2 \u0000B3 \u0000B9 \u0000BB \u0000D7 \u002018 \u002019 \u00201C \u00201D \u002039 \u00203A \u002070 \u002074 \u002075 \u002076 \u002077 \u002078 \u002079 \u0020AC </string>
@@ -90,9 +96,6 @@
 	<test label="U+00A1" stylename="cv01_1">
 		<comment>Punctuation</comment>
 		<string> \u0000A1 \u0000A9 \u0000AB \u0000B2 \u0000B3 \u0000B9 \u0000BB \u0000D7 \u002018 \u002019 \u00201C \u00201D \u002039 \u00203A \u002070 \u002074 \u002075 \u002076 \u002077 \u002078 \u002079 \u0020AC </string>
-	</test>
-	<test label="U+002A">
-		<string> \u002a \u002b \u002c \u002d \u002e \u002f \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u003a \u003b </string>
 	</test>
 	<test label="U+003C">
 		<string> \u003c \u003d \u003e</string>

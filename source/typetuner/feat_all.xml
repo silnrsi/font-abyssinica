@@ -11,10 +11,6 @@
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv60_mwi_1}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv80_3rd}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv85_6th}"/>
-			<cmd name="gr_feat" args="{gr_cv40} 1"/>
-			<cmd name="gr_feat" args="{gr_cv60} 1"/>
-			<cmd name="gr_feat" args="{gr_cv80} 1"/>
-			<cmd name="gr_feat" args="{gr_cv85} 1"/>
 		</value>
 		
 		<!-- obsolete
@@ -22,17 +18,12 @@
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv41_gga}"/>			
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv42_ggwaa}"/>			
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv70_ggwa}"/>			
-			<cmd name="gr_feat" args="{gr_cv41} 1"/>
-			<cmd name="gr_feat" args="{gr_cv42} 1"/>
-			<cmd name="gr_feat" args="{gr_cv70} 1"/>
 		</value>
 		-->
 		
 		<value name="Gumuz" tag="Guk">
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv20_nya}"/>			
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {Cv21_nywa_1}"/>					
-			<cmd name="gr_feat" args="{gr_cv20} 1"/>
-			<cmd name="gr_feat" args="{gr_cv21} 1"/>
 		</value>
 	</feature>
 
@@ -85,13 +76,12 @@
 		</value>
 	</feature>
 
-	<feature name="Ethiopic digits" value="Standard" tag="Iso">
+	<feature name="Ethiopic digits" value="Isolate" tag="Iso">
 		<value name="Isolate" tag="Iso">
 			<cmd name="null" args="null" />
 		</value>
 		<value name="Connected" tag="Cnct">
 			<cmd name="lookup_add" args="GSUB {ccmp_ethi_dflt} {DigitAlternates}"/>
-			<cmd name="gr_feat" args="{gr_cv02} 1"/>
 		</value>"
 	</feature>
 
@@ -153,7 +143,7 @@
 	</feature>
 
 	<feature name="nya alternates" value="Standard" tag="nya">
-		<!-- see also the interactions section -->
+		<!-- cv20 see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
@@ -169,7 +159,7 @@
 	</feature>
 
 	<feature name="nywa alternates" value="Standard" tag="nywa">
-		<!-- see also the interactions section -->
+		<!-- cv21 see also the interactions section -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
