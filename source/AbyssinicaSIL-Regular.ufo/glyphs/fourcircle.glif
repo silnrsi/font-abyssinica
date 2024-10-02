@@ -32,30 +32,30 @@
       <point x="1636" y="889"/>
     </contour>
     <contour>
-      <point x="1196" y="321.214" type="line"/>
-      <point x="1196" y="415.214" type="line"/>
-      <point x="1089" y="415.214" type="line"/>
-      <point x="1089" y="925.214" type="line"/>
-      <point x="978" y="925.214" type="line"/>
-      <point x="548" y="420.214" type="line"/>
-      <point x="548" y="321.214" type="line"/>
-      <point x="959" y="321.214" type="line"/>
-      <point x="959" y="81.2136" type="line"/>
-      <point x="1089" y="81.2136" type="line"/>
-      <point x="1089" y="321.214" type="line"/>
+      <point x="1196" y="321" type="line"/>
+      <point x="1196" y="415" type="line"/>
+      <point x="1089" y="415" type="line"/>
+      <point x="1089" y="925" type="line"/>
+      <point x="978" y="925" type="line"/>
+      <point x="548" y="420" type="line"/>
+      <point x="548" y="321" type="line"/>
+      <point x="959" y="321" type="line"/>
+      <point x="959" y="81" type="line"/>
+      <point x="1089" y="81" type="line"/>
+      <point x="1089" y="321" type="line"/>
     </contour>
     <contour>
-      <point x="977" y="415.214" type="line"/>
-      <point x="626" y="415.214" type="line"/>
-      <point x="652" y="381.214" type="line"/>
-      <point x="1011" y="803.214" type="line"/>
-      <point x="977" y="814.214" type="line"/>
+      <point x="977" y="415" type="line"/>
+      <point x="626" y="415" type="line"/>
+      <point x="652" y="381" type="line"/>
+      <point x="1011" y="803" type="line"/>
+      <point x="977" y="814" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  </dict>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6,0.602,1,1</string>
+    </dict>
   </lib>
 </glyph>

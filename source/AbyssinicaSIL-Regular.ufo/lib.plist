@@ -937,6 +937,25 @@
     <string>eightsuperior.punct</string>
     <string>ninesuperior.punct</string>
     <string>Euro</string>
+    <string>zero.inferior</string>
+    <string>one.inferior</string>
+    <string>two.inferior</string>
+    <string>three.inferior</string>
+    <string>four.inferior</string>
+    <string>five.inferior</string>
+    <string>six.inferior</string>
+    <string>seven.inferior</string>
+    <string>eight.inferior</string>
+    <string>nine.inferior</string>
+    <string>onecircle</string>
+    <string>twocircle</string>
+    <string>threecircle</string>
+    <string>fourcircle</string>
+    <string>fivecircle</string>
+    <string>sixcircle</string>
+    <string>sevencircle</string>
+    <string>eightcircle</string>
+    <string>ninecircle</string>
     <string>Euro.punct</string>
     <string>uni2122</string>
     <string>Omega</string>
@@ -2006,6 +2025,25 @@
     <string>eightsuperior.punct</string>
     <string>ninesuperior.punct</string>
     <string>Euro</string>
+    <string>zero.inferior</string>
+    <string>one.inferior</string>
+    <string>two.inferior</string>
+    <string>three.inferior</string>
+    <string>four.inferior</string>
+    <string>five.inferior</string>
+    <string>six.inferior</string>
+    <string>seven.inferior</string>
+    <string>eight.inferior</string>
+    <string>nine.inferior</string>
+    <string>onecircle</string>
+    <string>twocircle</string>
+    <string>threecircle</string>
+    <string>fourcircle</string>
+    <string>fivecircle</string>
+    <string>sixcircle</string>
+    <string>sevencircle</string>
+    <string>eightcircle</string>
+    <string>ninecircle</string>
     <string>Euro.punct</string>
     <string>uni2122</string>
     <string>Omega</string>
@@ -2186,25 +2224,6 @@
     <string>u1E7FC</string>
     <string>u1E7FD</string>
     <string>u1E7FE</string>
-    <string>zero.inferior</string>
-    <string>one.inferior</string>
-    <string>two.inferior</string>
-    <string>three.inferior</string>
-    <string>four.inferior</string>
-    <string>five.inferior</string>
-    <string>six.inferior</string>
-    <string>seven.inferior</string>
-    <string>eight.inferior</string>
-    <string>nine.inferior</string>
-    <string>onecircle</string>
-    <string>twocircle</string>
-    <string>threecircle</string>
-    <string>fourcircle</string>
-    <string>fivecircle</string>
-    <string>sixcircle</string>
-    <string>sevencircle</string>
-    <string>eightcircle</string>
-    <string>ninecircle</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

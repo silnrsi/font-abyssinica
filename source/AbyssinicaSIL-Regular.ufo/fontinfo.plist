@@ -26,7 +26,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/09/27 16:22:18</string>
+  <string>2024/10/02 09:40:13</string>
   <key>openTypeHheaAscender</key>
   <integer>2034</integer>
   <key>openTypeHheaDescender</key>
@@ -269,7 +269,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>name</key>
         <string>Daniel Yacob</string>
         <key>role</key>
-        <string>Font designer, contributed significant input on the design of extended Ethiopic</string>
+        <string>Font designer, contributed significant input on the design of extended Ethiopic and additional digit forms</string>
         <key>url</key>
         <string>https://www.geez.org/, https://github.com/geezorg</string>
       </dict>

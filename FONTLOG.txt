@@ -55,10 +55,38 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 ### xx 2024 (WSTech Team) Abyssinica SIL version 2.300
+
+#### Improved
+
 - Adjusted glyph shape for U+1214 ETHIOPIC SYLLABLE HHEE, 
   U+1E7E4 ETHIOPIC SYLLABLE HHYEE and U+1E7EA ETHIOPIC SYLLABLE HHWEE
-- Added gzi Ligature (to OpenType only)
-- Add support for multiple above diacritics
+- Improve diacritic position to support multiple above diacritics
+
+#### Added
+
+- Added gzi Ligature
+- 2080 SUBSCRIPT ZERO
+- 2081 SUBSCRIPT ONE
+- 2082 SUBSCRIPT TWO
+- 2083 SUBSCRIPT THREE
+- 2084 SUBSCRIPT FOUR
+- 2085 SUBSCRIPT FIVE
+- 2086 SUBSCRIPT SIX
+- 2087 SUBSCRIPT SEVEN
+- 2088 SUBSCRIPT EIGHT
+- 2089 SUBSCRIPT NINE
+- 2460 CIRCLED DIGIT ONE
+- 2461 CIRCLED DIGIT TWO
+- 2462 CIRCLED DIGIT THREE
+- 2463 CIRCLED DIGIT FOUR
+- 2464 CIRCLED DIGIT FIVE
+- 2465 CIRCLED DIGIT SIX
+- 2466 CIRCLED DIGIT SEVEN
+- 2467 CIRCLED DIGIT EIGHT
+- 2468 CIRCLED DIGIT NINE
+
+
+#### Remove
 - Remove Graphite (not done yet)
 
 ### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201
@@ -180,7 +208,7 @@ D: Designer
 N: Daniel Yacob
 E: yacob@geez.org
 W: https://www.geez.org/, https://github.com/geezorg
-D: Font designer, contributed significant input on the design of extended Ethiopic
+D: Font designer, contributed significant input on the design of extended Ethiopic and additional digit forms
 
 N: Kjell Magne Yri
 D: Font based on his original calligraphic design
