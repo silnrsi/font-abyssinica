@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - About
-fontversion: 2.201
+fontversion: 2.300
 ---
 
 ## About this project
@@ -8,7 +8,6 @@ fontversion: 2.201
 Abyssinica SIL is based on Ethiopic calligraphic traditions. The Ethiopic script is used for writing many of the languages of Ethiopia and Eritrea. This project is intended to provide a free and open font for all current languages and writing systems that use the Ethiopic script. It supports the complete range of Unicode characters for Ethiopic.  
 
 For more information on the visual characteristics of the font see [Design](design.md).
-
 
 ## Future plans
 

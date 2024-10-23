@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Type Sample
-fontversion: 2.201
+fontversion: 2.300
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating an example of running text.
@@ -41,8 +41,8 @@ This document demonstrates all of the characters in the font. It is organized by
 <span class='abyssinica-R normal'>    –—‘’‚“”„†‡•…‰‹›※⁄⁠</span>
 
 ### Superscripts and Subscripts
-<span class='abyssinica-R normal'>⁰⁴⁵⁶⁷⁸⁹</span>
 
+<span class='abyssinica-R normal'>⁰⁴⁵⁶⁷⁸⁹ &#x2080;&#x2081;&#x2082;&#x2083;&#x2084;&#x2085;&#x2086;&#x2087;&#x2088;&#x2089;</span>
 
 ### Currency Symbols:
 
@@ -51,6 +51,10 @@ This document demonstrates all of the characters in the font. It is organized by
 ### Letterlike Symbols, Mathematical Operators, Control Pictures, Geometric Shapes, Dingbats: 
 
 <span class='abyssinica-R normal'>™Ω ∂∅∆∏∑∙√∞∫≈≠≤≥ ␣ ◊ ◌ ✓</span>
+
+### Enclosed Alphanumerics
+
+<span class='abyssinica-R normal'>&#x2460;&#x2461;&#x2462;&#x2463;&#x2464;&#x2465;&#x2466;&#x2467;&#x2468;</span>
 
 ### Ethiopic:
 

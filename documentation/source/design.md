@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Design
-fontversion: 2.201
+fontversion: 2.300
 ---
 
 Abyssinica SIL is based on Ethiopic calligraphic traditions. 

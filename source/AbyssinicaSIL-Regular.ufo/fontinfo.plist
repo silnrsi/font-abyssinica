@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1108</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2000-2024 by SIL International</string>
+  <string>Copyright (c) 2000-2024 by SIL Global</string>
   <key>descender</key>
   <integer>-682</integer>
   <key>familyName</key>
@@ -40,7 +40,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is Copyright (c) 2000-2024, SIL International (https://www.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
+  <string>This Font Software is Copyright (c) 2000-2024, SIL Global (https://www.sil.org/) with Reserved Font Names "Abyssinica" and "SIL".
 
 Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation.
 
@@ -88,7 +88,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org/</string>
   <key>openTypeNameManufacturer</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://www.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -96,7 +96,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Abyssinica SIL Regular: 2024</string>
+  <string>SIL Global: Abyssinica SIL Regular: 2024</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.202</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -214,7 +214,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>
-  <string>Abyssinica SIL is a trademark of SIL International.</string>
+  <string>Abyssinica SIL is a trademark of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>

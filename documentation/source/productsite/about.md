@@ -5,7 +5,6 @@ Abyssinica SIL is based on Ethiopic calligraphic traditions. The Ethiopic script
 
 For more information on the visual characteristics of the font see [Design](design).
 
-
 ## Future plans
 
 This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases.

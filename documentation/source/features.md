@@ -1,22 +1,22 @@
 ---
 title: Abyssinica SIL - Font Features
-fontversion: 2.201
+fontversion: 2.300
 ---
 
-Abyssinica SIL is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
+Abyssinica SIL is a TrueType font with smart font capabilities added using the OpenType font technology. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
 
-See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Ethiopic support, it does provide a comprehensive list of applications that make full use of the OpenType and Graphite font technologies.
+See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Ethiopic support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
 ## Advanced typographic capabilities
 
-This font supports various advanced typographic capabilities using the Graphite and OpenType font technologies. 
+This font supports various advanced typographic capabilities using the OpenType font technology. 
 
 * Auto placement of diacritics (one level only) on Ethiopic syllables only (not on Latin characters)
 * Kerning of almost 200 pairs of Ethiopic syllables
-* OpenType Character Variants or Graphite features (alternately-designed glyphs are also provided for a number of characters for use in particular contexts) 
-* OpenType and Graphite support for the Sebat Bet Gurage [sgw] and Gumuz [guk] languages
+* OpenType Character Variants (alternately-designed glyphs are also provided for a number of characters for use in particular contexts) 
+* OpenType support for the Sebat Bet Gurage [sgw] and Gumuz [guk] languages
 
-These capabilities are available in any application that supports the Graphite technology. They are also available via the OpenType technology, though this requires applications that provide a sufficient level of support for OpenType Character Variant features. 
+These capabilities are available in any application that supports OpenType technology, though this requires applications that provide a sufficient level of support for OpenType Character Variant features. 
 
 A sample of diacritic placement and kerning is shown below:
 
@@ -32,21 +32,13 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Customizing with TypeTuner
 
-For applications that do not make use of Graphite or the OpenType Stylistic Sets feature, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features.md) page, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
+For applications that do not make use of the OpenType Character Variant features, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features.md) page, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
 
 
 ## Complete feature list
 
-There are some Ethiopic character shape differences in different Ethiopian languages. These can be accessed by using Graphite features, OpenType Character Variants, or language support for Sebat Bet Gurage and Gumuz languages. The documents below can be downloaded in order to see all the user-selectable font features that are available in the font. The feature names, feature ids, settings and examples are provided. 
+There are some Ethiopic character shape differences in different Ethiopian languages. These can be accessed by using OpenType Character Variants or language support for Sebat Bet Gurage and Gumuz languages. The documents below can be downloaded in order to see all the user-selectable font features that are available in the font. The feature names, feature ids, settings and examples are provided. 
 
-
-### Test rendering engine choice 
-
-Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](https://graphite.sil.org/graphite_firefox).
-
-| | 
-------------- | --------------- 
-Check | <span class='abyssinica-R normal'>RenderingUnknown</span>
 
 ### Language 
 

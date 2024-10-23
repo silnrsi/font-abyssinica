@@ -1,6 +1,6 @@
 ---
 title: Abyssinica SIL - Versions and Changes
-fontversion: 2.201
+fontversion: 2.300
 ---
 
 ## Announcement list
@@ -15,7 +15,7 @@ The latest version of the font is always available from the [Abyssinica SIL down
 
 This font package is also available in the [SIL software repository for Ubuntu](https://packages.sil.org/). Users can subscribe to this software repository and get current versions and updates automatically.
 
-Abyssinica SIL is also available through the [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi) service, which allows you to choose among the smart font features and download a font with those features preset. This enables them to work in many applications that do not make use of Graphite or OpenType Character Variants.
+Abyssinica SIL is also available through the [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi) service, which allows you to choose among the smart font features and download a font with those features preset. This enables them to work in many applications that do not make use of OpenType Character Variants.
 
 ## Previous versions
 

@@ -20,20 +20,19 @@ Latin characters and symbols. This font makes use of state-of-the-art font
 technologies to support the need to position arbitrary combinations of 
 *Ethiopic* base glyphs and combining marks optimally. It also supports
 almost 200 kerning pairs. This version of the font also supports Character 
-Variants (OpenType) or Features (Graphite) which make glyph alternates 
-available for a number of Ethiopic and punctuation characters. 
+Variants (OpenType) which make glyph alternates available for a number of 
+Ethiopic and punctuation characters. 
 
 One font from this typeface family is included in this release:
 
      * Abyssinica SIL Regular 
-
 
 A Note Regarding the Open Font License and TypeTuner
 ----------------------------------------------------
 
 The OFL prohibits the use of Reserved Font Names "Abyssinica" and "SIL" in
 the name of any font that is derived from the Original Version of 
-Abyssinica SIL. However, SIL International (the Copyright Holder) grants 
+Abyssinica SIL. However, SIL Global (the Copyright Holder) grants 
 through this separate written agreement the right to use the Reserved Font
 Names in any Modified Version of this font created by using TypeTuner as 
 long as the feature information contained in the Original Version is used, 
@@ -54,12 +53,22 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### xx 2024 (WSTech Team) Abyssinica SIL version 2.300
+### 30 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
 
 #### Improved
 
-- Adjusted glyph shape for U+1214 ETHIOPIC SYLLABLE HHEE, 
-  U+1E7E4 ETHIOPIC SYLLABLE HHYEE and U+1E7EA ETHIOPIC SYLLABLE HHWEE
+- Adjusted glyph shapes for
+  - 1214 ETHIOPIC SYLLABLE HHEE
+  - 1264 ETHIOPIC SYLLABLE BEE
+  - 126C ETHIOPIC SYLLABLE VEE
+  - 129C ETHIOPIC SYLLABLE NYEE
+  - 12DC ETHIOPIC SYLLABLE ZEE
+  - 1334 ETHIOPIC SYLLABLE PHEE
+  - 133C ETHIOPIC SYLLABLE TSEE
+  - AB14 ETHIOPIC SYLLABLE DZEE
+  - AB2C ETHIOPIC SYLLABLE BBEE
+  - 1E7E4 ETHIOPIC SYLLABLE HHYEE
+  - 1E7EA ETHIOPIC SYLLABLE HHWEE
 - Improve diacritic position to support multiple above diacritics
 
 #### Added
@@ -85,9 +94,8 @@ ChangeLog
 - 2467 CIRCLED DIGIT EIGHT
 - 2468 CIRCLED DIGIT NINE
 
-
 #### Remove
-- Remove Graphite (not done yet)
+- Graphite
 
 ### 23 June 2023 (WSTech Team) Abyssinica SIL version 2.201
 - Fixed bug in TypeTuner support for cv46 tswa alternate
@@ -146,7 +154,7 @@ to best submit your contributions.
 
 To enable us to accept contributions in a way that honors your contribution 
 and respects your copyright while preserving long-term flexibility for open 
-source licensing, you would also need to agree to the SIL International 
+source licensing, you would also need to agree to the SIL Global 
 Contributor License Agreement for Font Software (v1.0) prior to sending us 
 your contribution. To read more about this requirement and find out how to 
 submit the required form, please visit the CLA information page
@@ -213,9 +221,9 @@ D: Font designer, contributed significant input on the design of extended Ethiop
 N: Kjell Magne Yri
 D: Font based on his original calligraphic design
 
-The Abyssinica SIL project is maintained by SIL International.
+The Abyssinica SIL project is maintained by SIL Global.
 
-For more information please visit the Abyssinica SIL page on SIL International's
+For more information please visit the Abyssinica SIL page on SIL Global's
 Computers and Writing systems website:
 https://software.sil.org/abyssinica
 

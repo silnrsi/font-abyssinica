@@ -39,105 +39,62 @@
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Unicode block</th>
-    <th>Abyssinica SIL support</th>
+    <th style="text-align: left;">Unicode block</th>
+    <th style="text-align: left;">Abyssinica SIL support</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>C0 Controls and Basic Latin</td>
-    <td>U+0020..U+007E</td>
+    <td style="text-align: left;">Ethiopic</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     <tr class="even">
-    <td>C1 Controls and Latin-1 Supplement</td>
-    <td>U+00A0..U+00FF</td>
+    <td style="text-align: left;">Ethiopic Supplemental</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     <tr class="odd">
-    <td>Latin Extended-A</td>
-    <td>U+0131, U+0152..U+0153, U+0160..U+0161, U+0178,
-    U+017D..U+017E</td>
+    <td style="text-align: left;">Ethiopic Extended</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     <tr class="even">
-    <td>Latin Extended-B</td>
-    <td>U+0192</td>
+    <td style="text-align: left;">Ethiopic Extended-A</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     <tr class="odd">
-    <td>Spacing Modifier Letters</td>
-    <td>U+02C6, U+02C7, U+02D0, U+02D8..U+02DD</td>
+    <td style="text-align: left;">Ethiopic Extended-B</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     <tr class="even">
-    <td>Combining Diacritical Marks</td>
-    <td>U+0300..U+0304, U+0307..U+0308, U+030B..U+030C, U+030F,
-    U+034F</td>
+    <td style="text-align: left;">PUA</td>
+    <td style="text-align: left;">E494, E496</td>
     </tr>
     <tr class="odd">
-    <td>Greek</td>
-    <td>U+03C0</td>
+    <td style="text-align: left;">Combining Diacritical Marks</td>
+    <td style="text-align: left;">0300..0304, 0307..0308, 030B..030C,
+    030F, 034F</td>
     </tr>
     <tr class="even">
-    <td>Ethiopic</td>
-    <td>U+1200..137C</td>
+    <td style="text-align: left;">Superscripts and Subscripts</td>
+    <td style="text-align: left;">2080..2089</td>
     </tr>
     <tr class="odd">
-    <td>Ethiopic Supplemental</td>
-    <td>U+1380..U+1399</td>
+    <td style="text-align: left;">Enclosed Alphanumerics</td>
+    <td style="text-align: left;">2460 .. 2468</td>
     </tr>
     <tr class="even">
-    <td>Ethiopic Extended</td>
-    <td>U+2D80..U+2DDE</td>
-    </tr>
-    <tr class="odd">
-    <td>General Punctuation</td>
-    <td>U+2000..U+2015, U+2018..U+201A, U+201C..U+201E, U+2020..U+2022,
-    U+2026..U+2030, U+2039..U+203B, U+2044, U+2060</td>
-    </tr>
-    <tr class="even">
-    <td>Superscripts and Subscripts</td>
-    <td>U+2070, U+2074..U+2079</td>
-    </tr>
-    <tr class="odd">
-    <td>Currency Symbols</td>
-    <td>U+20AC</td>
-    </tr>
-    <tr class="even">
-    <td>Letterlike Symbols</td>
-    <td>U+2122, U+2126</td>
-    </tr>
-    <tr class="odd">
-    <td>Mathematical Operators</td>
-    <td>U+2202, U+2205..U+2206, U+220F, U+2211, U+2219..U+221A, U+221E,
-    U+222B, U+2248, U+2260, U+2264..U+2265</td>
-    </tr>
-    <tr class="even">
-    <td>Control Pictures</td>
-    <td>U+2423</td>
-    </tr>
-    <tr class="odd">
-    <td>Geometric Shapes</td>
-    <td>U+25CA, U+25CC</td>
-    </tr>
-    <tr class="even">
-    <td>Dingbats</td>
-    <td>U+2713</td>
-    </tr>
-    <tr class="odd">
-    <td>Ethiopic Extended-A</td>
-    <td>U+AB00..U+AB2E</td>
-    </tr>
-    <tr class="even">
-    <td>PUA</td>
-    <td>U+E494, U+E496</td>
-    </tr>
-    <tr class="odd">
-    <td>Alphabetic Presentation Forms</td>
-    <td>U+FB01..U+FB02</td>
-    </tr>
-    <tr class="even">
-    <td>Ethiopic Extended-B</td>
-    <td>U+1E7E0..U+1E7FF</td>
+    <td style="text-align: left;">Codepage 1252 (Western)¹</td>
+    <td style="text-align: left;">✓</td>
     </tr>
     </tbody>
     </table>
+    <p>A selection of characters from the General Punctuation block,
+    such as various-sized spaces, are also supported; a utility such as
+    <a href="https://scripts.sil.org/ViewGlyph_home">SIL ViewGlyph</a>
+    can be used to examine the exact repertoire of this font.</p>
+    <p>¹Inclusion of basic Latin repertoire is provided as a
+    convenience, e.g., for use in menus or for displaying markup in text
+    files; these fonts are not intended for extensive Latin script
+    use.</p>
     <h2 id="private-use-pua-characters">Private-use (PUA)
     characters</h2>
     <p>Because the majority of the PUA characters have now been encoded
@@ -158,7 +115,7 @@
     [font id='abyssinica' face='AbyssinicaSIL-Regular' size='150%']
     -->
     <footer class="footer">
-        <p>This guide is from the <a href="https://software.sil.org/abyssinica/" title="" class="active">Abyssinica SIL project</a> version 2.201 and is copyright © 2000-2024 SIL Global.</p>
+        <p>This guide is from the <a href="https://software.sil.org/abyssinica/" title="" class="active">Abyssinica SIL project</a> version 2.3 and is copyright © 2000-2024 SIL Global.</p>
     </footer>
 </article>
 </div>
