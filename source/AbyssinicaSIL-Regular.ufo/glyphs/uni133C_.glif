@@ -85,18 +85,18 @@
       <point x="578" y="1075"/>
     </contour>
     <contour>
-      <point x="1130" y="162" type="curve" smooth="yes"/>
-      <point x="1130" y="127"/>
-      <point x="1122" y="92"/>
-      <point x="1079" y="92" type="curve" smooth="yes"/>
-      <point x="1003" y="92"/>
-      <point x="1004" y="255"/>
-      <point x="997" y="307" type="curve"/>
-      <point x="1012" y="311"/>
-      <point x="1028" y="315"/>
-      <point x="1044" y="315" type="curve" smooth="yes"/>
-      <point x="1116" y="315"/>
-      <point x="1130" y="216"/>
+      <point x="1166.9" y="200" type="curve" smooth="yes"/>
+      <point x="1166.55" y="142.944"/>
+      <point x="1136.81" y="90.1681"/>
+      <point x="1078.31" y="90.1681" type="curve" smooth="yes"/>
+      <point x="1002.31" y="90.1681"/>
+      <point x="1003.31" y="253.168"/>
+      <point x="996.306" y="305.168" type="curve"/>
+      <point x="1013.31" y="307.901"/>
+      <point x="1050.9" y="314"/>
+      <point x="1066.9" y="314" type="curve" smooth="yes"/>
+      <point x="1139.9" y="314"/>
+      <point x="1167.31" y="267.168"/>
     </contour>
   </outline>
 </glyph>

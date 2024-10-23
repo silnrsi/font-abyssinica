@@ -135,10 +135,4 @@
       <point x="1201" y="842" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>note</key>
-      <integer>0</integer>
-    </dict>
-  </lib>
 </glyph>
