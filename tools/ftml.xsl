@@ -11,7 +11,7 @@
 <xsl:variable name="font-scale" select="concat(/ftml/head/fontscale, substring('100', 1 div not(/ftml/head/fontscale)))"/>
 
 
-<!-- 
+<!--
 	Process the root node to construct the html page
 -->
 <xsl:template match="/">
@@ -74,7 +74,7 @@
 </html>
 </xsl:template>
 
-<!-- 
+<!--
 	Build CSS style for FTML style element, but only for non-empty @feats
 -->
 <xsl:template match="style">
@@ -88,7 +88,7 @@
 </xsl:if>
 </xsl:template>
 
-<!-- 
+<!--
 	Process a testgroup, emitting a table containing all test records from the group
 -->
 <xsl:template match="testgroup">
@@ -109,7 +109,7 @@
 			<th><xsl:value-of select="."/></th>
 		</xsl:otherwise>
 	</xsl:choose>
-</xsl:for-each>			
+</xsl:for-each>
 <xsl:if test="/ftml/testgroup/test/comment">
 			<th>comment</th>
 </xsl:if>
@@ -124,7 +124,7 @@
 </xsl:template>
 
 
-<!-- 
+<!--
 	Process a single test record, emitting a table row
 -->
 <xsl:template match="test">
@@ -145,7 +145,7 @@
 		<td>
 			<!-- calculate composite class identifier from features and font number -->
 			<xsl:attribute name="class">string<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getFeat"/> font<xsl:number/></xsl:attribute>
-			
+
 			<!-- add lang attribute if needed -->
 			<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getLang"/>
 
@@ -153,7 +153,7 @@
 			<xsl:if test="$currTest/@rtl='True'">
 				<xsl:attribute name="dir">RTL</xsl:attribute>
 			</xsl:if>
-	
+
 			<!-- and finally the test data -->
 			<xsl:choose>
 				<!-- if the test has an <em> marker, the use a special template -->
@@ -185,14 +185,14 @@
 </tr>
 </xsl:template>
 
-<!-- 
+<!--
 	from a style, output stylename iff it has non-empty @feats
 -->
 <xsl:template match="style" mode="getFeat">
 	<xsl:if test="@feats" xml:space="preserve"> <xsl:value-of select="@name"/></xsl:if>
 </xsl:template>
 
-<!-- 
+<!--
 	from a style, create lang attribute if it has one
 -->
 <xsl:template match="style" mode="getLang">
@@ -203,27 +203,27 @@
 	</xsl:if>
 </xsl:template>
 
-<!--  
-	suppress all text nodes except those we really want 
+<!--
+	suppress all text nodes except those we really want
 -->
 <xsl:template match="text()"/>
 
-<!-- 
-	for test strings that have no <em> children, emit text nodes without any adornment 
+<!--
+	for test strings that have no <em> children, emit text nodes without any adornment
 -->
 <xsl:template match="string/text()">
 	<xsl:value-of select="."/>
 </xsl:template>
 
-<!-- 
-	for test strings that have <em> children, emit text nodes dimmed 
+<!--
+	for test strings that have <em> children, emit text nodes dimmed
 -->
 <xsl:template match="string/text()" mode="hasEM">
 	<span class="dim"><xsl:value-of select="."/></span>
 </xsl:template>
 
-<!-- 
-	for <em> children of test strings, emit the text nodes with no adornment 
+<!--
+	for <em> children of test strings, emit the text nodes with no adornment
 -->
 <xsl:template match="em/text()" mode="hasEM">
 	<!-- <span class="bright"><xsl:value-of select="."/></span> -->
@@ -231,4 +231,3 @@
 </xsl:template>
 
 </xsl:stylesheet>
-
