@@ -3,6 +3,6 @@
   <advance width="997"/>
   <outline>
     <component base="uni136B.nobar"/>
-    <component base="numeralmedi"/>
+    <component base="_numeralmedi"/>
   </outline>
 </glyph>

@@ -134,6 +134,16 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
+  <key>_numeral</key>
+  <string>_numeral.glif</string>
+  <key>_numeralfina</key>
+  <string>_numeralfina.glif</string>
+  <key>_numeralinit</key>
+  <string>_numeralinit.glif</string>
+  <key>_numeralmedi</key>
+  <string>_numeralmedi.glif</string>
+  <key>_numeralnarrow</key>
+  <string>_numeralnarrow.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>aacute</key>
@@ -410,16 +420,6 @@
   <string>ntilde.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
-  <key>numeral</key>
-  <string>numeral.glif</string>
-  <key>numeralfina</key>
-  <string>numeralfina.glif</string>
-  <key>numeralinit</key>
-  <string>numeralinit.glif</string>
-  <key>numeralmedi</key>
-  <string>numeralmedi.glif</string>
-  <key>numeralnarrow</key>
-  <string>numeralnarrow.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>oacute</key>
