@@ -467,20 +467,20 @@
     <string>uni1297</string>
     <string>uni1297.cohen0</string>
     <string>uni1298</string>
-    <string>uni1298.gumuz</string>
     <string>uni1299</string>
-    <string>uni1299.gumuz</string>
     <string>uni129A</string>
-    <string>uni129A.gumuz</string>
     <string>uni129B</string>
-    <string>uni129B.gumuz</string>
     <string>uni129C</string>
-    <string>uni129C.gumuz</string>
     <string>uni129D</string>
-    <string>uni129D.gumuz</string>
     <string>uni129E</string>
-    <string>uni129E.gumuz</string>
     <string>uni129F</string>
+    <string>uni1298.gumuz</string>
+    <string>uni1299.gumuz</string>
+    <string>uni129A.gumuz</string>
+    <string>uni129B.gumuz</string>
+    <string>uni129C.gumuz</string>
+    <string>uni129D.gumuz</string>
+    <string>uni129E.gumuz</string>
     <string>uni129F.gumuz</string>
     <string>uni129F.cohen8</string>
     <string>uni129F.gumuz1</string>
@@ -623,20 +623,20 @@
     <string>uni1315</string>
     <string>uni1315.seb2</string>
     <string>uni1318</string>
-    <string>uni1318.alt1</string>
     <string>uni1319</string>
-    <string>uni1319.alt1</string>
     <string>uni131A</string>
-    <string>uni131A.alt1</string>
     <string>uni131B</string>
-    <string>uni131B.alt1</string>
     <string>uni131C</string>
-    <string>uni131C.alt1</string>
     <string>uni131D</string>
-    <string>uni131D.alt1</string>
     <string>uni131E</string>
-    <string>uni131E.alt1</string>
     <string>uni131F</string>
+    <string>uni1318.alt1</string>
+    <string>uni1319.alt1</string>
+    <string>uni131A.alt1</string>
+    <string>uni131B.alt1</string>
+    <string>uni131C.alt1</string>
+    <string>uni131D.alt1</string>
+    <string>uni131E.alt1</string>
     <string>uni131F.type</string>
     <string>uni1320</string>
     <string>uni1321</string>
@@ -772,12 +772,12 @@
     <string>uni2D91</string>
     <string>uni2D92</string>
     <string>uni2D93</string>
-    <string>uni2D93.blin</string>
     <string>uni2D94</string>
-    <string>uni2D94.blin</string>
     <string>uni2D95</string>
-    <string>uni2D95.blin</string>
     <string>uni2D96</string>
+    <string>uni2D93.blin</string>
+    <string>uni2D94.blin</string>
+    <string>uni2D95.blin</string>
     <string>uni2D96.blin</string>
     <string>uni2DA0</string>
     <string>uni2DA1</string>
@@ -867,8 +867,34 @@
     <string>uniAB2C</string>
     <string>uniAB2D</string>
     <string>uniAB2E</string>
-    <string>uniE494</string>
-    <string>uniE496</string>
+    <string>u1E7E0</string>
+    <string>u1E7E1</string>
+    <string>u1E7E2</string>
+    <string>u1E7E3</string>
+    <string>u1E7E4</string>
+    <string>u1E7E5</string>
+    <string>u1E7E6</string>
+    <string>u1E7E8</string>
+    <string>u1E7E9</string>
+    <string>u1E7EA</string>
+    <string>u1E7EB</string>
+    <string>u1E7ED</string>
+    <string>u1E7EE</string>
+    <string>u1E7F0</string>
+    <string>u1E7F1</string>
+    <string>u1E7F2</string>
+    <string>u1E7F3</string>
+    <string>u1E7F4</string>
+    <string>u1E7F5</string>
+    <string>u1E7F6</string>
+    <string>u1E7F7</string>
+    <string>u1E7F8</string>
+    <string>u1E7F9</string>
+    <string>u1E7FA</string>
+    <string>u1E7FB</string>
+    <string>u1E7FC</string>
+    <string>u1E7FD</string>
+    <string>u1E7FE</string>
     <string>uni2000</string>
     <string>uni2001</string>
     <string>uni2002</string>
@@ -936,7 +962,6 @@
     <string>sevensuperior.punct</string>
     <string>eightsuperior.punct</string>
     <string>ninesuperior.punct</string>
-    <string>Euro</string>
     <string>zero.inferior</string>
     <string>one.inferior</string>
     <string>two.inferior</string>
@@ -956,6 +981,7 @@
     <string>sevencircle</string>
     <string>eightcircle</string>
     <string>ninecircle</string>
+    <string>Euro</string>
     <string>Euro.punct</string>
     <string>uni2122</string>
     <string>Omega</string>
@@ -1099,6 +1125,8 @@
     <string>uni137A.nobar</string>
     <string>uni137B.nobar</string>
     <string>uni137C.nobar</string>
+    <string>uniE494</string>
+    <string>uniE496</string>
     <string>uniE070</string>
     <string>uniE071</string>
     <string>uniE072</string>
@@ -1108,34 +1136,6 @@
     <string>_numeralinit</string>
     <string>_numeralmedi</string>
     <string>_numeralfina</string>
-    <string>u1E7E0</string>
-    <string>u1E7E1</string>
-    <string>u1E7E2</string>
-    <string>u1E7E3</string>
-    <string>u1E7E4</string>
-    <string>u1E7E5</string>
-    <string>u1E7E6</string>
-    <string>u1E7E8</string>
-    <string>u1E7E9</string>
-    <string>u1E7EA</string>
-    <string>u1E7EB</string>
-    <string>u1E7ED</string>
-    <string>u1E7EE</string>
-    <string>u1E7F0</string>
-    <string>u1E7F1</string>
-    <string>u1E7F2</string>
-    <string>u1E7F3</string>
-    <string>u1E7F4</string>
-    <string>u1E7F5</string>
-    <string>u1E7F6</string>
-    <string>u1E7F7</string>
-    <string>u1E7F8</string>
-    <string>u1E7F9</string>
-    <string>u1E7FA</string>
-    <string>u1E7FB</string>
-    <string>u1E7FC</string>
-    <string>u1E7FD</string>
-    <string>u1E7FE</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -1555,20 +1555,20 @@
     <string>uni1297</string>
     <string>uni1297.cohen0</string>
     <string>uni1298</string>
-    <string>uni1298.gumuz</string>
     <string>uni1299</string>
-    <string>uni1299.gumuz</string>
     <string>uni129A</string>
-    <string>uni129A.gumuz</string>
     <string>uni129B</string>
-    <string>uni129B.gumuz</string>
     <string>uni129C</string>
-    <string>uni129C.gumuz</string>
     <string>uni129D</string>
-    <string>uni129D.gumuz</string>
     <string>uni129E</string>
-    <string>uni129E.gumuz</string>
     <string>uni129F</string>
+    <string>uni1298.gumuz</string>
+    <string>uni1299.gumuz</string>
+    <string>uni129A.gumuz</string>
+    <string>uni129B.gumuz</string>
+    <string>uni129C.gumuz</string>
+    <string>uni129D.gumuz</string>
+    <string>uni129E.gumuz</string>
     <string>uni129F.gumuz</string>
     <string>uni129F.cohen8</string>
     <string>uni129F.gumuz1</string>
@@ -1711,20 +1711,20 @@
     <string>uni1315</string>
     <string>uni1315.seb2</string>
     <string>uni1318</string>
-    <string>uni1318.alt1</string>
     <string>uni1319</string>
-    <string>uni1319.alt1</string>
     <string>uni131A</string>
-    <string>uni131A.alt1</string>
     <string>uni131B</string>
-    <string>uni131B.alt1</string>
     <string>uni131C</string>
-    <string>uni131C.alt1</string>
     <string>uni131D</string>
-    <string>uni131D.alt1</string>
     <string>uni131E</string>
-    <string>uni131E.alt1</string>
     <string>uni131F</string>
+    <string>uni1318.alt1</string>
+    <string>uni1319.alt1</string>
+    <string>uni131A.alt1</string>
+    <string>uni131B.alt1</string>
+    <string>uni131C.alt1</string>
+    <string>uni131D.alt1</string>
+    <string>uni131E.alt1</string>
     <string>uni131F.type</string>
     <string>uni1320</string>
     <string>uni1321</string>
@@ -1860,12 +1860,12 @@
     <string>uni2D91</string>
     <string>uni2D92</string>
     <string>uni2D93</string>
-    <string>uni2D93.blin</string>
     <string>uni2D94</string>
-    <string>uni2D94.blin</string>
     <string>uni2D95</string>
-    <string>uni2D95.blin</string>
     <string>uni2D96</string>
+    <string>uni2D93.blin</string>
+    <string>uni2D94.blin</string>
+    <string>uni2D95.blin</string>
     <string>uni2D96.blin</string>
     <string>uni2DA0</string>
     <string>uni2DA1</string>
@@ -1955,8 +1955,34 @@
     <string>uniAB2C</string>
     <string>uniAB2D</string>
     <string>uniAB2E</string>
-    <string>uniE494</string>
-    <string>uniE496</string>
+    <string>u1E7E0</string>
+    <string>u1E7E1</string>
+    <string>u1E7E2</string>
+    <string>u1E7E3</string>
+    <string>u1E7E4</string>
+    <string>u1E7E5</string>
+    <string>u1E7E6</string>
+    <string>u1E7E8</string>
+    <string>u1E7E9</string>
+    <string>u1E7EA</string>
+    <string>u1E7EB</string>
+    <string>u1E7ED</string>
+    <string>u1E7EE</string>
+    <string>u1E7F0</string>
+    <string>u1E7F1</string>
+    <string>u1E7F2</string>
+    <string>u1E7F3</string>
+    <string>u1E7F4</string>
+    <string>u1E7F5</string>
+    <string>u1E7F6</string>
+    <string>u1E7F7</string>
+    <string>u1E7F8</string>
+    <string>u1E7F9</string>
+    <string>u1E7FA</string>
+    <string>u1E7FB</string>
+    <string>u1E7FC</string>
+    <string>u1E7FD</string>
+    <string>u1E7FE</string>
     <string>uni2000</string>
     <string>uni2001</string>
     <string>uni2002</string>
@@ -2024,7 +2050,6 @@
     <string>sevensuperior.punct</string>
     <string>eightsuperior.punct</string>
     <string>ninesuperior.punct</string>
-    <string>Euro</string>
     <string>zero.inferior</string>
     <string>one.inferior</string>
     <string>two.inferior</string>
@@ -2044,6 +2069,7 @@
     <string>sevencircle</string>
     <string>eightcircle</string>
     <string>ninecircle</string>
+    <string>Euro</string>
     <string>Euro.punct</string>
     <string>uni2122</string>
     <string>Omega</string>
@@ -2187,6 +2213,8 @@
     <string>uni137A.nobar</string>
     <string>uni137B.nobar</string>
     <string>uni137C.nobar</string>
+    <string>uniE494</string>
+    <string>uniE496</string>
     <string>uniE070</string>
     <string>uniE071</string>
     <string>uniE072</string>
@@ -2196,34 +2224,6 @@
     <string>_numeralinit</string>
     <string>_numeralmedi</string>
     <string>_numeralfina</string>
-    <string>u1E7E0</string>
-    <string>u1E7E1</string>
-    <string>u1E7E2</string>
-    <string>u1E7E3</string>
-    <string>u1E7E4</string>
-    <string>u1E7E5</string>
-    <string>u1E7E6</string>
-    <string>u1E7E8</string>
-    <string>u1E7E9</string>
-    <string>u1E7EA</string>
-    <string>u1E7EB</string>
-    <string>u1E7ED</string>
-    <string>u1E7EE</string>
-    <string>u1E7F0</string>
-    <string>u1E7F1</string>
-    <string>u1E7F2</string>
-    <string>u1E7F3</string>
-    <string>u1E7F4</string>
-    <string>u1E7F5</string>
-    <string>u1E7F6</string>
-    <string>u1E7F7</string>
-    <string>u1E7F8</string>
-    <string>u1E7F9</string>
-    <string>u1E7FA</string>
-    <string>u1E7FB</string>
-    <string>u1E7FC</string>
-    <string>u1E7FD</string>
-    <string>u1E7FE</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
