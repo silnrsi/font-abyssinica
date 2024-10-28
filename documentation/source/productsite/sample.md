@@ -59,8 +59,7 @@ This document demonstrates all of the characters in the font. It is organized by
 <span class='abyssinica-R normal'>ሀሁሂሃሄህሆሇ ለሉሊላሌልሎሏ ሐሑሒሓሔሕሖሗ መሙሚማሜምሞሟ ሠሡሢሣሤሥሦሧ ረሩሪራሬርሮሯ ሰሱሲሳሴስሶሷ ሸሹሺሻሼሽሾሿ ቀቁቂቃቄቅቆቇ ቈቊቋቌቍ ቐቑቒቓቔቕ ቖቘቚቛቜቝ በቡቢባቤብቦቧ ቨቩቪቫቬቭቮቯ ተቱቲታቴትቶቷ ቸቹቺቻቼችቾቿ ኀኁኂኃኄኅኆኇ ኈኊኋኌኍ ነኑኒናኔንኖኗ ኘኙኚኛኜኝኞኟ አኡኢኣኤእኦ ኧከኩኪካኬክኮኯ ኰኲኳኴኵ ኸኹኺኻኼኽኾዀዂዃዄዅ ወዉዊዋዌውዎዏ ዐዑዒዓዔዕዖ ዘዙዚዛዜዝዞዟ ዠዡዢዣዤዥዦዧ የዩዪያዬይዮዯ ደዱዲዳዴድዶዷ ዸዹዺዻዼዽዾዿ ጀጁጂጃጄጅጆጇ ገጉጊጋጌግጎጏጐጒጓጔጕ ጘጙጚጛጜጝጞጟ ጠጡጢጣጤጥጦጧ ጨጩጪጫጬጭጮጯ ጰጱጲጳጴጵጶጷ ጸጹጺጻጼጽጾጿ ፀፁፂፃፄፅፆፇ ፈፉፊፋፌፍፎፏ ፐፑፒፓፔፕፖፗ ፘ ፙ ፚ</span>
 
 #### Combining Marks
-<span class='abyssinica-R normal'>◌፞◌፟◌፝</br>
-ሆ፞ሆ፟ሆ፝</span>
+<span class='abyssinica-R normal'>◌፞◌፟◌፝</br>&#x1206;&#x135e;&#x1206;&#x135f;&#x1206;&#x135d; &#x1206;&#x135e;&#x0301;&#x1206;&#x135f;&#x0301;&#x1206;&#x135d;&#x135f;</span>
 
 #### Punctuation
 <span class='abyssinica-R normal'>፠፡።፣፤፥፦፧፨</span>

@@ -1,5 +1,5 @@
 
-### 30 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
+### 29 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
 
 #### Improved
 - Adjusted glyph shapes for

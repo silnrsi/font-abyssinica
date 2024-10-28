@@ -28,7 +28,7 @@ A selection of characters from the General Punctuation block, such as various-si
 
 ## Private-use (PUA) characters
 
-Because the majority of the PUA characters have now been encoded into Unicode, or they were considered glyph variants, all PUA characters in the font have been removed with the exception of U+E494 (<span class='abyssinica-R normal'></span>) and U+E496 (<span class='abyssinica-R normal'></span>). Some of the PUA codepoints were actually glyph variants of characters already encoded in Unicode. These are now available through OpenType Character Variants, Graphite features, or TypeTuned fonts. See [Font Features](features.md).
+Because the majority of the PUA characters have now been encoded into Unicode, or they were considered glyph variants, all PUA characters in the font have been removed with the exception of U+E494 (<span class='abyssinica-R normal'></span>) and U+E496 (<span class='abyssinica-R normal'></span>). Some of the PUA codepoints were actually glyph variants of characters already encoded in Unicode. These are now available through OpenType Character Variants or TypeTuned fonts. See [Font Features](features.md).
 
 PUA characters that were previously in the font are documented here:
 

@@ -11,7 +11,7 @@ See [Using Font Features](https://software.sil.org/fonts/features/). Although th
 
 This font supports various advanced typographic capabilities using the OpenType font technology. 
 
-* Auto placement of diacritics (one level only) on Ethiopic syllables only (not on Latin characters)
+* Auto placement of diacritics on Ethiopic syllables only (not on Latin characters)
 * Kerning of almost 200 pairs of Ethiopic syllables
 * OpenType Character Variants (alternately-designed glyphs are also provided for a number of characters for use in particular contexts) 
 * OpenType support for the Sebat Bet Gurage [sgw] and Gumuz [guk] languages

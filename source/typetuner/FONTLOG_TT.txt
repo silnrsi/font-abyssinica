@@ -57,7 +57,7 @@ ChangeLog
 (https://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
-### 30 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
+### 29 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
 
 #### Improved
 

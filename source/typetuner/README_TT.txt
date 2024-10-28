@@ -83,10 +83,7 @@ glyphs (symbols) in a font and allow you to enter them by clicking on the
 glyph you want.
 
 Rendering:
-This font is designed to work with either of two advanced font technologies, 
-Graphite or OpenType. To take advantage of the advanced typographic 
-capabilities of this font, you must be using applications that provide an
-adequate level of support for Graphite or OpenType. 
+This font is designed to work with the OpenType font technology. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for OpenType. The OpenType advanced capabilities provide access to the variant character forms used in some languages.
 
 CONTACT
 ========

@@ -53,7 +53,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 30 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
+### 29 Oct 2024 (WSTech Team) Abyssinica SIL version 2.300
 
 #### Improved
 
