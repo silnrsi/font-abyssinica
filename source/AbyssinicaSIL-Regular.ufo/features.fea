@@ -722,6 +722,7 @@ lookup PairKerning {
     pos uni1202 uni1265 -113;
     pos uni1202 uni130A -113;
     pos uni1202 uni130D -85;
+    pos uni1202 gzi.ligature -85;
     pos uni1202 uni121A -135;
     pos uni1202 uni131B -100;
     pos uni1202 uni12D2 -135;
@@ -762,6 +763,7 @@ lookup PairKerning {
     pos uni120A uni1308 -150;
     pos uni120A uni130A -113;
     pos uni120A uni130D -170;
+    pos uni120A gzi.ligature -170;
     pos uni120A uni12B8 -213;
     pos uni120A uni12B9 -250;
     pos uni120A uni12BA -250;
@@ -785,6 +787,7 @@ lookup PairKerning {
     pos uni120A uni1275 -135;
     pos uni120A uni1285 -185;
     pos uni120C uni130D -65;
+    pos uni120C gzi.ligature -65;
     pos uni120C uni12B8 -150;
     pos uni120C uni12B9 -85;
     pos uni120C uni12BA -200;
@@ -798,6 +801,7 @@ lookup PairKerning {
     pos uni120D uni1308 -85;
     pos uni120D uni130A -113;
     pos uni120D uni130D -85;
+    pos uni120D gzi.ligature -85;
     pos uni120D uni12B8 -185;
     pos uni120D uni12B9 -185;
     pos uni120D uni12BA -185;
@@ -816,6 +820,7 @@ lookup PairKerning {
     pos uni1212 uni1308 -150;
     pos uni1212 uni130A -160;
     pos uni1212 uni130D -155;
+    pos uni1212 gzi.ligature -155;
     pos uni1212 uni1202 -125;
     pos uni1212 uni12B8 -185;
     pos uni1212 uni12B9 -185;
@@ -945,6 +950,7 @@ lookup PairKerning {
     pos uni12A3 uni12BD -187;
     pos uni12A3 uni12BE -147;
     pos uni12A5 uni130D -124;
+    pos uni12A5 gzi.ligature -124;
     pos uni12A5 uni12BD -173;
     pos uni12A5 uni1295 -85;
     pos uni12A5 uni123D -153;
@@ -973,6 +979,7 @@ lookup PairKerning {
     pos uni12CD uni12EB -107;
     pos uni12D2 uni123D -106;
     pos uni12DA uni12B8 -150;
+    pos gzi.ligature uni12B8 -150;
     pos uni12E8 uni1348 -120;
     pos uni12EB uni12F6 -93;
     pos uni12F0 uni1275 -85;
