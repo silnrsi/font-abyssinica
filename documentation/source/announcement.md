@@ -3,8 +3,6 @@ title: Abyssinica SIL - Announcement
 fontversion: 2.300
 ---
 
-### Changes
-
 This is a minor release. Changes for this version include the following:
 
 #### Improved

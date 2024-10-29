@@ -1,6 +1,4 @@
 
-### Changes
-
 This is a minor release. Changes for this version include the following:
 
 #### Improved
