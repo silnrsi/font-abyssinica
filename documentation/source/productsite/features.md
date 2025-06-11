@@ -1,5 +1,5 @@
 
-Abyssinica SIL is a TrueType font with smart font capabilities added using the OpenType font technology. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
+Abyssinica SIL is a TrueType font with smart font capabilities added using the OpenType font technology. The Ethiopic script does not require much rendering except for some combining marks for gemination and vowel length. However, there are some glyph variations for the Ethiopic script. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Sebat Bet Gurage and Gumuz languages variants.
 
 See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Ethiopic support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
@@ -27,7 +27,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Customizing with TypeTuner
 
-For applications that do not make use of the OpenType Character Variant features, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features) page, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
+For applications that do not make use of the OpenType Character Variant features, you can now download fonts customized with the variant glyphs you choose. Read the [Font Features](features) page, visit [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi), then to choose the variants and download your font.
 
 
 ## Complete feature list
