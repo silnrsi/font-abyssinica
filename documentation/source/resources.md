@@ -32,9 +32,7 @@ This font does not include keyboards or other software for entering text. To typ
 - [GFF Harari](https://keyman.com/keyboards/gff_harari)
 - [Ge'ez Berhan](https://keyman.com/keyboards/geezbrhan)
 
-Various other means may be available for different operating-system platforms to create additional input methods. For instance, Windows (Vista and above) provides an Ethiopic IME. 
-
-For information on other keyboarding options see the overview at [Keyboard Systems Overview (ScriptSource)](https://scriptsource.org/entry/ytr8g8n6sw).
+Various other means may be available for different operating system platforms to create additional input methods. Some suggestions are listed here: [Keyboards and Tools](https://writingsystems.info/topics/input/keyboards-and-tools/#keyboard-tools).
 
 See [Character set support](charset.md) for details of the Unicode characters supported by this font.
 
@@ -52,7 +50,7 @@ Web font versions of these fonts (in WOFF and WOFF2 formats) are available in th
 
 ## Text conversion
 
-This font is encoded according to [The Unicode Standard](https://www.unicode.org/). If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
+This font is encoded according to [The Unicode Standard](https://www.unicode.org/). If you have text that uses a legacy, non-Unicode encoding there are tools that can help you convert that text for use with Unicode fonts. See [Encoding Conversion](http://writingsystems.info/topics/encoding/encoding-conversion/).
 
 In order to use this font with existing data that was created for use with fonts developed using custom-encoded fonts, it is necessary to re-type or convert data to produce data that is encoded in conformance with the Unicode Standard. [SIL Converters](https://software.sil.org/silconverters/) and/or [TECkit](https://software.sil.org/teckit/) can be used for character encoding conversion. TECkit allows users to write their own custom conversion mappings.
 

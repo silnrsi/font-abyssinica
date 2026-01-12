@@ -6,7 +6,7 @@ font family. This information should be distributed along with the Abyssinica
 fonts and any derivative works.
 
 This file is part of Abyssinica SIL font family (https://software.sil.org/abyssinica/)
-and is Copyright (c) 2000-2024 SIL Global (https://www.sil.org/),
+and is Copyright (c) 2000-2026 SIL Global (https://www.sil.org/),
 with Reserved Font Names "Abyssinica" and "SIL". 
 
 Modern Gurage glyphs Copyright (c) 2021-2022 The Ge'ez Frontier Foundation. 
