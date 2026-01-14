@@ -9,7 +9,7 @@ Abyssinica SIL is a mature product with no major changes anticipated. We will be
 
 We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.
 
-Abyssinica SIL uses kerning to give a better presentation of characters which might otherwise have too much space between them. If you are a font developer and wish to include kerning in your font, the list of kerning pairs is available here: [Ethiopic Kerning Pairs](https://scriptsource.sil.org/entry/w5wqtagy5f)
+Abyssinica SIL uses kerning to give a better presentation of characters which might otherwise have too much space between them. If you are a font developer and wish to include kerning in your font, the list of kerning pairs is available here: [Ethiopic Kerning Pairs](https://scriptsource.org/entry/w5wqtagy5f)
 
 ## Permissions granted by the OFL
 
